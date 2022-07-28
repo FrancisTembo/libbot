@@ -10,19 +10,18 @@ nlu:
     - good evening
     - moin
     - morning
-    - mornin 
+    - mornin
     - hey there
     - let's go
     - hey dude
     - goodmorning
     - goodevening
     - good afternoon
-
+    - kfoqirngoenv
 - intent: start
   examples: |
     - start
     - begin
-
 - intent: goodbye
   examples: |
     - cu
@@ -35,7 +34,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -44,7 +42,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -54,40 +51,35 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: help
   examples: |
     - help
     - I need help
-    - how can you help 
-    - I need assistance 
-    - assistance 
+    - how can you help
+    - I need assistance
+    - assistance
     - how can you assist
-    - help options 
+    - help options
     - options for help
-    - options 
-    - options for assistance 
-
+    - options
+    - options for assistance
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-
 - intent: language_style_guide
   examples: |
     - where can I find the NWU language style guide?
     - what is out NWU language style guide?
     - language style guide
     - NWU language style guide?
-
 - intent: new_student_application
   examples: |
     - please clarify the NWU application statuses for prospective students?
     - NWU application statuses prospective students?
     - application statutes for prospective stident?
-
 - intent: contact_details_international_office
   examples: |
     - where can I find the contact details for the international office?
@@ -98,20 +90,17 @@ nlu:
     - email adress international office
     - international office contact details
     - international office address
-
 - intent: information_academic_record
   examples: |
     - where can I get my full academic record
     - academic record
     - acess academic record
     - where is my academic record
-
 - intent: information_novels
   examples: |
     - where can I search for novels
     - novels
     - where can I get novels
-
 - intent: information_study_change
   examples: |
     - how can I change my studies?
@@ -122,7 +111,6 @@ nlu:
     - how can i modify my studies
     - modify studies
     - change studies
-
 - intent: return_books
   examples: |
     - is it possible to for someone to return books on my behalf? without my student number
@@ -130,7 +118,6 @@ nlu:
     - return my books
     - can a friend return my books
     - book returns
-
 - intent: information_exam_timetable
   examples: |
     - where can I find the exam timetable
@@ -139,7 +126,6 @@ nlu:
     - where is my exam schedule
     - exam timetable
     - exam schedule
-
 - intent: information_engineering
   examples: |
     - where can I find the contact information for engineering
@@ -153,7 +139,6 @@ nlu:
     - email engineering
     - information engineering
     - faculty engineering
-
 - intent: information_education
   examples: |
     - where can I find the contact information for education
@@ -167,7 +152,6 @@ nlu:
     - email education
     - education
     - faculty education
-
 - intent: information_economics
   examples: |
     - where can I find the contact information for economic and management sciences
@@ -181,7 +165,6 @@ nlu:
     - email economic and management sciences
     - economic and management sciences
     - faculty economic and management sciences
-    
 - intent: information_business
   examples: |
     - where can I find the contact information for business school
@@ -195,7 +178,6 @@ nlu:
     - email business
     - business
     - faculty sciences
-
 - intent: information_health_sciences
   examples: |
     - where can I find the contact information for health sciences
@@ -209,7 +191,6 @@ nlu:
     - email health sciences
     - health sciences
     - faculty health sciences
-
 - intent: information_humanities
   examples: |
     - where can I find the contact information for humanities
@@ -223,7 +204,6 @@ nlu:
     - email humanities
     - health humanities
     - faculty humanities
-
 - intent: information_law
   examples: |
     - where can I find the contact information for law
@@ -237,7 +217,6 @@ nlu:
     - email law
     - health law
     - faculty law
-
 - intent: information_theology
   examples: |
     - where can I find the contact information for theology
@@ -251,7 +230,6 @@ nlu:
     - email theology
     - health theology
     - faculty theology
-
 - intent: information_natural_sciences
   examples: |
     - where can I find the contact information for natural sciences
@@ -266,7 +244,6 @@ nlu:
     - health natural sciences
     - faculty natural sciences
     - natural and agricultural sciences
-
 - intent: contact
   examples: |
     - I would like to contact
@@ -274,85 +251,78 @@ nlu:
     - where can I get contact information
     - contact details
     - where can I get the contact details
-
+    - contact
+    - I want to contact
 - intent: contact_librarians
   examples: |
-    - contact library 
-    - can I contact the library 
+    - contact library
+    - can I contact the library
     - how can I contact the library
-    - library staff 
-    - library contact details 
+    - library staff
+    - library contact details
     - library contact information
-    - can I get the contact details for the library 
+    - can I get the contact details for the library
     - can I get the contact details for library staff
     - can I get the contact details for Malose Langa
     - can I get the contact details for Martie Esterhuizen
     - can I get the contact details for Glenda Makate
-
 - intent: contact_department
   examples: |
-    - I would like to contact a department 
-    - how can I contact a department 
+    - I would like to contact a department
+    - how can I contact a department
     - how can I contact a school
-    - contact department 
+    - contact department
     - contact a school
     - school
-    - department 
-    - contact information for a department 
+    - department
+    - contact information for a department
     - contact information for a school
-    - information for a department 
-    - department information 
+    - information for a department
+    - department information
     - school information
-    - department contact details 
+    - department contact details
     - school contact details
-
 - intent: contact_office
   examples: |
-    - I would like to contact a office 
-    - how can I contact an office 
-    - contact office 
+    - I would like to contact a office
+    - how can I contact an office
+    - contact office
     - contact an office
     - office
-    - contact information for an office 
-    - information for an office 
-    - office information 
-    - office contact details 
-
+    - contact information for an office
+    - information for an office
+    - office information
+    - office contact details
 - intent: contact_student_finances
   examples: |
     - where can I find the contact information for student finances and financial related systems
     - contact information student finances and financial related systems
     - how can I contact student finances and financial related systems
-    - how can I contact student finances and financial related systems
     - student finances and financial related systems email and phone
-    - contact student finances and financial related systems
     - contact student finances and financial related systems
     - call student finances and financial related systems
     - email student finances and financial related systems
     - student finances and financial related systems
-    - student finances 
+    - student finances
     - financial related systems
-
 - intent: contact_nwu
   examples: |
-    - I would like to the university 
+    - I would like to the university
     - how can I contact the university
     - how can I contact nwu
-    - contact the university 
+    - contact the university
     - contact nwu
     - nwu
-    - the nwu 
+    - the nwu
     - contact information for nwu
     - contact information for the university
-    - nwu contact information 
+    - nwu contact information
     - the university contact information
-    - nwu contact details 
-
+    - nwu contact details
 - intent: contact_study_enquiries
   examples: |
     - where can I find the contact information for study enquiries
     - contact information study enquiries
-    - how can I contact study enquiries
     - how can I contact study enquiries
     - study enquiries email and phone
     - contact study enquiries
@@ -360,9 +330,8 @@ nlu:
     - email study enquiries
     - study enquiries
     - study enquiry
-
 - intent: general_contact
   examples: |
     - general contact information
-    - general contact details 
+    - general contact details
     - general contact
