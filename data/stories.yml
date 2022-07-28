@@ -2,29 +2,142 @@ version: "3.1"
 
 stories:
 
-- story: happy path
+- story: start message
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - intent: start
+  - action: utter_start
 
-- story: sad path 1
+- story: welcome message
   steps:
   - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - action: utter_welcome
+  - action: utter_instruction
+  - action: utter_example
+  - action: utter_help
+  - intent: help
+  - action: utter_options
 
-- story: sad path 2
+- story: contact information
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: contact
+  - action: utter_global_contact_options
+
+- story: contact librarians 
+  steps:
+  - intent: contact_librarians
+  - action: utter_contact_librarians
+
+- story: contact department 
+  steps:
+  - intent: contact_department
+  - action: utter_contact_faculty
+
+- story: contact office 
+  steps:
+  - intent: contact_office
+  - action: utter_contact_office
+  
+- story: contact student finances
+  steps:
+  - intent: contact_student_finances
+  - action: utter_contact_student_finances
+
+- story: style guide 
+  steps:
+  - intent: language_style_guide
+  - action: utter_language_style_guide
+
+- story: new student application
+  steps:
+  - intent: new_student_application
+  - action: utter_new_student_application
+
+- story: contact details international office
+  steps:
+  - intent: contact_details_international_office
+  - action: utter_contact_details_international_office
+
+- story: contact nwu
+  steps:
+  - intent: contact_nwu
+  - action: utter_contact_nwu
+
+- story: contact study enquiries
+  steps:
+  - intent: contact_study_enquiries
+  - action: utter_contact_study_equiries
+
+- story: general contact 
+  steps:
+  - intent: general_contact
+  - action: utter_contact_general
+
+- story: information academic record
+  steps:
+  - intent: information_academic_record
+  - action: utter_information_academic_record
+
+- story: information novels
+  steps:
+  - intent: information_novels
+  - action: utter_information_novels
+
+- story: information study change
+  steps:
+  - intent: information_study_change
+  - action: utter_information_study_change
+
+- story: return books
+  steps:
+  - intent: return_books
+  - action: utter_return_books
+
+- story: information exam timetable
+  steps:
+  - intent: information_exam_timetable
+  - action: utter_information_exam_timetable
+
+- story: information engineering
+  steps:
+  - intent: information_engineering
+  - action: utter_information_engineering
+
+- story: information education
+  steps:
+  - intent: information_education
+  - action: utter_information_education
+
+- story: information economics
+  steps:
+  - intent: information_economics
+  - action: utter_information_economics
+
+- story: information business
+  steps:
+  - intent: information_business
+  - action: utter_information_business
+
+- story: information health sciences
+  steps:
+  - intent: information_health_sciences
+  - action: utter_information_health_sciences
+
+- story: information humanities
+  steps:
+  - intent: information_humanities
+  - action: utter_information_humanities
+
+- story: information law
+  steps:
+  - intent: information_law
+  - action: utter_information_law
+
+- story: information theology
+  steps:
+  - intent: information_theology
+  - action: utter_information_theology
+
+- story: information natural sciences
+  steps:
+  - intent: information_natural_sciences
+  - action: utter_information_natural_and_agricultural_sciences

@@ -1,34 +1,209 @@
-version: "3.1"
-
+version: '3.1'
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+- affirm
+- bot_challenge
+- contact_details_international_office
+- deny
+- goodbye
+- greet
+- information_academic_record
+- information_business
+- information_economics
+- information_education
+- information_engineering
+- information_health_sciences
+- information_humanities
+- information_law
+- information_theology
+- information_natural_sciences
+- information_exam_timetable
+- information_novels
+- information_study_change
+- language_style_guide
+- new_student_application
+- return_books
+- contact
+- contact_librarians
+- contact_department
+- contact_office
+- help
+- start
+- contact_student_finances
+- contact_nwu
+- contact_study_enquiries
+- general_contact
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
+  - text: Hey! How are you?
+ 
   utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
+  - text: Did that help you?
+ 
   utter_goodbye:
-  - text: "Bye"
-
+  - text: Bye
+ 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: I am a bot, powered by Rasa.
+ 
+  utter_language_style_guide:
+  - text: 'The NWU Style Guide is published by the NWU Language Directorate at this link: https://library.nwu.ac.za/sites/library.nwu.ac.za/files/files/documents/referencing-guide-2020b.pdf'
+ 
+  utter_new_student_application:
+  - text: Please consult this guide for clarification regarding the status of your application. Should you have any further enquiries or uncertainties in this regard, you are welcome to contact Applications at 018 285 4320 or ApplicationsUG@nwu.ac.za (for full-time undergraduate studies) and 018 285 5900 or DistancePotch@nwu.ac.za (for distance learning applications).
+ 
+  utter_contact_details_international_office:
+  - text: 'You will find the contact information for Internationalisation on this page: https://www.nwu.ac.za/Internationalisation'
+ 
+  utter_information_academic_record:
+  - text: 'Please contact Academic Records on this page: http://services.nwu.ac.za/sala/academic-records-enquiries'
+ 
+  utter_information_novels:
+  - text: "You can search for novels/fiction in our catalogue. Example of search: If you are looking for a specific title. Use the 'Title' filter in the drop-down menu with words from the title."
+ 
+  utter_information_study_change:
+  - text: 'Please contact the Administration department on your campus: http://studies.nwu.ac.za/studies/registration'
+ 
+  utter_return_books:
+  - text: Yes, books can be returned on your behalf without your student number. To make sure the person did return your books I would give him my student number and ask the staff to print a receipt of all the items in my name after he/she returned the books.
+ 
+  utter_information_exam_timetable:
+  - text: Click here for the Examination & Assessment Timetables. Also, see personal timetable.
+ 
+  utter_information_engineering:
+  - text: 'The contact information for the Faculty of Engineering is on this page: https://engineering.nwu.ac.za/engineering/contact-us'
+ 
+  utter_information_education:
+  - text: 'The contact information for the Faculty of Education is on this page: https://commerce.nwu.ac.za/economic-and-management-sciences/contact-us'
+ 
+  utter_information_economics:
+  - text: 'The contact information for the Faculty of Economic and Management Sciences is on this page: https://commerce.nwu.ac.za/economic-and-management-sciences/contact-us'
+ 
+  utter_information_business:
+  - text: 'The contact information for the Faculty of Business is on this page: https://commerce.nwu.ac.za/business/contact-details'
+
+  utter_information_health_sciences:
+  - text: "The contact information for the Faculty of Health Sciences is on this page: https://health-sciences.nwu.ac.za/musa/contact-us"
+ 
+  utter_information_humanities:
+  - text: "The contact information for the Faculty of Humanities is on this page: https://humanities.nwu.ac.za/humanities/contact-us"
+
+  utter_information_law:
+  - text: "The contact information for the Faculty of Law is on this page: https://law.nwu.ac.za/law/contact-us"
+
+  utter_information_theology:
+  - text: "The contact information for the Faculty of Theology is on this page: https://theology.nwu.ac.za/theology/contact-us"
+
+  utter_information_natural_and_agricultural_sciences:
+  - text: "The contact information for the  Faculty of Natural and Agricultural Sciences is on this page: https://natural-sciences.nwu.ac.za/natural-and-agricultural-sciences/contact-us"
+
+  utter_please_rephrase:
+  - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
+
+  utter_start:
+  - text: "Welcome, please send the message 'Hi' to start the conversation."
+ 
+  utter_welcome:
+  - text: "Hi there I'm LibBot, NWU's library robotic assistant 🤖. I'm always online and ready to help 🤠."
+ 
+  utter_instruction:
+  - text: "To get started send me a message 📝 of what you'd like me to find out for you."
+
+  utter_example:
+  - text: "For example, send me the message 'Download EndNote' to find out how you can download EndNote for your research referencing."
+
+  utter_help:
+  - text: "Alternatively you can send the send the message 'help' to access the help menu."
+
+  utter_options:
+  - text: "Here's the help menu. You can always type 'help' to revisit it again "
+    buttons:
+    - title: Library Services 📚
+      payload: /contact
+    - title: About the Library
+      payload: /contact
+    - title: NWU Services
+      payload: /contact
+    - title: About the NWU
+      payload: /contact
+    - title: eFundi
+      payload: /contact
+    - title: Contact Information
+      payload: /contact
+    - title: Most Asked Questions
+      payload: /contact
+    button_type: vertical 
+
+  utter_global_contact_options:
+  - text: "Who would you like to contact?"
+    buttons:
+    - title: Library Contacts
+      payload: /contact_librarians # Done
+    - title: Contact a faculty
+      payload: /contact_department # Done
+    - title: Contact an office # Done
+      payload: /contact_office
+    - title: General contact information # Done 
+      payload: /general_contact
+    button_type: vertical
+  
+  utter_contact_librarians:
+  - text: "Our contact details are available on this page: https://library.nwu.ac.za/contact-us. To find contact details for specific library staff please visit this page: https://library.nwu.ac.za/staff-directory."
+
+  utter_contact_faculty:
+  - text: "Which faculty do you want to contact?"
+    buttons:
+    - title: Engineering
+      payload: /information_engineering
+    - title: Business
+      payload: /information_business
+    - title: Education
+      payload: /information_education
+    - title:  Economic and Management Sciences
+      payload: /information_economics
+    - title:  Health Sciences
+      payload: /information_health_sciences
+    - title:  Humanities
+      payload: /information_humanities
+    - title:  Law
+      payload: /information_law
+    - title:  Theology
+      payload: /information_theology
+    - title:  Natural Sciences
+      payload: /information_natural_sciences
+    button_type: vertical
+
+  utter_contact_office:
+  - text: "Here are some offices we have information on."
+    buttons:
+    - title: International Office 
+      payload: /contact_details_international_office
+    - title: Student finances
+      payload: /contact_student_finances   
+    button_type: vertical 
+  
+  utter_contact_general:
+  - text: "Here are some general contact information options."
+    buttons:
+    - title: Contact NWU
+      payload: /contact_nwu
+    - title: Study Enquiries
+      payload: /contact_study_enquiries
+    button_type: vertical
+
+  utter_contact_student_finances:
+  - text: "Enquiries regarding student accounts may be directed to the staff at Student Accounts and Bursaries. You can find the information on this page http://services.nwu.ac.za/student-finances-and-financial-related-systems/contact-us"
+  
+  utter_contact_nwu:
+  - text: "Here's where you can find contact information for NWU: https://www.nwu.ac.za/content/nwu-contact-details"
+
+  utter_contact_study_equiries:
+  - text: "Here's where you can find contact information regarding study enquiries: http://studies.nwu.ac.za/studies/contact-us"
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+  
+actions:
+- utter_information_education
+- utter_information_engineering
