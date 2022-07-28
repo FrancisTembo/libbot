@@ -330,8 +330,109 @@ nlu:
     - email study enquiries
     - study enquiries
     - study enquiry
+
 - intent: general_contact
   examples: |
     - general contact information
     - general contact details
     - general contact
+
+- intent: library_services
+  examples: |
+    - what are the library services
+    - information on library services
+    - details of the library services
+    - library services
+
+- intent: citing_referencing_plagiarism
+  examples: |
+    - information on citing, referencing and plagiarism
+    - where can I find information on citing, referencing and plagiarism
+    - details on citing, referencing and plagiarism
+    - citing, referencing and plagiarism
+
+- intent: harvard_vs_apa
+  examples: |
+    - what is the difference between Harvard referencing and APA referencing?
+    - differences between Harvard referencing and APA referencing
+    - difference between Harvard and APA
+    - Harvard and APA referencing differences 
+    - Harvard and APA differences 
+    - Harvard referencing vs APA referencing
+
+- intent: efundi_endnote
+  examples: |
+    - I need access to the Library tab on eFundi to download EndNote
+    - how can I access the Library tab on eFundi to download EndNote
+    - I need to download EndNote 
+    - how can I download EndNote 
+    - access to eFundi to download EndNote
+
+- intent: dalro
+  examples: |
+    - Where can I find the NWU DALRO Copyright Reporting System
+    - NWU DALRO Copyright Reporting System
+    - How can I access the NWU DALRO Copyright Reporting System
+    - DALRO
+
+- intent: reference_constitution
+  examples: |
+    - how do I reference the Constitution of South Africa?
+    - referencing the Constitution of South Africa
+    - how can I reference the Constitution of South Africa?
+    - reference the Constitution of South Africa?
+
+- intent: endnote_trial
+  examples: |
+    - I have downloaded the 20 version of Endnote as NWU student, but it is only a trial version
+    - how do I download the non trial version of Endnote
+    - how do I download the pro version of Endnote
+    - Endnote trial version
+    - Endnote licenced version
+    - how to download Endnote licenced version
+
+- intent: reference_chapter
+  examples: |
+    - examples of referencing for a chapter in a collected work
+    - how do I reference a chapter in a collected work 
+    - how can I reference a chapter in a collected work
+    - referencing a chapter in a collected work
+    - reference a chapter in collected work
+    - reference chapter in collected work
+    - reference a chapter
+
+- intent: harvard_referencing
+  examples: |
+    - where do I find the NWU Harvard Referencing Style
+    - information on NWU Harvard Referencing Style
+    - where can I find information on the NWU Harvard Referencing Style
+    - how do I use the NWU Harvard Referencing Style
+    - NWU Harvard Referencing Style
+
+- intent: copyright
+  examples: |
+    - what is copyright
+    - where do I find information about copyright
+    - information on copyright
+    - where can I find information copyright
+    - copyright details
+
+- intent: latex_template
+  examples: |
+    - do you have a Postgraduate LaTeX Word template
+    - where can I find the LaTeX Word template
+    - where can I get the LaTeX Word template
+    - information on the Postgraduate LaTeX Word template
+    - LaTeX Word template
+    - LaTeX template
+    - latex word template
+    - latex template
+
+- intent: plagiarism_declaration
+  examples: |
+    - where can I find the plagiarism declaration form
+    - where can I get the plagiarism declaration form
+    - information on the plagiarism declaration form
+    - download plagiarism declaration form
+    - plagiarism declaration template
+    - plagiarism declaration form

@@ -17,6 +17,11 @@ stories:
   - intent: help
   - action: utter_options
 
+- story: getting help
+  steps:
+  - intent: help
+  - action: utter_options
+
 - story: contact information
   steps:
   - intent: contact
@@ -141,3 +146,63 @@ stories:
   steps:
   - intent: information_natural_sciences
   - action: utter_information_natural_and_agricultural_sciences
+
+- story: library services
+  steps:
+  - intent: library_services
+  - action: utter_library_services
+
+- story: citing referencing plagiarism
+  steps:
+  - intent: citing_referencing_plagiarism
+  - action: utter_citing_referencing_plagiarism
+
+- story: harvard vs apa 
+  steps:
+  - intent: harvard_vs_apa
+  - action: utter_harvard_vs_apa
+
+- story: efundi endnote
+  steps:
+  - intent: efundi_endnote
+  - action: utter_efundi_endnote
+
+- story: information dalro
+  steps:
+  - intent: dalro
+  - action: utter_dalro
+
+- story: reference constitution
+  steps:
+  - intent: reference_constitution
+  - action: utter_reference_constitution
+
+- story: endnote trial
+  steps:
+  - intent: endnote_trial
+  - action: utter_endnote_trial
+
+- story: reference chapter
+  steps:
+  - intent: reference_chapter
+  - action: utter_reference_chapter
+
+- story: harvard referencing
+  steps:
+  - intent: harvard_referencing
+  - action: utter_harvard_referencing
+
+- story: information copyright
+  steps:
+  - intent: copyright
+  - action: utter_copyright
+
+- story: latex template
+  steps:
+  - intent: latex_template
+  - action: utter_latex_template
+
+- story: plagiarism declaration
+  steps:
+  - intent: plagiarism_declaration
+  - action: utter_plagiarism_declaration
