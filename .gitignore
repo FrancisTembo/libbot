@@ -1,3 +1,4 @@
 /.rasa
 /.rasa/cache
+/.rasa/cache.db
 /models
