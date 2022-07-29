@@ -1,7 +1,10 @@
 version: '3.1'
 intents:
 - affirm
+- apa_referencing
+- book_online_training
 - bot_challenge
+- citing_referencing_plagiarism
 - contact
 - contact_department
 - contact_details_international_office
@@ -10,10 +13,24 @@ intents:
 - contact_office
 - contact_student_finances
 - contact_study_enquiries
+- copy_book
+- copy_paste_print_ebooks
+- copyright
+- copyright_length
+- dalro
 - deny
+- efundi_endnote
+- endnote
+- endnote_bibliography
+- endnote_export
+- endnote_trial
+- find_referella
+- find_referencing_guides
 - general_contact
 - goodbye
 - greet
+- harvard_referencing
+- harvard_vs_apa
 - help
 - information_academic_record
 - information_business
@@ -29,108 +46,101 @@ intents:
 - information_study_change
 - information_theology
 - language_style_guide
+- latex_template
+- library_services
+- library_tab_missing
 - new_student_application
+- nwu_law_referencing
+- old_referencing_style
+- paraphrasing
+- plagiarism
+- plagiarism_check
+- plagiarism_declaration
+- print_referencing_guide
+- referella
+- referella_videos
+- reference_anonymous
+- reference_book
+- reference_chapter
+- reference_chapter_collected_work
+- reference_constitution
+- reference_dictionary
+- reference_ebook
+- reference_encyclopedia
+- reference_government
+- reference_interview
+- reference_journal_article
+- reference_multiple_authors
+- reference_picture
+- reference_reviews
+- reference_theses_dissertations
+- referencing_electronic_newspaper_article
 - return_books
 - start
-- library_services
-- citing_referencing_plagiarism
-- harvard_vs_apa
-- efundi_endnote
-- dalro
-- reference_constitution
-- endnote_trial
-- reference_chapter
-- harvard_referencing
-- copyright
-- latex_template
-- plagiarism_declaration
-
+- using_harvard_reference_guide
+- volume_issue
+- reference_web_articles
+- reference_news_letters
+- reference_blog
 responses:
   utter_greet:
   - text: Hey! How are you?
-  
   utter_did_that_help:
   - text: Did that help you?
-  
   utter_goodbye:
   - text: Bye
-  
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
-  
   utter_language_style_guide:
   - text: 'The NWU Style Guide is published by the NWU Language Directorate at this link: https://library.nwu.ac.za/sites/library.nwu.ac.za/files/files/documents/referencing-guide-2020b.pdf'
-  
   utter_new_student_application:
   - text: Please consult this guide for clarification regarding the status of your application. Should you have any further enquiries or uncertainties in this regard, you are welcome to contact Applications at 018 285 4320 or ApplicationsUG@nwu.ac.za (for full-time undergraduate studies) and 018 285 5900 or DistancePotch@nwu.ac.za (for distance learning applications).
-  
   utter_contact_details_international_office:
   - text: 'You will find the contact information for Internationalisation on this page: https://www.nwu.ac.za/Internationalisation'
-  
   utter_information_academic_record:
   - text: 'Please contact Academic Records on this page: http://services.nwu.ac.za/sala/academic-records-enquiries'
-  
   utter_information_novels:
   - text: "You can search for novels/fiction in our catalogue. Example of search: If you are looking for a specific title. Use the 'Title' filter in the drop-down menu with words from the title."
-  
   utter_information_study_change:
   - text: 'Please contact the Administration department on your campus: http://studies.nwu.ac.za/studies/registration'
-  
   utter_return_books:
   - text: Yes, books can be returned on your behalf without your student number. To make sure the person did return your books I would give him my student number and ask the staff to print a receipt of all the items in my name after he/she returned the books.
-  
   utter_information_exam_timetable:
   - text: Click here for the Examination & Assessment Timetables. Also, see personal timetable.
-  
   utter_information_engineering:
   - text: 'The contact information for the Faculty of Engineering is on this page: https://engineering.nwu.ac.za/engineering/contact-us'
-  
   utter_information_education:
   - text: 'The contact information for the Faculty of Education is on this page: https://commerce.nwu.ac.za/economic-and-management-sciences/contact-us'
-  
   utter_information_economics:
   - text: 'The contact information for the Faculty of Economic and Management Sciences is on this page: https://commerce.nwu.ac.za/economic-and-management-sciences/contact-us'
-  
   utter_information_business:
   - text: 'The contact information for the Faculty of Business is on this page: https://commerce.nwu.ac.za/business/contact-details'
-  
   utter_information_health_sciences:
   - text: 'The contact information for the Faculty of Health Sciences is on this page: https://health-sciences.nwu.ac.za/musa/contact-us'
-  
   utter_information_humanities:
   - text: 'The contact information for the Faculty of Humanities is on this page: https://humanities.nwu.ac.za/humanities/contact-us'
-  
   utter_information_law:
   - text: 'The contact information for the Faculty of Law is on this page: https://law.nwu.ac.za/law/contact-us'
-  
   utter_information_theology:
   - text: 'The contact information for the Faculty of Theology is on this page: https://theology.nwu.ac.za/theology/contact-us'
-  
   utter_information_natural_and_agricultural_sciences:
   - text: 'The contact information for the  Faculty of Natural and Agricultural Sciences is on this page: https://natural-sciences.nwu.ac.za/natural-and-agricultural-sciences/contact-us'
-  
   utter_please_rephrase:
   - text: I'm sorry, I didn't quite understand that. Could you rephrase?
-  
   utter_start:
   - text: Welcome, please send the message 'Hi' to start the conversation.
-  
   utter_welcome:
   - text: Hi there I'm LibBot, NWU's library robotic assistant 🤖. I'm always online and ready to help 🤠.
-  
   utter_instruction:
   - text: To get started send me a message 📝 of what you'd like me to find out for you.
-  
   utter_example:
   - text: For example, send me the message 'Download EndNote' to find out how you can download EndNote for your research referencing.
-  
   utter_help:
   - text: Alternatively you can send the send the message 'help' to access the help menu.
-  
   utter_options:
   - text: "Here's the help menu. You can always type 'help' to revisit it again "
     buttons:
-    - title: Library Services 
+    - title: Library Services
       payload: /library_services
     - title: About the Library 📚
       payload: /contact
@@ -145,7 +155,6 @@ responses:
     - title: Most Asked Questions
       payload: /contact
     button_type: vertical
-  
   utter_global_contact_options:
   - text: Who would you like to contact?
     buttons:
@@ -158,10 +167,8 @@ responses:
     - title: General contact information
       payload: /general_contact
     button_type: vertical
-  
   utter_contact_librarians:
   - text: 'Our contact details are available on this page: https://library.nwu.ac.za/contact-us. To find contact details for specific library staff please visit this page: https://library.nwu.ac.za/staff-directory.'
-  
   utter_contact_faculty:
   - text: Which faculty do you want to contact?
     buttons:
@@ -184,7 +191,6 @@ responses:
     - title: Natural Sciences
       payload: /information_natural_sciences
     button_type: vertical
-  
   utter_contact_office:
   - text: Here are some offices we have information on.
     buttons:
@@ -193,7 +199,6 @@ responses:
     - title: Student finances
       payload: /contact_student_finances
     button_type: vertical
-  
   utter_contact_general:
   - text: Here are some general contact information options.
     buttons:
@@ -202,16 +207,12 @@ responses:
     - title: Study Enquiries
       payload: /contact_study_enquiries
     button_type: vertical
-  
   utter_contact_student_finances:
   - text: Enquiries regarding student accounts may be directed to the staff at Student Accounts and Bursaries. You can find the information on this page http://services.nwu.ac.za/student-finances-and-financial-related-systems/contact-us
-  
   utter_contact_nwu:
   - text: "Here's where you can find contact information for NWU: https://www.nwu.ac.za/content/nwu-contact-details"
-  
   utter_contact_study_equiries:
   - text: "Here's where you can find contact information regarding study enquiries: http://studies.nwu.ac.za/studies/contact-us"
- 
   utter_library_services:
   - text: Here's a quick menu of some of our library services. You can always type in for me to find out exactly what you need
     buttons:
@@ -226,9 +227,8 @@ responses:
     - title: Photocopying, Printing, Binding and Scanning
       payload: /contact_study_enquiries
     button_type: vertical
- 
   utter_citing_referencing_plagiarism:
-  - text: Here are the most frequently asked questions on the citing, referencing and plagiarism topics.
+  - text: Here are the most frequently asked questions on the citing, referencing and plagiarism topics. You can always type in for me to find out exactly what you need.
     buttons:
     - title: What is the difference between Harvard referencing and APA referencing?
       payload: /harvard_vs_apa
@@ -251,41 +251,111 @@ responses:
     - title: Where can I find the plagiarism declaration form?
       payload: /plagiarism_declaration
     button_type: vertical
-  
   utter_harvard_vs_apa:
-  - text: "APA referencing is a variant of the Harvard style. For more info regarding the differences in referencing styles read this article.🎈"
-
+  - text: APA referencing is a variant of the Harvard style. For more info regarding the differences in referencing styles read this article.🎈
   utter_efundi_endnote:
-  - text: "Please email the Library staff under the Ask Us tab on the EndNote LibGuide to give you access to eFundi. Provide your name, surname and university number with the request."
-    
+  - text: Please email the Library staff under the Ask Us tab on the EndNote LibGuide to give you access to eFundi. Provide your name, surname and university number with the request.
   utter_dalro:
-  - text: "You will find the NWU DALRO Copyright Reporting System on this page: https://www.nwudalro.co.za/"
-
+  - text: 'You will find the NWU DALRO Copyright Reporting System on this page: https://www.nwudalro.co.za/'
   utter_reference_constitution:
-  - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/acts-law-reports. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/acts-law-reports"
-
+  - text: 'If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/acts-law-reports. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/acts-law-reports'
   utter_endnote_trial:
-  - text: "You have to download the files from the Library eFundi site and not directly from the EndNote web page. If you did use our files on EndNote you must extract (highlight) both files. Our license key is built into the download files. You will find the steps on this page: https://libguides.nwu.ac.za/citation-tools"
-
+  - text: 'You have to download the files from the Library eFundi site and not directly from the EndNote web page. If you did use our files on EndNote you must extract (highlight) both files. Our license key is built into the download files. You will find the steps on this page: https://libguides.nwu.ac.za/citation-tools'
   utter_reference_chapter:
-  - text: "For the Harvard style follow this link: https://libguides.nwu.ac.za/harvard-referencing/chapter-collected-work. For the APA style follow this link: https://libguides.nwu.ac.za/apa-referencing/chapter-collected-work"
-
+  - text: 'For the Harvard style follow this link: https://libguides.nwu.ac.za/harvard-referencing/chapter-collected-work. For the APA style follow this link: https://libguides.nwu.ac.za/apa-referencing/chapter-collected-work'
   utter_harvard_referencing:
-  - text: "You will find the NWU Referencing style on the Library home page under Guides and Training>Referella: Referencing Guides>Referencing guides> NWU Harvard referencing guide"
-
+  - text: 'You will find the NWU Referencing style on the Library home page under Guides and Training>Referella: Referencing Guides>Referencing guides> NWU Harvard referencing guide'
   utter_copyright:
-  - text: "Copyright is the right whereby certain products of the mind are protected by law. The Copyright Act (Act 98 of 1978) states that copyright is breached if a person, who is not the owner of the copyright, in any way copies, performs, distributes or reproduces literary or musical works without the permission of the owner/copyright holder. Still uncertain about copyright? Contact your Faculty Librarian."
-
+  - text: Copyright is the right whereby certain products of the mind are protected by law. The Copyright Act (Act 98 of 1978) states that copyright is breached if a person, who is not the owner of the copyright, in any way copies, performs, distributes or reproduces literary or musical works without the permission of the owner/copyright holder. Still uncertain about copyright? Contact your Faculty Librarian.
   utter_latex_template:
-  - text: "Yes, Prof Leonard Santana provided us with a LaTeX word template for NWU MSc or Ph.D. students. Link below:🎈"
-
+  - text: Yes, Prof Leonard Santana provided us with a LaTeX word template for NWU MSc or Ph.D. students. Link below:🎈
   utter_plagiarism_declaration:
-  - text: "You can find the plagiarism declaration form at the link below: 🎈"
+  - text: 'You can find the plagiarism declaration form at the link below: 🎈'
+  utter_copy_book:
+  - text: Up to 10% or one complete chapter of a book, plus any associated endnotes or references. For instance, if a chapter comprises 25% of a book, you can photocopy the entire chapter; but if you want to photocopy extracts from more than one chapter, you can only copy up to 10% of the book.
+  utter_copyright_length:
+  - text: For literary, musical and artistic works, except for photographs, the copyright term in South Africa is fifty years from the end of the year of the author's death, or fifty years from publication if it is first published after the author's death.
+  utter_referella:
+  - text: 'Referella was created to help to make referencing easier. Guides were created for each referencing style and videos were placed on each guide that explains the material. Choose the referencing style that is used by your Faculty: NWU Harvard Referencing Guide NWU Law Referencing Guide APA Referencing Guide'
+  utter_apa_referencing:
+  - text: 'You will find the APA Referencing Style on the Library home page under Guides and Training>Referella: NWU Referencing Guides or you can just click on the link: 🎈 '
+  utter_nwu_law_referencing:
+  - text: 'You will find the NWU Law Referencing Style on the Library home page under Guides and Training>Referella>Referencing Guides>Referencing guides> NWU Law House style referencing guide. They have their own style which you will find here: https://libguides.nwu.ac.za/law-referencing/home'
+  utter_old_referencing_style:
+  - text: 'As from January 2020 updates were made to the existing referencing style guides. Postgraduate students completing their final submissions may still use the previous versions of the style guides. You will find the documents on the library homepage under Guides and Training> Referella: NWU Referencing Guides> 2012 Referencing Guide or you can click on the link: 🎈'
+  utter_referella_videos:
+  - text: 'Please note: These videos are only for the NWU Harvard Referencing style.🎈'
+  utter_copy_paste_print_ebooks:
+  - text: Yes, but eBooks are protected by copyright law in the same way as printed publications! As a guide, SA copyright law allows you to print/copy no more than one chapter, or 10% of a work, whichever is the greater. The different eBook suppliers and publishers have different rules about this but once these limits are reached, you will not be able to print/copy any further text from that eBook. Some eBook software is designed to restrict printing to a limited number of pages only, or a limited number of pages per day. In this case, the eBook software will notify you of how many pages you may print. For more detailed information, please go to the suppliers' websites
+  utter_find_referella:
+  - text: 'Referella refers to the NWU Referencing Guides which can be found on the Library homepage under Guides and Training> Referella: Referencing Guides.'
+  utter_find_referencing_guides:
+  - text: Our referencing guides are available from the Library home page under Guides and Training>Referella:Referencing Guides>Referencing guides.
+  utter_print_referencing_guide:
+  - text: Printing of the reference guide is not allowed due to the Copyright Law. You are welcome to use the guide online or to buy a copy from your campus library. In Potchefstroom it is also available at Van Schaiks.
+  utter_using_harvard_reference_guide:
+  - text: Our NWU Harvard Referencing guide provides training in how to reference a book using the Harvard Referencing Style go to https://libguides.nwu.ac.za/harvard-referencing/books. You will also find a video on this page explaining the process.
+  utter_reference_picture:
+  - text: 'You will find an example of the NWU Harvard Referencing style for photographs, images and video recordings for social media on this page: https://libguides.nwu.ac.za/harvard-referencing/internet-sources. (Point 4 under the Social media tab).  Always make sure these four elements are present in your reference list entry: Author , Date , Title , Source where the image was found. In the text reference, mention the author and date, eg: Text:Bla bla bla (Nucleus Medical Media, 2020). Reference list:Nucleus Medical Media. 2020. Anterior (front) view of the eye . https://ebsco-smartimagebase-com.nwulib.nwu.ac.za/anterior-front-view-of-the-eye/view-item?ItemID=4479 Date of access: 21 Oct. 2020.'
+  utter_reference_multiple_authors:
+  - text: 'It depends on which referencing style you use. You will find the NWU Harvard Referencing style for more than one author on this page: https://libguides.nwu.ac.za/harvard-referencing/text-references (click on the Authors tab).'
+  utter_reference_journal_article:
+  - text: 'It depends on which referencing style you use. You will find the NWU Harvard Referencing style for journal articles on this page: https://libguides.nwu.ac.za/harvard-referencing/journal-articles'
+  utter_reference_reviews:
+  - text: It will depend on the Reference style that you use e.g. Harvard, APA or Law Referencing style. If the book review is published in a journal you will use the same method that you use when you reference a journal article.
+  utter_volume_issue:
+  - text: 'The NWU Harvard Referencing style and the NWU Law House style are two separate styles. The NWU Harvard Referencing style uses the volume and issue of a journal but the NWU Law House style does not as can be seen in the example on this page: https://libguides.nwu.ac.za/law-referencing/journal-articles'
+  utter_plagiarism:
+  - text: "Plagiarism is the act of using others' words and ideas without proper attributions. For more information go to: https://libguides.nwu.ac.za/undergraduate-student-support/plagiarism. Still uncertain about copyright? Contact your Faculty Librarian."
+  utter_endnote:
+  - text: EndNote is used by millions of researchers, scholarly writers, students, and librarians to search online bibliographic databases, organise references and related files, and create bibliographies instantly. The software has to be installed on your computer properly in order to work correctly with word processing programs, and this varies depending on your operating system, word processor, and platform. It has frequent upgrades that offer significant new features. Contact our Research librarians for training regarding the use of EndNote.
+  utter_plagiarism_check:
+  - text: "Turnitin is web-based text-matching software that works by comparing electronically submitted papers to billions of pages of content located on the Internet and proprietary databases as well as the work of other students' papers submitted to the Turnitin repository. The North-West University has an institutional license for Turnitin, which is embedded into the Assignments tool of eFundi. The Turnitin software on eFundi checks a student's work against the database when the student submits their assignment. The following videos and documents will help in the process: Steps on how to submit your assignment. How do I access my Turnitin report Video, Infographic How to interpret the report. More about Turnitin at http://services.nwu.ac.za/centre-teaching-and-learning-ctl/turnitin"
+  utter_endnote_bibliography:
+  - text: The videos on our EndNote guide should help you. You are also welcome to contact one of our staff members on this LibGuide for help, their training sessions are also listed on the guide.
+  utter_endnote_export:
+  - text: 'The videos on our EndNote guide should help you: https://libguides.nwu.ac.za/citation-tools. You are also welcome to contact one of our staff members on this LibGuide for help, their training sessions are also listed on the guide.'
+  utter_referencing_electronic_newspaper_article:
+  - text: 'If you are using the Harvard referencing style use this link: https://libguides.nwu.ac.za/harvard-referencing/newspaper-articles. If you are using the APA referencing style use this link: https://libguides.nwu.ac.za/apa-referencing/newspaper-articles'
+  utter_reference_anonymous:
+  - text: 'If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/text-references. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/citing-sources-text'
+  utter_book_online_training:
+  - text: All our training is listed at the bottom of the Library home page. You can also use the training Training Events link under Guides and Training on the home page. Click on the title of the training to make a booking.
+  utter_library_tab_missing:
+  - text: 'It can be one of two things: Make certain that the Library tab has a gold star next to it when you click on Sites after you log into eFundi: or If you cannot see the Library tab under Sites it means you do not have access to the Library tab. In this case please contact one of our EndNote librarians listed here https://libguides.nwu.ac.za/citation-tools/ask-us to ask for access. Supply your name, surname, and university number in the email.'
+  utter_reference_government:
+  - text: 'If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/government-publications. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/government-publications'
+  utter_reference_interview:
+  - text: 'If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/personal-correspondance. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/personal-correspondance'
+  utter_paraphrasing:
+  - text: The restatement of a text in another form or other words to clarify meaning or to serve a different purpose from the original.
+  utter_act:
+  - text: 'You can give the short title of the act in your reference list entry, and also in the text. Reference list entry: Medicines and Related Substances Act, 2013. In text, something like this: The Medicines and Related Substances Act, 2013 of Botswana stipulates that ....'
+  utter_reference_book:
+  - text: 'If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/books. If you use the APA referencing style click here https://libguides.nwu.ac.za/apa-referencing/books'
+  utter_reference_chapter_collected_work:
+  - text: 'If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/chapter-collected-work. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/chapter-collected-work'
+  utter_reference_ebook:
+  - text: 'If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/ebooks. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/ebooks'
+  utter_reference_encyclopedia:
+  - text: 'If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/encyclopedias. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/enclopedias'
+  utter_reference_dictionary:
+  - text: 'If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/dictionaries. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/dictionaries'
+  utter_reference_theses_dissertations:
+  - text: 'If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/theses-dissertations. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/theses-dissertations'
+  
+  utter_reference_web_articles:
+  - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/internet-sources. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources"
+
+  utter_reference_news_letters:
+  - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/internet-sources. (see tab Electronic newsletters). If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources: (see tab Electronic newsletters)"
+
+  utter_reference_blog:
+  - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/internet-sources (see tab Blogs). If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources (see tab Blogs)"
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-
 actions:
 - utter_example
 - utter_help

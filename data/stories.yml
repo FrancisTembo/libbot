@@ -206,3 +206,193 @@ stories:
   steps:
   - intent: plagiarism_declaration
   - action: utter_plagiarism_declaration
+
+- story: copy book
+  steps:
+  - intent: copy_book
+  - action: utter_copy_book
+
+- story: copyright length
+  steps:
+  - intent: copyright_length
+  - action: utter_copyright_length
+
+- story: information referella
+  steps:
+  - intent: referella
+  - action: utter_referella
+
+- story: apa referencing
+  steps:
+  - intent: apa_referencing
+  - action: utter_apa_referencing
+
+- story: nwu law referencing
+  steps:
+  - intent: nwu_law_referencing
+  - action: utter_nwu_law_referencing
+
+- story: old referencing style
+  steps:
+  - intent: old_referencing_style
+  - action: utter_old_referencing_style
+
+- story: referella videos
+  steps:
+  - intent: referella_videos
+  - action: utter_referella_videos
+
+- story: utter copy paste print ebooks
+  steps:
+  - intent: copy_paste_print_ebooks
+  - action: utter_copy_paste_print_ebooks
+
+- story: find referella
+  steps:
+  - intent: find_referella
+  - action: utter_find_referella
+
+- story: find referencing guides
+  steps:
+  - intent: find_referencing_guides
+  - action: utter_find_referencing_guides
+
+- story: print referencing guide
+  steps:
+  - intent: print_referencing_guide
+  - action: utter_print_referencing_guide
+
+- story: using harvard reference guide
+  steps:
+  - intent: using_harvard_reference_guide
+  - action: utter_using_harvard_reference_guide
+
+- story: reference picture
+  steps:
+  - intent: reference_picture
+  - action: utter_reference_picture
+
+- story: reference multiple authors
+  steps:
+  - intent: reference_multiple_authors
+  - action: utter_reference_multiple_authors
+
+- story: reference journal article
+  steps: 
+  - intent: reference_journal_article
+  - action: utter_reference_journal_article
+
+- story: reference reviews
+  steps: 
+  - intent: reference_reviews
+  - action: utter_reference_reviews
+
+- story: volume issue
+  steps:
+  - intent: volume_issue
+  - action: utter_volume_issue
+
+- story: information plagiarism 
+  steps:
+  - intent: plagiarism
+  - action: utter_plagiarism
+
+- story: information endnote
+  steps: 
+  - intent: endnote
+  - action: utter_endnote
+
+- story: plagiarism check
+  steps: 
+  - intent: plagiarism_check
+  - action: utter_plagiarism_check
+
+- story: endnote bibliography
+  steps: 
+  - intent: endnote_bibliography
+  - action: utter_endnote_bibliography
+
+- story: endnote export
+  steps: 
+  - intent: endnote_export
+  - action: utter_endnote_export
+
+- story: referencing electronic newspaper article
+  steps: 
+  - intent: referencing_electronic_newspaper_article
+  - action: utter_referencing_electronic_newspaper_article
+
+- story: reference anonymous
+  steps: 
+  - intent: reference_anonymous
+  - action: utter_reference_anonymous
+
+- story: book online training
+  steps: 
+  - intent: book_online_training
+  - action: utter_book_online_training
+
+- story: library tab missing
+  steps: 
+  - intent: library_tab_missing
+  - action: utter_library_tab_missing
+
+- story: reference government
+  steps: 
+  - intent: reference_government
+  - action: utter_reference_government
+
+- story: reference interview
+  steps: 
+  - intent: reference_interview
+  - action: utter_reference_interview
+
+- story: information paraphrasing
+  steps: 
+  - intent: paraphrasing
+  - action: utter_paraphrasing
+
+- story: reference book
+  steps: 
+  - intent: reference_book
+  - action: utter_reference_book
+
+- story: reference chapter collected work
+  steps: 
+  - intent: reference_chapter_collected_work
+  - action: utter_reference_chapter_collected_work
+
+- story: reference ebook
+  steps: 
+  - intent: reference_ebook
+  - action: utter_reference_ebook
+
+- story: reference encyclopedia
+  steps: 
+  - intent: reference_encyclopedia
+  - action: utter_reference_encyclopedia
+
+- story: reference dictionary
+  steps: 
+  - intent: reference_dictionary
+  - action: utter_reference_dictionary
+
+- story: reference theses dissertations
+  steps: 
+  - intent: reference_theses_dissertations
+  - action: utter_reference_theses_dissertations
+
+- story: interactive_story_1
+  steps:
+  - intent: reference_theses_dissertations
+  - action: utter_reference_theses_dissertations
+
+- story: reference_web_articles
+  steps:
+  - intent: reference_web_articles
+  - action: utter_reference_web_articles
+
+- story: reference_blog
+  steps:
+  - intent: reference_blog
+  - action: utter_reference_blog

@@ -1,7 +1,7 @@
 Help ✅
 
 Library Services
-    - Citing, Referencing and Plagiarism
+    - Citing, Referencing and Plagiarism 
     - Databases
     - Rooms
     - Photocopying, Printing, Binding and Scanning
@@ -15,10 +15,10 @@ About the Library
     - Library Contacts
 
 Contact ✅
-    - Library Contacts
-    - Contact a faculty
-    - Contact an office
-    - General contact information
+    - Library Contacts ✅
+    - Contact a faculty ✅
+    - Contact an office ✅
+    - General contact information ✅
 
 NWU Services 
     - Loan Services 
@@ -42,5 +42,6 @@ information
 contact
 help
 stop/end/halt/restart/
+reference
 
 /start

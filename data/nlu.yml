@@ -17,7 +17,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-    - kfoqirngoenv
 - intent: start
   examples: |
     - start
@@ -330,58 +329,50 @@ nlu:
     - email study enquiries
     - study enquiries
     - study enquiry
-
 - intent: general_contact
   examples: |
     - general contact information
     - general contact details
     - general contact
-
 - intent: library_services
   examples: |
     - what are the library services
     - information on library services
     - details of the library services
     - library services
-
 - intent: citing_referencing_plagiarism
   examples: |
     - information on citing, referencing and plagiarism
     - where can I find information on citing, referencing and plagiarism
     - details on citing, referencing and plagiarism
     - citing, referencing and plagiarism
-
 - intent: harvard_vs_apa
   examples: |
     - what is the difference between Harvard referencing and APA referencing?
     - differences between Harvard referencing and APA referencing
     - difference between Harvard and APA
-    - Harvard and APA referencing differences 
-    - Harvard and APA differences 
+    - Harvard and APA referencing differences
+    - Harvard and APA differences
     - Harvard referencing vs APA referencing
-
 - intent: efundi_endnote
   examples: |
     - I need access to the Library tab on eFundi to download EndNote
     - how can I access the Library tab on eFundi to download EndNote
-    - I need to download EndNote 
-    - how can I download EndNote 
+    - I need to download EndNote
+    - how can I download EndNote
     - access to eFundi to download EndNote
-
 - intent: dalro
   examples: |
     - Where can I find the NWU DALRO Copyright Reporting System
     - NWU DALRO Copyright Reporting System
     - How can I access the NWU DALRO Copyright Reporting System
     - DALRO
-
 - intent: reference_constitution
   examples: |
     - how do I reference the Constitution of South Africa?
     - referencing the Constitution of South Africa
     - how can I reference the Constitution of South Africa?
     - reference the Constitution of South Africa?
-
 - intent: endnote_trial
   examples: |
     - I have downloaded the 20 version of Endnote as NWU student, but it is only a trial version
@@ -390,25 +381,23 @@ nlu:
     - Endnote trial version
     - Endnote licenced version
     - how to download Endnote licenced version
-
 - intent: reference_chapter
   examples: |
     - examples of referencing for a chapter in a collected work
-    - how do I reference a chapter in a collected work 
+    - how do I reference a chapter in a collected work
     - how can I reference a chapter in a collected work
     - referencing a chapter in a collected work
     - reference a chapter in collected work
     - reference chapter in collected work
     - reference a chapter
-
 - intent: harvard_referencing
   examples: |
     - where do I find the NWU Harvard Referencing Style
+    - what is the NWU Harvard Referencing style
     - information on NWU Harvard Referencing Style
     - where can I find information on the NWU Harvard Referencing Style
     - how do I use the NWU Harvard Referencing Style
     - NWU Harvard Referencing Style
-
 - intent: copyright
   examples: |
     - what is copyright
@@ -416,7 +405,6 @@ nlu:
     - information on copyright
     - where can I find information copyright
     - copyright details
-
 - intent: latex_template
   examples: |
     - do you have a Postgraduate LaTeX Word template
@@ -427,7 +415,6 @@ nlu:
     - LaTeX template
     - latex word template
     - latex template
-
 - intent: plagiarism_declaration
   examples: |
     - where can I find the plagiarism declaration form
@@ -436,3 +423,319 @@ nlu:
     - download plagiarism declaration form
     - plagiarism declaration template
     - plagiarism declaration form
+- intent: copy_book
+  examples: |
+    - how much of a book can I copy for my own use
+    - how much of a book can I copy
+    - how much of a book am I allowed to copy
+    - what percentage of a book am I allowed to copy
+    - guidelines for copying books
+    - how much of a library book am I allowed to copy
+    - what percentage of a library book am I allowed to copy
+- intent: copyright_length
+  examples: |
+    - how long does copyright last
+    - for how long does copyright last
+    - when does copyright expire
+    - when does copyright end
+    - how long does copyright last for music
+    - how long does copyright last for literary works
+    - how long does copyright last for photographs or pictures
+    - how long does copyright last for artistic works
+- intent: referella
+  examples: |
+    - what is referella
+    - information on referella
+    - what does referella mean
+    - what does referella stand for
+- intent: apa_referencing
+  examples: |
+    - where can I find the APA Referencing Style
+    - what is the APA Referencing style
+    - where do I find the APA Referencing Style
+    - information on APA Referencing Style
+    - how do I use the APA Referencing Style
+    - APA Referencing Style
+- intent: nwu_law_referencing
+  examples: |
+    - which referencing style does the faculty of law use
+    - referencing style for the faculty of law
+    - faculty of law referencing style
+    - where can I find the NWU Law Referencing style
+    - what is the NWU Law Referencing style
+    - where do I find the NWU Law Referencing style
+    - information on NWU Law Referencing style
+    - how do I use the NWU Law Referencing style
+    - NWU Law Referencing style
+- intent: old_referencing_style
+  examples: |
+    - where can I find the referencing guides that was used before 2020
+    - referencing guides used before 2020
+    - what are the referencing guides from before 2020
+- intent: referella_videos
+  examples: |
+    - where can I find the referella videos
+    - where can I find the videos on referella
+    - how can I access the referella videos
+    - how can I access the videos on referella
+    - where can I watch the referella videos
+    - where can I watch the videos on referella
+    - information about the referella videos
+    - referella videos
+- intent: copy_paste_print_ebooks
+  examples: |
+    - can I print/copy and paste from eBooks
+    - can I print from eBooks
+    - can I copy from eBooks
+    - can I copy and paste from eBooks
+    - print, copy and paste from eBooks
+    - copy and paste from eBooks
+    - am I allowed to print, copy and paste from eBooks
+    - print eBooks
+- intent: find_referella
+  examples: |
+    - where can I find referella
+    - information referella
+    - where can I locate referella
+- intent: find_referencing_guides
+  examples: |
+    - where do I find the referencing guides
+    - where can I find the referencing guides
+    - where can I locate the referencing guides
+- intent: print_referencing_guide
+  examples: |
+    - why can't I print the reference guide
+    - I cannot print the reference guide
+    - why is the reference guide not printing
+    - how to print the reference guide
+    - how can I print the reference guide
+    - am I allowed to print the reference guide
+- intent: using_harvard_reference_guide
+  examples: |
+    - how do I reference books using the Harvard Style
+    - how can I reference books using the Harvard Style
+    - referencing books using the Harvard Style
+- intent: reference_picture
+  examples: |
+    - how can I reference a picture
+    - can I reference a picture
+    - how to reference a picture
+    - how can I reference an image
+    - can I reference an image
+    - how to reference an image
+    - referencing an image
+    - reference image
+- intent: reference_multiple_authors
+  examples: |
+    - how to reference more than two authors
+    - how to reference multiple authors
+    - referencing more than two authors
+    - how to cite more than two authors
+    - citing more than two authors
+    - reference two or more authors
+    - citing two or more authors
+- intent: reference_journal_article
+  examples: |
+    - how do I reference a journal article
+    - how to reference a journal article
+    - referencing a journal article
+    - how to cite a journal article
+    - citing a journal article
+    - reference a journal article
+    - reference journal article
+- intent: reference_reviews
+  examples: |
+    - how do I reference reviews
+    - how to reference reviews
+    - how to reference a reviews
+    - referencing a review
+    - reference review
+    - how to cite a review
+    - citing a review
+    - citing reviews
+- intent: volume_issue
+  examples: |
+    - how do I indicate the volume and issue of a journal in the Harvard Law style
+    - volume and issue of a journal in the Harvard Law Style
+    - how to indicate the volume and issue of a journal in the Harvard Law style
+    - showing the volume and issue of a journal in the Harvard Law Style
+- intent: plagiarism
+  examples: |
+    - what is plagiarism
+    - definition of plagiarism
+    - how to define plagiarism
+    - plagiarism
+- intent: endnote
+  examples: |
+    - what is EndNote
+    - what is EndNote used for
+    - where is EndNote used
+    - define EndNote
+    - EndNote
+- intent: plagiarism_check
+  examples: |
+    - how can I check my assignment for plagiarism
+    - how do I check my assignment for plagiarism
+    - check assignment for plagiarism
+    - checking assignment for plagiarism
+    - assignment plagiarism check
+    - submit assignment for plagiarism
+- intent: endnote_bibliography
+  examples: |
+    - how do I make bibliography from EndNote
+    - how to create bibliography from EndNote
+    - create bibliography EndNote
+    - bibliography EndNote
+- intent: endnote_export
+  examples: |
+    - exporting reference from EndNote to Word
+    - export reference from EndNote to Word
+    - insert EndNote reference to Word
+    - export EndNote references to Word
+- intent: referencing_electronic_newspaper_article
+  examples: |
+    - references of electronic newspaper article
+    - referencing an electronic newspaper article
+    - reference newspaper article
+    - citing of a electronic newspaper article
+    - cite electronics newspaper article
+    - cite newspaper article
+- intent: reference_anonymous
+  examples: |
+    - how to reference anonymous authors
+    - how do I reference anonymous authors
+    - how do I cite anonymous authors
+    - referencing anonymous authors
+    - citing anonymous
+    - reference anonymous authors
+    - cite anonymous authors
+- intent: book_online_training
+  examples: |
+    - how do I book for online training to use the new PhD document for my final thesis
+    - where can I book online training to use the new PhD document for my final thesis
+    - how can I reserve an online training session to use the new PhD document for my final thesis
+    - book online training for using the new PhD document for my final thesis
+    - how to book an online training session for using the new PhD document for my final thesis
+- intent: library_tab_missing
+  examples: |
+    - I do not have the library tab when I log into my eFundi and therefore cannot access EndNote
+    - the library tab is missing in eFundi
+    - can't acesss EndNote from eFundi
+    - library tab missing
+- intent: reference_government
+  examples: |
+    - how do I reference government news publications and reports
+    - how do I cite reference government news publications and reports
+    - referencing government news publications and reports
+    - citing government news publications and reports
+    - cite government sources
+    - reference government sources
+- intent: reference_interview
+  examples: |
+    - how do I reference an interview
+    - how do I cite an interview
+    - how can I reference an interview
+    - how can I cite an interview
+    - referencing an interview
+    - citing an interview
+    - cite an interview
+    - reference interview
+- intent: paraphrasing
+  examples: |
+    - what is paraphrasing
+    - what is the definition of paraphrasing
+    - define paraphrasing
+    - how do you define paraphrasing
+    - paraphrasing definition
+    - paraphrasing
+- intent: reference_book
+  examples: |
+    - how do I reference a book
+    - how to reference a book
+    - how can I reference a book
+    - how do you reference a book
+    - referencing a book
+    - reference book
+    - how do I cite a book
+    - how to cite a book
+    - how can I cite a book
+    - how do you cite a book
+    - citing a book
+    - cite book
+- intent: reference_chapter_collected_work
+  examples: |
+    - how do I reference a chapter in a collected work
+    - how to reference a chapter in a collected work
+    - how can I reference a chapter in a collected work
+    - how do you reference a chapter in a collected work
+    - referencing a chapter in a collected work
+    - reference chapter in a collected work
+- intent: reference_ebook
+  examples: |
+    - how do I reference an ebook
+    - how to reference an ebook
+    - how can I reference an ebook
+    - how do you reference an ebook
+    - referencing an ebook
+    - reference ebook
+    - how do I cite an ebook
+    - how to cite an ebook
+    - how can I cite an ebook
+    - how do you cite an ebook
+    - citing an ebook
+    - cite ebook
+- intent: reference_encyclopedia
+  examples: |
+    - how do I reference an encyclopedia
+    - how to reference an encyclopedia
+    - how can I reference an encyclopedia
+    - how do you reference an encyclopedia
+    - referencing an encyclopedia
+    - reference encyclopedia
+    - how do I cite an encyclopedia
+    - how to cite an encyclopedia
+    - how can I cite an encyclopedia
+    - how do you cite an encyclopedia
+    - citing an encyclopedia
+    - cite encyclopedia
+- intent: reference_dictionary
+  examples: |
+    - how do I reference a dictionary
+    - how to reference a dictionary
+    - how can I reference a dictionary
+    - how do you reference a dictionary
+    - referencing a dictionary
+    - reference dictionary
+    - how do I cite a dictionary
+    - how to cite a dictionary
+    - how can I cite a dictionary
+    - how do you cite a dictionary
+    - citing a dictionary
+    - cite dictionary
+- intent: reference_theses_dissertations
+  examples: |
+    - how do I reference theses and dissertations
+    - how do I cite theses and dissertations
+    - referencing theses and dissrtations
+    - citing theses and dissertations
+- intent: reference_web_articles
+  examples: |
+    - how do I reference articles from the web
+    - referencing articles from the web
+    - how do I cite articles from the web
+    - citing articles from the web
+    - cite or reference web articles
+- intent: reference_news_letters
+  examples: |
+    - how do I reference electronic newsletters
+    - how do I cite electronic newsletters
+    - citing electronic newsletters
+    - cite or reference electronic newsletters
+    - referencing electronic newsletters
+- intent: reference_blog
+  examples: |
+    - how do I reference a blog
+    - how do I cite a blog
+    - citing a blog
+    - cite or reference a blog
+    - referencing a blog
