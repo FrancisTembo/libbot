@@ -387,7 +387,7 @@ stories:
   - intent: reference_theses_dissertations
   - action: utter_reference_theses_dissertations
 
-- story: reference_web_articles
+- story: reference web articles
   steps:
   - intent: reference_web_articles
   - action: utter_reference_web_articles
@@ -396,3 +396,99 @@ stories:
   steps:
   - intent: reference_blog
   - action: utter_reference_blog
+
+- story: reference social media post 
+  steps:
+  - intent: reference_social_media_post
+  - action: utter_reference_social_media_post
+
+- story: reference powerpoint video youtube podcast
+  steps:
+  - intent: reference_powerpoint_video_youtube_podcast
+  - action: utter_reference_powerpoint_video_youtube_podcast
+
+- story: reference lecture notes
+  steps: 
+  - intent: reference_lecture_notes 
+  - action: utter_reference_lecture_notes
+
+- story: reference conference papers proceedings
+  steps: 
+  - intent: reference_conference_papers_proceedings
+  - action: utter_reference_conference_papers_proceedings
+
+- story: reference study guide
+  steps: 
+  - intent: reference_study_guide
+  - action: utter_reference_study_guide
+
+- story: reference religious sources
+  steps: 
+  - intent: reference_religious_sources
+  - action: utter_reference_religious_sources
+
+- story: reference classical_works
+  steps: 
+  - intent: reference_classical_works
+  - action: utter_reference_classical_works
+
+- story: reference correspondance
+  steps: 
+  - intent: reference_correspondance
+  - action: utter_reference_correspondance
+
+- story: reference patent standards
+  steps: 
+  - intent: reference_patent_standards
+  - action: utter_reference_patent_standards
+
+- story: reference musical scores
+  steps: 
+  - intent: reference_musical_scores
+  - action: utter_reference_musical_scores
+
+- story: reference dataset
+  steps: 
+  - intent: reference_dataset
+  - action: utter_reference_dataset
+
+- story: reference unpublished
+  steps: 
+  - intent: reference_unpublished
+  - action: utter_reference_unpublished
+
+- story: reference list
+  steps: 
+  - intent: reference_list
+  - action: utter_reference_list
+
+- story: text reference
+  steps: 
+  - intent: text_reference
+  - action: utter_text_reference
+
+- story: quotations text reference
+  steps: 
+  - intent: quotations_text_reference
+  - action: utter_quotations_text_reference
+  - action: utter_quotations_indirect
+
+- story: reference secondary
+  steps: 
+  - intent: reference_secondary
+  - action: utter_reference_secondary
+
+- story: reference arrange
+  steps: 
+  - intent: reference_arrange
+  - action: utter_reference_arrange
+
+- story: reference natural sciences
+  steps: 
+  - intent: reference_natural_sciences
+  - action: utter_reference_natural_sciences
+
+- story: reference chicago
+  steps: 
+  - intent: reference_chicago
+  - action: utter_reference_chicago

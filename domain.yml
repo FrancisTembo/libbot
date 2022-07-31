@@ -82,6 +82,26 @@ intents:
 - reference_web_articles
 - reference_news_letters
 - reference_blog
+- reference_social_media_post
+- reference_powerpoint_video_youtube_podcast
+- reference_conference_papers_proceedings
+- reference_lecture_notes
+- reference_study_guide
+- reference_religious_sources
+- reference_classical_works
+- reference_correspondance
+- reference_musical_scores
+- reference_patent_standards
+- reference_dataset
+- reference_unpublished
+- reference_list
+- text_reference
+- quotations_text_reference
+- reference_secondary
+- reference_arrange
+- reference_natural_sciences
+- reference_chicago
+
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -89,6 +109,8 @@ responses:
   - text: Did that help you?
   utter_goodbye:
   - text: Bye
+  utter_rephrase_struggle: 
+  - text: Seems I'm struggling a bit to figure out what you need help with. Try using different wording or send the message 'help' to explore the help menu.
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_language_style_guide:
@@ -140,7 +162,7 @@ responses:
   utter_options:
   - text: "Here's the help menu. You can always type 'help' to revisit it again "
     buttons:
-    - title: Library Services
+    - title: Library Support
       payload: /library_services
     - title: About the Library 📚
       payload: /contact
@@ -214,7 +236,7 @@ responses:
   utter_contact_study_equiries:
   - text: "Here's where you can find contact information regarding study enquiries: http://studies.nwu.ac.za/studies/contact-us"
   utter_library_services:
-  - text: Here's a quick menu of some of our library services. You can always type in for me to find out exactly what you need
+  - text: "Here's a quick menu of some of our library support options. If you don't see an option that applies to you, please send me a message of what exactly you are looking for ☺️"
     buttons:
     - title: Research
       payload: /contact_nwu
@@ -352,6 +374,65 @@ responses:
 
   utter_reference_blog:
   - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/internet-sources (see tab Blogs). If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources (see tab Blogs)"
+
+  utter_reference_social_media_post:
+  - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/internet-sources (see tab Social media). If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources (see tab Social media)."
+
+  utter_reference_powerpoint_video_youtube_podcast:
+  - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/internet-sources (see tab Audiovisual and other media on the internet). If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources (see tab Audiovisual and other media on the internet)."
+
+  utter_reference_lecture_notes:
+  - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/internet-sources (see tab Lecture notes on an LMS(eFundi)). If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources (see tab Lecture notes on an LMS(eFundi))."
+
+  utter_reference_conference_papers_proceedings:
+  - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/conference-publications. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/conference-publications"
+
+  utter_reference_study_guide:
+  - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/study-guides. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/study-guides"
+
+  utter_reference_religious_sources:
+  - text:  "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/bible-religious-writings. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/bible-quran-religious-writings"
+
+  utter_reference_classical_works:
+  - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/classical-works. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/classical-works"
+  
+  utter_reference_correspondance:
+  - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/personal-correspondance. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/personal-correspondance"
+
+  utter_reference_patent_standards:
+  - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/patents-standards"
+
+  utter_reference_musical_scores:
+  - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/musical-scores. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/musical-scores"
+
+  utter_reference_dataset:
+  - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/datasets. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/datasets"
+
+  utter_reference_unpublished:
+  - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/unpublised-works"
+
+  utter_reference_list:
+  - text: "If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/reference-list. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/reference-list"
+
+  utter_text_reference:
+  - text: "NWU Harvard Referencing Style A text reference consists of the author's surname, the date, and page number(s) where the information referred to was found. The author is the person responsible for the intellectual content of a source. An author can also be an institution or organisation, for example in the case of a yearbook of a university or a report by a government department. If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/text-references (see tab Authors) for more info. If you use the APA referencing style click here https://libguides.nwu.ac.za/apa-referencing/citing-sources-text (see tab Authors) for more info."
+
+  utter_quotations_text_reference: 
+  - text: "Direct quotations should be used functionally. Do not use quotations in order to avoid difficulties with translation. If the quotation forms part of a comprehensive argument, the punctuation is part of that argument and is placed outside the brackets or inverted commas. If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/text-references (see tab Direct quotations): for more info. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/citing-sources-text (see tab Direct quotations) for more info."
+  utter_quotations_indirect:
+  - text: "When you give an author's ideas in your own words, you have to take care that the spirit and argumentation of the original are retained. Do not use and twist a citation for your own purposes. Also, vary the style of citation in your argument. If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/text-references (see tab Indirect quotations/paraphrasing) for more info. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/citing-sources-text (see tab Paraphrasing) for more info."
+
+  utter_reference_secondary:
+  - text: "A secondary source is, for example, when an author writes about Freud's view of psychoanalysis without reading Freud's own work. Making use of the work of other authors like Smith, Jones, or White who wrote about Freud, asks for a secondary citation. It is, however, possible that these authors interpreted Freud incorrectly, causing you to work unscientifically and unethically. Keep secondary citations therefore to the minimum as it is “second-hand” information. If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/text-references (see tab Secondary sources) for more info. If you use the APA referencing style click here: https://libguides.nwu.ac.za/apa-referencing/citing-sources-text (see tab Secondary sources) for more info."
+
+  utter_reference_arrange:
+  - text: "When referring to more than one source when a statement is made, arrange the references alphabetically according to the first author, in the same order, they will appear in the reference list. Use a semi-colon after each reference. If you use the Harvard referencing style click here: https://libguides.nwu.ac.za/harvard-referencing/text-references (see tab Text references to more than one source) for more info. If you use the APA referencing style click here https://libguides.nwu.ac.za/apa-referencing/ebooks (see tab Text references to more than one source) for more info."
+
+  utter_reference_natural_sciences:
+  - text: "Natural and Agricultural Sciences mostly uses the Harvard Referencing Style, but we did notice that this can deviate from lecturer to lecturer. So it is always best to first confirm with your lecturer which style they prefer."
+
+  utter_reference_chicago:
+  - text: "The Chicago referencing style is not supported by the Library. You can search for the style on Google using the keywords 'chicago referencing style'"
 
 session_config:
   session_expiration_time: 60

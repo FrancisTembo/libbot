@@ -1,7 +1,7 @@
 Help ✅
 
-Library Services
-    - Citing, Referencing and Plagiarism 
+Library Support
+    - Citing, Referencing and Plagiarism ✅
     - Databases
     - Rooms
     - Photocopying, Printing, Binding and Scanning
@@ -43,5 +43,10 @@ contact
 help
 stop/end/halt/restart/
 reference
-
 /start
+
+are you a robot 
+who made you 
+where do you stay 
+who is your father 
+who is your maker

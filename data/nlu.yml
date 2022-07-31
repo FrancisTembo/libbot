@@ -369,10 +369,14 @@ nlu:
     - DALRO
 - intent: reference_constitution
   examples: |
-    - how do I reference the Constitution of South Africa?
+    - how do I reference the Constitution of South Africa
     - referencing the Constitution of South Africa
-    - how can I reference the Constitution of South Africa?
-    - reference the Constitution of South Africa?
+    - how can I reference the Constitution of South Africa
+    - reference the Constitution of South Africa
+    - how do I reference South African acts
+    - cite South African acts
+    - how do I reference international acts
+    - cite international acts
 - intent: endnote_trial
   examples: |
     - I have downloaded the 20 version of Endnote as NWU student, but it is only a trial version
@@ -600,6 +604,11 @@ nlu:
     - citing of a electronic newspaper article
     - cite electronics newspaper article
     - cite newspaper article
+    - how do I reference newspaper articles in printed format
+    - How do I reference online newspaper articles
+    - cite newspaper articles in printed format
+    - cite online newspaper articles
+
 - intent: reference_anonymous
   examples: |
     - how to reference anonymous authors
@@ -630,6 +639,10 @@ nlu:
     - citing government news publications and reports
     - cite government sources
     - reference government sources
+    - how do I reference the government gazette
+    - cite the government gazette
+    - how do I reference a provincial gazette
+    - cite a provincial gazette
 - intent: reference_interview
   examples: |
     - how do I reference an interview
@@ -721,10 +734,15 @@ nlu:
 - intent: reference_web_articles
   examples: |
     - how do I reference articles from the web
+    - How to I refer to working papers in a reference list
+    - refence working papers
     - referencing articles from the web
+    - referencing working papers
     - how do I cite articles from the web
     - citing articles from the web
+    - citing working papers
     - cite or reference web articles
+    - cite working papers
 - intent: reference_news_letters
   examples: |
     - how do I reference electronic newsletters
@@ -739,3 +757,180 @@ nlu:
     - citing a blog
     - cite or reference a blog
     - referencing a blog
+- intent: reference_social_media_post
+  examples: |
+    - how can I reference a facebook post
+    - how can I reference an instagram post 
+    - how can I reference a twitter post
+    - referencing facebook post 
+    - referencing instagram post
+    - referencing twitter post
+    - citing facebook post 
+    - citing instagram post
+    - citing twitter post
+    - how can I cite a facebook post 
+    - how can I cite an instagram post
+    - how can I cite a twitter post
+- intent: reference_powerpoint_video_youtube_podcast
+  examples: |
+    - how do I reference a PowerPoint presentation
+    - how do I referenece a youtube video
+    - how do I reference a video
+    - how do I reference a podcast
+    - how do I reference a CD
+    - how do I reference a DVD
+    - how do I refer to webcast sessions in my text and in the source list
+    - reference webcast sessions in my text and in the source list
+    - reference PowerPoint presentation
+    - reference youtube video
+    - reference video
+    - reference podcast
+    - reference CD
+    - reference DVD
+    - cite PowerPoint presentation
+    - cite youtuve video
+    - cite video
+    - cite podcast
+    - cite CD
+    - cite DVD
+    - cite webcast sessions in my text and in the source list
+    - citing PowerPoint presentation
+    - citing youtube video
+    - citing podcast
+    - citing video
+    - citing CD
+    - citing DVD
+    - citing webcast sessions in my text and in the source list
+    - referencing PowerPoint presentation
+    - referencing PowerPoint presentation
+    - referencing youtube video
+    - referencing podcast
+    - referencing CD
+    - referencing DVD
+    - referencing webcast sessions in my text and in the source list
+- intent: reference_lecture_notes
+  examples: |
+    - how do I reference a lecture's notes on eFundi
+    - referencing lecture's notes on eFundi
+    - citing lecture's notes on eFundi
+    - cite lecture's notes on eFundi
+- intent: reference_reference_conference_papers_proceedings
+  examples: |
+    - how do I reference conference proceedings published in a collection
+    - how do I reference conference papers published online
+    - cite conference proceedings published in a collection
+    - cite conference papers published online
+    - citing conference proceedings published in a collection
+    - citing conference papers published online
+    - referencing conference proceedings published in a collection
+    - referencing conference papers published online
+- intent: reference_study_guide
+  examples: |
+    - how do I reference study guides
+    - referencing study guides 
+    - citing study guides 
+    - cite study guides
+- intent: reference_religious_sources
+  examples: |
+    - how do I reference bible commentaries
+    - how do I reference the bible
+    - how do I reference the quran
+    - referencing bible commentaries
+    - referencing the bible
+    - referencing the quran
+    - cite bible commentaries
+    - cite the bible
+    - cite the quran
+    - citing study guides 
+    - cite study guides
+- intent: reference_classical_works
+  examples: |
+    - how do I reference classical works
+    - referencing classical works
+    - cite classical works
+    - citing classical works
+- intent: reference_correspondance
+  examples: |
+    - how do I reference personal correspondence like interviews, letters and email
+    - referencing personal correspondence like interviews, letters and email
+    - cite personal correspondence like interviews, letters and email
+    - citing personal correspondence like interviews, letters and email
+    - reference email 
+    - reference interview
+    - reference letters
+    - cite email 
+    - cite interview
+    - cite letters
+- intent: reference_patent_standards
+  examples: |
+    - how do I reference patents
+    - How do I reference standards
+    - cite patents
+    - cite standards 
+    - citing patents
+    - citing standards
+    - referencing patents 
+    - referencing standards
+- intent: reference_musical_scores
+  examples: |
+    - how do I reference musical scores
+    - cite musical scores
+    - citing musical scores
+    - referencing musical scores
+- intent: reference_dataset
+  examples: |
+    - how do I reference a dataset
+    - cite a dataset
+    - citing a dataset
+    - referencing a dataset
+- intent: reference_unpublished
+  examples: |
+    - how do I reference an unpublished work
+    - cite unpublished work
+    - citing unpublished work
+    - referencing unpublished work
+- intent: reference_list
+  examples: |
+    - how do I set up a reference list
+    - setting up reference list
+    - how can I set up a reference list
+- intent: text_reference
+  examples: |
+    - what is a text reference
+    - How do I reference authors in text reference
+    - define text reference
+    - text reference
+    - cite authours in text reference
+    - referencing authors in text reference
+    - citing authors in text reference
+    - How do I reference an intext reference
+    - referencing an intext reference
+    - cite an intext reference
+    - citing an intenxt reference
+- intent: quotations_text_reference
+  examples: |
+    - when do I use direct quotations in a text reference
+    - direct quotations in a text reference
+    - when do I use indirect quotations or paraphrasing in a text reference
+    - indirect quotations in a text reference
+    - paraphrasing in a text reference
+- intent: reference_secondary
+  examples: |
+    - how do I reference secondary sources in a text reference
+    - cite secondary sources in a text reference
+    - citing secondary sources in a text reference
+    - refencing secondary sources in a text reference
+- intent: reference_secondary
+  examples: |
+    - how do I arrange text references from more than one source
+    - arrange text references from multiple sources
+    - arranging text references from multiple sources
+- intent: reference_natural_sciences
+  examples: |
+    - which referencing style does the faculty of Natural and Agricultural Sciences use
+    - referencing style used by the faculty of Natural and Agricultural Sciences use
+- intent: reference_chicago
+  examples: |
+    - where can I find the chicago referencing style
+    - how do I use the chicago referencing style
+    - chicago referencing style
