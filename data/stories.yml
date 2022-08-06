@@ -492,3 +492,329 @@ stories:
   steps: 
   - intent: reference_chicago
   - action: utter_reference_chicago
+
+- story: information fateful triangle
+  steps: 
+  - intent: information_fateful_triangle
+  - action: utter_information_fateful_triangle
+
+- story: information renew book
+  steps: 
+  - intent: information_renew_book
+  - action: utter_information_renew_book
+
+- story: information handle book
+  steps:
+  - intent: information_handle_book
+  - action: utter_information_handle_book
+
+- story: information boolean operators 
+  steps:
+  - intent: information_boolean_operators
+  - action: utter_information_boolean_operators
+
+- story: information search engine
+  steps: 
+  - intent: information_search_engine
+  - action: utter_information_search_engine
+
+- story: information access database
+  steps: 
+  - intent: information_access_database
+  - action: utter_information_access_database
+
+- story: information music library 
+  steps:
+  - intent: information_music_library
+  - action: utter_information_music_library
+
+- story: information theological library 
+  steps: 
+  - intent: information_theological_library
+  - action: utter_information_theological_library
+
+- story: information education library
+  steps:
+  - intent: information_education_library
+  - action: utter_information_education_library
+
+- story: information natural sciences library
+  steps:
+  - intent: information_natural_sciences_library
+  - action: utter_information_natural_sciences_library
+
+- story: information mahikeng library
+  steps:
+  - intent: information_mahikeng_library
+  - action: utter_information_mahikeng_library
+
+- story: information potchefstroom library
+  steps:
+  - intent: information_potchefstroom_library
+  - action: utter_information_potchefstroom_library
+
+- story: information vaal library
+  steps:
+  - intent: information_vaal_library
+  - action: utter_information_vaal_library
+
+- story: information request book
+  steps:
+  - intent: information_request_book
+  - action: utter_information_request_book
+
+- story: information copy shop
+  steps:
+  - intent: information_copy_shop
+  - action: utter_information_copy_shop
+
+- story: information closing date admission
+  steps:
+  - intent: information_closing_date_admission
+  - action: utter_information_closing_date_admission
+
+- story: information closing date admission
+  steps:
+  - intent: information_opac
+  - action: utter_information_opac
+
+- story: information scopus
+  steps:
+  - intent: information_scopus
+  - action: utter_information_scopus
+
+- story: information transcript retrieval
+  steps:
+  - intent: information_transcript_retrieval
+  - action: utter_information_transcript_retrieval
+
+- story: information library hours
+  steps:
+  - intent: information_library_hours
+  - action: utter_information_library_hours
+
+- story: contact dr moyo
+  steps:
+  - intent: contact_dr_moyo
+  - action: utter_contact_dr_moyo
+
+- story: information reaxys
+  steps: 
+  - intent: information_reaxys
+  - action: utter_information_reaxys
+
+- story: information library lost and found
+  steps:
+  - intent: information_library_lost_and_found
+  - action: utter_information_library_lost_and_found
+
+- story: information cant get book
+  steps:
+  - intent: information_cant_get_book
+  - action: utter_information_cant_get_book
+
+- story: contact admissions
+  steps:
+  - intent: contact_admissions
+  - action: utter_contact_admissions
+
+- story: information book appointment
+  steps:
+  - intent: information_book_appointment
+  - action: utter_information_book_appointment
+
+- story: information ashrae
+  steps:
+  - intent: information_ashrae
+  - action: utter_information_ashrae
+
+- story: information constitution
+  steps:
+  - intent: information_constitution
+  - action: utter_information_constitution
+  
+- story: information cellphone rules
+  steps:
+  - intent: information_cellphone_rules
+  - action: utter_information_cellphone_rules
+
+- story: information accessability
+  steps:
+  - intent: information_accessability
+  - action: utter_information_accessability
+
+- story: information access_distance student
+  steps:
+  - intent: information_access_distance_student
+  - action: utter_information_access_distance_student
+
+- story: information submit assignment
+  steps:
+  - intent: information_submit_assignment
+  - action: utter_information_submit_assignment
+
+- story: information access distance postgrad
+  steps:
+  - intent: information_access_distance_postgrad
+  - action: utter_information_access_distance_postgrad
+
+- story: information book group study unit
+  steps:
+  - intent: information_book_group_study_unit
+  - action: utter_information_book_group_study_unit
+
+- story: information reset efundi password
+  steps:
+  - intent: information_reset_efundi_password
+  - action: utter_information_reset_efundi_password
+
+- story: information update efundi email
+  steps:
+  - intent: information_update_efundi_email
+  - action: utter_information_update_efundi_email
+
+- story: information find module efundi
+  steps:
+  - intent: information_find_module_efundi
+  - action: utter_information_find_module_efundi
+
+- story: information how to efundi
+  steps:
+  - intent: information_how_to_efundi
+  - action: utter_information_what_is_efundi
+  - action: utter_information_how_to_efundi
+
+- story: information deregister
+  steps:
+  - intent: information_deregister
+  - action: utter_information_deregister
+
+- story: information library training session
+  steps:
+  - intent: information_library_training_session
+  - action: utter_information_library_training_session
+
+- story: information programme leaders
+  steps:
+  - intent: information_programme_leaders
+  - action: utter_information_programme_leaders
+
+- story: information publish article
+  steps:
+  - intent: information_publish_article
+  - action: utter_information_publish_article
+
+- story: information endnote license
+  steps:
+  - intent: information_endnote_license
+  - action: utter_information_endnote_license
+
+- story: information recommendation letter
+  steps:
+  - intent: information_recommendation_letter
+  - action: utter_information_recommendation_letter
+
+- story: information access textbook list
+  steps:
+  - intent: information_access_textbook_list
+  - action: utter_information_access_textbook_list
+
+- story: information buy books
+  steps:
+  - intent: information_buy_books
+  - action: utter_information_buy_books
+
+- story: information endnote credentials
+  steps:
+  - intent: information_endnote_credentials
+  - action: utter_information_endnote_credentials
+
+- story: information sources law
+  steps: 
+  - intent: information_sources_law
+  - action: utter_information_sources_law
+
+- story: information bursaries
+  steps: 
+  - intent: information_bursaries
+  - action: utter_information_bursaries
+
+- story: information cid manual
+  steps: 
+  - intent: information_cid_manual
+  - action: utter_information_cid_manual
+
+- story: contact coffee shop
+  steps:
+  - intent: contact_coffee_shop
+  - action: utter_contact_coffee_shop
+
+- story: contact astrovilla
+  steps:
+  - intent: contact_astrovilla
+  - action: utter_contact_astrovilla
+
+- story: information prescribed textbooks
+  steps:
+  - intent: information_prescribed_textbooks
+  - action: utter_information_prescribed_textbooks
+
+- story: information maximum books
+  steps:
+  - intent: information_maximum_books
+  - action: utter_information_maximum_books
+
+- story: information nsfas accomodation
+  steps:
+  - intent: information_nsfas_accomodation
+  - action: utter_information_nsfas_accomodation
+
+- story: information diy password
+  steps:
+  - intent: information_diy_password
+  - action: utter_information_diy_password
+
+- story: information career centre
+  steps:
+  - intent: information_career_centre
+  - action: utter_information_career_centre
+
+- story: information access articles
+  steps:
+  - intent: information_access_articles
+  - action: utter_information_access_articles
+
+- story:  contact christine
+  steps:
+  - intent: contact_christine
+  - action: utter_contact_christine
+
+- story:  information registration fee
+  steps:
+  - intent: information_registration_fee
+  - action: utter_information_registration_fee
+
+- story: information academic results
+  steps:
+  - intent: information_academic_results
+  - action: utter_information_academic_results
+
+- story: information social work study duration
+  steps:
+  - intent: information_social_work_study_duration
+  - action: utter_information_social_work_study_duration
+
+- story: information late application
+  steps:
+  - intent: information_late_application
+  - action: utter_information_late_application
+
+- story: 
+  steps:
+  - intent: 
+  - action: 
+
+- story: 
+  steps:
+  - intent: 
+  - action: 

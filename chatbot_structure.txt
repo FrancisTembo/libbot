@@ -45,6 +45,12 @@ stop/end/halt/restart/
 reference
 /start
 
+Important words
+---------------
+efundi
+library 
+nwu
+
 are you a robot 
 who made you 
 where do you stay 

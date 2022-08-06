@@ -34,469 +34,469 @@ utter: Please contact the Administration department on your campus -  http://st
 topic: About the NWU
 views:2
 
-#7
+#7✅
 intent: Is it possible to for someone to return books on my behalf? Without my student number.
 utter: Yes, books can be returned on your behalf without your student number. To make sure the person did return your books I would give him my student number and ask the staff to print a receipt of all the items in my name after he/she returned the books.  
 topic: Loan Services (e.g. Renew Books)
 views:0
 
-#8
+#8✅
 intent: Where can I find the exam timetable?
 utter: Click here for the Examination & Assessment Timetables . Also, see personal timetable .
 topic: About the NWU
 views:1
 
-#9
+#9✅
 intent: Where can I find the contact information for Engineering>
 utter: The contact information for the Faculty of Engineering is on this page  https://engineering.nwu.ac.za/engineering/contact-us .
 topic: About the NWU
 views:1
 
-#10
+#10✅
 intent: Where can I find the contact information for Education?
 utter: The contact information for the Faculty of Education is on this page  https://commerce.nwu.ac.za/economic-and-management-sciences/contact-us .
 topic: nan
 views:0
 
-#11
+#11✅
 intent: Where can I find the contact information for Economic and Management Sciences?
 utter: The contact information for the Faculty of Economic and Management Sciences is on this page  https://commerce.nwu.ac.za/economic-and-management-sciences/contact-us .
 topic: About the NWU
 views:1
 
-#12
+#12✅
 intent: Where can I find the contact information for the Business School?
 utter: The contact information for the Business school is on this page  https://commerce.nwu.ac.za/business/contact-details .
 topic: About the NWU
 views:0
 
-#13
+#13✅
 intent: Who are the publisher of Fateful Triangle: The united states, Israel and Palestinians?
 utter: Go to the Library Catalogue and choose Title under the Keyword filter. Type fateful triangle next to Title . Choose the correct book from the list. The name of the author will be on the bibliographic record.
 topic: Finding information (e.g. Books, eBooks, Articles)
 views:4
 
-#14
+#14✅
 intent: Four W's of each entry in the reference list
 utter: To make it easy to remember, think of the four “W’s”: Who  – Author(s) When  – Date What  – Title Where  – Source or publishing information for books
 topic: Citations / Referencing / Plagiarism
 views:0
 
-#15
+#15✅
 intent: I’d like to check when I must return my book.
 utter: There should be a stamp in your book with a return date. You can also see the number of books you have loaned as well as the return dates on your patron record .
 topic: Loan Services (e.g. Renew Books)
 views:1
 
-#16
+#16✅
 intent: Where do I to put books away that I have used?
 utter: We prefer that you leave the books on the tables after you have used them as the books must be arranged via the Dewey Decimal System when they are placed back on the shelves. 
 topic: Loan Services (e.g. Renew Books)
 views:0
 
-#17
+#17✅
 intent: Three boolean operators
 utter: The three Boolean operators are AND, OR and NOT. 
 topic: Finding information (e.g. Books, eBooks, Articles)
 views:15
 
-#18
-intent: What is the name of the Library One Stop Search enjin?
+#18✅
+intent: What is the name of the Library One Stop Search engine?
 utter: We are using Ebsco Discovery Service (EDS).
 topic: Databases (e.g. Catalogue, Exam papers)
 views:21
 
-#19
+#19✅
 intent: How do I get access to the Library and databases?
 utter: NWU students and staff Only registered students and staff members of the North-West University may access our libraries and databases. Physical facilities: In order to access any of the NWU libraries, you must have a valid university access card. Patron record: Access to your library record is provided by a unique PIN that you create yourself. This PDF explains how to create a library PIN . Database access : Access to databases is provided via CAS. Read more about our database passwords . Prospective M and Ph.D. students Prospective M and Ph.D. students can apply for access to any NWU Library for 6 months prior to registering as an M or Ph.D. student. Please complete the Prospective student application form . The completed form may be handed in at one of our Lending desks or sent to us via email. Email your Loans desk to arrange for a password to access databases after you have registered. Members of the public External members who wish to borrow material or use the physical library spaces need to apply to Library and Information Services for access by completing our External membership application form . The completed form may be handed in at one of our Lending desks or sent to us via email. Click here for a complete list of our user categories and services .
 topic: Loan Services (e.g. Renew Books); Access / Hours
 views:22
 
-#20
+#20✅
 intent: In which building is the Music Library?
 utter: The Music Library is in Building K1  on the Potchefstroom Campus.
 topic: About the Library (e.g. Services)
 views:1
 
-#21
+#21✅
 intent: In which building is the Theological Library?
 utter: The Theological Library is in  Building K11 on the Potchefstroom Campus.
 topic: About the Library (e.g. Services)
 views:0
 
-#22
+#22✅
 intent: In which building is the Education Library?
 utter: The Education Library is in  Building C6c  on the Potchefstroom Campus.
 topic: About the Library (e.g. Services)
 views:0
 
-#23
+#23✅
 intent: In which building is the Natural Sciences Library?
 utter: The Natural Sciences Library is in   Building G1  on the Potchefstroom Campus.
 topic: About the Library (e.g. Services)
 views:0
 
-#24
+#24✅
 intent: In which building is the Mahikeng Campus Library?
 utter: The Mahikeng Campus Library is in   Building A-7  on the Mahikeng Campus.
 topic: About the Library (e.g. Services)
 views:1
 
-#25
+#25✅
 intent: In which building is the Potchefstroom Campus Library?
 utter: The Potchefstroom Campus Library, also known as the Ferdinand Postma Library, is in Building E7  on the Potchefstroom Campus.
 topic: About the Library (e.g. Services)
 views:3
 
-#26
+#26✅
 intent: In which building is the Vaal Campus Library?
 utter: The Vanderbijlpark Campus Library is in Building 13  on the Vanderbijlpark Campus.
 topic: About the Library (e.g. Services)
 views:3
 
-#27
+#27✅
 intent: How do I request books from from another NWU campus?
 utter: Contact the Loan Service Desk on your campus to arrange for an intercampus loan.
 topic: Loan Services (e.g. Renew Books)
 views:1
 
-#28
+#28✅
 intent: Where can i find the chicago referencing style?
 utter: The Chicago referencing style is not supported by the Library. You can search for the style on Google using the keywords "chicago referencing style".
 topic: Citations / Referencing / Plagiarism
 views:0
 
-#29
+#29✅
 intent: I need more information about the Copy shop.
 utter: Nashua operates the printers, photocopying and scanning at the NWU Libraries. General information is on this page , if you need more specific information please contact Nashua at  +27 (0)18 299 2820.
 topic: Photocopying, Printing &amp; Scanning
 views:0
 
-#30
+#30✅
 intent: Closing date for admission
 utter: Closing dates are on the application page at  http://studies.nwu.ac.za/studies/apply
 topic: About the NWU
 views:2
 
-#31
+#31✅
 intent: Boolean operators
 utter: Boolean operators are part of your search strategy. Read more about it here .
 topic: Finding information (e.g. Books, eBooks, Articles)
 views:7
 
-#32
+#32✅
 intent: OPAC
 utter: The OPAC is our library catalogue and is available at  https://sierra.nwu.ac.za/search
 topic: Databases (e.g. Catalogue, Exam papers)
 views:0
 
-#33
+#33✅
 intent: Scopus
 utter: Scopus is available via our database list at  https://libguides.nwu.ac.za/az.php?a=s
 topic: Databases (e.g. Catalogue, Exam papers)
 views:3
 
-#34
+#34✅
 intent: Former student transcript (academic record) retrieval.
 utter: Please contact SALA for information regarding your academic records  Tel:  +27 (0) 18 299 4201/2460 PC-Undergrad-Records@nwu.ac.za
 topic: About the NWU
 views:3
 
-#35
+#35✅
 intent: What time does the library close?
 utter: During the semester the main libraries usually close at 10:00 in the evening, but it is best to consult our hour's web page  before you come to the library. We have different semester and recess hours. Our branch libraries also close earlier.
 topic: About the Library (e.g. Services)
 views:3
 
-#36
+#36✅
 intent: Contact information for Dr Moyo?
 utter: You can contact Dr. Moyo at +27(0)18 299 2814 or email him at  Mathew.Moyo@nwu.ac.za .
 topic: About the Library (e.g. Services)
 views:1
 
-#37
+#37✅
 intent: Reaxys
 utter: You will find Reaxys in our database list under R. 
 topic: Databases (e.g. Catalogue, Exam papers)
 views:0
 
-#38
+#38✅
 intent: Does the library have a lost and found?
 utter: Lost items are usually handed in at the Loans Counter. The items are taken as soon as possible to Campus Security Services.   
 topic: About the Library (e.g. Services)
 views:0
 
-#39
+#39✅
 intent: I have difficult to acquire book online
 utter: Please contact your Faculty Librarian for assistance at  https://library.nwu.ac.za/information-services-and-faculty-librarians .
 topic: Databases (e.g. Catalogue, Exam papers); Faculty Librarians / LibGuides
 views:2
 
-#40
+#40✅
 intent: How do I contact the Application and admission office?
 utter: Their contact information is on this page . There are different contact information depending on your status e.g. undergraduate or postgraduate
 topic: About the NWU
 views:4
 
-#41
+#41✅
 intent: How do I book an appointment? I need help with the boolean search as I need to do feasibility test.
 utter: You can make an appointment with your Faculty Librarian. Their info is listed on this page  https://library.nwu.ac.za/information-services-and-faculty-librarians .
 topic: Faculty Librarians / LibGuides
 views:1
 
-#42
+#42✅
 intent: ASHRAE
 utter: You will find ASHRAE Standards and Guidelines in our database list under "A".
 topic: Databases (e.g. Catalogue, Exam papers)
 views:0
 
-#43
+#43✅
 intent: South African Constitution
 utter: You will find the South African Constitution on the South African Government web page at  https://www.gov.za/documents/constitution/Constitution-Republic-South-Africa-1996-1
 topic: Finding information (e.g. Books, eBooks, Articles)
 views:1
 
-#44
+#44✅
 intent: Are cellphones allowed in the library?
 utter: Cell phones must be put on silent/vibrate mode before you enter the library. Please answer calls outside the library so as not to disturb other users.
 topic: About the Library (e.g. Services)
 views:0
 
-#45
+#45✅
 intent: Good day. How much does it cost for binding and printing ?
 utter: Nashua's fees are available on this page:  https://library.nwu.ac.za/photocopying-printing-and-scanning Binding fees are available on this page:  https://library.nwu.ac.za/binding
 topic: Bindery; Photocopying, Printing &amp; Scanning
 views:3
 
-#46
+#46✅
 intent: Good day, I'd like assistance with the research topic I want to explore and how to get relevant database related to the topic.
 utter: You can contact your Faculty Library for help with your research. You will find their contact information on this page .
 topic: Faculty Librarians / LibGuides
 views:8
 
-#47
+#47✅
 intent: Which referencing style faculty of Natural and Agricultural Sciences use?
 utter: Natural and Agricultural Sciences mostly uses the Harvard Referencing Style , but we did notice that this can deviate from lecturer to lecturer. So it is always best to first confirm with your lecturer which style they prefer.
 topic: Citations / Referencing / Plagiarism
 views:4
 
-#48
+#48✅
 intent: May I please get help on how to find information successfully? I am struggling to find information and my assignments are almost due. Thank you.
 utter: The easiest is to go to the EDS Search on the library web page. Click on the "Advanced search" link. Type your keywords in the search blocks, and select in which field you want your keywords to be searched by clicking on the down arrow next to "Select a field". You can select "TI Title" or "AB Abstract". Your keywords will then be searched in either the title field or the abstract field. Combine your different search terms in the different search blocks. You can also narrow your search by selecting the "Full text" option. You will then only retrieve full text sources that we are subscribed to. Click on the "search" button, and go through your results. You can also do a search on Google Scholar . If you still have difficulties, please contact your faculty librarian .
 topic: nan
 views:8
 
-#49
+#49✅
 intent: How to log into an account as a NWU Distance student ?
 utter: The Open Distance Learning  help page provides login information under the Assessment Information heading. If you are still unable to open your academic record please contact Open Distance Learning at  http://distance.nwu.ac.za/contact_us .
 topic: Distance Learning; Access / Hours; Account
 views:8
 
-#50
+#50✅
 intent: What does red colour means when submitting assignment?
 utter: I presume you used eFundi to submit your assignment. It would be best to contact your lecturer for an answer.  CTL does have this link on their site on how to Interpret the Report when you receive your assignment back.
 topic: eFundi / Turnitin / CTL
 views:4
 
-#51
+#51✅
 intent: How do I log on to the library as a postgraduate distance learning student?
 utter: It depends which service you would like to access. If you want to access your patron record go to  https://sierra.nwu.ac.za/patroninfo . Here you can set up your PIN and see which books you have taken out and renew your books. If you want to access databases follow the steps below: Steps: Choose a database from the A - Z Database list . When you click on a database a User Verification Screen will appear. Under the NWU Students and Staff heading click on the link Students and staff, click here to log in with your CAS (eFundi) username and password. Type your CAS (eFundi) username and password .  If you do not have a CAS (eFundi) username and password please contact the T&L Technologies HelpDesk at 018 285 5930 (Monday - Friday: 08:00 - 16:45) and ask them to set one up for you.
 topic: Databases (e.g. Catalogue, Exam papers); Distance Learning; Access / Hours
 views:9
 
-#52
+#52✅
 intent: How to book a group study unit?
 utter: Group rooms are booked at this link -  https://nwu.libcal.com/
 topic: Room Bookings
 views:27
 
-#53
+#53✅
 intent: How do I reset my eFundi password?
 utter: This video from CTL explains how to reset your eFundi password. You can also use the Infographic on their site. You will find more tutorials regarding eFundi on the CLT page at  http://services.nwu.ac.za/ctl/student-efundi-support .
 topic: eFundi / Turnitin / CTL
 views:12
 
-#54
+#54✅
 intent: How do I update my eFundi email address?
 utter: This video from CTL will explain how to update your eFundi email address. You can also use the Infographic on their page. You will find more tutorials regarding eFundi on the CLT page at  http://services.nwu.ac.za/ctl/student-efundi-support .
 topic: eFundi / Turnitin / CTL
 views:8
 
-#55
+#55✅
 intent: How do I find a module in eFundi?
 utter: If you cannot see your module on eFundi this CTL video will explain how to make it visible. You can also use this Infographic on the CTL site. You will find more tutorials regarding eFundi on the CLT page at  http://services.nwu.ac.za/ctl/student-efundi-support .
 topic: eFundi / Turnitin / CTL
 views:2
 
-#56
+#56✅
 intent: How does eFundi work?
 utter: This eFundi video from CTL explains how to navigate eFundi. You will find more tutorials regarding eFundi on the CLT page at  http://services.nwu.ac.za/ctl/student-efundi-support .
 topic: eFundi / Turnitin / CTL
 views:3
 
-#57
+#57✅
 intent: How do I access eFundi?
 utter: You access eFundi and the library databases via your CAS (Central Authentication System password). This infographic explains the steps. You will find more tutorials regarding eFundi on the CLT page at  https://www.nwu.ac.za/mynwu/efundi .
 topic: eFundi / Turnitin / CTL; Access / Hours
 views:2
 
-#58
+#58✅
 intent: How do I deregister?
 utter: Contact Undergraduate enquiries at 018 285 4320.
 topic: About the NWU
 views:6
 
-#59
+#59✅
 intent: Faculty of Humanities
 utter: Please follow this link to the Faculty of Humanities -  https://humanities.nwu.ac.za/
 topic: About the NWU
 views:9
 
-#60
+#60✅
 intent: I would like to undertake in a library training session
 utter: Our training sessions are listed on these pages: Undergrad training Postgrad/Research training  
 topic: Training
 views:2
 
-#61
+#61✅
 intent: Who are the programme leaders for foundation phase across the three campuses?
 utter: Please contact the Faculty of Education for their names via one of the methods listed on this page  https://education.nwu.ac.za/education/contact-us
 topic: About the NWU
 views:1
 
-#62
+#62✅
 intent: How do I go about in publishing my article in an accredited journal
 utter: You first have to find a suitable journal to publish your article in. There are several ways in doing such, e.g. on the Web of Science or on Scopus. When you have identified a journal, check if it is on the list of accredited journals .  You then need to go to that journal's home page on the web to find information on the scope of the journal and also the author guidelines. These guidelines will tell you more about the technical things, like the font to use, the headings that should be used, and also the prescribed referencing style. If unsure, please contact any of the Research and Open Scholarship Librarians  
 topic: nan
 views:2
 
-#63
+#63✅
 intent: EndNote license key
 utter: The EndNote license key is built into the download files. Please follow the steps on this guide on how to download EndNote.
 topic: Research (e.g. EndNote, ORCiD, ETDs)
 views:6
 
-#64
+#64✅
 intent: Letter of recommendation
 utter: Masters and Ph.D. students can apply for a letter of introduction to another University Library. Please complete the  Letter of introduction application form . The completed form may be handed in at one of our Lending desks or sent to: Mahikeng:  mfcloan@nwu.ac.za Potchefstroom:  fpbleen@nwu.ac.za Vanderbijlpark:  vtcloan@nwu.ac.za
 topic: Access / Hours
 views:5
 
-#65
+#65✅
 intent: Where can one access the textbook list?
 utter: Your textbook list should be in your study guide. You can access your study guide via eFundi .
 topic: About the NWU
 views:9
 
-#66
+#66✅
 intent: Where do I buy my books?
 utter: Please ask your lecturer if he has an arrangement with a specific bookstore. Most prescribed books are sold by Van Schaik's or Protea bookstores.
 topic: About the NWU
 views:4
 
-#67
+#67✅
 intent: EndNote username and password
 utter: You should not have to provide an EndNote username and password. If you download EndNote from the library website the license key is built into the download.  Please follow these steps to download EndNote Windows users Go to  eFundi , our student portal, and log in.  Click on the Library tab in the toolbar at the top of the screen or find the Library page in your eFundi sites.  Click on Resources on the left side of the screen. Click on the EndNote folder. Click on EndNote 20 - Windows folder. Click on the EndNote 20.zip file to download it. Go to your downloads folder and click on  "Extract all to ..."  Choose a folder where you want to download your files to (e.g. Desktop). You must highlight all three files for extraction , as our license key is built into the download files.   Once you have extracted the files, go to the folder on your computer where you downloaded your files and double click on the EN20Inst. Run the installation wizard. Please note:  If you do not have access to eFundi or the Library tab please contact your Librarian on the  Ask Us  tab to provide access to eFundi. Provide your university number in the email. If you have access to eFundi and the Library tab but do not see the Library tab click on "Sites" and click on the star next to Library and close the pop-up window. MAC users Go to eFundi , our student portal, and log in .   Click on the Library tab  in the toolbar at the top of the screen or find the Library page in your eFundi sites. Click on Resources on the left side of the screen. Click on the EndNote folder. Click on EndNote 20 - MAC folder.  Click on the EndNote20SiteInstaller.dmg file to download it. Please note: If you do not have access to eFundi or the Library tab please contact your Librarian on the  Ask Us  tab to provide access to eFundi. Provide your university number in the email. If you have access to eFundi and the Library tab but do not see the Library tab click on "Sites" and click on the star next to Library and close the pop-up window. The EndNote Librarians  also provide assistance and training on EndNote.
 topic: Research (e.g. EndNote, ORCiD, ETDs)
 views:7
 
-#68
+#68✅
 intent: Where can I find sources for law?
 utter: Use our law LibGuides at  https://libguides.nwu.ac.za/law
 topic: Faculty Librarians / LibGuides
 views:2
 
-#69
+#69✅
 intent: How do I apply for bursaries at the NWU?
 utter: Application forms for bursaries at the NWU are available on this page  http://studies.nwu.ac.za/studies/bursaries-and-loans
 topic: About the NWU
 views:3
 
-#70
+#70✅
 intent: Contact information for the Business School.
 utter: The contact information for the Business School is available at  https://commerce.nwu.ac.za/business/contact-details
 topic: About the NWU
 views:5
 
-#71
+#71✅
 intent: Where can I find the brand (CID) manual of the university?
 utter: The NWU brand (CID) manual is available at  http://services.nwu.ac.za/sites/services.nwu.ac.za/files/files/brandstore/2019.NWU-CID.26July.pdf
 topic: About the NWU
 views:0
 
-#72
+#72✅
 intent: What is the contact information for Books & Beans coffee shop?
 utter: You will find the contact information for the Books & Beans coffee shop on this page  http://services.nwu.ac.za/business-and-enterprise-development/books-beans .
 topic: About the NWU
 views:2
 
-#73
+#73✅
 intent: What is the contact information for the Astrovilla?
 utter: The Astrovilla contact details are available on this page  http://services.nwu.ac.za/astrovilla/contact-us
 topic: About the NWU
 views:0
 
-#74
+#74✅
 intent: Where can I find my academic record?
 utter: The contact information for Academic Record enquiries are on this page  http://services.nwu.ac.za/sala/academic-records-enquiries
 topic: About the NWU
 views:3
 
-#75
+#75✅
 intent: Where can I find prescribed textbooks?
 utter: You will find the prescribed textbooks in your library's Course reserve section. You can search for material under the course code or lecturer. Search by course code:  https://sierra.nwu.ac.za/search/r Search by lecturer:  https://sierra.nwu.ac.za/search/p  
 topic: Loan Services (e.g. Renew Books); Course Reserves
 views:15
 
-#76
+#76✅
 intent: What's the maximum number of books I can borrow from the library?
 utter: The amount of books that you can borrow depends on your user category. See the table below:   Lending categories: NWU students and staff Membership Number of items Loan period (days) Database Access Help with Information Searches Interlibrary Loans Undergraduates 6 14 Yes Information Commons No 4th-year degree and Honours students 10 30 Yes Honours Commons Yes Post-graduates (M and Ph.D.) 15 30 Yes Research Commons & Faculty Librarians Yes Academic staff 20 90 Yes Research Commons & Faculty Librarians Yes Support staff 10 30 Yes Information Commons Yes Managerial & Professional staff 15 90 Yes Information Commons Yes Alumni (with borrowing rights) 4 14 No Information desk No Community members 2 14 No Information desk No  
 topic: Loan Services (e.g. Renew Books)
 views:2
 
-#77
+#77✅
 intent: Is it possible to find NSFAS accredited accommodation around Potchefstroom?
 utter: You will find a list of residences on this page:  http://studies.nwu.ac.za/studies/residences . You can contact them and find out about NSFAS accreditation.
 topic: About the NWU
 views:0
 
-#78
+#78✅
 intent: Where do I find my DIY password?
 utter: Your DIY password is the same password that you use to log into eFundi, thus your CAS password. You can reset your CAS password on this page . If you do not have a password at all please contact the T&L Technologies HelpDesk at 018 285 5930 (Monday-Friday: 08:00 - 16:45).
 topic: About the NWU
 views:0
 
-#79
+#79✅
 intent: Can't find the Career center tab on efundi.
 utter: The Career Center link is under Teaching and Learning in the purple toolbar at the top of the NWU web page -  http://services.nwu.ac.za/career-centre
 topic: About the NWU
 views:0
 
-#80
+#80✅
 intent: Who can I ask to get access to certain articles the university does not have access to?
 utter: You can contact the Interlibrary Loans section in your campus Library. Fourth-year, honours, master's, doctoral students or NWU staff members can place an Interlibrary Loan . For help with Interlibrary loans contact your Faculty Librarian .  
 topic: Interlibrary Loans (ILL)
 views:3
 
-#81
+#81✅
 intent: Christine Bronkhorst email address
 utter: Christine Bronkhorst has left the services of the Library. The following staff is now responsible for her subjects: Law - Maria Lesele Business School and MBA - Lezelle Snyman  History & Ancient Culture, Political Studies, Public Management & Governance, Social Anthropology and Sociology - Maggie Melk-Sindwa    
 topic: About the Library (e.g. Services)
 views:8
 
-#82
+#82✅
 intent: How much is registration fee?
 utter: Registration fee's at the NWU is listed here:  http://services.nwu.ac.za/student-accounts-and-bursaries/payable-fees
 topic: About the NWU
 views:7
 
-#83
+#83✅
 intent: Results of 2021
 utter: Exam results are on this page:  https://vssweb.nwu.ac.za/str-webclient/StudentWebCommand.do?sf=143647&lng=3#/top
 topic: About the NWU
 views:8
 
-#84
+#84✅
 intent: How many years to study social work?
 utter: You will find the years of study in the yearbook for that course:  http://studies.nwu.ac.za/studies/yearbooks .
 topic: About the NWU
@@ -532,13 +532,13 @@ utter: Go to  https://efundi.nwu.ac.za/access/content/public/AGena/contact_cent
 topic: eFundi / Turnitin / CTL
 views:44
 
-#90
+#90✅
 intent: How to I refer to working papers in a reference list?
 utter: Note: Working papers are usually retrieved from the internet, therefore they can be handled as an internet source.  For Harvard Style, text references click here:  https://libguides.nwu.ac.za/harvard-referencing/internet-sources  (Tab: Articles from the world wide web). For APA Style, text references click here:  https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources  (Tab: Articles or webpages from a website).
 topic: Citations / Referencing / Plagiarism
 views:5
 
-#91
+#91✅
 intent: How do I refer to webcast sessions in my text and in the source list?
 utter: Note: A webcast is also called a podcast.  For Harvard Style, text references click here:  https://libguides.nwu.ac.za/harvard-referencing/internet-sources  (Tab: Audiovisual and other media on the Internet). For APA Style, text references click here:  https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources  (Tab: Audiovisual and other media on the Internet).
 topic: Citations / Referencing / Plagiarism
@@ -562,7 +562,7 @@ utter: No, this service is only available to registered fourth years, honours, m
 topic: Interlibrary Loans (ILL)
 views:10
 
-#95
+#95✅
 intent: How to I reference an intext reference?
 utter: For Harvard Style, text references click here:  https://libguides.nwu.ac.za/harvard-referencing/text-references For APA Style, text references click here:  https://libguides.nwu.ac.za/apa-referencing/citing-sources-text
 topic: Citations / Referencing / Plagiarism
@@ -580,283 +580,283 @@ utter: For acts, you can search in either Juta or LexisNexis .
 topic: nan
 views:6
 
-#98
+#98✅
 intent: How do I arrange text references from more than one source?
 utter: When referring to more than one source when a statement is made, arrange the references alphabetically according to the first author, in the same order, they will appear in the reference list. Use a semi-colon after each reference. If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/text-references  (see tab Text references to more than one source) for more info. If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/ebooks  (see tab Text references to more than one source) for more info.
 topic: Citations / Referencing / Plagiarism
 views:6
 
-#99
+#99✅
 intent: How do I reference secondary sources in a text reference?
 utter: A secondary source is, for example, when an author writes about Freud’s view of psychoanalysis without reading Freud’s own work. Making use of the work of other authors like Smith, Jones, or White who wrote about Freud, asks for a secondary citation. It is, however, possible that these authors interpreted Freud incorrectly, causing you to work unscientifically and unethically. Keep secondary citations therefore to the minimum as it is “second-hand” information. If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/text-references  (see tab Secondary sources) for more info. If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/citing-sources-text  (see tab Secondary sources) for more info.
 topic: Citations / Referencing / Plagiarism
 views:7
 
-#100
+#100✅
 intent: When do I use indirect quotations / paraphrasing in a text reference?
 utter: When you give an author’s ideas in your own words, you have to take care that the spirit and argumentation of the original are retained. Do not use and twist a citation for your own purposes. Also, vary the style of citation in your argument. If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/text-references  (see tab Indirect quotations/paraphrasing) for more info. If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/citing-sources-text  (see tab Paraphrasing) for more info.
 topic: Citations / Referencing / Plagiarism
 views:3
 
-#101
+#101✅
 intent: When do I use direct quotations in a text reference?
 utter: Direct quotations should be used functionally. Do not use quotations in order to avoid difficulties with translation. If the quotation forms part of a comprehensive argument, the punctuation is part of that argument and is placed outside the brackets or inverted commas. If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/text-references  (see tab Direct quotations) for more info. If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/citing-sources-text  (see tab Direct quotations) for more info.
 topic: Citations / Referencing / Plagiarism
 views:5
 
-#102
+#102✅
 intent: How do I reference authors in text reference?
 utter: The author is the person responsible for the intellectual content of a source. An author can also be an institution or organisation, for example in the case of a yearbook of a university or a report by a government department. If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/text-references  (see tab Authors) for more info. If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/citing-sources-text  (see tab Authors) for more info.
 topic: nan
 views:3
 
-#103
+#103✅
 intent: What is a text reference?
 utter: NWU Harvard Referencing Style A text reference consists of the author’s surname, the date, and page number(s) where the information referred to was found. If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/text-references  for more info.  
 topic: Citations / Referencing / Plagiarism
 views:7
 
-#104
+#104✅
 intent: How do I set up a reference list?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/reference-list . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/reference-list .
 topic: Citations / Referencing / Plagiarism
 views:6
 
-#105
+#105✅
 intent: How do I reference an unpublished work?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/unpublised-works .
 topic: Citations / Referencing / Plagiarism
 views:0
 
-#106
+#106✅
 intent: How do I reference a DVD?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/audiovisual-media . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/audiovisual-media .
 topic: Citations / Referencing / Plagiarism
 views:5
 
-#107
+#107✅
 intent: How do I reference a CD?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/audiovisual-media . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/audiovisual-media .
 topic: Citations / Referencing / Plagiarism
 views:0
 
-#108
+#108✅
 intent: How do I reference datasets?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/datasets . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/datasets .
 topic: Citations / Referencing / Plagiarism
 views:1
 
-#109
+#109✅
 intent: How do I reference musical scores?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/musical-scores . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/musical-scores .
 topic: Citations / Referencing / Plagiarism
 views:1
 
-#110
+#110✅
 intent: How do I reference standards?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/patents-standards  (see tab Standards).
 topic: Citations / Referencing / Plagiarism
 views:1
 
-#111
+#111✅
 intent: How do I reference patents?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/patents-standards .
 topic: Citations / Referencing / Plagiarism
 views:1
 
-#112
+#112✅
 intent: How do I reference personal correspondence like interviews, letters and email?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/personal-correspondance . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/personal-correspondance .
 topic: Citations / Referencing / Plagiarism
 views:1
 
-#113
+#113✅
 intent: How do I reference classical works?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/classical-works . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/classical-works .
 topic: Citations / Referencing / Plagiarism
 views:0
 
-#114
+#114✅
 intent: How do I reference the Quran?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/bible-religious-writings  (see tab The Quran). If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/bible-quran-religious-writings  (see tab The Quran).
 topic: Citations / Referencing / Plagiarism
 views:1
 
-#115
+#115✅
 intent: How do I reference Bible commentaries?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/bible-religious-writings . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/bible-quran-religious-writings .
 topic: Citations / Referencing / Plagiarism
 views:5
 
-#116
+#116✅
 intent: How do I reference the Bible?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/bible-religious-writings . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/bible-quran-religious-writings .
 topic: Citations / Referencing / Plagiarism
 views:4
 
-#117
+#117✅
 intent: How do I reference a Provincial gazette?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/government-publications . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/government-publications .
 topic: Citations / Referencing / Plagiarism
 views:1
 
-#118
+#118✅
 intent: How do I reference the Government gazette?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/government-publications . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/government-publications .
 topic: Citations / Referencing / Plagiarism
 views:5
 
-#119
+#119✅
 intent: How do I reference international acts?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/acts-law-reports . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/acts-law-reports .
 topic: Citations / Referencing / Plagiarism
 views:1
 
-#120
+#120✅
 intent: How do I reference the Constitution of South Africa?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/acts-law-reports . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/acts-law-reports .
 topic: Citations / Referencing / Plagiarism
 views:103
 
-#121
+#121✅
 intent: How do I reference South African acts?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/acts-law-reports . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/acts-law-reports .
 topic: Citations / Referencing / Plagiarism
 views:3
 
-#122
+#122✅
 intent: How do I reference online newspaper articles?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/newspaper-articles . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/newspaper-articles .
 topic: Citations / Referencing / Plagiarism
 views:3
 
-#123
+#123✅
 intent: How do I reference newspaper articles in printed format?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/newspaper-articles . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/newspaper-articles .
 topic: Citations / Referencing / Plagiarism
 views:3
 
-#124
+#124✅
 intent: How do I reference study guides?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/study-guides . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/study-guides .
 topic: Citations / Referencing / Plagiarism
 views:7
 
-#125
+#125✅
 intent: How do I reference conference papers published online?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/conference-publications . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/conference-publications .
 topic: Citations / Referencing / Plagiarism
 views:3
 
-#126
+#126✅
 intent: How do I reference conference proceedings published in a collection?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/conference-publications . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/conference-publications .
 topic: Citations / Referencing / Plagiarism
 views:2
 
-#127
+#127✅
 intent: How do I reference a lecture's notes on eFundi?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/internet-sources (see tab Lecture notes on an LMS(eFundi)). If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources  (see tab Lecture notes on an LMS(eFundi)).
 topic: Citations / Referencing / Plagiarism
 views:5
 
-#128
+#128✅
 intent: How do I reference a Podcast?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/internet-sources (see tab Audiovisual and other media on the internet). If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources  (see tab Audiovisual and other media on the internet).
 topic: Citations / Referencing / Plagiarism
 views:2
 
-#129
+#129✅
 intent: How do I reference a YouTube video?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/internet-sources (see tab Audiovisual and other media on the internet). If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources  (see tab Audiovisual and other media on the internet).
 topic: Citations / Referencing / Plagiarism
 views:4
 
-#130
+#130✅
 intent: How do I reference a video?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/internet-sources (see tab Audiovisual and other media on the internet). If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources  (see tab Audiovisual and other media on the internet).
 topic: Citations / Referencing / Plagiarism
 views:2
 
-#131
+#131✅
 intent: How do I reference a PowerPoint presentation?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/internet-sources (see tab Audiovisual and other media on the internet). If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources  (see tab Audiovisual and other media on the internet).
 topic: Citations / Referencing / Plagiarism
 views:2
 
-#132
+#132✅
 intent: How do I reference Instagram?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/internet-sources (see tab Social media). If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources  (see tab Social media).
 topic: Citations / Referencing / Plagiarism
 views:0
 
-#133
+#133✅
 intent: How do I reference a tweet on Twitter?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/internet-sources (see tab Social media). If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources  (see tab Social media).
 topic: Citations / Referencing / Plagiarism
 views:5
 
-#134
+#134✅
 intent: How do I reference a post on Facebook?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/internet-sources (see tab Social media). If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources  (see tab Social media).
 topic: Citations / Referencing / Plagiarism
 views:1
 
-#135
+#135✅
 intent: How do I reference a blog?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/internet-sources (see tab Blogs). If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources  (see tab Blogs).
 topic: Citations / Referencing / Plagiarism
 views:1
 
-#136
+#136✅
 intent: How do I reference electronic newsletters?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/internet-sources (see tab Electronic newsletters). If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources  (see tab Electronic newsletters).
 topic: Citations / Referencing / Plagiarism
 views:3
 
-#137
+#137✅
 intent: How do I reference articles from the web?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/internet-sources . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/internet-electronic-sources .
 topic: Citations / Referencing / Plagiarism
 views:7
 
-#138
+#138✅
 intent: How do I reference journal articles?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/journal-articles . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/journal-articles .
 topic: Citations / Referencing / Plagiarism
 views:4
 
-#139
+#139✅
 intent: How do I reference theses and dissertations?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/theses-dissertations . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/theses-dissertations .
 topic: nan
 views:1
 
-#140
+#140✅
 intent: How do I reference a dictionary?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/dictionaries . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/dictionaries .
 topic: Citations / Referencing / Plagiarism; eReference Works (e.g. Dictionaries)
 views:6
 
-#141
+#141✅
 intent: How do I reference an encyclopedia?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/encyclopedias . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/enclopedias .
 topic: Citations / Referencing / Plagiarism; eReference Works (e.g. Dictionaries)
 views:1
 
-#142
+#142✅
 intent: How do I reference an ebook?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/ebooks . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/ebooks .
 topic: Citations / Referencing / Plagiarism
 views:1
 
-#143
+#143✅
 intent: How do I reference a chapter in a collected work?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/chapter-collected-work . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/chapter-collected-work .
 topic: Citations / Referencing / Plagiarism
 views:0
 
-#144
+#144✅
 intent: How do I reference a book?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/books . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/books .
 topic: Citations / Referencing / Plagiarism
@@ -940,7 +940,7 @@ utter: Go to the Library catalogue at  https://sierra.nwu.ac.za/search and clic
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
 views:312
 
-#158
+#158✅
 intent: How do I reference an Act.
 utter: You can give the short title of the act in your reference list entry, and also in the text. Reference list entry: Medicines and Related Substances Act , 2013. In text , something like this: The Medicines and Related Substances Act , 2013 of Botswana stipulates that ....  
 topic: Citations / Referencing / Plagiarism
@@ -1042,7 +1042,7 @@ utter: Contact Protection Services. Their contact details are on this page  htt
 topic: About the NWU; Access / Hours
 views:316
 
-#175
+#175✅
 intent: What is paraphrasing?
 utter: The restatement of a text in another form or other words to clarify meaning or to serve a different purpose from the original.
 topic: Citations / Referencing / Plagiarism
@@ -1066,7 +1066,7 @@ utter: This service is provided by IT-services. For more information regarding t
 topic: About the NWU
 views:84
 
-#179
+#179✅
 intent: How do I reference an interview?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/personal-correspondance . If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/personal-correspondance .
 topic: Citations / Referencing / Plagiarism
@@ -1084,7 +1084,7 @@ utter: Photocopying, printing, and scanning facilities are available in the libr
 topic: About the Library (e.g. Services); Photocopying, Printing &amp; Scanning
 views:5
 
-#182
+#182✅
 intent: How do I reference Government news publications and reports?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/government-publications If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/government-publications
 topic: Citations / Referencing / Plagiarism
@@ -1102,13 +1102,13 @@ utter: Your user category determines how long you can keep a book.  Membership
 topic: About the Library (e.g. Services); Loan Services (e.g. Renew Books)
 views:20
 
-#185
+#185✅
 intent: I do not have the library tab when I log into my efundi and therefore cannot access EndNote
 utter: It can be one of two things: Make certain that the Library tab has a gold star next to it when you click on Sites  after you log into eFundi:        or If you cannot see the Library tab under Sites it means you do not have access to the Library tab. In this case please contact one of our EndNote librarians listed here  https://libguides.nwu.ac.za/citation-tools/ask-us  to ask for access. Supply your name, surname, and university number in the email.
 topic: Citations / Referencing / Plagiarism; Research (e.g. EndNote, ORCiD, ETDs)
 views:43
 
-#186
+#186✅
 intent: How do I book for online training to use the new PhD document for my final thesis?
 utter: All our training is listed at the bottom of the Library home page.  You can also use the training Training Events link under Guides and Training on the home page. Click on the title of the training to make a booking.   
 topic: Citations / Referencing / Plagiarism; Research (e.g. EndNote, ORCiD, ETDs); Room Bookings; Training
@@ -1138,25 +1138,25 @@ utter: You can search for Norton on the internet. The University uses Microsoft'
 topic: Tech Support (e.g. Software)
 views:3
 
-#191
+#191✅
 intent: How to reference anonymous authors?
 utter: If you use the Harvard referencing style click here  https://libguides.nwu.ac.za/harvard-referencing/text-references If you use the APA referencing style click here  https://libguides.nwu.ac.za/apa-referencing/citing-sources-text
 topic: Citations / Referencing / Plagiarism
 views:4
 
-#192
+#192✅
 intent: References of electronic newspaper article
 utter: If you are using the Harvard referencing style use this link  https://libguides.nwu.ac.za/harvard-referencing/newspaper-articles If you are using the APA referencing style use this link  https://libguides.nwu.ac.za/apa-referencing/newspaper-articles  
 topic: Citations / Referencing / Plagiarism
 views:5
 
-#193
+#193✅
 intent: Exporting reference from Endnote to word
 utter: The videos on our EndNote guide should help you  https://libguides.nwu.ac.za/citation-tools . You are also welcome to contact one of our staff members on this LibGuide for help, their training sessions are also listed on the guide.
 topic: Citations / Referencing / Plagiarism; Research (e.g. EndNote, ORCiD, ETDs)
 views:7
 
-#194
+#194✅
 intent: How do I make bibliography from EndNote?
 utter: The videos on our EndNote guide  should help you. You are also welcome to contact one of our staff members on this LibGuide for help, their training sessions are also listed on the guide.
 topic: Citations / Referencing / Plagiarism; Research (e.g. EndNote, ORCiD, ETDs)
@@ -1174,13 +1174,13 @@ utter: Please contact the Department of Human Movement Sciences at  http://heal
 topic: About the NWU
 views:23
 
-#197
+#197✅
 intent: Which referencing style does the faculty of law use?
 utter: They have their own style which you will find here  https://libguides.nwu.ac.za/law-referencing/home
 topic: Citations / Referencing / Plagiarism
 views:5
 
-#198
+#198✅
 intent: Examples of referencing for a chapter in a collected work
 utter: For the Harvard style follow this link  https://libguides.nwu.ac.za/harvard-referencing/chapter-collected-work For the APA style follow this link  https://libguides.nwu.ac.za/apa-referencing/chapter-collected-work
 topic: Citations / Referencing / Plagiarism
@@ -1192,7 +1192,7 @@ utter: Wikipedia is not a credible source as it can be updated by any person. Fo
 topic: Finding information (e.g. Books, eBooks, Articles)
 views:7
 
-#200
+#200✅
 intent: How do I access databases?
 utter: You can access databases from our A-Z Database list at  https://libguides.nwu.ac.za/az.php For more information about our passwords click here .
 topic: Databases (e.g. Catalogue, Exam papers); Access / Hours
@@ -1240,7 +1240,7 @@ utter: You can book training from our training page. Just click on the blue titl
 topic: Research (e.g. EndNote, ORCiD, ETDs)
 views:7
 
-#208
+#208✅
 intent: How can I check my assignment for plagiarism?
 utter: Turnitin is web-based text-matching software that works by comparing electronically submitted papers to billions of pages of content located on the Internet and proprietary databases as well as the work of other students’ papers submitted to the Turnitin repository. The North-West University has an institutional license for Turnitin, which is embedded into the Assignments tool of eFundi.  The Turnitin software on eFundi checks a student's work against the database when the student submits their assignment. The following videos and documents will help in the process: Steps on how to submit your assignment . How do I access my Turnitin report:   Video ,  Infographic How to interpret the report . More about Turnitin at  http://services.nwu.ac.za/centre-teaching-and-learning-ctl/turnitin
 topic: Citations / Referencing / Plagiarism; eFundi / Turnitin / CTL
@@ -1318,9 +1318,9 @@ utter: You will find information regarding IT Services on the link below: 
 topic: Tech Support (e.g. Software)
 views:3
 
-#221
+#221 ✅
 intent: What is the contact details of Nashua?
-utter: Nashua's contact details and fees are available on this page  https://library.nwu.ac.za/photocopying-printing-and-scanning .
+utter: Nashua's contact details and fees are available on this page  https://library.nwu.ac.za/photocopying-printing-and-scanning.
 topic: About the Library (e.g. Services); Photocopying, Printing &amp; Scanning; Contact details / Staff
 views:25
 
@@ -1480,7 +1480,7 @@ utter: You will find the contact details of our library staff on this page:  ht
 topic: About the Library (e.g. Services); Contact details / Staff
 views:6
 
-#248
+#248✅
 intent: What is EndNote?
 utter: EndNote is used by millions of researchers, scholarly writers, students, and librarians to search online bibliographic databases, organise references and related files, and create bibliographies instantly.  The software has to be installed on your computer properly in order to work correctly with word processing programs, and this varies depending on your operating system, word processor, and platform. It has frequent upgrades that offer significant new features. Contact our Research librarians for training regarding the use of EndNote.
 topic: Citations / Referencing / Plagiarism; Research (e.g. EndNote, ORCiD, ETDs)
@@ -1540,7 +1540,7 @@ utter: NWU students and staff use their CAS username and password to access our 
 topic: Loan Services (e.g. Renew Books); Databases (e.g. Catalogue, Exam papers); Access / Hours
 views:74
 
-#258
+#258✅
 intent: What is plagiarism?
 utter: Plagiarism is the act of using others' words and ideas without proper attributions. For more information go to  https://libguides.nwu.ac.za/undergraduate-student-support/plagiarism . Still uncertain about copyright? Contact your  Faculty Librarian .
 topic: Citations / Referencing / Plagiarism; Faculty Librarians / LibGuides
@@ -1588,7 +1588,7 @@ utter: Dictionaries are reference works and can not be borrowed. You will noti
 topic: Loan Services (e.g. Renew Books); eReference Works (e.g. Dictionaries)
 views:42
 
-#266
+#266✅
 intent: I have downloaded the 20 version of Endnote as NWU student, but it is only a trial version.
 utter: You have to download the files from the Library eFundi site and not directly from the EndNote web page. If you did use our files on EndNote you must extract (highlight) both files. Our license key is built into the download files.      You will find the steps on this page  https://libguides.nwu.ac.za/citation-tools .
 topic: Citations / Referencing / Plagiarism; Research (e.g. EndNote, ORCiD, ETDs); eFundi / Turnitin / CTL
@@ -1612,7 +1612,7 @@ utter: Click here for a complete list of our user categories .
 topic: About the Library (e.g. Services); Loan Services (e.g. Renew Books); Access / Hours
 views:22
 
-#270
+#270✅
 intent: How do I indicate the volume and issue of a journal in the Harvard Law style?
 utter: The NWU Harvard Referencing style and the NWU Law House style are two separate styles. The NWU Harvard Referencing style uses the volume and issue of a journal but the NWU Law House style does not as can be seen in the example on this page: https://libguides.nwu.ac.za/law-referencing/journal-articles .  
 topic: Citations / Referencing / Plagiarism
@@ -1624,7 +1624,7 @@ utter: You will find a list of Faculty Librarian by subject on this page  https
 topic: Faculty Librarians / LibGuides
 views:20
 
-#272
+#272✅
 intent: Price range on printing 200 page thesis?
 utter: Nashua operates the printers, photocopying, and scanning services at the NWU Libraries.  
 topic: About the Library (e.g. Services); Photocopying, Printing &amp; Scanning
@@ -1642,7 +1642,7 @@ utter: Go to the Advanced Search in the Library Catalogue. Type your subject and
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
 views:14
 
-#275
+#275✅
 intent: How do I reference reviews?
 utter: It will depend on the Reference style that you use e.g. Harvard, APA or Law Referencing style.  If the book review is published in a journal you will use the same method that you use when you reference a journal article.
 topic: Citations / Referencing / Plagiarism
@@ -1660,7 +1660,7 @@ utter: D-Media no longer exists. Their functions were taken over by the Centre f
 topic: About the NWU
 views:5
 
-#278
+#278✅
 intent: Where can I find the Library databases?
 utter: All our databases are listed in an A-Z database list at https://libguides.nwu.ac.za/az.php .
 topic: Databases (e.g. Catalogue, Exam papers)
@@ -1684,7 +1684,7 @@ utter: You will find our LibGuides at this link  https://libguides.nwu.ac.za/ .
 topic: Faculty Librarians / LibGuides
 views:8
 
-#282
+#282✅
 intent: How do I reference a journal aticle?
 utter: It depends on which referencing style you use. You will find the NWU Harvard Referencing style for journal articles on this page  https://libguides.nwu.ac.za/harvard-referencing/journal-articles .
 topic: Citations / Referencing / Plagiarism
@@ -1720,13 +1720,13 @@ utter: You will find a Mafikeng Campus map on this page  http://www.nwu.ac.za/c
 topic: About the NWU
 views:139
 
-#288
+#288✅
 intent: What is the difference between Harvard referencing and APA referencing?
 utter: APA referencing is a variant of the Harvard style. For more info regarding the differences in referencing styles read  this article .
 topic: Citations / Referencing / Plagiarism
 views:1742
 
-#289
+#289✅
 intent: How to reference more than two authors?
 utter: It depends on which referencing style you use. You will find the NWU Harvard Referencing style for more than one author on this page  https://libguides.nwu.ac.za/harvard-referencing/text-references  (click on the Authors tab).  
 topic: Citations / Referencing / Plagiarism
@@ -1744,7 +1744,7 @@ utter: Contact the Loan services helpdesk  on your campus to arrange for an int
 topic: Loan Services (e.g. Renew Books)
 views:12
 
-#292
+#292✅
 intent: How can I reference a picture?
 utter: You will find an example of the NWU Harvard Referencing style for photographs, images and video recordings for social media on this page:  https://libguides.nwu.ac.za/harvard-referencing/internet-sources . (Point 4 under the Social media tab).   Always make sure these four elements are present in your reference list entry: Author , Date , Title , Source where the image was found. In the text reference, mention the author and date, eg: Text:  Bla bla bla (Nucleus Medical Media, 2020).  Reference list:  Nucleus Medical Media. 2020. Anterior (front) view of the eye . https://ebsco-smartimagebase-com.nwulib.nwu.ac.za/anterior-front-view-of-the-eye/view-item?ItemID=4479 Date of access: 21 Oct. 2020.  
 topic: Citations / Referencing / Plagiarism
@@ -1756,7 +1756,7 @@ utter: You can use the Library catalogue to find out if a book is in the library
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
 views:33
 
-#294
+#294✅
 intent: How do I get my transcript as former student?
 utter: Please contact Academic Record Enquiries at  http://services.nwu.ac.za/sala/academic-records-enquiries .
 topic: About the NWU
@@ -1936,13 +1936,13 @@ utter: You can download it from the NWU IT Support page. Link below: 
 topic: Tech Support (e.g. Software)
 views:59
 
-#324
+#324✅
 intent: How do I reference books using the Harvard Style?
 utter: Our NWU Harvard Referencing guide provides training in how to reference a book using the Harvard Referencing Style go to  https://libguides.nwu.ac.za/harvard-referencing/books . You will also find a video on this page explaining the process.
 topic: Citations / Referencing / Plagiarism
 views:44
 
-#325
+#325✅
 intent: Why can't I print the reference guide?
 utter: Printing of the Reference guide is not allowed due to the Copyright Law. You are welcome to use the guide online or to buy a copy from your campus library.  In Potchefstroom it is also available at Van Schaiks.
 topic: Citations / Referencing / Plagiarism
@@ -2002,7 +2002,7 @@ utter: You can use our EDS Search service on the Library home page to search for
 topic: Finding information (e.g. Books, eBooks, Articles)
 views:94
 
-#335
+#335✅
 intent: Where do I find the Referencing guides?
 utter: Our referencing guides are available from the Library home page under Guides and Training>Referella: Referencing Guides> Referencing guides .
 topic: Citations / Referencing / Plagiarism
@@ -2044,7 +2044,7 @@ utter: You will have to log a ticket at the eFundi HELPDESK . 
 topic: eFundi / Turnitin / CTL; Access / Hours
 views:68
 
-#342
+#342✅
 intent: Where can I find Referella?
 utter: Referella refers to the NWU Referencing Guides which can be found on the Library homepage under Guides and Training> Referella: Referencing Guides . 
 topic: Citations / Referencing / Plagiarism
@@ -2152,7 +2152,7 @@ utter: Each Library has a Course Reserves section that will help you to put mate
 topic: Loan Services (e.g. Renew Books)
 views:5
 
-#360
+#360✅
 intent: Where can I find the NWU DALRO Copyright Reporting System
 utter: You will find the NWU DALRO Copyright Reporting System on this page:  https://www.nwudalro.co.za/ .  
 topic: Citations / Referencing / Plagiarism
@@ -2212,7 +2212,7 @@ utter: Information regarding reading ebooks online or offline are available on t
 topic: Finding information (e.g. Books, eBooks, Articles)
 views:52
 
-#370
+#370✅
 intent: Can I print/copy and paste from eBooks?
 utter: Yes, but eBooks are protected by copyright law in the same way as printed publications! As a guide, SA copyright law allows you to print/copy no more than one chapter, or 10% of a work, whichever is the greater. The different eBook suppliers and publishers have different rules about this but once these limits are reached, you will not be able to print/copy any further text from that eBook. Some eBook software is designed to restrict printing to a limited number of pages only, or a limited number of pages per day.  In this case, the eBook software will notify you of how many pages you may print. For more detailed information, please go to the suppliers’ websites.
 topic: Citations / Referencing / Plagiarism
@@ -2326,37 +2326,37 @@ utter: You will find the modules in the University Yearbooks at  http://studies
 topic: About the NWU
 views:13
 
-#389
+#389✅
 intent: Where can I find the Referella videos?
 utter: Please note: These videos are only for the NWU Harvard Referencing style.
 topic: Citations / Referencing / Plagiarism
 views:28
 
-#390
+#390✅
 intent: Where can I find the referencing guides that was used before 2020?
 utter: As from January 2020 updates were made to the existing referencing style guides. Postgraduate students completing their final submissions may still use the previous versions of the style guides. You will find the documents on the library homepage under Guides and Training> Referella: NWU Referencing Guides> 2012 Referencing Guide or you can click on the link below.
 topic: Citations / Referencing / Plagiarism
 views:11
 
-#391
+#391✅
 intent: Where can I find the APA Referencing Style?
 utter: You will find the APA Referencing Style on the  Library home page  under Guides and Training> Referella: NWU Referencing Guides or you can just click on the link below.
 topic: Citations / Referencing / Plagiarism
 views:18
 
-#392
+#392✅
 intent: Where can I find the NWU Law Referencing style?
 utter: You will find the NWU Law Referencing Style on the Library home page under Guides and Training> Referella: Referencing Guides>Referencing guides> NWU Law House style referencing guide .
 topic: Citations / Referencing / Plagiarism
 views:18
 
-#393
+#393✅
 intent: Where do I find the NWU Harvard Referencing Style?
 utter: You will find the NWU Referencing style on the  Library home page  under Guides and Training> Referella: Referencing Guides>Referencing guides> NWU Harvard referencing guide .
 topic: Citations / Referencing / Plagiarism
 views:91
 
-#394
+#394✅
 intent: What is Referella?
 utter: Referella was created to help to make referencing easier. Guides were created for each referencing style and videos were placed on each guide that explains the material. Choose the referencing style that is used by your Faculty: NWU Harvard Referencing Guide NWU Law Referencing Guide APA Referencing Guide
 topic: Citations / Referencing / Plagiarism
@@ -2368,19 +2368,19 @@ utter: Follow the steps in the attached PDF document on where to find your H-ind
 topic: Research (e.g. EndNote, ORCiD, ETDs)
 views:10
 
-#396
+#396✅
 intent: Where can I find the plagiarism declaration form?
 utter: You can find the plagiarism declaration form at the link below:
 topic: Citations / Referencing / Plagiarism
 views:97
 
-#397
+#397✅
 intent: Where do I find previous M's and PhD's to use as guidelines?
 utter: Steps to find M's and PhD's to use as guidelines Go to the Library Catalogue at https://sierra.nwu.ac.za/search Select Advanced Search . Enter your keyword(s). At Library select e-Books . Under Material Type select E-THESIS. From the results list select the relevant M's/PhD's you're interested in, by clicking on Link to Full Text . This will take you to Boloka, the NWU Institutional Repository, where you'll find the full text.
 topic: Finding information (e.g. Books, eBooks, Articles); Research (e.g. EndNote, ORCiD, ETDs)
 views:34
 
-#398
+#398✅
 intent: I need access to the Library tab on eFundi to download EndNote.
 utter: Please email the Library staff under the Ask Us tab on the EndNote LibGuide to give you access to eFundi.  Provide your name, surname and university number with the request.    
 topic: Citations / Referencing / Plagiarism; Research (e.g. EndNote, ORCiD, ETDs); eFundi / Turnitin / CTL
@@ -2476,7 +2476,7 @@ utter: You will find a list of South African language practitioners on the South
 topic: Research (e.g. EndNote, ORCiD, ETDs)
 views:50
 
-#414
+#414✅
 intent: Do you have a Postgraduate LaTeX Word template?
 utter: Yes, Prof Leonard Santana provided us with a LaTeX word template for NWU MSc or Ph.D. students. Link below:
 topic: Citations / Referencing / Plagiarism; Research (e.g. EndNote, ORCiD, ETDs)
@@ -2494,13 +2494,13 @@ utter: EDS stands for  EBSCO Discovery Service . EDS provides an easy search p
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
 views:624
 
-#417
+#417✅
 intent: How long does copyright last?
 utter: For literary, musical and artistic works, except for photographs, the copyright term in South Africa is fifty years from the end of the year of the author's death, or fifty years from publication if it is first published after the author's death.
 topic: Citations / Referencing / Plagiarism
 views:13
 
-#418
+#418✅
 intent: How much of a book can I copy for my own use?
 utter: Up to 10% or one complete chapter of a book, plus any associated endnotes or references. E.g. if a chapter comprises 25% of a book, you can photocopy the entire chapter; but if you want to photocopy extracts from more than one chapter, you can only copy up to 10% of the book.
 topic: Citations / Referencing / Plagiarism
@@ -2524,7 +2524,7 @@ utter: A LibGuide was created by a Faculty Librarian to put together all types 
 topic: Faculty Librarians / LibGuides
 views:99
 
-#422
+#422✅
 intent: What is copyright?
 utter: Copyright is the right whereby certain products of the mind are protected by law.  The Copyright Act  (Act 98 of 1978) states that copyright is breached if a person, who is not the owner of the copyright, in any way copies, performs, distributes or reproduces literary or musical works without the permission of the owner/copyright holder. Still uncertain about copyright? Contact your Faculty Librarian .
 topic: Citations / Referencing / Plagiarism; Faculty Librarians / LibGuides

@@ -13,10 +13,10 @@ nlu:
     - mornin
     - hey there
     - let's go
-    - hey dude
     - goodmorning
     - goodevening
     - good afternoon
+    - howdy 
 - intent: start
   examples: |
     - start
@@ -71,7 +71,7 @@ nlu:
 - intent: language_style_guide
   examples: |
     - where can I find the NWU language style guide?
-    - what is out NWU language style guide?
+    - what is our NWU language style guide?
     - language style guide
     - NWU language style guide?
 - intent: new_student_application
@@ -93,7 +93,7 @@ nlu:
   examples: |
     - where can I get my full academic record
     - academic record
-    - acess academic record
+    - access academic record
     - where is my academic record
 - intent: information_novels
   examples: |
@@ -114,9 +114,7 @@ nlu:
   examples: |
     - is it possible to for someone to return books on my behalf? without my student number
     - can someone return my books for me
-    - return my books
     - can a friend return my books
-    - book returns
 - intent: information_exam_timetable
   examples: |
     - where can I find the exam timetable
@@ -306,7 +304,7 @@ nlu:
     - financial related systems
 - intent: contact_nwu
   examples: |
-    - I would like to the university
+    - I would like to contact the university
     - how can I contact the university
     - how can I contact nwu
     - contact the university
@@ -934,3 +932,1428 @@ nlu:
     - where can I find the chicago referencing style
     - how do I use the chicago referencing style
     - chicago referencing style
+- intent: information_fateful_triangle
+  examples: |
+    - who are the publishers of fateful triangle: The united states, Israel and Palestinians
+    - publishers of the fateful triangle
+- intent: information_renew_book
+  examples: |
+    - I'd like to check when I must return my book.
+    - renew my book
+    - book returns
+    - return books
+- intent: information_handle_book
+  examples: |
+    - where do I to put books away that I have used
+    - where do I leave my books
+    - where to put books after using
+- intent: information_boolean_operators
+  examples: | 
+    - three boolean operators
+    - 3 boolean operators 
+    - boolean operators
+- intent: information_search_engine
+  examples: |
+    - what is the name of the Library One Stop Search engine
+    - what is the Library One Stop Search engine called
+- intent: information_access_database
+  examples: |
+    - how do I get access to the library and databases
+    - gain access to database and library 
+    - access library and database
+    - access library database 
+    - access database
+    - where can I find the library database
+    - Good day, I'd like assistance with the research topic I want to explore and how to get relevant database related to the topic.
+    - research topic assistance
+- intent: information_music_library
+  examples: | 
+    - in which building is the music library
+    - where can I find the music library 
+    - where is the music library 
+    - location of the music library 
+    - music library location
+    - music library building 
+    - building music library
+- intent: information_theological_library
+  examples: | 
+    - in which building is the theological library
+    - where can I find the theological library 
+    - where is the theological library 
+    - location of the theological library 
+    - theological library location
+    - theological library building 
+    - building theological library
+- intent: information_education_library
+  examples: | 
+    - in which building is the education library
+    - where can I find the education library 
+    - where is the education library 
+    - location of the education library 
+    - education library location
+    - education library building 
+    - building education library
+- intent: information_natural_sciences_library
+  examples: | 
+    - in which building is the natural sciences library
+    - where can I find the natural sciences library 
+    - where is the natural sciences library 
+    - location of the natural sciences library 
+    - natural sciences library location
+    - natural sciences library building 
+    - building natural sciences library
+- intent: information_mahikeng_library
+  examples: | 
+    - in which building is the mahikeng campus library
+    - where can I find the mahikeng campus library 
+    - where is the mahikeng campus library 
+    - location of the mahikeng campus library 
+    - mahikeng campus library location
+    - mahikeng campus library building 
+    - building mahikeng campus library
+- intent: information_potchefstroom_library
+  examples: | 
+    - in which building is the potchefstroom campus library
+    - where can I find the potchefstroom campus library 
+    - where is the potchefstroom campus library 
+    - location of the potchefstroom campus library 
+    - potchefstroom campus library location
+    - potchefstroom campus library building 
+    - building potchefstroom campus library
+- intent: information_vaal_library
+  examples: | 
+    - in which building is the vaal campus library
+    - where can I find the vaal campus library 
+    - where is the vaal campus library 
+    - location of the vaal campus library 
+    - vaal campus library location
+    - vaal campus library building 
+    - building vaal campus library
+- intent: information_request_book
+  examples: |
+    - how do I request books from another NWU campus
+    - request books from potchefstroom campus 
+    - request books from mahikeng campus 
+    - request books from vaal campus
+- intent: information_copy_shop
+  examples: |
+    - I need more information about the copy shop
+    - copy shop information
+    - what are the contact details of Nashua
+    - nashua contact details
+    - how much does it cost for binding, scanning and printing
+    - binding, scanning and printing cost
+    - binding, scanning and ptinting prices
+    - Price range on printing 200 page thesis
+    - price range for printing, scanning and binding
+- intent: information_closing_date_admission
+  examples: |
+    - closing date for admission
+    - what are the closing dates for admissions
+- intent: information_opac
+  examples: |
+    - OPAC
+    - what is OPAC
+    - define OPAC
+- intent: information_scopus
+  examples: |
+    - scopus 
+    - what is scopus 
+    - define scopus
+- intent: information_transcript_retrieval
+  examples: |
+    - former student transcript retrieval
+    - former student academic record retrieval
+    - where can I get my transcript
+    - how can I get my transcript
+    - how do I get my transcript as former student
+- intent: information_library_hours
+  examples: |
+    - what time does the library close
+    - library closing time
+    - library operating hours
+    - when does the library close
+- intent: contact_dr_moyo
+  examples: | 
+    - contact information for Dr Moyo
+    - email and phone for Dr Moyo
+    - Dr Moyo contact details
+- intent: information_reaxys
+  examples: | 
+    - what is Reaxys
+    - Reaxys database
+- intent: information_library_lost_and_found
+  examples: | 
+    - does the library have a lost and found
+    - lost and found library
+- intent: information_cant_get_book
+  examples: |
+    - difficulty acquiring books online
+    - cannot acquire books online 
+    - failed to acquire books online
+    - error acquiring books online 
+- intent: contact_admissions
+  examples: |
+    - how do I contact the application and admissions office
+    - contact information appication and admissions office 
+    - contact details information application and admissions office
+    - application and admissions office
+- intent: information_book_appointment
+  examples: |
+    - How do I book an appointment? I need help with the boolean search as I need to do feasibility test.
+    - book an appointment boolean search 
+    - book appointment with librarian 
+    - book lirarian appointment
+
+- intent: information_ashrae
+  examples: |
+    - ASHRAE
+    - what is ashrae
+    - define ashrae
+
+- intent: information_constitution
+  examples: |
+    - south african constitution 
+    - where can I find the constitution
+    - constitution of south africa
+
+- intent: information_cellphone_rules
+  examples: |
+    - Are cellphones allowed in the library
+    - cellphone policy
+    - can I use my cellphone in the library 
+    - library cellphone rules
+
+- intent: information_accessability
+  examples: |
+    - may I please get help on how to find information successfully? I am struggling to find information and my assignments are almost due. Thank you.
+    - how to find information 
+    - find information on assignments
+
+- intent: information_access_distance_student
+  examples: |
+    - how to log into an account as a NWU distance student
+    - logging into account NWU distance student
+    - access account NWU distance student 
+
+- intent: information_submit_assignment
+  examples: |
+    - what does red colour means when submitting assignment
+    - got red colour whilst submitting assignment
+    - submit assignment
+
+- intent: information_access_distance_postgrad
+  examples: |
+    - how do I log on to the library as a postgraduate distance learning student
+    - acess account postgraduate distance learning student
+
+- intent: information_book_group_study_unit
+  examples: |
+    - how to book a group study unit
+    - book group study room
+    - booking group study room
+
+- intent: information_reset_efundi_password
+  examples: |
+    - how do I reset my eFundi password
+    - reset eFundi password
+    - resetting eFundi password
+    - password reset eFundi
+    - passoword resetting EFundi
+
+- intent: information_update_efundi_email
+  examples: |
+    - how do I update my eFundi email address
+    - update eFundi email address
+    - updating eFundi email address
+    - updating email address on efundi
+
+- intent: information_find_module_efundi
+  examples: |
+    - how do I find a module in eFundi
+    - where can I find a module on eFundi
+    - local a module on eFundi 
+    - where are modules on eFundi 
+    - locate modules eFundi
+    - finding my modules on eFundi
+
+- intent: information_how_to_efundi
+  examples: |
+    - how does eFundi work
+    - how to use eFundi 
+    - what is eFundi
+    - how do I access eFundi
+    - accessing eFundi 
+    - eFundi website link
+    - eFundi
+
+- intent: information_deregister
+  examples: |
+    - how do I deregister
+    - how can I deregister 
+    - where can I deregister 
+    - how to deregister
+    - deregistering 
+    - deregister
+
+- intent: information_library_training_session
+  examples: |
+    - I would like to undertake in a library training session
+    - how can I get a library training session
+    - book a library training session
+
+- intent: information_programme_leaders
+  examples: |
+    - who are the programme leaders for foundation phase across the three campuses
+    - information on programme leaders
+    
+- intent: information_publish_article
+  examples: |
+    - how do I go about in publishing my article in an accredited journal
+    - publish article to accredited journal
+    - journal publishing
+    - article publishing
+
+- intent: information_endnote_license
+  examples: |
+    - EndNote license key
+    - license key for EndNote 
+    - how do I get the license key for EndNote 
+    - getting EndNote license key
+
+- intent: information_recommendation_letter
+  examples: |
+    - letter of recommendation
+    - how can I acquire a letter of recommendation
+    - where can I get a letter of recommendation
+    - recommendation letter
+
+- intent: information_access_textbook_list
+  examples: |
+    - where can one access the textbook list
+    - where can I get the textbook list
+    - accessing the textbook list
+    - textbook list access
+
+- intent: information_buy_books
+  examples: |
+    - where do I buy my books
+    - where can I buy books for my modules 
+    - where can I buy books for my courses 
+    - buy books 
+
+- intent: information_endnote_credentials
+  examples: |
+    - EndNote username and password
+    - EndNote credentials 
+    - username and password for EndNote
+
+- intent: information_endnote_credentials
+  examples: |
+    - where can I find sources for law
+    - where are the sources for law
+    - information on sources for law
+
+- intent: information_cid_manual
+  examples: |
+    - where can I find the brand (CID) manual of the university
+    - university's brand cid manual 
+    - nwu brand cid manual 
+    - brand manual
+    - nwu manual
+
+- intent: contact_coffee_shop
+  examples: |
+    - what is the contact information for Books & Beans coffee shop
+    - contact books and beans coffee shop
+
+- intent: contact_astrovilla
+  examples: |
+    - What is the contact information for the Astrovilla
+    - Astrovilla contact information
+    - contact details of Astrovilla
+
+
+- intent: information_prescribed_textbooks
+  examples: |
+    - where can I find prescribed textbooks
+    - access prescibed textbooks
+
+- intent: information_maximum_books
+  examples: |
+    - what's the maximum number of books I can borrow from the library
+    - how many books can I borrow from the library 
+    - what is the limit on the maximum numnber of books I can borrow 
+    - borrow limit from the library
+
+- intent: information_nsfas_accomodation
+  examples: |
+    - Is it possible to find NSFAS accredited accommodation around potchefstroom
+    - accomodation with NSFAS accreditation in potchefstroom
+    - NSFAS accredited housing in potchefstroom 
+
+- intent: information_diy_password
+  examples: |
+    - where do I find my DIY password
+    - where can I find the password to my DIY 
+
+- intent: information_career_centre
+  examples: |
+    - can't find the career center tab on efundi.
+    - career center efundi 
+    - where can I find the career center on efundi
+
+- intent: information_access_articles
+  examples: |
+    - who can I ask to get access to certain articles the university does not have access to?
+    - accessing articles the university does not have
+
+- intent:  contact_christine
+  examples: |
+    - Christine Bronkhorst email address
+    - contact information Christine Bronkhorst
+    - Christine Bronkhorst
+
+- intent:  information_registration_fee
+  examples: |
+    - How much is the registration fee?
+    - registration fee for this year
+    - what is my registraation fee
+    - details about registration fee
+
+- intent:  information_academic_results
+  examples: |
+    - results of 2021
+    - results of 2022
+    - results for this year
+    - results for last year
+    - last years' results
+
+- intent:  information_social_work_study_duration
+  examples: |
+    - How many years to study social work
+    - duration of the social work degree
+    - how long does it take to finish the social work degree
+    - years required to completes social work degree
+
+- intent:  information_late_application
+  examples: |
+    - late application is still open
+    - when does the late application close
+    - is late application still available
+
+- intent:  
+  examples: |
+#86
+#- intent: Clarification of application statuses
+
+- intent:  
+  examples: |
+
+#87
+#- intent: How to sync your EndNote online account
+
+#88
+#- intent: What is my ebsco password?
+
+#89
+#- intent: How do I register on eFundi as a new student?
+
+#90
+#- intent: How to I refer to working papers in a reference list?
+
+#91
+#- intent: How do I refer to webcast sessions in my text and in the source list?
+
+#92
+#- intent: Who works in the Library?
+
+#93
+#- intent: How do I search for cases?
+
+#94
+#- intent: Can first year students make use of Interlibrary Loans?
+
+#95
+#- intent: How to I reference an intext reference?
+
+#96
+#- intent: What is CAS authentication?
+
+#97
+#- intent: Where can I find an act?
+
+#98
+#- intent: How do I arrance text references to more than one source?
+
+#99
+#- intent: How do I reference secondary sources in a text reference?
+
+#100
+#- intent: When do I use indirect quotations / paraphrasing in a text reference?
+
+#101
+#- intent: When do I use direct quotations in a text reference?
+
+#102
+#- intent: How do I reference authors in text reference?
+
+#103
+#- intent: What is a text reference?
+
+#104
+#- intent: How do I set up a reference list?
+
+#105
+#- intent: How do I reference an unpublished work?
+
+#106
+#- intent: How do I reference a DVD?
+
+#107
+#- intent: How do I reference a CD?
+
+#108
+#- intent: How do I reference datasets?
+
+#109
+#- intent: How do I reference musical scores?
+
+#110
+#- intent: How do I reference standards?
+
+#111
+#- intent: How do I reference patents?
+
+#112
+#- intent: How do I reference personal correspondence like interviews, letters and email?
+
+#113
+#- intent: How do I reference classical works?
+
+#114
+#- intent: How do I reference the Quran?
+
+#115
+#- intent: How do I reference Bible commentaries?
+
+#116
+#- intent: How do I reference the Bible?
+
+#117
+#- intent: How do I reference a Provincial gazette?
+
+#118
+#- intent: How do I reference the Government gazette?
+
+#119
+#- intent: How do I reference international acts?
+
+#120
+#- intent: How do I reference the Constitution of South Africa?
+
+#121
+#- intent: How do I reference South African acts?
+
+#122
+#- intent: How do I reference online newspaper articles?
+
+#123
+#- intent: How do I reference newspaper articles in printed format?
+
+#124
+#- intent: How do I reference study guides?
+
+#125
+#- intent: How do I reference conference papers published online?
+
+#126
+#- intent: How do I reference conference proceedings published in a collection?
+
+#127
+#- intent: How do I reference a lecture's notes on eFundi?
+
+#128
+#- intent: How do I reference a Podcast?
+
+#129
+#- intent: How do I reference a YouTube video?
+
+#130
+#- intent: How do I reference a video?
+
+#131
+#- intent: How do I reference a PowerPoint presentation?
+
+#132
+#- intent: How do I reference Instagram?
+
+#133
+#- intent: How do I reference a tweet on Twitter?
+
+#134
+#- intent: How do I reference a post on Facebook?
+
+#135
+#- intent: How do I reference a blog?
+
+#136
+#- intent: How do I reference electronic newsletters?
+
+#137
+#- intent: How do I reference articles from the web?
+
+#138
+#- intent: How do I reference journal articles?
+
+#139
+#- intent: How do I reference theses and dissertations?
+
+#140
+#- intent: How do I reference a dictionary?
+
+#141
+#- intent: How do I reference an encyclopedia?
+
+#142
+#- intent: How do I reference an ebook?
+
+#143
+#- intent: How do I reference a chapter in a collected work?
+
+#144
+#- intent: How do I reference a book?
+
+#145
+#- intent: Where do I see my university account?
+
+#146
+#- intent: Can I return books on Sunday?
+
+#147
+#- intent: How can I change my campus?
+
+#148
+#- intent: How to calculate APS score?
+
+#149
+#- intent: Can the library's encyclopedia be borrowed?
+
+#150
+#- intent: I want to donate books to the Library.
+
+#151
+#- intent: How many books per person?
+
+#152
+#- intent: IT helpdesk
+
+#153
+#- intent: How to make table of contents?
+
+#154
+#- intent: How can I link my ORCiD to the NWU website ?
+
+#155
+#- intent: Catalogue for books available at Vaal Triangle?
+
+#156
+#- intent: Which option on the Library Catalogue will you select to see if the library subscribes to a specific journal?
+
+#157
+#- intent: What will you choose to find only eBook results in the Catalogue?
+
+#158
+#- intent: How do I reference an Act.
+
+#159
+#- intent: Libraries and spaces
+
+#160
+#- intent: I am PhD graduate student at NWU and would like to use library resources for research purposes. How do I go about?
+
+#161
+#- intent: How do I search for a book?
+
+#162
+#- intent: Britannica
+
+#163
+#- intent: How do you upload a document to dropbox?
+
+#164
+#- intent: Senior administration
+
+#165
+#- intent: What is the research commons?
+
+#166
+#- intent: Do the library open on public holidays?
+
+#167
+#- intent: How to structure an assignment?
+
+#168
+#- intent: How do I plan my search strategy?
+
+#169
+#- intent: How do I cancel a booking for discussion room?
+
+#170
+#- intent: Where can I find SA Media?
+
+#171
+#- intent: What link would you use to check if a book is reserved?
+
+#172
+#- intent: What is the location in the Catalogue for books available at Vaal Triangle Campus?
+
+#173
+#- intent: How can I find the author of the study guide we were supplied?
+
+#174
+#- intent: How do I unblock my student card in order to enter campus?
+
+#175
+#- intent: What is paraphrasing?
+
+#176
+#- intent: Where can I find Prezi?
+
+#177
+#- intent: How do I open newspaper articles?
+
+#178
+#- intent: How do I connect to NWU WIFI on my laptop?
+
+#179
+#- intent: How do I reference an interview?
+
+#180
+#- intent: How do I return an eBook?
+
+#181
+#- intent: I need more information about the Copy shop.
+
+#182
+#- intent: How do I reference Government news publications and reports?
+
+#183
+#- intent: Where do I find Law cases?
+
+#184
+#- intent: How long can I keep a book?
+
+#185
+#- intent: I do not have the library tab when I log into my efundi and therefore cannot access EndNote
+
+#186
+#- intent: How do I book for online training to use the new PhD document for my final thesis?
+
+#187
+#- intent: I need more information regarding cybersecurity on the campus.
+
+#188
+#- intent: Is there library open on Saturday?
+
+#189
+#- intent: How do I borrow a book?
+
+#190
+#- intent: Where can I find Norton?
+
+#191
+#- intent: How to reference anonymous authors?
+
+#192
+#- intent: References of electronic newspaper article
+
+#193
+#- intent: Exporting reference from Endnote to word
+
+#194
+#- intent: How do I make bibliography from EndNote?
+
+#195
+#- intent: Why learn Theology at a public university?
+
+#196
+#- intent: What the admission requirements of diploma in coaching science?
+
+#197
+#- intent: Which referencing style does the faculty of law use?
+
+#198
+#- intent: Examples of referencing for a chapter in a collected work
+
+#199
+#- intent: Why can't we use Wikipedia as source?
+
+#200
+#- intent: How do I access databases?
+
+#201
+#- intent: Book a seminar room
+
+#202
+#- intent: How many librarians does the Mahikeng campus have?
+
+#203
+#- intent: Eating in the library
+
+#204
+#- intent: I can't access the library what might be the problem?
+
+#205
+#- intent: Can I do BCOM Accounting if am doing Accounting with maths literacy?
+
+#206
+#- intent: I do not now what to study.
+
+#207
+#- intent: How do I book for online training to use the new PhD document for my final thesis?
+
+#208
+#- intent: How can I check my assignment for plagiarism?
+
+#209
+#- intent: How does NWU Library work?
+
+#210
+#- intent: How can I register in order to access the question papers?
+
+#211
+#- intent: CTL (Centre for Teaching and Learning)
+
+#212
+#- intent: How can I upload my documents / assignments on eFundi ?
+
+#213
+#- intent: How do I obtain Proof of Registration?
+
+#214
+#- intent: Were do I find the NWU template?
+
+#215
+#- intent: Is the library open for 24 hours?
+
+#216
+#- intent: Grammarly access code
+
+#217
+#- intent: Test & quizzes for ALDE/ALDA
+
+#218
+#- intent: How do I login to Juta?
+
+#219
+#- intent: I have an organisation as author, but EndNote displays it all wrong in my Word document
+
+#220
+#- intent: IT services
+
+#221
+#- intent: What is the contact details of Nashua?
+
+#222
+#- intent: WGSN
+
+#223
+#- intent: Where can I find education research resources or themes?
+
+#224
+#- intent: Where can I find my university number?
+
+#225
+#- intent: Graduations
+
+#226
+#- intent: How do I import an output style, like the NWU Harvard style in EndNote?
+
+#227
+#- intent: How can I access old authorities?
+
+#228
+#- intent: How can i get a registration form for ACT
+
+#229
+#- intent: I need more information on Groupwise.
+
+#230
+#- intent: Where do I get Engineering final year projects.
+
+#231
+#- intent: How can I return my due books if library is closed
+
+#232
+#- intent: How do I get my results of 2018 online?
+
+#233
+#- intent: How do I write a CV?
+
+#234
+#- intent: How I can get a cover page for my dissertation?
+
+#235
+#- intent: What are the fees for lost books?
+
+#236
+#- intent: I want to see if I qualify for NSFAS in 2021.
+
+#237
+#- intent: May I have Potchefstroom library contact details?
+
+#238
+#- intent: AGLE curriculum
+
+#239
+#- intent: I need registration forms for Bed degree 2021
+
+#240
+#- intent: How to access graduation information?
+
+#241
+#- intent: I need the telephone number of a lecturer/staff member.
+
+#242
+#- intent: When does the 2021 calander start?
+
+#243
+#- intent: When is registration for 2021?
+
+#244
+#- intent: Where to find multingual languages dictionary?
+
+#245
+#- intent: Where can I get sources?
+
+#246
+#- intent: How to calculate module credit?
+
+#247
+#- intent: Library Staff
+
+#248
+#- intent: What is EndNote?
+
+#249
+#- intent: How to apply?
+
+#250
+#- intent: I have a book that is due today, but I am having trouble accessing the DIY service so that i can get the green token.
+
+#251
+#- intent: Are books published internationally only available from the union catalogue?
+
+#252
+#- intent: Best search engine 2020?
+
+#253
+#- intent: Cal # arrange by who?
+
+#254
+#- intent: How do I search for books allocated to a specific course?
+
+#255
+#- intent: Accommodation
+
+#256
+#- intent: Where in the library can I work or study as a researcher or postgraduate student?
+
+#257
+#- intent: What password do I use to have access to the library?
+
+#258
+#- intent: What is plagiarism?
+
+#259
+#- intent: How much do I have to pay on my book if it is late for a month?
+
+#260
+#- intent: Fines for a book that is late
+
+#261
+#- intent: How do I use EndNote 20?
+
+#262
+#- intent: Can I get the contact details for Malose Langa?
+
+#263
+#- intent: Can I get the contact details for Martie Esterhuizen?
+
+#264
+#- intent: Can I get the contact details for Glenda Makate?
+
+#265
+#- intent: Can dictionaries be borrowed?
+
+#266
+#- intent: I have downloaded the 20 version of Endnote as NWU student, but it is only a trial version.
+
+#267
+#- intent: I am looking for The international encyclopedia of communication (2008) by Wiley Online. Is there some way to access it through the library?
+
+#268
+#- intent: Can reference works be borrowed from the collection?
+
+#269
+#- intent: What are your membership categories?
+
+#270
+#- intent: How do I indicate the volume and issue of a journal in the Harvard Law style?
+
+#271
+#- intent: Who is my Faculty Librarian?
+
+#272
+#- intent: Price range on printing 200 page thesis?
+
+#273
+#- intent: What is the password for LexisNexis?
+
+#274
+#- intent: How to get books for Setswana?
+
+#275
+#- intent: How do I reference reviews?
+
+#276
+#- intent: How do I check my printing credits?
+
+#277
+#- intent: I need the contact details of D-Media
+
+#278
+#- intent: Where can I find the Library databases?
+
+#279
+#- intent: Postgraduate application
+
+#280
+#- intent: Can encyclopedias be borrowed?
+
+#281
+#- intent: How to find libguides?
+
+#282
+#- intent: How do I reference a journal aticle?
+
+#283
+#- intent: Which option on the Library Catalogue will you select to see if the library subscribes to a specific journal?
+
+#284
+#- intent: How do I find only e-book results?
+
+#285
+#- intent: What books can you get with curbside pickup?
+
+#286
+#- intent: Where can I find North-West university thesis?
+
+#287
+#- intent: Where can I find a Mafikeng campus map?
+
+#288
+#- intent: What is the difference between Harvard referencing and APA referencing?
+
+#289
+#- intent: How to reference more than two authors?
+
+#290
+#- intent: How do I view my student card funds?
+
+#291
+#- intent: Who do I contact for an intercampus loan?
+
+#292
+#- intent: How can I reference a picture?
+
+#293
+#- intent: How do I know if a book is in the Library?
+
+#294
+#- intent: How do I get my transcript as former student?
+
+#295
+#- intent: How do I book an appointment on the writing lab?
+
+#296
+#- intent: Where can I find the Manual for Higher Degrees Studies?
+
+#297
+#- intent: Where can I find Pharmacopoeia?
+
+#298
+#- intent: Where can I find journals?
+
+#299
+#- intent: What is the difference between Boloka and DaYta Ya Rona(figshare)?
+
+#300
+#- intent: Where can I find the Student 360-Service for Distance Learners?
+
+#301
+#- intent: Where can I find author's guidelines for a journal?
+
+#302
+#- intent: Where can I find the Oxford dictionary?
+
+#303
+#- intent: Where can I reset my student password?
+
+#304
+#- intent: Hello I need help getting a new student number because my previous application was not completed.
+
+#305
+#- intent: Were can I find lecture recordings for Distance Learning?
+
+#306
+#- intent: Where can I find Distance Learning tutorials for Education?
+
+#307
+#- intent: Can I use EndNote on different computers?
+
+#308
+#- intent: What's a call number/shelf number?
+
+#309
+#- intent: May I kindly get the Juta login details?
+
+#310
+#- intent: What can I study at the NWU?
+
+#311
+#- intent: Where can I apply for jobs at the NWU?
+
+#312
+#- intent: How do I check availability of textbook?
+
+#313
+#- intent: Where can I find past Assignments for the Grade R Diploma?
+
+#314
+#- intent: Where can I find the DIY services?
+
+#315
+#- intent: What is the ethical requirements for postgraduate studies?
+
+#316
+#- intent: What is reader?
+
+#317
+#- intent: How do I see my reading history?
+
+#318
+#- intent: Where do I find books that are held?
+
+#319
+#- intent: Whre can I find OPTENTIA?
+
+#320
+#- intent: Where can I find Snapplify
+
+#321
+#- intent: Where can I find Pharos?
+
+#322
+#- intent: How do I download a book from the library?
+
+#323
+#- intent: Where can I download Microsoft Office?
+
+#324
+#- intent: How do I reference books using the Harvard Style?
+
+#325
+#- intent: Why can't I print the reference guide?
+
+#326
+#- intent: Were can I find ATLAS.ti?
+
+#327
+#- intent: I get the following error message: To allow /login?url=http://ukzn.ac.za/joe/joe_issues.htm to work, your EZproxy administrator must first authorize this within the exproxy.cfg file.
+
+#328
+#- intent: I get an error message when I try to open an article or database.
+
+#329
+#- intent: How do I change my contact details?
+
+#330
+#- intent: Where can I find the Woordeboek van die Afrikaanse Taal?
+
+#331
+#- intent: How do I do an Interlibrary Loans?
+
+#332
+#- intent: Where can I find the Library Code of Conduct?
+
+#333
+#- intent: How does H-index work?
+
+#334
+#- intent: How do I search for journals?
+
+#335
+#- intent: Where do I find the Referencing guides?
+
+#336
+#- intent: How to submit an assignment via eFundi?
+
+#337
+#- intent: Where can I find JSTOR?
+
+#338
+#- intent: Hey I'd like help to download articles.
+
+#339
+#- intent: How do l access a book online in the Library?
+
+#340
+#- intent: Hello I need help getting a new student number because my previous application was not completed
+
+#341
+#- intent: How can I get my eFundi login information?
+
+#342
+#- intent: Where can I find Referella?
+
+#343
+#- intent: Good evening, I'm having problems accessing ebooks. What do I do?
+
+#344
+#- intent: I'm struggling to find sources. What can l do?
+
+#345
+#- intent: How do I download study guides for my modules?
+
+#346
+#- intent: How to access Science Direct online?
+
+#347
+#- intent: Where can I find online access to scientific sources?
+
+#348
+#- intent: Where can I find accredited journals?
+
+#349
+#- intent: Where can I find the Library hours?
+
+#350
+#- intent: What are the admission requirements?
+
+#351
+#- intent: How long does applications take?
+
+#352
+#- intent: How to use Turnitin?
+
+#353
+#- intent: Where can I find free software like the Spellchecker or Office?
+
+#354
+#- intent: Where do I update my banking details?
+
+#355
+#- intent: Where can I find eFundi?
+
+#356
+#- intent: What are the Universities fees?
+
+#357
+#- intent: Where do I find more info regarding the Advanced Certificate in Teaching?
+
+#358
+#- intent: Where can I find the Prospectus?
+
+#359
+#- intent: Who do I contact to place material on Course Reserves at the Library?
+
+#360
+#- intent: Where can I find the NWU DALRO Copyright Reporting System
+
+#361
+#- intent: Where can I find my academic record?
+
+#362
+#- intent: Where can I find online dictionaries and encyclopedias?
+
+#363
+#- intent: Where can I find they University Yearbooks?
+
+#364
+#- intent: Where can I find directions to the Libraries?
+
+#365
+#- intent: Where do I find memorandum for past papers?
+
+#366
+#- intent: Do you post books/articles to students?
+
+#367
+#- intent: Were can I find the Library's eBooks?
+
+#368
+#- intent: What are eBooks?
+
+#369
+#- intent: I need help to access an eBook.
+
+#370
+#- intent: Can I print/copy and paste from eBooks?
+
+#371
+#- intent: How do I read eBooks offline?
+
+#372
+#- intent: How do I read eBooks online?
+
+#373
+#- intent: Where can I see my exam results?
+
+#374
+#- intent: How can I access my personal exam timetable?
+
+#375
+#- intent: Where do I find my class timetable?
+
+#376
+#- intent: How do I link my Google account to the NWU to see the "Full Text @NWU" links?
+
+#377
+#- intent: I am using the Library link to Google Scholar and cannot see if the full text are in the Library.
+
+#378
+#- intent: Why must I access Google Scholar through the Library web page?
+
+#379
+#- intent: How can I access Google Scholar through the Library?
+
+#380
+#- intent: Where can I find the Distance Learning programmes/courses?
+
+#381
+#- intent: I am a distance student, where do I find my exam scope/notes?
+
+#382
+#- intent: Did you receive my assignment?
+
+#383
+#- intent: I am a distance learning student, where do I hand in my assignments?
+
+#384
+#- intent: How do I register for a ORCiD?
+
+#385
+#- intent: How do I search for my ORCiD number?
+
+#386
+#- intent: I'm trying to use the "DIY service" but it says "Error" since yesterday.How can it be fixed?
+
+#387
+#- intent: I need books for my modules.
+
+#388
+#- intent: Which modules are under computer science and chemistry?
+
+#389
+#- intent: Where can I find the Referella videos?
+
+#390
+#- intent: Where can I find the referencing guides that was used before 2020?
+
+#391
+#- intent: Where can I find the APA Referencing Style?
+
+#392
+#- intent: Where can I find the NWU Law Referencing style?
+
+#393
+#- intent: Where do I find the NWU Harvard Referencing Style?
+
+#394
+#- intent: What is Referella?
+
+#395
+#- intent: Where do I find my H-index?
+
+#396
+#- intent: Where can I find the plagiarism declaration form?
+
+#397
+#- intent: Where do I find previous M's and PhD's to use as guidelines?
+
+#398
+#- intent: I need access to the Library tab on eFundi to download EndNote.
+
+#399
+#- intent: Name of and contact details of NWU Potchefstroom Turnitin administrator?
+
+#400
+#- intent: Where do I get the contact details for the Writing Centre?
+
+#401
+#- intent: How do I download EndNote for my research reference?
+
+#402
+#- intent: Where can I find previous exam papers?
+
+#403
+#- intent: How do I upload my assignment to eFundi?
+
+#404
+#- intent: My Endnote inserts the incorrect reference, despite choosing and selecting the correct reference. How do I fix this?
+
+#405
+#- intent: How do I pay for my binding work?
+
+#406
+#- intent: Does the library bind books for people who are not students?
+
+#407
+#- intent: What types of leather is used for binding theses and dissertations?
+
+#408
+#- intent: Where can I find the Bindery contact details?
+
+#409
+#- intent: Where can I find the guidelines for submission of final copies for binding?
+
+#410
+#- intent: Where do I find the application form for binding my thesis?
+
+#411
+#- intent: How do I create an account for EBSCOhost?
+
+#412
+#- intent: Where can I find the final year engineering reports?
+
+#413
+#- intent: Where to find language practitioners in South Africa?
+
+#414
+#- intent: Do you have a Postgraduate LaTeX Word template?
+
+#415
+#- intent: What is LibAnswers?
+
+#416
+#- intent: What is EDS, and how does it differ from the Library Catalogue?
+
+#417
+#- intent: How long does copyright last?
+
+#418
+#- intent: How much of a book can I copy for my own use?
+
+#419
+#- intent: How do I get a Library PIN?
+
+#420
+#- intent: How do I renew my books online?
+
+#421
+#- intent: What is a Libguide?
+
+#422
+#- intent: What is copyright?
