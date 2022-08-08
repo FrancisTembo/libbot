@@ -2,3 +2,4 @@
 /.rasa/cache
 /.rasa/cache/cache.db
 /models
+obscure.txt
