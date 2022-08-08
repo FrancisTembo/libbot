@@ -1236,31 +1236,67 @@ stories:
   - intent: information_download_endnote
   - action: utter_information_download_endnote
 
-# - story:
-#   steps:
-#   - intent: 
-#   - action:
+- story: information library pin
+  steps:
+  - intent: information_library_pin
+  - action: utter_information_library_pin
 
-# - story:
-#   steps:
-#   - intent: 
-#   - action:
+- story: information distance learning programmes
+  steps:
+  - intent: information_distance_learning_programmes
+  - action: utter_information_distance_learning_programmes
 
-# - story:
-#   steps:
-#   - intent: 
-#   - action:
+- story: information download study guide
+  steps:
+  - intent: information_download_study_guide
+  - action: utter_information_download_study_guide
 
-# - story:
-#   steps:
-#   - intent: 
-#   - action:
+- story: information distance learning 360 service
+  steps:
+  - intent: information_distance_learning_360_service
+  - action: utter_information_distance_learning_360_service
 
-# - story:
-#   steps:
-#   - intent: 
-#   - action:
+- story: most asked questions
+  steps:
+  - intent: most_asked_questions
+  - action: utter_most_asked_questions
 
+- story: information bookings and training events
+  steps:
+  - intent: information_bookings_and_training_events
+  - action: utter_information_bookings_and_training_events
+
+- story: information printing credits
+  steps:
+  - intent: information_printing_credits
+  - action: utter_information_printing_credits
+
+
+- story: printing binding scanning services
+  steps:
+  - intent: printing_binding_scanning_services
+  - action: utter_printing_binding_scanning_services
+
+- story: information international books
+  steps:
+  - intent: information_international_books
+  - action: utter_information_international_books
+
+- story: information library password
+  steps:
+  - intent: information_library_password
+  - action: utter_information_library_password
+
+- story: information journal catalogue
+  steps:
+  - intent: information_journal_catalogue
+  - action: utter_information_journal_catalogue
+
+- story: information download book
+  steps:
+  - intent: information_download_book
+  - action: utter_information_download_book
+  
 # - story:
 #   steps:
 #   - intent: 

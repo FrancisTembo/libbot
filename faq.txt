@@ -1648,7 +1648,7 @@ utter: It will depend on the Reference style that you use e.g. Harvard, APA or L
 topic: Citations / Referencing / Plagiarism
 views:4
 
-#276
+#276✅
 intent: How do I check my printing credits?
 utter: You can check your printing credits by swiping your student card at the printer or by logging into the PaperCut program icon on the bottom toolbar of a university lab computer.
 topic: About the Library (e.g. Services); Photocopying, Printing &amp; Scanning
@@ -1690,7 +1690,7 @@ utter: It depends on which referencing style you use. You will find the NWU Harv
 topic: Citations / Referencing / Plagiarism
 views:9
 
-#283
+#283✅
 intent: Which option on the Library Catalogue will you select to see if the library subscribes to a specific journal?
 utter: I would search for the journal in A-Z Publication Finder . If I cannot find the journal there I would double-check in the Library Catalogue .
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
@@ -1792,9 +1792,9 @@ utter: Boloka is the Institutional repository and makes the intellectual output 
 topic: Databases (e.g. Catalogue, Exam papers)
 views:31
 
-#300
+#300✅
 intent: Where can I find the Student 360-Service for Distance Learners?
-utter: The 360-Services are available on the Open Distance Learning web page .  
+utter: The 360-Services are available on the Open Distance Learning web page.  
 topic: Distance Learning
 views:1072
 
@@ -2062,7 +2062,7 @@ utter: Contact your Faculty Librarian  for help. You can also attend one of ou
 topic: Finding information (e.g. Books, eBooks, Articles)
 views:31
 
-#345
+#345✅
 intent: How do I download study guides for my modules?
 utter: The best way is to do so via the student portal (eFundi). Go to eFundi Log in with your CAS password. Click on "Study Guides" in the column on the left. Click on the "Re-launch page in a new window" link. Click on the "Older Guides" link or the "2002 guides" link. Follow the steps provided via eFundi.      
 topic: eFundi / Turnitin / CTL
@@ -2230,7 +2230,7 @@ utter: You can read eBooks online with software that comes standard on most comp
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
 views:45
 
-#373
+#373✅
 intent: Where can I see my exam results?
 utter: You can search for your exam results on this page:  https://vssweb.nwu.ac.za/str-webclient/StudentWebCommand.do?sf=143647&lng=3#/top .
 topic: Databases (e.g. Catalogue, Exam papers)
@@ -2506,7 +2506,7 @@ utter: Up to 10% or one complete chapter of a book, plus any associated endnotes
 topic: Citations / Referencing / Plagiarism
 views:25
 
-#419
+#419✅
 intent: How do I get a Library PIN?
 utter: Please note that a Library PIN is not the same pin that you use to access your student information e.g. exam results. With a Library PIN you can only access your Library record. Steps to create your own Library PIN Go to  https://sierra.nwu.ac.za/patroninfo  and click on Forgot your PIN or a first time PIN user? Click here to create a Library PIN . Type in your Surname and University number . A window will pop-up telling you that a message has been sent to your email address and that you must follow the instructions in this email message. Open your email and click on the email message. Click on the link in the email message. Complete the information and click on Submit . If you are successful you will see a message that tells you that your PIN has been changed. If you do not see this message please contact your local Loan services desk for support.
 topic: Loan Services (e.g. Renew Books); Access / Hours

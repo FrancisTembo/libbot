@@ -249,6 +249,18 @@ intents:
 - information_apply_to_nwu
 - information_green_token
 - information_download_endnote
+- information_library_pin
+- information_distance_learning_programmes
+- information_download_study_guide
+- information_distance_learning_360_service 
+- most_asked_questions
+- information_bookings_and_training_events
+- information_printing_credits
+- printing_binding_scanning_services
+- information_international_books
+- information_library_password
+- information_journal_catalogue
+- information_download_book
 
 responses:
   utter_greet:
@@ -300,7 +312,7 @@ responses:
   utter_start:
   - text: Welcome, please send the message 'Hi' to start the conversation.
   utter_welcome:
-  - text: Hi there I'm LibBot, NWU's library robotic assistant 🤖. I'm always online and ready to help 🤠.
+  - text: Hi there I'm LibBot, NWU's library robotic assistant 🤖. I'm always online and ready to help 🤠
   utter_instruction:
   - text: To get started send me a message 📝 of what you'd like me to find out for you.
   utter_example:
@@ -308,59 +320,57 @@ responses:
   utter_help:
   - text: Alternatively you can send the send the message 'help' to access the help menu.
   utter_options:
-  - text: "Here's the help menu. You can always type 'help' to revisit it again "
+  - text: "Here's the help menu. You can always type 'help' to revisit it again"
     buttons:
-    - title: Library Support
+    - title: Library Support ⚙️
       payload: /library_services
     - title: About the Library 📚
       payload: /contact
-    - title: NWU Services
+    - title: NWU Services 🔧
       payload: /contact
-    - title: About the NWU
+    - title: About the NWU 🏦
       payload: /contact
-    - title: eFundi
+    - title: eFundi ↗️ ↙️
       payload: /contact
-    - title: Contact Information
+    - title: Contact Information ☎️
       payload: /contact
-    - title: Most Asked Questions
-      payload: /contact
+    - title: Most Asked Questions❓
+      payload: /most_asked_questions
     button_type: vertical
-
   utter_most_asked_questions:
   - text: "Here the are the popular FAQ's"
     buttons:
     - title: How do I download EndNote for my research reference?
       payload: /information_download_endnote
     - title: How do I get a Library PIN?
-      payload: /contact
+      payload: /information_library_pin
     - title: What link would you use to check if a book is reserved?
-      payload: /contact
-    - title:  Harvard vs APA referencing styles
-      payload: /contact
+      payload: /information_check_book_status
+    - title:  Harvard referencing vs APA referencing
+      payload: /harvard_vs_apa
     - title: I am a distance student, where do I find my exam scope/notes?
-      payload: /contact
+      payload: /information_distance_learning_programmes
     - title: How do I download study guides for my modules?
-      payload: /contact
-    - title: What is the location in the Catalogue for books available at Vaal Triangle Campus?
-      payload: /contact
+      payload: /information_download_study_guide
+    - title: Catalogue for books available at Vaal Triangle Campus?
+      payload: /information_vaal_catalogue
     - title: How do I get my transcript as former student?
-      payload: /contact
+      payload: /information_academic_results
     - title: Where can I find the Student 360-Service for Distance Learners?
-      payload: /contact
+      payload: /information_distance_learning_360_service 
     - title: Where can I see my exam results?
-      payload: /contact
+      payload: /information_academic_results
     button_type: vertical
-
   utter_global_contact_options:
   - text: Who would you like to contact?
     buttons:
-    - title: Library contacts
+    - title: Library Contacts
       payload: /contact_librarians
-    - title: Contact a faculty
+    - title: Contact a Faculty
       payload: /contact_department
-    - title: Contact an office
+    - title: Contact an Office
       payload: /contact_office
-    - title: General contact information
+    - title: General Contact Information
       payload: /general_contact
     button_type: vertical
   utter_contact_librarians:
@@ -420,23 +430,23 @@ responses:
       payload: /citing_referencing_plagiarism
     - title: Databases
       payload: /contact_study_enquiries
-    - title: Rooms
-      payload: /contact_nwu
+    - title: Bookings and Training Events
+      payload: /information_bookings_and_training_events
     - title: Photocopying, Printing, Binding and Scanning
       payload: /contact_study_enquiries
     button_type: vertical
   utter_citing_referencing_plagiarism:
   - text: Here are the most frequently asked questions on the citing, referencing and plagiarism topics. You can always type in for me to find out exactly what you need.
     buttons:
-    - title: What is the difference between Harvard referencing and APA referencing?
+    - title: Harvard referencing vs APA referencing
       payload: /harvard_vs_apa
-    - title: I need access to the Library tab on eFundi to download EndNote.
+    - title: I need access to the Library tab on eFundi to download EndNote
       payload: /efundi_endnote
     - title: Where can I find the NWU DALRO Copyright Reporting System?
       payload: /dalro
     - title: How do I reference the Constitution of South Africa?
       payload: /reference_constitution
-    - title: I have downloaded the 20 version of Endnote as NWU student, but it is only a trial version.
+    - title: I have downloaded the trial version of EndNote
       payload: /endnote_trial
     - title: Examples of referencing for a chapter in a collected work
       payload: /reference_chapter
@@ -449,6 +459,53 @@ responses:
     - title: Where can I find the plagiarism declaration form?
       payload: /plagiarism_declaration
     button_type: vertical
+
+  utter_printing_binding_scanning_services:
+  - text: "Here's some quick information related to the photocopying, printing, binding and scanning services:"
+    buttons:
+    - title: What is the contact details of Nashua?
+      payload: /information_copy_shop
+    - title: Cost for binding, scanning and printing?
+      payload: /information_copy_shop
+    - title: How do I check my printing credits?
+      payload: /information_printing_credits
+    button_type: vertical
+
+  utter_database:
+  - text: "Here's some quick information related to the Database topic:"
+    buttons:
+    - title: How do I access databases?
+      payload: /information_access_database
+    - title: What will you choose to find only eBook results in the Catalogue?
+      payload: /ebook_catalogue
+    - title: How do I search for a book?
+      payload: /information_book_search
+    - title:  Are books published internationally only available from the union catalogue?
+      payload: /information_international_books
+    - title: What password do I use to have access to the library?
+      payload: /information_library_password
+    - title: Which option on the Library Catalogue will you select to see if the library subscribes to a specific journal?
+      payload: /information_journal_catalogue
+    - title: How do I download a book from the library?
+      payload: /information_download_book
+    # - title: Where do I find memorandum for past papers?
+    #   payload:
+    # - title: Where can I see my exam results?
+    #   payload:
+    # - title: Where can I find previous exam papers?
+    #   payload:
+    # - title: What is EDS, and how does it differ from the Library Catalogue?
+    #   payload:
+    button_type: vertical
+
+  utter_information_download_book:
+  - text: "Our eBooks web page explains how to find and download eBooks."
+  utter_information_journal_catalogue:
+  - text: "I would search for the journal in A-Z Publication Finder. If I cannot find the journal there I would double-check in the Library Catalogue."
+  utter_information_library_password:
+  - text: "NWU students and staff use their CAS username and password to access our databases. This is the same username and password that you use when you log into eFundi. For more information regarding our passwords click here. If you want to access your patron record you will use your surname, university number and a PIN. You can create your own PIN here."
+  utter_information_bookings_and_training_events:
+  - text: "On this page https://nwu.libcal.com/ you may book a room for a group discussion, a computer in one of our computer areas or register for a training event."
   utter_harvard_vs_apa:
   - text: APA referencing is a variant of the Harvard style. For more info regarding the differences in referencing styles read this article.🎈
   utter_efundi_endnote:
@@ -704,7 +761,7 @@ responses:
   - text: "I presume you used eFundi to submit your assignment. It would be best to contact your lecturer for an answer. CTL does have this link on their site on how to Interpret the Report when you receive your assignment back."
 
   utter_information_access_distance_postgrad:
-  - text: "It depends which service you would like to access. If you want to access your patron record go to: https://sierra.nwu.ac.za/patroninfo. Here you can set up your PIN and see which books you have taken out and renew your books. If you want to access databases follow the steps below: Steps: Choose a database from the A - Z Database list . When you click on a database a User Verification Screen will appear. Under the NWU Students and Staff heading click on the link Students and staff, click here to log in with your CAS (eFundi) username and password. Type your CAS (eFundi) username and password . If you do not have a CAS (eFundi) username and password please contact the T&L Technologies HelpDesk at 018 285 5930 (Monday - Friday: 08:00 - 16:45) and ask them to set one up for you."
+  - text: "It depends which service you would like to access. If you want to access your patron record go to: https://sierra.nwu.ac.za/patroninfo. Here you can set up your PIN and see which books you have taken out and renew your books. If you want to access databases follow the steps below: Steps: Choose a database from the A - Z Database list. When you click on a database a User Verification Screen will appear. Under the NWU Students and Staff heading click on the link Students and staff, click here to log in with your CAS (eFundi) username and password. Type your CAS (eFundi) username and password . If you do not have a CAS (eFundi) username and password please contact the T&L Technologies HelpDesk at 018 285 5930 (Monday - Friday: 08:00 - 16:45) and ask them to set one up for you."
 
   utter_information_book_group_study_unit:
   - text: "Group rooms are booked at this link: https://nwu.libcal.com/"
@@ -1078,694 +1135,23 @@ responses:
   utter_information_download_endnote:
   - text: "Windows users Go to eFundi, our student portal, and log in. Click on the Library tab in the toolbar at the top of the screen or find the Library page in your eFundi sites. Click on Resources on the left side of the screen. Click on the EndNote folder. Click on EndNote 20 - Windows folder. Click on the EndNote 20.zip  file to download it. Go to your downloads folder and click on 'Extract all to ...' Choose a folder where you want to download your files to (e.g. Desktop). You must highlight all three files for extraction, as our license key is built into the download files. Once you have extracted the files, go to the folder on your computer where you downloaded your files and double click on the EN20Inst. Run the installation wizard. Please note: If you do not have access to eFundi or the Library tab please contact your Librarian on the Ask Us tab to provide access to eFundi. Provide your university number in the email. If you have access to eFundi and the Library tab but do not see the Library tab click on 'Sites' and click on the star next to Library and close the pop-up window. MAC users Go to eFundi, our student portal, and log in. Click on the Library tab in the toolbar at the top of the screen or find the Library page in your eFundi sites. Click on Resources on the left side of the screen. Click on the EndNote folder. Click on EndNote 20 - MAC folder. Click on the EndNote20SiteInstaller.dmg file to download it. Please note: If you do not have access to eFundi or the Library tab please contact your Librarian on the Ask Us tab to provide access to eFundi. Provide your university number in the email. If you have access to eFundi and the Library tab but do not see the Library tab click on 'Sites' and click on the star next to Library and close the pop-up window. The EndNote Librarians also provide assistance and training on EndNote."
   
-#251
-#utter: I am not sure what you mean by union catalogue.  The Library catalogue has both national and international books in it. The Library either owns a hard copy of the books listed in this catalogue or we subscribe to an online copy. In the WorldCat Discovery catalogue , you can also see books that other libraries in South Africa and overseas own. If the book is not available at one of our libraries you can borrow the book via Interlibrary Loan .
-#topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
+  utter_information_library_pin:
+  - text: "Please note that a Library PIN is not the same pin that you use to access your student information e.g. exam results. With a Library PIN you can only access your Library record. Steps to create your own Library PIN Go to https://sierra.nwu.ac.za/patroninfo and click on Forgot your PIN or a first time PIN user? Click here to create a Library PIN. Type in your Surname and University number . A window will pop-up telling you that a message has been sent to your email address and that you must follow the instructions in this email message. Open your email and click on the email message. Click on the link in the email message. Complete the information and click on Submit. If you are successful you will see a message that tells you that your PIN has been changed. If you do not see this message please contact your local Loan services desk for support."
 
-#252
-#utter: Depends on what you are looking for in a search engine. I found this article interesting  https://www.lifewire.com/best-search-engines-2483352
-#topic: Finding information (e.g. Books, eBooks, Articles)
+  utter_information_distance_learning_programmes:
+  - text: "You will find the programmes/courses that Distance Learning provides on their web page under Programmes."
 
-#253
-#utter: The Library uses the Dewey Decimal Classification System.
-#topic: Finding information (e.g. Books, eBooks, Articles)
+  utter_information_download_study_guide:
+  - text: "The best way is to do so via the student portal (eFundi). Go to eFundi Log in with your CAS password. Click on 'Study Guides' in the column on the left. Click on the 'Re-launch page in a new window' link. Click on the 'Older Guides' link or the '2002 guides' link. Follow the steps provided via eFundi."
 
-#254
-#utter: Reserved material is usually placed in the course reserve section. You can search for them online . If the materials were not reserved by your lecturer you can search for them in the Library catalogue .
-#topic: Loan Services (e.g. Renew Books); Course Reserves
+  utter_information_distance_learning_360_service:
+  - text: "The 360-Services are available on the Open Distance Learning web page."
 
-#255
-#utter: If you are looking for accommodation/residence during your studies please look at these pages: NWU accommodation/residences Private accommodation - Pukki verblyf: verhurings/rentals
-#topic: About the NWU
+  utter_information_printing_credits:
+  - text: "You can check your printing credits by swiping your student card at the printer or by logging into the PaperCut program icon on the bottom toolbar of a university lab computer."
 
-#256
-#utter: You can make use of the different Research areas at the campus libraries. Links below:  
-#topic: Research (e.g. EndNote, ORCiD, ETDs)
-
-#257
-#utter: NWU students and staff use their CAS username and password to access our databases. This is the same username and password that you use when you log into eFundi. For more information regarding our passwords click here.   If you want to access your patron record you will use your surname, university number and a PIN. You can create your own PIN here .
-#topic: Loan Services (e.g. Renew Books); Databases (e.g. Catalogue, Exam papers); Access / Hours
-
-#258
-#utter: Plagiarism is the act of using others' words and ideas without proper attributions. For more information go to  https://libguides.nwu.ac.za/undergraduate-student-support/plagiarism . Still uncertain about copyright? Contact your  Faculty Librarian .
-#topic: Citations / Referencing / Plagiarism; Faculty Librarians / LibGuides
-
-#259
-#utter: The loan rule for the item will influence the amount of the fine. The Library allows a certain grace period before it starts to charge a user for late books. You should see your fines when you log into your patron record . If you do not agree with the fine please contact the Manager of the Loans Department on your campus.    Library Fines Overdue items: Open Collection R    1,00 (per item per day) Overdue items: Course Reserve and Study Collection R    3,00 (per item per hour) Overdue items: Interlibrary Loan (ILL) R  10,00 (per item per day) Lost books R 150,00 admin fee + the replacement cost of the book
-#topic: Loan Services (e.g. Renew Books)
-
-#260
-#utter: Information regarding fines for late books is on this page  https://library.nwu.ac.za/loan-services  under the heading How to avoid fines . If you do not agree with the fine please contact the Manager of the Loans Department on your campus. Their contact details are also on the page.
-#topic: Loan Services (e.g. Renew Books)
-
-#261
-#utter: EndNote 20 training videos are available at  https://videos.webofsciencegroup.com/categories/endnote .
-#topic: Research (e.g. EndNote, ORCiD, ETDs)
-
-#262
-#utter: Our staff contact details are listed on this page:  https://library.nwu.ac.za/staff-directory .
-#topic: Faculty Librarians / LibGuides
-
-#263
-#utter: Our staff contact details are listed on this page:  https://library.nwu.ac.za/staff-directory .
-#topic: Faculty Librarians / LibGuides
-
-#264
-#utter: Our staff contact details are listed on this page:  https://library.nwu.ac.za/staff-directory .
-#topic: Faculty Librarians / LibGuides
-
-#265
-#utter: Dictionaries are reference works and can not be borrowed. You will notice that they have an  R  before the shelf number. Their status in the catalogue will display as "LIB USE ONLY".   Please note that certain titles are available online .
-#topic: Loan Services (e.g. Renew Books); eReference Works (e.g. Dictionaries)
-
-#266
-#utter: You have to download the files from the Library eFundi site and not directly from the EndNote web page. If you did use our files on EndNote you must extract (highlight) both files. Our license key is built into the download files.      You will find the steps on this page  https://libguides.nwu.ac.za/citation-tools .
-#topic: Citations / Referencing / Plagiarism; Research (e.g. EndNote, ORCiD, ETDs); eFundi / Turnitin / CTL
-
-#267
-#utter: Yes, you can search in the Library catalogue for the title. Reference works may only be used inside the Library. For more information please contact the Loan Services Manager on your campus. Please note that certain titles are available online at  https://library.nwu.ac.za/e-reference-works .
-#topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles); eReference Works (e.g. Dictionaries)
-
-#268
-#utter: Reference works can not be borrowed. You will notice that they have an  R  before the shelf number. Their status in the catalogue will display as "LIB USE ONLY".   Please note that certain titles are available online .
-#topic: Loan Services (e.g. Renew Books); Finding information (e.g. Books, eBooks, Articles); eReference Works (e.g. Dictionaries)
-
-#269
-#utter: Click here for a complete list of our user categories .
-#topic: About the Library (e.g. Services); Loan Services (e.g. Renew Books); Access / Hours
-
-#270
-#utter: The NWU Harvard Referencing style and the NWU Law House style are two separate styles. The NWU Harvard Referencing style uses the volume and issue of a journal but the NWU Law House style does not as can be seen in the example on this page: https://libguides.nwu.ac.za/law-referencing/journal-articles .  
-#topic: Citations / Referencing / Plagiarism
-
-#271
-#utter: You will find a list of Faculty Librarian by subject on this page  https://library.nwu.ac.za/information-services-and-faculty-librarians .
-#topic: Faculty Librarians / LibGuides
-
-#272
-#utter: Nashua operates the printers, photocopying, and scanning services at the NWU Libraries.  
-#topic: About the Library (e.g. Services); Photocopying, Printing &amp; Scanning
-
-#273
-#utter: Please contact the Faculty Librarian for Law, Maria.Lesele@nwu.ac.za , for the LexisNexus password. If she is not available you are also welcome to contact one of our other Faculty Librarians .
-#topic: Databases (e.g. Catalogue, Exam papers); Access / Hours
-
-#274
-#utter: Go to the Advanced Search in the Library Catalogue. Type your subject and choose Tswana next to the Language Limits.
-#topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
-
-#275
-#utter: It will depend on the Reference style that you use e.g. Harvard, APA or Law Referencing style.  If the book review is published in a journal you will use the same method that you use when you reference a journal article.
-#topic: Citations / Referencing / Plagiarism
-
-#276
-#utter: You can check your printing credits by swiping your student card at the printer or by logging into the PaperCut program icon on the bottom toolbar of a university lab computer.
-#topic: About the Library (e.g. Services); Photocopying, Printing &amp; Scanning
-
-#277
-#utter: D-Media no longer exists. Their functions were taken over by the Centre for Teaching and Learning.
-#topic: About the NWU
-
-#278
-#utter: All our databases are listed in an A-Z database list at https://libguides.nwu.ac.za/az.php .
-#topic: Databases (e.g. Catalogue, Exam papers)
-
-#279
-#utter: Postgraduate students can apply on this page  http://studies.nwu.ac.za/postgraduate-studies/higher-degree-admissions
-#topic: About the NWU
-
-#280
-#utter: Encyclopedias are reference works and can not be borrowed. They have an  R  before the shelf number. Their status in the catalogue will display as "LIB USE ONLY".   Please note that certain titles are available online .
-#topic: Loan Services (e.g. Renew Books); eReference Works (e.g. Dictionaries)
-
-#281
-#utter: You will find our LibGuides at this link  https://libguides.nwu.ac.za/ .  
-#topic: Faculty Librarians / LibGuides
-
-#282
-#utter: It depends on which referencing style you use. You will find the NWU Harvard Referencing style for journal articles on this page  https://libguides.nwu.ac.za/harvard-referencing/journal-articles .
-#topic: Citations / Referencing / Plagiarism
-
-#283
-#utter: I would search for the journal in A-Z Publication Finder . If I cannot find the journal there I would double-check in the Library Catalogue .
-#topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
-
-#284
-#utter: Use the Advanced Search option in the Library Catalogue . Change the Material Type to E-Books.
-#topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
-
-#285
-#utter: Books that are available for checkout according to the Library catalogue . The status of the book in the catalogue will be shown as "available".
-#topic: Loan Services (e.g. Renew Books); Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
-
-#286
-#utter: Our theses and dissertations are available on the Institutional Repository and Library Catalogue. Links below:
-#topic: Finding information (e.g. Books, eBooks, Articles); Research (e.g. EndNote, ORCiD, ETDs)
-
-#287
-#utter: You will find a Mafikeng Campus map on this page  http://www.nwu.ac.za/content/maps-and-directions-io#mc .
-#topic: About the NWU
-
-#288
-#utter: APA referencing is a variant of the Harvard style. For more info regarding the differences in referencing styles read  this article .
-#topic: Citations / Referencing / Plagiarism
-
-#289
-#utter: It depends on which referencing style you use. You will find the NWU Harvard Referencing style for more than one author on this page  https://libguides.nwu.ac.za/harvard-referencing/text-references  (click on the Authors tab).  
-#topic: Citations / Referencing / Plagiarism
-
-#290
-#utter: Go to  http://www.nwu.ac.za/content/account-enquiries .
-#topic: About the NWU
-
-#291
-#utter: Contact the Loan services helpdesk  on your campus to arrange for an intercampus loan.  
-#topic: Loan Services (e.g. Renew Books)
-
-#292
-#utter: You will find an example of the NWU Harvard Referencing style for photographs, images and video recordings for social media on this page:  https://libguides.nwu.ac.za/harvard-referencing/internet-sources . (Point 4 under the Social media tab).   Always make sure these four elements are present in your reference list entry: Author , Date , Title , Source where the image was found. In the text reference, mention the author and date, eg: Text:  Bla bla bla (Nucleus Medical Media, 2020).  Reference list:  Nucleus Medical Media. 2020. Anterior (front) view of the eye . https://ebsco-smartimagebase-com.nwulib.nwu.ac.za/anterior-front-view-of-the-eye/view-item?ItemID=4479 Date of access: 21 Oct. 2020.  
-#topic: Citations / Referencing / Plagiarism
-
-#293
-#utter: You can use the Library catalogue to find out if a book is in the library at  https://sierra.nwu.ac.za/search/ . 
-#topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
-
-#294
-#utter: Please contact Academic Record Enquiries at  http://services.nwu.ac.za/sala/academic-records-enquiries .
-#topic: About the NWU
-
-#295
-#utter: You can make an appointment on the NWU Writing Centre web page. Link below:
-#topic: Research (e.g. EndNote, ORCiD, ETDs); Writing Assignments
-
-#296
-#utter: The Manual for Higher Degrees Studies (previously the Manual for Master's and Doctoral Studies ) is compiled by Research Support. Links below:
-#topic: Finding information (e.g. Books, eBooks, Articles); Research (e.g. EndNote, ORCiD, ETDs)
-
-#297
-#utter: You will find the Pharmacopoeia on the Library home page under Find Information>eReference Works> Pharmacopoeia .
-#topic: eReference Works (e.g. Dictionaries)
-
-#298
-#utter: You can search for journals in two places: 1. The Library catalogue -  https://sierra.nwu.ac.za/search 2. A-Z Publication Finder -  https://libguides.nwu.ac.za/atoz-publication-finder
-#topic: Finding information (e.g. Books, eBooks, Articles)
-
-#299
-#utter: Boloka is the Institutional repository and makes the intellectual output of an organisation freely and openly available. For example, once you have completed your thesis or dissertation  the library will upload it to Boloka. DaYta Ya Rona  (figshare) is the Institutional data repository where you upload all the metadata that you have used during your research for example data sets, pictures, videos, books, seminars, reports, citations ... etc.
-#topic: Databases (e.g. Catalogue, Exam papers)
-
-#300
-#utter: The 360-Services are available on the Open Distance Learning web page .  
-#topic: Distance Learning
-
-#301
-#utter: Author's guidelines are usually at the back of a printed journal. These days you will find them on the journals web site. If you cannot find them in any of these places I suggest that you contact the journal.
-#topic: Finding information (e.g. Books, eBooks, Articles)
-
-#302
-#utter: You will find our online Dictionaries and Encyclopedias on our eReference Works page at  https://library.nwu.ac.za/e-reference-works .
-#topic: eReference Works (e.g. Dictionaries)
-
-#303
-#utter: You can change/reset your university/student password from the eFundi web site at  http://efundi.nwu.ac.za/portal/site/!gateway/page/2b728fdc-aafb-4fa2-00f5-3bedb9253a8f .
-#topic: About the NWU
-
-#304
-#utter: You will need to contact Undergraduate enquiries at 018 285 4320 applicationsug@nwu.ac.za
-#topic: About the NWU
-
-#305
-#utter: Lecture recordings for Distance Learning are available on the Open Distance Learning web page . Please contact your lecturer if the recording that you are looking for is not available for download.
-#topic: Distance Learning
-
-#306
-#utter: The tutorials are available on the Open Distance Learning web page . Please contact your lecturer if the tutorial that you are looking for is not available for download.
-#topic: Distance Learning
-
-#307
-#utter: Yes, you can. It is best practice to always create an EndNote online account to keep your EndNote Library up to date and safe. Register for your EndNote online account at: https://access.clarivate.com/login?app=endnote   and configure the sync function on your desktop using the same e-mail and password of your online account. Always sync your EndNote library to your online account. When using another computer, simply sync your EndNote Library from your online account to that computer or laptop.
-#topic: Research (e.g. EndNote, ORCiD, ETDs)
-
-#308
-#utter: A call number/shelf number tells us where a book is located in the library. Call numbers appear on the spines of books and journals. We use the Dewey Decimal System to assign call numbers by subject.
-#topic: Loan Services (e.g. Renew Books); Finding information (e.g. Books, eBooks, Articles)
-
-#309
-#utter: Please contact Maria.Lesele@nwu.ac.za  for the Juta login details.
-#topic: Databases (e.g. Catalogue, Exam papers); Access / Hours
-
-#310
-#utter: Our fields of study and their admission requirements are listed on this  page http://studies.nwu.ac.za/undergraduate-studies/fields-study .
-#topic: About the NWU
-
-#311
-#utter: All vacancies are advertised on this page  http://www.nwu.ac.za/vacancies .
-#topic: About the NWU
-
-#312
-#utter: Search for the textbook in our Library catalogue at  https://sierra.nwu.ac.za/search .
-#topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
-
-#313
-#utter: The Library does not keep past assignments. Please contact Open Distance Learning . 
-#topic: Distance Learning
-
-#314
-#utter: At the bottom of all the NWU web pages. You can also use this link  http://diyservices.nwu.ac.za/ . Do not use Chrome as a browser when you access this service.
-#topic: About the NWU
-
-#315
-#utter: You will find the ethical requirements on the NWU Research Support page at  http://services.nwu.ac.za/research-support/ethics .
-#topic: Finding information (e.g. Books, eBooks, Articles); Research (e.g. EndNote, ORCiD, ETDs)
-
-#316
-#utter: Reading eBooks online You can read eBooks online with software that comes standard on most computers and portable devices. If special software is needed to open and read an eBook online, the eBook will often provide its own (e.g. eBook Central) software. On Library computers, you can only read the eBook online. Reading eBooks offline Not all of the Library’s eBooks provides this option. If you are not offered a downloading/offline option then it is not available. PDF documents that are not controlled by digital rights management software may be downloaded to most PCs without the need for additional software. Downloading eBooks using Adobe Digital Editions (ADE) software If you wish to download eBooks to your computer or device, you must have both a free Adobe account and the free Adobe Digital Editions (ADE) software installed. Adobe Digital Editions allows you to access eBooks downloaded to your computer in either ePub or PDF format protected with Adobe Digital Rights Management (DRM).   Download Adobe Digital Editions . ​​During the installation of Adobe Digital Editions there should be an option to Authorize Computer. Select Authorize Computer and login with your Adobe ID and Password. Note: If you select Don’t Authorize Computer you cannot transfer an Adobe DRM protected e-Book to another computer or any tablet devices/smartphones and/or eBook readers. In other words, all the purchased or borrowed books afterward belong to that computer. You are able to download or transfer the same eBook to 6 computers and tablet devices/smartphones and eBook readers where either Adobe Digital Editions is installed and authorised with the same Adobe ID.​ Video on how to downloading eBooks available on EbscoHost SpringerLink Tutorial EbooksCentral Tutorial Things to keep in mind about eBooks Not all books are available in eBook format.   Most library eBook collections are presented in formats that are intended for viewing in a browser on a computer.  Due to our licensing agreements with publishers, some eBooks in our collections are limited to one user at a time. Typically eBook files will be in either PDF or ePub format. PDF files don’t adapt well to various sized displays and devices and therefore it is difficult to view some PDF files on small screens that come with some smartphones, tablets and eBook readers.  ePub is the preferred eBook file format as the text reflows to fit the dimensions of the screen. The ePub eBook file format supports Digital Rights Management (DRM).​    
-#topic: Finding information (e.g. Books, eBooks, Articles)
-
-#317
-#utter: You can see your reading history when you log into your patron record .  
-#topic: Loan Services (e.g. Renew Books)
-
-#318
-#utter: If you have received a notice that the Library is holding a book for you, you can collect the book at the Loans Desk of your campus. 
-#topic: Loan Services (e.g. Renew Books)
-
-#319
-#utter: Follow the link below:
-#topic: Finding information (e.g. Books, eBooks, Articles)
-
-#320
-#utter: A link to Snappligy is available on the Library Web page under Find Information>eBooks> How do I search for eBooks ?
-#topic: Finding information (e.g. Books, eBooks, Articles)
-
-#321
-#utter: On the Library home page go to Find Information>eReference works>Dictionaries>Pharos.
-#topic: eReference Works (e.g. Dictionaries)
-
-#322
-#utter: Our eBooks web page explains how to find and download eBooks.
-#topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
-
-#323
-#utter: You can download it from the NWU IT Support page. Link below: 
-#topic: Tech Support (e.g. Software)
-
-#324
-#utter: Our NWU Harvard Referencing guide provides training in how to reference a book using the Harvard Referencing Style go to  https://libguides.nwu.ac.za/harvard-referencing/books . You will also find a video on this page explaining the process.
-#topic: Citations / Referencing / Plagiarism
-
-#325
-#utter: Printing of the Reference guide is not allowed due to the Copyright Law. You are welcome to use the guide online or to buy a copy from your campus library.  In Potchefstroom it is also available at Van Schaiks.
-#topic: Citations / Referencing / Plagiarism
-
-#326
-#utter: Students must arrange with their lecturers/supervisors to download ATLAS.ti. Staff can download ATLAs.ti from the  NWU IT Support web page under Staff>Software Downloads>ATLAS.ti.  
-#topic: Databases (e.g. Catalogue, Exam papers)
-
-#327
-#utter: If you get the error message below when trying to open an article/journal-title or database please contact Carine Basson at carine.basson@nwu.ac.za . Error message: To allow /login?url=http://ukzn.ac.za/joe/joe_issues.htm to work, your EZproxy administrator must first authorize this within the exproxy.cfg file. Within this database's section of the file, the following line must be added: Host www.ukzn.ac.za The EZproxy server must then be restarted to make this change take effect.   If you are on campus you can use the direct link for e.g.   /login?url=http://ukzn.ac.za/joe/joe_issues.htm
-#topic: Databases (e.g. Catalogue, Exam papers)
-
-#328
-#utter: If you get the error message below when trying to open an article/journal-title or database please contact Carine Basson at carine.basson@nwu.ac.za . Error message: To allow /login?url=http://ukzn.ac.za/joe/joe_issues.htm to work, your EZproxy administrator must first authorize this within the exproxy.cfg file. Within this database's section of the file, the following line must be added: Host www.ukzn.ac.za The EZproxy server must then be restarted to make this change take effect.   If you are on campus you can use the direct link for e.g.   /login?url=http://ukzn.ac.za/joe/joe_issues.htm
-#topic: Databases (e.g. Catalogue, Exam papers)
-
-#329
-#utter: You can change your contact and address details on the NWU DIY Services web page. You will find a link to the DIY Services in the purple banner at the bottom of the University web pages . Once you have clicked on the link, which I also attached below, choose the status that applies to you e.g. Undergraduate Students to see the services provided to that group. Please read the How-To-Guide under the service for more information. It also contains the contact details of the person responsible for this specific service. Do not use Chrome as a browser when you use this service.
-#topic: About the NWU
-
-#330
-#utter: The Woordeboek vir die Afrikaanse Taal is available from the Library home page under Find Information>eReference Works> Dictionaries . 
-#topic: eReference Works (e.g. Dictionaries)
-
-#331
-#utter: Our Interlibrary Loans (ILL) service is available to registered fourth year, honours, masters and doctoral students as well as staff of the NWU. Material is usually requested via ILL if the NWU Library does not own it. You can make an Interlibrary Loans request by clicking on your campus and completing the form on this page . Please read through the section "Questions about ILL" before you request your book or article. You can also contact your Faculty Librarian for help.
-#topic: Loan Services (e.g. Renew Books)
-
-#332
-#utter: The Library Code of Conduct is available from the Library home page under About Us>More About Us.
-#topic: About the Library (e.g. Services)
-
-#333
-#utter: You will find an explanation on how to calculate your researcher's impact or H-index on the Library home page under Services>Research Support>Measure/Impact. Please feel free to contact your Faculty Librarian for help. Links below:
-#topic: Research (e.g. EndNote, ORCiD, ETDs)
-
-#334
-#utter: You can use our EDS Search service on the Library home page to search for journals. Below is a link that explains how to search in this database. You can also contact your Faculty Librarian for training.
-#topic: Finding information (e.g. Books, eBooks, Articles)
-
-#335
-#utter: Our referencing guides are available from the Library home page under Guides and Training>Referella: Referencing Guides> Referencing guides .
-#topic: Citations / Referencing / Plagiarism
-
-#336
-#utter: Efundi is managed by the Centre for Teaching and Learning (CTL).  Click here for their manual on how to submit an assignment. You can also watch this video . You will find more tutorials regarding eFundi on the CLT page at  http://services.nwu.ac.za/ctl/student-efundi-support .
-#topic: eFundi / Turnitin / CTL
-
-#337
-#utter: You can access JSTOR via the Library home page by clicking on Databases under the EDS Search box.
-#topic: Databases (e.g. Catalogue, Exam papers)
-
-#338
-#utter: Your Faculty Librarian can help you to download articles. 
-#topic: Databases (e.g. Catalogue, Exam papers); Faculty Librarians / LibGuides
-
-#339
-#utter: All our eBooks are available via the Library home page under Find Information> eBooks . There is a section on Reading eBooks offline which might be of help. If you still have questions please contact your Faculty Librarian .
-#topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
-
-#340
-#utter: Please contact Administration . 
-#topic: About the NWU
-
-#341
-#utter: You will have to log a ticket at the eFundi HELPDESK . 
-#topic: eFundi / Turnitin / CTL; Access / Hours
-
-#342
-#utter: Referella refers to the NWU Referencing Guides which can be found on the Library homepage under Guides and Training> Referella: Referencing Guides . 
-#topic: Citations / Referencing / Plagiarism
-
-#343
-#utter: Contact your Faculty Librarian  for help.
-#topic: Finding information (e.g. Books, eBooks, Articles)
-
-#344
-#utter: Contact your Faculty Librarian  for help. You can also attend one of our training sessions which we advertise at the bottom of the Library home page .
-#topic: Finding information (e.g. Books, eBooks, Articles)
-
-#345
-#utter: The best way is to do so via the student portal (eFundi). Go to eFundi Log in with your CAS password. Click on "Study Guides" in the column on the left. Click on the "Re-launch page in a new window" link. Click on the "Older Guides" link or the "2002 guides" link. Follow the steps provided via eFundi.      
-#topic: eFundi / Turnitin / CTL
-
-#346
-#utter: You can access Science Direct via the  Library home page by clicking on Databases under the EDS Search box.
-#topic: Databases (e.g. Catalogue, Exam papers)
-
-#347
-#utter: The best place to start is by using one of our subject LibGuides at  https://libguides.nwu.ac.za/ .  The scientific databases which apply to your subject are listed on these guides. You will also find the contact information for your Faculty librarian on each guide, and you are welcome to contact them if you need more help finding sources.
-#topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
-
-#348
-#utter: You find the Accredited journals on the Library homepage under Find Information> Accredited Journals . 
-#topic: Databases (e.g. Catalogue, Exam papers)
-
-#349
-#utter: Our hours are available on the Library homepage under About Us> Hours & NWU Dates .
-#topic: About the Library (e.g. Services); Access / Hours
-
-#350
-#utter: The fields of study web page can give you a quick overview -  http://studies.nwu.ac.za/undergraduate-studies/fields-study  on our admission requirements.  But double check-in the Academic yearbooks and under Selection information which you will find on this page  http://studies.nwu.ac.za/studies/apply .  
-#topic: About the NWU
-
-#351
-#utter: For more information regarding your application please contact Administration. Their contact info is on this page  http://studies.nwu.ac.za/studies/apply .
-#topic: About the NWU
-
-#352
-#utter: Turnitin is managed by the Centre for Teaching and Learning (CTL) for more information about this product and how to use it go to  http://services.nwu.ac.za/centre-teaching-and-learning-ctl/turnitin .
-#topic: eFundi / Turnitin / CTL
-
-#353
-#utter: This service is provided to NWU students and staff by the NWU IT services. Link below:
-#topic: Tech Support (e.g. Software)
-
-#354
-#utter: You can change/upload your banking details on the  NWU DIY Services web page . You will find a link to the  DIY Services  in the purple banner at the bottom of the University web pages. Once you have clicked on the link, choose the status that applies to you e.g. Undergraduate Students to see the services provided for that group. Please read the How-To-Guide under the service for more information. It also contains the contact details of the person responsible for this specific service. Do not use Chrome as a browser when you access this service.
-#topic: About the NWU
-
-#355
-#utter: Efundi is available at  http://efundi.nwu.ac.za/portal/ . This service is provided by the Centre for Teaching and Learning (TLC).   
-#topic: eFundi / Turnitin / CTL
-
-#356
-#utter: For payable University fees please go to  http://services.nwu.ac.za/student-accounts-and-bursaries/payable-fees . If you are already a student you can make Account enquiries from this page  http://www.nwu.ac.za/content/account-enquiries .  
-#topic: About the NWU; Account
-
-#357
-#utter: You can obtain this certificate via the Unit for Open Distance Learning . 
-#topic: Distance Learning
-
-#358
-#utter: The NWU Undergraduate Study Prospectus is available at  http://studies.nwu.ac.za/undergraduate-studies/fields-study The NWU Creativity Centre Prospectus is available at  http://humanities.nwu.ac.za/creativity-centre/prospectus .
-#topic: About the NWU
-
-#359
-#utter: Each Library has a Course Reserves section that will help you to put material on reserve for your students. They will also handle the DALRO reporting for the material. You can contact the Course Reserve staff at your campus library.
-#topic: Loan Services (e.g. Renew Books)
-
-#360
-#utter: You will find the NWU DALRO Copyright Reporting System on this page:  https://www.nwudalro.co.za/ .  
-#topic: Citations / Referencing / Plagiarism
-
-#361
-#utter: You can contact Academic Records Enquiries for your academic record. 
-#topic: About the NWU
-
-#362
-#utter: You will find our online Dictionaries and Encyclopedias on our eReference Works page at  http://library.nwu.ac.za/e-reference-works .
-#topic: eReference Works (e.g. Dictionaries)
-
-#363
-#utter: You will find a link to the University yearbooks from the Library homepage under Find Information>eReference Works> Yearbooks . 
-#topic: eReference Works (e.g. Dictionaries)
-
-#364
-#utter: You will find directions to the different campuses on this page as well as the GPS coordinates to each library:  https://library.nwu.ac.za/contact-us .
-#topic: About the Library (e.g. Services); Contact details / Staff
-
-#365
-#utter: Please note that no memorandums are available for past question papers.
-#topic: Databases (e.g. Catalogue, Exam papers)
-
-#366
-#utter: The dispatching of books, journal articles, and other library materials may be arranged for all Master and Doctoral students. For further information contact your Loan Services desk .  
-#topic: Loan Services (e.g. Renew Books)
-
-#367
-#utter: You can search for our eBooks from this page:  https://library.nwu.ac.za/ebooks .  
-#topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
-
-#368
-#utter: An eBook (short for electronic book and also known as a digital book, ebook, and e-book) is a book publication made available in digital format. An eBook, as defined by the Oxford Dictionary of English, is "an electronic version of a printed book which can be read on a computer or handheld device".
-#topic: Finding information (e.g. Books, eBooks, Articles)
-
-#369
-#utter: Information regarding reading ebooks online or offline are available on this page https://library.nwu.ac.za/ebooks . 
-#topic: Finding information (e.g. Books, eBooks, Articles)
-
-#370
-#utter: Yes, but eBooks are protected by copyright law in the same way as printed publications! As a guide, SA copyright law allows you to print/copy no more than one chapter, or 10% of a work, whichever is the greater. The different eBook suppliers and publishers have different rules about this but once these limits are reached, you will not be able to print/copy any further text from that eBook. Some eBook software is designed to restrict printing to a limited number of pages only, or a limited number of pages per day.  In this case, the eBook software will notify you of how many pages you may print. For more detailed information, please go to the suppliers’ websites.
-#topic: Citations / Referencing / Plagiarism
-
-#371
-#utter: Not all of the Library’s eBooks provides this option. If you are not offered a downloading/offline option then it is not available. PDF documents that are not controlled by digital rights management software may be downloaded to most PCs without the need for additional software. Downloading eBooks using Adobe Digital Editions (ADE) software If you wish to download eBooks to your computer or device, you must have both a  free Adobe account  and the  free Adobe Digital Editions (ADE) software  installed. Adobe Digital Editions allows you to access eBooks downloaded to your computer in either ePub or PDF format protected with Adobe Digital Rights Management (DRM).   Download Adobe Digital Editions . During installation of Adobe Digital Editions there should be an option to Authorize Computer. Select Authorize Computer and login with your Adobe ID and Password. Note: If you select Don’t Authorize Computer you cannot transfer an Adobe DRM protected e-Book to another computer or any tablet devices/smartphones and/or eBook readers. In other words, all the purchased or borrowed books afterwards belong to that computer. You are able to download or transfer the same eBook to 6 computers and tablet devices/smartphones and eBook readers where either Adobe Digital Editions is installed and authorised with the same Adobe ID.​ Video on how to downloading eBooks available on EbscoHost SpringerLink Tutorial EbooksCentral Tutorial
-#topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
-
-#372
-#utter: You can read eBooks online with software that comes standard on most computers and portable devices. If special software is needed to open and read an eBook online, the eBook will often provide its own (e.g. eBook Central) software. On Library computers, you can only read the eBook online.
-#topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
-
-#373
-#utter: You can search for your exam results on this page:  https://vssweb.nwu.ac.za/str-webclient/StudentWebCommand.do?sf=143647&lng=3#/top .
-#topic: Databases (e.g. Catalogue, Exam papers)
-
-#374
-#utter: You can access your personal exam timetable from this page:  https://vssweb.nwu.ac.za/str-webclient/StudentWebCommand.do?sf=143662&lng=3#/top . Also, see Examination & Assessment Timetables .  
-#topic: About the NWU
-
-#375
-#utter: You will find your class and assessment timetables on this page:  http://studies.nwu.ac.za/studies/class-and-assessment-timetables .
-#topic: About the NWU
-
-#376
-#utter: You need to configure your Google Scholar account to the NWU. How to configure your Google Scholar account: Click on the hamburger menu next to the Google Scholar logo and then on Settings.   Click on the Library links under the Settings menu. Type NWU in the search box. Mark the checkbox next to NWU - Full Text @ NWU and click on Save.  If you're logged into a Google Account, it will remember the settings from now on. Note:  If you link your Google Account to the NWU it is no longer necessary to do your search from the Library Google Scholar page as the "Full text @NWU" link will appear even if you don't start from our search page.
-#topic: Databases (e.g. Catalogue, Exam papers)
-
-#377
-#utter: If you are using the Library Google Scholar box and cannot see the full-text article link the problem might at your Google Scholar account. How to configure your Google Scholar account: Click on the hamburger menu next to the Google Scholar logo and then on Settings.   Click on the Library links under the Settings menu. Type NWU in the search box. Mark the checkbox next to NWU - Full Text @ NWU and click on Save. Note:  If you link your Google Account to the NWU it is no longer necessary to do your search from the Library Google Scholar page as the "Full text @NWU" link will appear even if you don't start from our search page.
-#topic: Databases (e.g. Catalogue, Exam papers)
-
-#378
-#utter: You can only see if the Library owns/subscribes to a book/journal article if you search from our page.  Our Google Scholar search box has some code written into the search function that makes it possible for you to see if the Full Text is available at the NWU. Note:  If you  link your Google Account to the NWU  it is no longer necessary to do your search from the Library Google Scholar page as the "Full text @NWU" link will appear even if you don't start from our search page.
-#topic: Databases (e.g. Catalogue, Exam papers)
-
-#379
-#utter: Click on Databases (underneath the EDS Search box) on the Library homepage . You will find the Google Scholar link under the Quick Links heading and alphabetically under " G ". Note:  If you link your Google Account to the NWU it is no longer necessary to do your search from the Library Google Scholar page as the "Full text @NWU" link will appear even if you don't start from our search page.
-#topic: Databases (e.g. Catalogue, Exam papers)
-
-#380
-#utter: You will find the programmes/courses that Distance Learning provides on their web page under Programmes .
-#topic: Distance Learning
-
-#381
-#utter: You will find your exam scopes on the Downloads page  of the Unit for Open Distance Learning. This page provides links to the following information for Distance Learners/Students: Exam notes Past papers Presentations Tutorial notes Lecture recordings Study guides Info booklets Student 360-service
-#topic: Distance Learning
-
-#382
-#utter: No assignments are submitted to the Library. If you are a distance student please contact the Unit for Open Distance Learning  to enquire after your assignment.
-#topic: Distance Learning
-
-#383
-#utter: Please contact the Unit for Open Distance Learning via one of their contact methods listed on this page  http://distance.nwu.ac.za/contact_us for more information.
-#topic: Distance Learning
-
-#384
-#utter: Steps to register: Click on  https://mwr.nwu.ac.za/nwu-orcid/main/connect .   Enter your university number and CAS Password (this is the same password that you use to log into a computer on campus / the NWU Wi-Fi / eFundi.) If you do not have a password please request a new password at  https://password.nwu.ac.za/manqiti/password_request.jsp .   Click on Create and Connect your ORCiD iD next to Follow this link.   Click on Register now and fill in the form to complete the registration.   Check your email for verification and your ORCiD number. 
-#topic: Research (e.g. EndNote, ORCiD, ETDs)
-
-#385
-#utter: Go to the ORCiD web page at  https://orcid.org/ . Type your name in the search box next to Registry . Search for your name in the search results.    
-#topic: Research (e.g. EndNote, ORCiD, ETDs)
-
-#386
-#utter: The DIY Service is the responsibility of IT services at the NWU. Please report any problems that you have at  +27(0)18 299 2700. Also, note that in each service block there is a How-To Guide which usually has contact info for the person responsible for that specific service. Do not use Chrome as a browser when you access this service.  
-#topic: About the NWU
-
-#387
-#utter: To search for hard copies go to our catalogue  https://sierra.nwu.ac.za/search You will find eBooks on this page  https://library.nwu.ac.za/ebooks If you still cannot find books please contact your faculty librarian .
-#topic: Finding information (e.g. Books, eBooks, Articles)
-
-#388
-#utter: You will find the modules in the University Yearbooks at  http://studies.nwu.ac.za/studies/yearbooks
-#topic: About the NWU
-
-#389
-#utter: Please note: These videos are only for the NWU Harvard Referencing style.
-#topic: Citations / Referencing / Plagiarism
-
-#390
-#utter: As from January 2020 updates were made to the existing referencing style guides. Postgraduate students completing their final submissions may still use the previous versions of the style guides. You will find the documents on the library homepage under Guides and Training> Referella: NWU Referencing Guides> 2012 Referencing Guide or you can click on the link below.
-#topic: Citations / Referencing / Plagiarism
-
-#391
-#utter: You will find the APA Referencing Style on the  Library home page  under Guides and Training> Referella: NWU Referencing Guides or you can just click on the link below.
-#topic: Citations / Referencing / Plagiarism
-
-#392
-#utter: You will find the NWU Law Referencing Style on the Library home page under Guides and Training> Referella: Referencing Guides>Referencing guides> NWU Law House style referencing guide .
-#topic: Citations / Referencing / Plagiarism
-
-#393
-#utter: You will find the NWU Referencing style on the  Library home page  under Guides and Training> Referella: Referencing Guides>Referencing guides> NWU Harvard referencing guide .
-#topic: Citations / Referencing / Plagiarism
-
-#394
-#utter: Referella was created to help to make referencing easier. Guides were created for each referencing style and videos were placed on each guide that explains the material. Choose the referencing style that is used by your Faculty: NWU Harvard Referencing Guide NWU Law Referencing Guide APA Referencing Guide
-#topic: Citations / Referencing / Plagiarism
-
-#395
-#utter: Follow the steps in the attached PDF document on where to find your H-index.
-#topic: Research (e.g. EndNote, ORCiD, ETDs)
-
-#396
-#utter: You can find the plagiarism declaration form at the link below:
-#topic: Citations / Referencing / Plagiarism
-
-#397
-#utter: Steps to find M's and PhD's to use as guidelines Go to the Library Catalogue at https://sierra.nwu.ac.za/search Select Advanced Search . Enter your keyword(s). At Library select e-Books . Under Material Type select E-THESIS. From the results list select the relevant M's/PhD's you're interested in, by clicking on Link to Full Text . This will take you to Boloka, the NWU Institutional Repository, where you'll find the full text.
-#topic: Finding information (e.g. Books, eBooks, Articles); Research (e.g. EndNote, ORCiD, ETDs)
-
-#398
-#utter: Please email the Library staff under the Ask Us tab on the EndNote LibGuide to give you access to eFundi.  Provide your name, surname and university number with the request.    
-#topic: Citations / Referencing / Plagiarism; Research (e.g. EndNote, ORCiD, ETDs); eFundi / Turnitin / CTL
-
-#399
-#utter: Teaching and Learning manage Turnitin on eFundi:  http://services.nwu.ac.za/centre-teaching-and-learning-ctl/turnitin . You will find their help desk info on the bottom of their web page .    
-#topic: eFundi / Turnitin / CTL
-
-#400
-#utter: Their contact details are available on the web page for the NWU Writing Centre. Link below: ﻿
-#topic: Research (e.g. EndNote, ORCiD, ETDs); About the NWU
-
-#401
-#utter: Windows users Go to  eFundi , our student portal, and log in .   Click on the  Library tab  in the toolbar at the top of the screen or find the Library page in your eFundi sites.  Click on  Resources  on the left side of the screen. Click on the  EndNote  folder. Click on  EndNote 20 - Windows  folder. Click on the  EndNote 20.zip  file to download it. Go to your downloads folder and click on  "Extract all to ..."  Choose a folder where you want to download your files to (e.g. Desktop). You must highlight all three files for extraction , as our license key is built into the download files.   Once you have extracted the files, go to the folder on your computer where you downloaded your files and double click on the EN20Inst. Run the installation wizard. Please note:  If you do not have access to eFundi or the Library tab please contact your Librarian on the  Ask Us  tab to provide access to eFundi. Provide your university number in the email. If you have access to eFundi and the Library tab but do not see the Library tab click on "Sites" and click on the star next to Library and close the pop-up window. MAC users Go to eFundi , our student portal, and log in .   Click on the Library tab  in the toolbar at the top of the screen or find the Library page in your eFundi sites. Click on Resources on the left side of the screen. Click on the EndNote folder. Click on EndNote 20 - MAC folder.  Click on the EndNote20SiteInstaller.dmg file to download it. Please note:  If you do not have access to eFundi or the Library tab please contact your Librarian on the  Ask Us  tab to provide access to eFundi. Provide your university number in the email. If you have access to eFundi and the Library tab but do not see the Library tab click on "Sites" and click on the star next to Library and close the pop-up window. The EndNote Librarians  also provide assistance and training on EndNote.   ﻿
-#topic: Research (e.g. EndNote, ORCiD, ETDs)
-
-#402
-#utter: To download exam papers, follow the instructions below Go to the library homepage https://library.nwu.ac.za/ Click on the Exam papers  link under the Find Information  block. In the Course Code  block enter your course code, e.g PUMA113 NB: no spacing between the code and letters. Choose a campus , e.g Mahikeng, Potchefstroom, etc. Submit Query Click on Paper  for the required month and year, the question paper will open in a PDF file. Please note: No memorandums are available.
-#topic: Databases (e.g. Catalogue, Exam papers)
-
-#403
-#utter: You will find the steps on how to upload your assignment to eFundi on the CTL (Centre for Teaching and Learning) web page under the heading Assignments -  http://services.nwu.ac.za/centre-teaching-and-learning-ctl/student-faq  
-#topic: eFundi / Turnitin / CTL
-
-#404
-#utter: This usually happens when you have a traveling library.  You have to try and get rid of the traveling library. Also try to make sure your "instant formatting" is turned on.   ﻿
-#topic: Research (e.g. EndNote, ORCiD, ETDs)
-
-#405
-#utter: You will find the Payment methods for binding/repairs on our  web page  under Services>More Services>Binding> Payment .
-#topic: About the Library (e.g. Services); Bindery
-
-#406
-#utter: Yes, we do.  You will find the Application form for binding repairs and other bindings on our web page under Services>More Services>Binding>Other binding and repairs.
-#topic: About the Library (e.g. Services); Bindery
-
-#407
-#utter: We use artificial leather to bind theses and dissertations. You will find the leather and font colours on the  library web page  under Services>More Services>Binding> Artificial leather cover colours .
-#topic: About the Library (e.g. Services); Bindery
-
-#408
-#utter: You will find the Bindery contact details on the library web page under Services>More Services>Binding> Contact details .
-#topic: About the Library (e.g. Services); Bindery; Contact details / Staff
-
-#409
-#utter: You will find the guidelines for the submission of final copies for your mini-dissertation/dissertation/thesis for your graduation ceremony on the library web page under Services>More services>Binding> Guidelines: submissions of final copies .
-#topic: About the Library (e.g. Services); Bindery
-
-#410
-#utter: You will find the application form on our web page under Services>More Services>Binding> Application form .  
-#topic: About the Library (e.g. Services); Bindery
-
-#411
-#utter: Go to the Library web page at  https://library.nwu.ac.za/ Select Databases Choose EBSCOhost from the alphabetical list. The following registering procedure as provided by EBSCO under their Help function Whenever you sign in to any of these interfaces, you will be able to save search results, persistent links to searches, search alerts, journal alerts, and web pages to your personal My EBSCO host  folder. To set up a personal account: ​ Click the  Sign In  in the toolbar at the top of the screen. From the Sign In Screen, click the  Create one now  link. The  Create Account Screen  appears. Fill in the fields on the Create Account Screen. When you create a new My EBSCO host  folder account, or are updating the existing password for your account, you are required to create a strong password. When your password meets the requirements, the indicator displays that your password is strong and you can retype the password in the next field to confirm it. Check the box to consent to EBSCO's  Personal Data Retention and Usage  policy. You can read the Personal Data Retention and Usage policy by clicking the  link . If you opt to not consent to the policy, you will be unable to continue creating an account. When you have completed filling out your information, click  Continue . If your information was accepted, a message appears that confirms your account has been created. To log into your account, click the  Click here  link and provide your login credentials. You should note the username and password you created so you can log in at a future session.​ Note : When signing in to My ESBSCO host  with your credentials, enter the  username  you created or your  email address  if you opted to use that as your username.
-#topic: Databases (e.g. Catalogue, Exam papers)
-
-#412
-#utter: Go to the LibGuide for Engineering  at https://libguides.nwu.ac.za/engineering-guide/home Select Books; e-Books Perform a Catalogue  search: If you know the author’s name, select Author from the drop-down menu If the author is unknown to you, select Call number from the drop down menu.  Enter IPV-C (for Chemical Engineering reports) or IPV-E (for Electrical, Electronic and Computer Engineering reports) or IPV-B (for Industrial Engineering reports) or IPV-M (for Mechanical Engineering reports) If you’re interested in the engineering reports for a specific year: From the result list, select  Limit/Sort Search
-#topic: Finding information (e.g. Books, eBooks, Articles)
-
-#413
-#utter: You will find a list of South African language practitioners on the South African Translator's Institute (SATI) page http://www.translators.org.za/find-a-language-practitioner . You are also welcome to contact the NWU Language Directorate  http://services.nwu.ac.za/language-directorate .  
-#topic: Research (e.g. EndNote, ORCiD, ETDs)
-
-#414
-#utter: Yes, Prof Leonard Santana provided us with a LaTeX word template for NWU MSc or Ph.D. students. Link below:
-#topic: Citations / Referencing / Plagiarism; Research (e.g. EndNote, ORCiD, ETDs)
-
-#415
-#utter: LibAnswers is a searchable knowledge base of frequently asked library-related questions. We hope that it answers some of your questions even if the libraries are closed. It also has a question form and chat system which you can use to get in contact with us. We may add some of the questions that you ask us to our knowledge base. All personal information will be removed from the questions to retain your privacy.  
-#topic: Finding information (e.g. Books, eBooks, Articles); Faculty Librarians / LibGuides
-
-#416
-#utter: EDS stands for  EBSCO Discovery Service . EDS provides an easy search platform to users where they can search in almost all the resources that the Library subscribes to in one easy search.  EDS can search inside journals/databases for journal articles. When should I use EDS - To search for articles, eBooks and other content on a given topic.   The Library Catalogue  lists the books, journals and databases the Library ows/subscribes to. Unlike EDS, it cannot search inside the journals/databases for articles. When should I use the Library Catalogue - To determine if the University Libraries has a copy of a specific book, journal or music score.  
-#topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
-
-#417
-#utter: For literary, musical and artistic works, except for photographs, the copyright term in South Africa is fifty years from the end of the year of the author's death, or fifty years from publication if it is first published after the author's death.
-#topic: Citations / Referencing / Plagiarism
-
-#418
-#utter: Up to 10% or one complete chapter of a book, plus any associated endnotes or references. E.g. if a chapter comprises 25% of a book, you can photocopy the entire chapter; but if you want to photocopy extracts from more than one chapter, you can only copy up to 10% of the book.
-#topic: Citations / Referencing / Plagiarism
-
-#419
-#utter: Please note that a Library PIN is not the same pin that you use to access your student information e.g. exam results. With a Library PIN you can only access your Library record. Steps to create your own Library PIN Go to  https://sierra.nwu.ac.za/patroninfo  and click on Forgot your PIN or a first time PIN user? Click here to create a Library PIN . Type in your Surname and University number . A window will pop-up telling you that a message has been sent to your email address and that you must follow the instructions in this email message. Open your email and click on the email message. Click on the link in the email message. Complete the information and click on Submit . If you are successful you will see a message that tells you that your PIN has been changed. If you do not see this message please contact your local Loan services desk for support.
-#topic: Loan Services (e.g. Renew Books); Access / Hours
-
-#420
-#utter: Steps for renewing your books online: Go to  https://sierra.nwu.ac.za/patroninfo  and type in your Surname , University Number and Library PIN . Click on Submit .  Check the boxes next to the book titles that you would like to renew. Click on the Renew Marked button. Click on Yes . You should now see the new due date underneath the Status heading. Please note: You will not be allowed to renew your books online  on the date of expiry. if your books are already overdue. if there are fines on your books. if you have already renewed the book twice. if the item has been booked by another user. if your patron record has expired.  
-#topic: Loan Services (e.g. Renew Books)
-
-#421
-#utter: A LibGuide was created by a Faculty Librarian to put together all types of information about a specific subject. For instance, you will find all the relevant information for Law on the Law LibGuide. This includes databases, cases and acts, journals and contact information. Thus a one-stop site.  
-#topic: Faculty Librarians / LibGuides
-
-#422
-#utter: Copyright is the right whereby certain products of the mind are protected by law.  The Copyright Act  (Act 98 of 1978) states that copyright is breached if a person, who is not the owner of the copyright, in any way copies, performs, distributes or reproduces literary or musical works without the permission of the owner/copyright holder. Still uncertain about copyright? Contact your Faculty Librarian .
-#topic: Citations / Referencing / Plagiarism; Faculty Librarians / LibGuides
-
+  utter_information_international_books:
+  - text: "I am not sure what you mean by union catalogue. The Library catalogue has both national and international books in it. The Library either owns a hard copy of the books listed in this catalogue or we subscribe to an online copy. In the WorldCat Discovery catalogue , you can also see books that other libraries in South Africa and overseas own. If the book is not available at one of our libraries you can borrow the book via Interlibrary Loan."
 
 
 session_config:
