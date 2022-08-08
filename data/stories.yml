@@ -1297,7 +1297,33 @@ stories:
   - intent: information_download_book
   - action: utter_information_download_book
   
-# - story:
-#   steps:
-#   - intent: 
-#   - action:
+- story: information memorandum past papers
+  steps:
+  - intent: information_memorandum_past_papers
+  - action: utter_information_memorandum_past_papers
+
+- story: information past exam papers
+  steps:
+  - intent: information_past_exam_papers
+  - action: utter_information_past_exam_papers
+
+- story: information eds vs library catalogue
+  steps:
+  - intent: information_eds_vs_library_catalogue
+  - action: utter_information_eds_vs_library_catalogue
+
+- story: information database
+  steps:
+  - intent: database
+  - action: utter_database
+
+- story: interactive_story_1
+  steps:
+  - intent: help
+  - action: utter_options
+  - intent: library_services
+  - action: utter_library_services
+  - intent: citing_referencing_plagiarism
+  - action: utter_citing_referencing_plagiarism
+  - intent: dalro
+  - action: utter_dalro

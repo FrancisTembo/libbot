@@ -2182,7 +2182,7 @@ utter: You will find directions to the different campuses on this page as well a
 topic: About the Library (e.g. Services); Contact details / Staff
 views:5
 
-#365
+#365✅
 intent: Where do I find memorandum for past papers?
 utter: Please note that no memorandums are available for past question papers.
 topic: Databases (e.g. Catalogue, Exam papers)
@@ -2404,7 +2404,7 @@ utter: Windows users Go to  eFundi , our student portal, and log in .   Click
 topic: Research (e.g. EndNote, ORCiD, ETDs)
 views:3783
 
-#402
+#402✅
 intent: Where can I find previous exam papers?
 utter: To download exam papers, follow the instructions below Go to the library homepage https://library.nwu.ac.za/ Click on the Exam papers  link under the Find Information  block. In the Course Code  block enter your course code, e.g PUMA113 NB: no spacing between the code and letters. Choose a campus , e.g Mahikeng, Potchefstroom, etc. Submit Query Click on Paper  for the required month and year, the question paper will open in a PDF file. Please note: No memorandums are available.
 topic: Databases (e.g. Catalogue, Exam papers)
