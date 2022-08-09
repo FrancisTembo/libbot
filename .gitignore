@@ -3,3 +3,4 @@
 /.rasa/cache/cache.db
 /models
 obscure.txt
+venv

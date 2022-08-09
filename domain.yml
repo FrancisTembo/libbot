@@ -98,6 +98,7 @@ intents:
 - information_eating_in_library
 - information_ebsco_password
 - information_economics
+- information_eds_vs_library_catalogue
 - information_education
 - information_education_library
 - information_education_research_resources
@@ -145,6 +146,7 @@ intents:
 - information_mahikeng_librarians
 - information_mahikeng_library
 - information_maximum_books
+- information_memorandum_past_papers
 - information_multingual_languages_dictionary
 - information_music_library
 - information_natural_sciences
@@ -158,6 +160,7 @@ intents:
 - information_opac
 - information_open_article
 - information_operating_hours
+- information_past_exam_papers
 - information_potchefstroom_library
 - information_prescribed_textbooks
 - information_prezi
@@ -262,10 +265,6 @@ intents:
 - text_reference
 - using_harvard_reference_guide
 - volume_issue
-- information_memorandum_past_papers
-- information_past_exam_papers
-- information_eds_vs_library_catalogue
-
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -437,7 +436,7 @@ responses:
     - title: Bookings and Training Events
       payload: /information_bookings_and_training_events
     - title: Photocopying, Printing, Binding and Scanning
-      payload: /contact_study_enquiries
+      payload: /printing_binding_scanning_services
     button_type: vertical
   utter_citing_referencing_plagiarism:
   - text: Here are the most frequently asked questions on the citing, referencing and plagiarism topics. You can always type in for me to find out exactly what you need.
@@ -464,7 +463,7 @@ responses:
       payload: /plagiarism_declaration
     button_type: vertical
   utter_printing_binding_scanning_services:
-  - text: "Here's some quick information related to the photocopying, printing, binding and scanning services:"
+  - text: Here's some quick information related to the photocopying, printing, binding and scanning services. You can always type in for me to find out exactly what you need
     buttons:
     - title: What is the contact details of Nashua?
       payload: /information_copy_shop
@@ -474,7 +473,7 @@ responses:
       payload: /information_printing_credits
     button_type: vertical
   utter_database:
-  - text: "Here's some quick information related to the Database topic:"
+  - text: Here's some quick information related to the Database topic. You can always type in for me to find out exactly what you need.
     buttons:
     - title: How do I access databases?
       payload: /information_access_database
@@ -499,12 +498,10 @@ responses:
     - title: How does EDS differ from the Library Catalogue?
       payload: /information_eds_vs_library_catalogue
     button_type: vertical
-
   utter_information_eds_vs_library_catalogue:
-  - text: "EDS stands for EBSCO Discovery Service. EDS provides an easy search platform to users where they can search in almost all the resources that the Library subscribes to in one easy search. EDS can search inside journals/databases for journal articles. When should I use EDS - To search for articles, eBooks and other content on a given topic. The Library Catalogue lists the books, journals and databases the Library ows/subscribes to. Unlike EDS, it cannot search inside the journals/databases for articles. When should I use the Library Catalogue - To determine if the University Libraries has a copy of a specific book, journal or music score."
-
+  - text: EDS stands for EBSCO Discovery Service. EDS provides an easy search platform to users where they can search in almost all the resources that the Library subscribes to in one easy search. EDS can search inside journals/databases for journal articles. When should I use EDS - To search for articles, eBooks and other content on a given topic. The Library Catalogue lists the books, journals and databases the Library ows/subscribes to. Unlike EDS, it cannot search inside the journals/databases for articles. When should I use the Library Catalogue - To determine if the University Libraries has a copy of a specific book, journal or music score.
   utter_information_past_exam_papers:
-  - text: "To download exam papers, follow the instructions below Go to the library homepage https://library.nwu.ac.za/ Click on the Exam papers link under the Find Information block. In the Course Code block enter your course code, e.g PUMA113 NB: no spacing between the code and letters. Choose a campus , e.g Mahikeng, Potchefstroom, etc. Submit Query Click on Paper for the required month and year, the question paper will open in a PDF file. Please note: No memorandums are available."
+  - text: 'To download exam papers, follow the instructions below Go to the library homepage https://library.nwu.ac.za/ Click on the Exam papers link under the Find Information block. In the Course Code block enter your course code, e.g PUMA113 NB: no spacing between the code and letters. Choose a campus , e.g Mahikeng, Potchefstroom, etc. Submit Query Click on Paper for the required month and year, the question paper will open in a PDF file. Please note: No memorandums are available.'
   utter_information_memorandum_past_papers:
   - text: Please note that no memorandums are available for past question papers.
   utter_information_download_book:
@@ -987,6 +984,7 @@ actions:
 - utter_help
 - utter_information_education
 - utter_information_engineering
+- utter_information_printing_credits
 - utter_instruction
 - utter_library_services
 - utter_options

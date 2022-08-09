@@ -1846,6 +1846,8 @@ nlu:
     - how do I check my printing credits
     - where can I check my printing credits
     - checking printing credits
+    - how to check my printing credits
+    - check printing credits
 - intent: information_international_books
   examples: |
     - are books published internationally only available from the union catalogue
@@ -1867,24 +1869,21 @@ nlu:
     - how to download a book from the library
     - downloading a book from the library
     - how can I download a book from the library
-
 - intent: information_memorandum_past_papers
   examples: |
     - where do I find memorandum for past papers
     - where can I find memorandums for past exam papers
     - memorandums for past exam papers
-
 - intent: information_eds_vs_library_catalogue
   examples: |
     - what is EDS, and how does it differ from the library catalogue
     - what is the difference between EDS and the library catalogue
     - differences between the library catalogue and EDS
     - difference between EDS and the library catalogue
-
 - intent: information_past_exam_papers
   examples: |
     - where can I find previous exam papers
-    - where can I download past exam papers 
+    - where can I download past exam papers
     - where can I access past exam papers
     - access past exam papers
-    - download past exam papers 
+    - download past exam papers

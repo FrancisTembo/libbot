@@ -1327,3 +1327,8 @@ stories:
   - action: utter_citing_referencing_plagiarism
   - intent: dalro
   - action: utter_dalro
+
+- story: interactive_story_1
+  steps:
+  - intent: information_printing_credits
+  - action: utter_information_printing_credits
