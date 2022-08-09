@@ -22,3 +22,12 @@ rules:
   steps:
   - intent: nlu_fallback
   - action: utter_please_rephrase
+
+# - rule: respond to FAQs
+#   steps:
+#   - intent: faq
+#   - action: utter_faq
+# - rule: respond to chitchat
+#   steps:
+#   - intent: chitchat
+#   - action: utter_chitchat
