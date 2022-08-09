@@ -265,6 +265,10 @@ intents:
 - text_reference
 - using_harvard_reference_guide
 - volume_issue
+- information_potchefstroom_turnitin_admin
+- efundi
+- information_reset_student_password
+
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -334,12 +338,36 @@ responses:
     - title: About the NWU 🏦
       payload: /contact
     - title: eFundi 🧠
-      payload: /contact
+      payload: /efundi
     - title: Contact Information ☎️
       payload: /contact
     - title: Most Asked Questions❓
       payload: /most_asked_questions
     button_type: vertical
+
+  utter_efundi:
+  - text: Here are some important things to note about eFundi. You can always type in what you need me to find for you.
+    buttons: 
+    - title: NWU Potchefstroom Turnitin administrator?
+      payload: /information_potchefstroom_turnitin_admin
+    - title: Where can I find eFundi?
+      payload: /information_how_to_efundi
+    - title: How to use Turnitin?
+      payload: /plagiarism_check
+    - title: How do I download study guides for my modules?
+      payload: /information_download_study_guide
+    - title: Where can I reset my student password?
+      payload: /information_reset_student_password
+    - title: How do I obtain Proof of Registration?
+      payload: /information_proof_of_registration
+    - title: How do I register on eFundi as a new student?
+      payload: /information_register_efundi
+    - title: How do I upload my assignment to eFundi?
+      payload: /information_upload_assignment
+    - title: How do I update my eFundi email address?
+      payload: /information_update_efundi_email
+  utter_information_potchefstroom_turnitin_admin:
+  - text: "Teaching and Learning manage Turnitin on eFundi: http://services.nwu.ac.za/centre-teaching-and-learning-ctl/turnitin. You will find their help desk info on the bottom of their web page."
   utter_most_asked_questions:
   - text: Here the are the popular FAQ's
     buttons:
@@ -498,6 +526,9 @@ responses:
     - title: How does EDS differ from the Library Catalogue?
       payload: /information_eds_vs_library_catalogue
     button_type: vertical
+
+  utter_information_reset_student_password:
+  - text: "You can change/reset your university/student password from the eFundi web site at: http://efundi.nwu.ac.za/portal/site/!gateway/page/2b728fdc-aafb-4fa2-00f5-3bedb9253a8f"
   utter_information_eds_vs_library_catalogue:
   - text: EDS stands for EBSCO Discovery Service. EDS provides an easy search platform to users where they can search in almost all the resources that the Library subscribes to in one easy search. EDS can search inside journals/databases for journal articles. When should I use EDS - To search for articles, eBooks and other content on a given topic. The Library Catalogue lists the books, journals and databases the Library ows/subscribes to. Unlike EDS, it cannot search inside the journals/databases for articles. When should I use the Library Catalogue - To determine if the University Libraries has a copy of a specific book, journal or music score.
   utter_information_past_exam_papers:
@@ -509,7 +540,7 @@ responses:
   utter_information_journal_catalogue:
   - text: I would search for the journal in A-Z Publication Finder. If I cannot find the journal there I would double-check in the Library Catalogue.
   utter_information_library_password:
-  - text: NWU students and staff use their CAS username and password to access our databases. This is the same username and password that you use when you log into eFundi. For more information regarding our passwords click here. If you want to access your patron record you will use your surname, university number and a PIN. You can create your own PIN here.
+  - text: NWU students and staff use their CAS username and password to access our databases. This is the same username and password that you use when you log into eFundi. For more information regarding our passwords click here 🎈. If you want to access your patron record you will use your surname, university number and a PIN. You can create your own PIN here 🎈.
   utter_information_bookings_and_training_events:
   - text: On this page https://nwu.libcal.com/ you may book a room for a group discussion, a computer in one of our computer areas or register for a training event.
   utter_harvard_vs_apa:
@@ -717,7 +748,7 @@ responses:
   utter_information_book_group_study_unit:
   - text: 'Group rooms are booked at this link: https://nwu.libcal.com/'
   utter_information_reset_efundi_password:
-  - text: 'This video from CTL explains how to reset your eFundi password. You can also use the Infographic on their site. You will find more tutorials regarding eFundi on the CLT page at: http://services.nwu.ac.za/ctl/student-efundi-support'
+  - text: 'This video from CTL explains how to reset your eFundi password🎈. You can also use the Infographic on their site. You will find more tutorials regarding eFundi on the CLT page at: http://services.nwu.ac.za/ctl/student-efundi-support'
   utter_information_update_efundi_email:
   - text: 'This video from CTL will explain how to update your eFundi email address. You can also use the Infographic on their page. You will find more tutorials regarding eFundi on the CLT page at: http://services.nwu.ac.za/ctl/student-efundi-support'
   utter_information_find_module_efundi:
@@ -895,7 +926,7 @@ responses:
   utter_information_ctl:
   - text: "You can find more information here -> Home page: http://services.nwu.ac.za/ctl FAQ's: http://services.nwu.ac.za/centre-teaching-and-learning-ctl/student-faq"
   utter_information_upload_assignment:
-  - text: 'eFundi is managed by CTL. They provide steps for this process on their FAQ page at: http://services.nwu.ac.za/centre-teaching-and-learning-ctl/student-faq'
+  - text: "You will find the steps on how to upload your assignment to eFundi on the CTL (Centre for Teaching and Learning) web page under the heading Assignments: http://services.nwu.ac.za/centre-teaching-and-learning-ctl/student-faq"
   utter_information_proof_of_registration:
   - text: "You can obtain Proof of Registration online. This video from CTL will explain how. Steps: Click on this Register Online link . Click on Registration (menu left). Enter your University number and unique PIN at the login window. This is not the same as your eFundi password. If you forgot your PIN click on the link 'Forgotten your PIN' link to create a new one. If you do not have a PIN click on the 'Create PIN' link to create a PIN. Click on Login Click on Registration (menu left) once you have logged in. Click on Proof of registration in the dropdown menu. Choose your qualification Click on Retrieve information NB! Make sure your pop-up blocker is not active. Alternatively, you can contact Academic Records."
   utter_information_nwu_template:

@@ -1151,7 +1151,7 @@ nlu:
     - reset eFundi password
     - resetting eFundi password
     - password reset eFundi
-    - passoword resetting EFundi
+    - passoword resetting eFundi
 - intent: information_update_efundi_email
   examples: |
     - how do I update my eFundi email address
@@ -1887,3 +1887,18 @@ nlu:
     - where can I access past exam papers
     - access past exam papers
     - download past exam papers
+
+- intent: information_potchefstroom_turnitin_admin
+  examples: |
+    - name of and contact details of NWU Potchefstroom Turnitin administrator
+    - who is the Turnitin administrator for Potchefstroom
+    - I would like to contact the Turnitin administrator for Potchefstroom
+    - where can I find information on the Turnitin administrator for Potchefstroom
+
+- intent: information_reset_student_password
+  examples: |
+    - where can I reset my student password
+    - where can I change my student password
+    - resetting my student password
+    - changing my student password
+    - student password change

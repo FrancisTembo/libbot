@@ -1810,7 +1810,7 @@ utter: You will find our online Dictionaries and Encyclopedias on our eReference
 topic: eReference Works (e.g. Dictionaries)
 views:19
 
-#303
+#303✅
 intent: Where can I reset my student password?
 utter: You can change/reset your university/student password from the eFundi web site at  http://efundi.nwu.ac.za/portal/site/!gateway/page/2b728fdc-aafb-4fa2-00f5-3bedb9253a8f .
 topic: About the NWU
@@ -2104,9 +2104,9 @@ utter: For more information regarding your application please contact Administra
 topic: About the NWU
 views:10
 
-#352
+#352 ✅
 intent: How to use Turnitin?
-utter: Turnitin is managed by the Centre for Teaching and Learning (CTL) for more information about this product and how to use it go to  http://services.nwu.ac.za/centre-teaching-and-learning-ctl/turnitin .
+utter: Turnitin is managed by the Centre for Teaching and Learning (CTL) for more information about this product and how to use it go to  http://services.nwu.ac.za/centre-teaching-and-learning-ctl/turnitin.
 topic: eFundi / Turnitin / CTL
 views:84
 
@@ -2122,7 +2122,7 @@ utter: You can change/upload your banking details on the  NWU DIY Services we
 topic: About the NWU
 views:2
 
-#355
+#355✅
 intent: Where can I find eFundi?
 utter: Efundi is available at  http://efundi.nwu.ac.za/portal/ . This service is provided by the Centre for Teaching and Learning (TLC).   
 topic: eFundi / Turnitin / CTL
@@ -2386,7 +2386,7 @@ utter: Please email the Library staff under the Ask Us tab on the EndNote LibGui
 topic: Citations / Referencing / Plagiarism; Research (e.g. EndNote, ORCiD, ETDs); eFundi / Turnitin / CTL
 views:544
 
-#399
+#399✅
 intent: Name of and contact details of NWU Potchefstroom Turnitin administrator?
 utter: Teaching and Learning manage Turnitin on eFundi:  http://services.nwu.ac.za/centre-teaching-and-learning-ctl/turnitin . You will find their help desk info on the bottom of their web page .    
 topic: eFundi / Turnitin / CTL

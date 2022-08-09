@@ -1317,18 +1317,17 @@ stories:
   - intent: database
   - action: utter_database
 
-- story: interactive_story_1
-  steps:
-  - intent: help
-  - action: utter_options
-  - intent: library_services
-  - action: utter_library_services
-  - intent: citing_referencing_plagiarism
-  - action: utter_citing_referencing_plagiarism
-  - intent: dalro
-  - action: utter_dalro
+- story: information potchefstroom turnitin admin
+  steps: 
+    - intent: information_potchefstroom_turnitin_admin
+    - action: utter_information_potchefstroom_turnitin_admin
 
-- story: interactive_story_1
+- story: information efundi
+  steps: 
+    - intent: efundi
+    - action: utter_efundi
+
+- story: information reset student password
   steps:
-  - intent: information_printing_credits
-  - action: utter_information_printing_credits
+    - intent: information_reset_student_password
+    - action: utter_information_reset_student_password
