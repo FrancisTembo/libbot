@@ -1,5 +1,4 @@
 version: "3.1"
-
 nlu:
 - intent: greet
   examples: |
@@ -10,13 +9,18 @@ nlu:
     - good morning
     - good evening
     - moin
+    - morning
+    - mornin
     - hey there
     - let's go
-    - hey dude
     - goodmorning
     - goodevening
     - good afternoon
-
+    - howdy
+- intent: start
+  examples: |
+    - start
+    - begin
 - intent: goodbye
   examples: |
     - cu
@@ -29,7 +33,8 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
+    - stop
+    - halt
 - intent: affirm
   examples: |
     - yes
@@ -38,7 +43,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -48,44 +52,1923 @@ nlu:
     - don't like that
     - no way
     - not really
-
-- intent: mood_great
+- intent: help
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
+    - help
+    - I need help
+    - how can you help
+    - I need assistance
+    - assistance
+    - how can you assist
+    - help options
+    - options for help
+    - options
+    - options for assistance
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - are you a robot 
+    - do you have consciousness
+    - are you conscious
+    - who made you
+- intent: language_style_guide
+  examples: |
+    - where can I find the NWU language style guide?
+    - what is our NWU language style guide?
+    - language style guide
+    - NWU language style guide?
+- intent: new_student_application
+  examples: |
+    - please clarify the NWU application statuses for prospective students?
+    - NWU application statuses prospective students?
+    - application statutes for prospective stident?
+- intent: contact_details_international_office
+  examples: |
+    - where can I find the contact details for the international office?
+    - contact details international office?
+    - adress of international office
+    - who can I contact at the international office
+    - how can I contact the international office
+    - email adress international office
+    - international office contact details
+    - international office address
+- intent: information_academic_record
+  examples: |
+    - where can I get my full academic record
+    - academic record
+    - access academic record
+    - where is my academic record
+- intent: information_novels
+  examples: |
+    - where can I search for novels
+    - novels
+    - where can I get novels
+- intent: information_study_change
+  examples: |
+    - how can I change my studies?
+    - change my studies?
+    - study change
+    - how can I switch my studies
+    - switch studies
+    - how can i modify my studies
+    - modify studies
+    - change studies
+- intent: return_books
+  examples: |
+    - is it possible to for someone to return books on my behalf? without my student number
+    - can someone return my books for me
+    - can a friend return my books
+    - return books
+    - can I return books on sunday
+    - can I return my books on a weekend
+    - I'd like to check when I must return my book
+    - renew my book
+    - return book
+    - renew book
+- intent: information_exam_timetable
+  examples: |
+    - where can I find the exam timetable
+    - where can I find the exam schedule
+    - where is my exam timetable
+    - where is my exam schedule
+    - exam timetable
+    - exam schedule
+- intent: information_engineering
+  examples: |
+    - where can I find the contact information for engineering
+    - contact information engineering
+    - how can I contact engineering department
+    - how can I contact school of engineering
+    - school of engineering email and phone
+    - contact engineering department
+    - contact engineering
+    - call engineering
+    - email engineering
+    - information engineering
+    - faculty engineering
+- intent: information_education
+  examples: |
+    - where can I find the contact information for education
+    - contact information education
+    - how can I contact education department
+    - how can I contact school of education
+    - school of education email and phone
+    - contact education department
+    - contact education
+    - call education
+    - email education
+    - education
+    - faculty education
+- intent: information_economics
+  examples: |
+    - where can I find the contact information for economic and management sciences
+    - contact information economic and management sciences
+    - how can I contact economic and management sciences department
+    - how can I contact school of economic and management sciences
+    - school of economic and management sciences email and phone
+    - contact economic and management sciences department
+    - contact economic and management sciences
+    - call economic and management sciences
+    - email economic and management sciences
+    - economic and management sciences
+    - faculty economic and management sciences
+- intent: information_business
+  examples: |
+    - where can I find the contact information for business school
+    - contact information business
+    - how can I contact business department
+    - how can I contact school of business
+    - school of business email and phone
+    - contact business department
+    - contact business
+    - call business
+    - email business
+    - business
+    - faculty sciences
+- intent: information_health_sciences
+  examples: |
+    - where can I find the contact information for health sciences
+    - contact information health sciences
+    - how can I contact health sciences department
+    - how can I contact school of health sciences
+    - school of health sciences email and phone
+    - contact health sciences department
+    - contact health sciences
+    - call health sciences
+    - email health sciences
+    - health sciences
+    - faculty health sciences
+- intent: information_humanities
+  examples: |
+    - where can I find the contact information for humanities
+    - contact information humanities
+    - how can I contact humanities department
+    - how can I contact school of humanities
+    - school of humanities email and phone
+    - contact humanities department
+    - contact humanities
+    - call humanities
+    - email humanities
+    - health humanities
+    - faculty humanities
+- intent: information_law
+  examples: |
+    - where can I find the contact information for law
+    - contact information law
+    - how can I contact law department
+    - how can I contact school of law
+    - school of law email and phone
+    - contact law department
+    - contact law
+    - call law
+    - email law
+    - health law
+    - faculty law
+- intent: information_theology
+  examples: |
+    - where can I find the contact information for theology
+    - contact information theology
+    - how can I contact law department
+    - how can I contact school of theology
+    - school of theology email and phone
+    - contact theology department
+    - contact theology
+    - call theology
+    - email theology
+    - health theology
+    - faculty theology
+- intent: information_natural_sciences
+  examples: |
+    - where can I find the contact information for natural sciences
+    - contact information natural_sciences
+    - how can I contact natural sciences department
+    - how can I contact school of natural sciences
+    - school of natural sciences email and phone
+    - contact natural sciences department
+    - contact natural sciences
+    - call natural sciences
+    - email natural sciences
+    - health natural sciences
+    - faculty natural sciences
+    - natural and agricultural sciences
+- intent: contact
+  examples: |
+    - I would like to contact
+    - contact information
+    - where can I get contact information
+    - contact details
+    - where can I get the contact details
+    - contact
+    - I want to contact
+- intent: contact_librarians
+  examples: |
+    - contact library
+    - can I contact the library
+    - how can I contact the library
+    - library staff
+    - library contact details
+    - library contact information
+    - can I get the contact details for the library
+    - can I get the contact details for library staff
+    - can I get the contact details for Malose Langa
+    - can I get the contact details for Martie Esterhuizen
+    - can I get the contact details for Glenda Makate
+    - Potchefstroom library contact details
+    - Mahikeng library contact details
+    - Vanderbijlpark library contact details
+- intent: contact_department
+  examples: |
+    - I would like to contact a department
+    - how can I contact a department
+    - how can I contact a school
+    - contact department
+    - contact a school
+    - school
+    - department
+    - contact information for a department
+    - contact information for a school
+    - information for a department
+    - department information
+    - school information
+    - department contact details
+    - school contact details
+- intent: contact_office
+  examples: |
+    - I would like to contact a office
+    - how can I contact an office
+    - contact office
+    - contact an office
+    - office
+    - contact information for an office
+    - information for an office
+    - office information
+    - office contact details
+- intent: contact_student_finances
+  examples: |
+    - where can I find the contact information for student finances and financial related systems
+    - contact information student finances and financial related systems
+    - how can I contact student finances and financial related systems
+    - student finances and financial related systems email and phone
+    - contact student finances and financial related systems
+    - call student finances and financial related systems
+    - email student finances and financial related systems
+    - student finances and financial related systems
+    - student finances
+    - financial related systems
+- intent: contact_nwu
+  examples: |
+    - I would like to contact the university
+    - how can I contact the university
+    - how can I contact nwu
+    - contact the university
+    - contact nwu
+    - nwu
+    - the nwu
+    - contact information for nwu
+    - contact information for the university
+    - nwu contact information
+    - the university contact information
+    - nwu contact details
+- intent: contact_study_enquiries
+  examples: |
+    - where can I find the contact information for study enquiries
+    - contact information study enquiries
+    - how can I contact study enquiries
+    - study enquiries email and phone
+    - contact study enquiries
+    - call study enquiries
+    - email study enquiries
+    - study enquiries
+    - study enquiry
+- intent: general_contact
+  examples: |
+    - general contact information
+    - general contact details
+    - general contact
+    - I need the telephone number of a lecturer or staff member
+    - I need to contact a lecture or staff member
+- intent: library_services
+  examples: |
+    - what are the library services
+    - information on library services
+    - details of the library services
+    - library services
+- intent: citing_referencing_plagiarism
+  examples: |
+    - information on citing, referencing and plagiarism
+    - where can I find information on citing, referencing and plagiarism
+    - details on citing, referencing and plagiarism
+    - citing, referencing and plagiarism
+    - citing
+    - referencing
+    - plagiarism
+- intent: harvard_vs_apa
+  examples: |
+    - what is the difference between Harvard referencing and APA referencing?
+    - differences between Harvard referencing and APA referencing
+    - difference between Harvard and APA
+    - Harvard and APA referencing differences
+    - Harvard and APA differences
+    - Harvard referencing vs APA referencing
+- intent: efundi_endnote
+  examples: |
+    - I need access to the Library tab on eFundi to download EndNote
+    - how can I access the Library tab on eFundi to download EndNote
+    - access to eFundi to download EndNote
+- intent: dalro
+  examples: |
+    - Where can I find the NWU DALRO Copyright Reporting System
+    - NWU DALRO Copyright Reporting System
+    - How can I access the NWU DALRO Copyright Reporting System
+    - DALRO
+- intent: reference_constitution
+  examples: |
+    - how do I reference the Constitution of South Africa
+    - referencing the Constitution of South Africa
+    - how can I reference the Constitution of South Africa
+    - reference the Constitution of South Africa
+    - how do I reference South African acts
+    - cite South African acts
+    - how do I reference international acts
+    - cite international acts
+- intent: endnote_trial
+  examples: |
+    - I have downloaded the 20 version of Endnote as NWU student, but it is only a trial version
+    - how do I download the non trial version of Endnote
+    - how do I download the pro version of Endnote
+    - Endnote trial version
+    - Endnote licenced version
+    - how to download Endnote licenced version
+- intent: reference_chapter
+  examples: |
+    - examples of referencing for a chapter in a collected work
+    - how do I reference a chapter in a collected work
+    - how can I reference a chapter in a collected work
+    - referencing a chapter in a collected work
+    - reference a chapter in collected work
+    - reference chapter in collected work
+    - reference a chapter
+- intent: harvard_referencing
+  examples: |
+    - where do I find the NWU Harvard Referencing Style
+    - what is the NWU Harvard Referencing style
+    - information on NWU Harvard Referencing Style
+    - where can I find information on the NWU Harvard Referencing Style
+    - how do I use the NWU Harvard Referencing Style
+    - NWU Harvard Referencing Style
+- intent: copyright
+  examples: |
+    - what is copyright
+    - where do I find information about copyright
+    - information on copyright
+    - where can I find information copyright
+    - copyright details
+- intent: latex_template
+  examples: |
+    - do you have a Postgraduate LaTeX Word template
+    - where can I find the LaTeX Word template
+    - where can I get the LaTeX Word template
+    - information on the Postgraduate LaTeX Word template
+    - LaTeX Word template
+    - LaTeX template
+    - latex word template
+    - latex template
+- intent: plagiarism_declaration
+  examples: |
+    - where can I find the plagiarism declaration form
+    - where can I get the plagiarism declaration form
+    - information on the plagiarism declaration form
+    - download plagiarism declaration form
+    - plagiarism declaration template
+    - plagiarism declaration form
+- intent: copy_book
+  examples: |
+    - how much of a book can I copy for my own use
+    - how much of a book can I copy
+    - how much of a book am I allowed to copy
+    - what percentage of a book am I allowed to copy
+    - guidelines for copying books
+    - how much of a library book am I allowed to copy
+    - what percentage of a library book am I allowed to copy
+- intent: copyright_length
+  examples: |
+    - how long does copyright last
+    - for how long does copyright last
+    - when does copyright expire
+    - when does copyright end
+    - how long does copyright last for music
+    - how long does copyright last for literary works
+    - how long does copyright last for photographs or pictures
+    - how long does copyright last for artistic works
+- intent: referella
+  examples: |
+    - what is referella
+    - information on referella
+    - what does referella mean
+    - what does referella stand for
+- intent: apa_referencing
+  examples: |
+    - where can I find the APA Referencing Style
+    - what is the APA Referencing style
+    - where do I find the APA Referencing Style
+    - information on APA Referencing Style
+    - how do I use the APA Referencing Style
+    - APA Referencing Style
+- intent: nwu_law_referencing
+  examples: |
+    - which referencing style does the faculty of law use
+    - referencing style for the faculty of law
+    - faculty of law referencing style
+    - where can I find the NWU Law Referencing style
+    - what is the NWU Law Referencing style
+    - where do I find the NWU Law Referencing style
+    - information on NWU Law Referencing style
+    - how do I use the NWU Law Referencing style
+    - NWU Law Referencing style
+- intent: old_referencing_style
+  examples: |
+    - where can I find the referencing guides that was used before 2020
+    - referencing guides used before 2020
+    - what are the referencing guides from before 2020
+- intent: referella_videos
+  examples: |
+    - where can I find the referella videos
+    - where can I find the videos on referella
+    - how can I access the referella videos
+    - how can I access the videos on referella
+    - where can I watch the referella videos
+    - where can I watch the videos on referella
+    - information about the referella videos
+    - referella videos
+- intent: copy_paste_print_ebooks
+  examples: |
+    - can I print/copy and paste from eBooks
+    - can I print from eBooks
+    - can I copy from eBooks
+    - can I copy and paste from eBooks
+    - print, copy and paste from eBooks
+    - copy and paste from eBooks
+    - am I allowed to print, copy and paste from eBooks
+    - print eBooks
+- intent: find_referella
+  examples: |
+    - where can I find referella
+    - information referella
+    - where can I locate referella
+- intent: find_referencing_guides
+  examples: |
+    - where do I find the referencing guides
+    - where can I find the referencing guides
+    - where can I locate the referencing guides
+- intent: print_referencing_guide
+  examples: |
+    - why can't I print the reference guide
+    - I cannot print the reference guide
+    - why is the reference guide not printing
+    - how to print the reference guide
+    - how can I print the reference guide
+    - am I allowed to print the reference guide
+- intent: using_harvard_reference_guide
+  examples: |
+    - how do I reference books using the Harvard Style
+    - how can I reference books using the Harvard Style
+    - referencing books using the Harvard Style
+- intent: reference_picture
+  examples: |
+    - how can I reference a picture
+    - can I reference a picture
+    - how to reference a picture
+    - how can I reference an image
+    - can I reference an image
+    - how to reference an image
+    - referencing an image
+    - reference image
+- intent: reference_multiple_authors
+  examples: |
+    - how to reference more than two authors
+    - how to reference multiple authors
+    - referencing more than two authors
+    - how to cite more than two authors
+    - citing more than two authors
+    - reference two or more authors
+    - citing two or more authors
+- intent: reference_journal_article
+  examples: |
+    - how do I reference a journal article
+    - how to reference a journal article
+    - referencing a journal article
+    - how to cite a journal article
+    - citing a journal article
+    - reference a journal article
+    - reference journal article
+- intent: reference_reviews
+  examples: |
+    - how do I reference reviews
+    - how to reference reviews
+    - how to reference a reviews
+    - referencing a review
+    - reference review
+    - how to cite a review
+    - citing a review
+    - citing reviews
+- intent: volume_issue
+  examples: |
+    - how do I indicate the volume and issue of a journal in the Harvard Law style
+    - volume and issue of a journal in the Harvard Law Style
+    - how to indicate the volume and issue of a journal in the Harvard Law style
+    - showing the volume and issue of a journal in the Harvard Law Style
+- intent: plagiarism
+  examples: |
+    - what is plagiarism
+    - definition of plagiarism
+    - how to define plagiarism
+    - plagiarism
+- intent: endnote
+  examples: |
+    - what is EndNote
+    - what is EndNote used for
+    - where is EndNote used
+    - define EndNote
+    - EndNote
+- intent: plagiarism_check
+  examples: |
+    - how can I check my assignment for plagiarism
+    - how do I check my assignment for plagiarism
+    - check assignment for plagiarism
+    - checking assignment for plagiarism
+    - assignment plagiarism check
+    - submit assignment for plagiarism
+- intent: endnote_bibliography
+  examples: |
+    - how do I make bibliography from EndNote
+    - how to create bibliography from EndNote
+    - create bibliography EndNote
+    - bibliography EndNote
+- intent: endnote_export
+  examples: |
+    - exporting reference from EndNote to Word
+    - export reference from EndNote to Word
+    - insert EndNote reference to Word
+    - export EndNote references to Word
+- intent: referencing_electronic_newspaper_article
+  examples: |
+    - references of electronic newspaper article
+    - referencing an electronic newspaper article
+    - reference newspaper article
+    - citing of a electronic newspaper article
+    - cite electronics newspaper article
+    - cite newspaper article
+    - how do I reference newspaper articles in printed format
+    - How do I reference online newspaper articles
+    - cite newspaper articles in printed format
+    - cite online newspaper articles
+- intent: reference_anonymous
+  examples: |
+    - how to reference anonymous authors
+    - how do I reference anonymous authors
+    - how do I cite anonymous authors
+    - referencing anonymous authors
+    - citing anonymous
+    - reference anonymous authors
+    - cite anonymous authors
+- intent: book_online_training
+  examples: |
+    - how do I book for online training to use the new PhD document for my final thesis
+    - where can I book online training to use the new PhD document for my final thesis
+    - how can I reserve an online training session to use the new PhD document for my final thesis
+    - book online training for using the new PhD document for my final thesis
+    - how to book an online training session for using the new PhD document for my final thesis
+- intent: library_tab_missing
+  examples: |
+    - I do not have the library tab when I log into my eFundi and therefore cannot access EndNote
+    - the library tab is missing in eFundi
+    - can't acesss EndNote from eFundi
+    - library tab missing
+- intent: reference_government
+  examples: |
+    - how do I reference government news publications and reports
+    - how do I cite reference government news publications and reports
+    - referencing government news publications and reports
+    - citing government news publications and reports
+    - cite government sources
+    - reference government sources
+    - how do I reference the government gazette
+    - cite the government gazette
+    - how do I reference a provincial gazette
+    - cite a provincial gazette
+- intent: reference_interview
+  examples: |
+    - how do I reference an interview
+    - how do I cite an interview
+    - how can I reference an interview
+    - how can I cite an interview
+    - referencing an interview
+    - citing an interview
+    - cite an interview
+    - reference interview
+- intent: paraphrasing
+  examples: |
+    - what is paraphrasing
+    - what is the definition of paraphrasing
+    - define paraphrasing
+    - how do you define paraphrasing
+    - paraphrasing definition
+    - paraphrasing
+- intent: reference_book
+  examples: |
+    - how do I reference a book
+    - how to reference a book
+    - how can I reference a book
+    - how do you reference a book
+    - referencing a book
+    - reference book
+    - how do I cite a book
+    - how to cite a book
+    - how can I cite a book
+    - how do you cite a book
+    - citing a book
+    - cite book
+- intent: reference_chapter_collected_work
+  examples: |
+    - how do I reference a chapter in a collected work
+    - how to reference a chapter in a collected work
+    - how can I reference a chapter in a collected work
+    - how do you reference a chapter in a collected work
+    - referencing a chapter in a collected work
+    - reference chapter in a collected work
+- intent: reference_ebook
+  examples: |
+    - how do I reference an ebook
+    - how to reference an ebook
+    - how can I reference an ebook
+    - how do you reference an ebook
+    - referencing an ebook
+    - reference ebook
+    - how do I cite an ebook
+    - how to cite an ebook
+    - how can I cite an ebook
+    - how do you cite an ebook
+    - citing an ebook
+    - cite ebook
+- intent: reference_encyclopedia
+  examples: |
+    - how do I reference an encyclopedia
+    - how to reference an encyclopedia
+    - how can I reference an encyclopedia
+    - how do you reference an encyclopedia
+    - referencing an encyclopedia
+    - reference encyclopedia
+    - how do I cite an encyclopedia
+    - how to cite an encyclopedia
+    - how can I cite an encyclopedia
+    - how do you cite an encyclopedia
+    - citing an encyclopedia
+    - cite encyclopedia
+- intent: reference_dictionary
+  examples: |
+    - how do I reference a dictionary
+    - how to reference a dictionary
+    - how can I reference a dictionary
+    - how do you reference a dictionary
+    - referencing a dictionary
+    - reference dictionary
+    - how do I cite a dictionary
+    - how to cite a dictionary
+    - how can I cite a dictionary
+    - how do you cite a dictionary
+    - citing a dictionary
+    - cite dictionary
+- intent: reference_theses_dissertations
+  examples: |
+    - how do I reference theses and dissertations
+    - how do I cite theses and dissertations
+    - referencing theses and dissrtations
+    - citing theses and dissertations
+- intent: reference_web_articles
+  examples: |
+    - how do I reference articles from the web
+    - How to I refer to working papers in a reference list
+    - refence working papers
+    - referencing articles from the web
+    - referencing working papers
+    - how do I cite articles from the web
+    - citing articles from the web
+    - citing working papers
+    - cite or reference web articles
+    - cite working papers
+- intent: reference_news_letters
+  examples: |
+    - how do I reference electronic newsletters
+    - how do I cite electronic newsletters
+    - citing electronic newsletters
+    - cite or reference electronic newsletters
+    - referencing electronic newsletters
+- intent: reference_blog
+  examples: |
+    - how do I reference a blog
+    - how do I cite a blog
+    - citing a blog
+    - cite or reference a blog
+    - referencing a blog
+- intent: reference_social_media_post
+  examples: |
+    - how can I reference a facebook post
+    - how can I reference an instagram post
+    - how can I reference a twitter post
+    - referencing facebook post
+    - referencing instagram post
+    - referencing twitter post
+    - citing facebook post
+    - citing instagram post
+    - citing twitter post
+    - how can I cite a facebook post
+    - how can I cite an instagram post
+    - how can I cite a twitter post
+- intent: reference_powerpoint_video_youtube_podcast
+  examples: |
+    - how do I reference a PowerPoint presentation
+    - how do I referenece a youtube video
+    - how do I reference a video
+    - how do I reference a podcast
+    - how do I reference a CD
+    - how do I reference a DVD
+    - how do I refer to webcast sessions in my text and in the source list
+    - reference webcast sessions in my text and in the source list
+    - reference PowerPoint presentation
+    - reference youtube video
+    - reference video
+    - reference podcast
+    - reference CD
+    - reference DVD
+    - cite PowerPoint presentation
+    - cite youtuve video
+    - cite video
+    - cite podcast
+    - cite CD
+    - cite DVD
+    - cite webcast sessions in my text and in the source list
+    - citing PowerPoint presentation
+    - citing youtube video
+    - citing podcast
+    - citing video
+    - citing CD
+    - citing DVD
+    - citing webcast sessions in my text and in the source list
+    - referencing PowerPoint presentation
+    - referencing youtube video
+    - referencing podcast
+    - referencing CD
+    - referencing DVD
+    - referencing webcast sessions in my text and in the source list
+- intent: reference_lecture_notes
+  examples: |
+    - how do I reference a lecture's notes on eFundi
+    - referencing lecture's notes on eFundi
+    - citing lecture's notes on eFundi
+    - cite lecture's notes on eFundi
+- intent: reference_reference_conference_papers_proceedings
+  examples: |
+    - how do I reference conference proceedings published in a collection
+    - how do I reference conference papers published online
+    - cite conference proceedings published in a collection
+    - cite conference papers published online
+    - citing conference proceedings published in a collection
+    - citing conference papers published online
+    - referencing conference proceedings published in a collection
+    - referencing conference papers published online
+- intent: reference_study_guide
+  examples: |
+    - how do I reference study guides
+    - referencing study guides
+    - citing study guides
+    - cite study guides
+- intent: reference_religious_sources
+  examples: |
+    - how do I reference bible commentaries
+    - how do I reference the bible
+    - how do I reference the quran
+    - referencing bible commentaries
+    - referencing the bible
+    - referencing the quran
+    - cite bible commentaries
+    - cite the bible
+    - cite the quran
+    - citing study guides
+    - cite study guides
+- intent: reference_classical_works
+  examples: |
+    - how do I reference classical works
+    - referencing classical works
+    - cite classical works
+    - citing classical works
+- intent: reference_correspondance
+  examples: |
+    - how do I reference personal correspondence like interviews, letters and email
+    - referencing personal correspondence like interviews, letters and email
+    - cite personal correspondence like interviews, letters and email
+    - citing personal correspondence like interviews, letters and email
+    - reference email
+    - reference interview
+    - reference letters
+    - cite email
+    - cite interview
+    - cite letters
+- intent: reference_patent_standards
+  examples: |
+    - how do I reference patents
+    - How do I reference standards
+    - cite patents
+    - cite standards
+    - citing patents
+    - citing standards
+    - referencing patents
+    - referencing standards
+- intent: reference_musical_scores
+  examples: |
+    - how do I reference musical scores
+    - cite musical scores
+    - citing musical scores
+    - referencing musical scores
+- intent: reference_dataset
+  examples: |
+    - how do I reference a dataset
+    - cite a dataset
+    - citing a dataset
+    - referencing a dataset
+- intent: reference_unpublished
+  examples: |
+    - how do I reference an unpublished work
+    - cite unpublished work
+    - citing unpublished work
+    - referencing unpublished work
+- intent: reference_list
+  examples: |
+    - how do I set up a reference list
+    - setting up reference list
+    - how can I set up a reference list
+- intent: text_reference
+  examples: |
+    - what is a text reference
+    - How do I reference authors in text reference
+    - define text reference
+    - text reference
+    - cite authors in text reference
+    - referencing authors in text reference
+    - citing authors in text reference
+    - How do I reference an intext reference
+    - referencing an intext reference
+    - cite an intext reference
+    - citing an intenxt reference
+- intent: quotations_text_reference
+  examples: |
+    - when do I use direct quotations in a text reference
+    - direct quotations in a text reference
+    - when do I use indirect quotations or paraphrasing in a text reference
+    - indirect quotations in a text reference
+    - paraphrasing in a text reference
+- intent: reference_secondary
+  examples: |
+    - how do I reference secondary sources in a text reference
+    - cite secondary sources in a text reference
+    - citing secondary sources in a text reference
+    - refencing secondary sources in a text reference
+    - how do I arrange text references from more than one source
+    - arrange text references from multiple sources
+    - arranging text references from multiple sources
+- intent: reference_natural_sciences
+  examples: |
+    - which referencing style does the faculty of Natural and Agricultural Sciences use
+    - referencing style used by the faculty of Natural and Agricultural Sciences use
+- intent: reference_chicago
+  examples: |
+    - where can I find the chicago referencing style
+    - how do I use the chicago referencing style
+    - chicago referencing style
+- intent: information_fateful_triangle
+  examples: |
+    - who are the publishers of fateful triangle: The united states, Israel and Palestinians
+    - publishers of the fateful triangle
+- intent: information_handle_book
+  examples: |
+    - where do I to put books away that I have used
+    - where do I leave my books
+    - where to put books after using
+- intent: information_boolean_operators
+  examples: |
+    - three boolean operators
+    - 3 boolean operators
+    - boolean operators
+- intent: information_search_engine
+  examples: |
+    - what is the name of the Library One Stop Search engine
+    - what is the Library One Stop Search engine called
+- intent: information_access_database
+  examples: |
+    - how do I get access to the library and databases
+    - gain access to database and library
+    - access library and database
+    - access library database
+    - access database
+    - where can I find the library database
+    - Good day, I'd like assistance with the research topic I want to explore and how to get relevant database related to the topic.
+    - research topic assistance
+    - how do I access databases
+- intent: information_music_library
+  examples: |
+    - in which building is the music library
+    - where can I find the music library
+    - where is the music library
+    - location of the music library
+    - music library location
+    - music library building
+    - building music library
+- intent: information_theological_library
+  examples: |
+    - in which building is the theological library
+    - where can I find the theological library
+    - where is the theological library
+    - location of the theological library
+    - theological library location
+    - theological library building
+    - building theological library
+- intent: information_education_library
+  examples: |
+    - in which building is the education library
+    - where can I find the education library
+    - where is the education library
+    - location of the education library
+    - education library location
+    - education library building
+    - building education library
+- intent: information_natural_sciences_library
+  examples: |
+    - in which building is the natural sciences library
+    - where can I find the natural sciences library
+    - where is the natural sciences library
+    - location of the natural sciences library
+    - natural sciences library location
+    - natural sciences library building
+    - building natural sciences library
+- intent: information_mahikeng_library
+  examples: |
+    - in which building is the mahikeng campus library
+    - where can I find the mahikeng campus library
+    - where is the mahikeng campus library
+    - location of the mahikeng campus library
+    - mahikeng campus library location
+    - mahikeng campus library building
+    - building mahikeng campus library
+- intent: information_potchefstroom_library
+  examples: |
+    - in which building is the potchefstroom campus library
+    - where can I find the potchefstroom campus library
+    - where is the potchefstroom campus library
+    - location of the potchefstroom campus library
+    - potchefstroom campus library location
+    - potchefstroom campus library building
+    - building potchefstroom campus library
+- intent: information_vaal_library
+  examples: |
+    - in which building is the vaal campus library
+    - where can I find the vaal campus library
+    - where is the vaal campus library
+    - location of the vaal campus library
+    - vaal campus library location
+    - vaal campus library building
+    - building vaal campus library
+- intent: information_request_book
+  examples: |
+    - how do I request books from another NWU campus
+    - request books from potchefstroom campus
+    - request books from mahikeng campus
+    - request books from vaal campus
+- intent: information_copy_shop
+  examples: |
+    - I need more information about the copy shop
+    - copy shop information
+    - what are the contact details of Nashua
+    - nashua contact details
+    - how much does it cost for binding, scanning and printing
+    - binding, scanning and printing cost
+    - binding, scanning and ptinting prices
+    - Price range on printing 200 page thesis
+    - price range for printing, scanning and binding
+- intent: information_closing_date_admission
+  examples: |
+    - closing date for admission
+    - what are the closing dates for admissions
+- intent: information_opac
+  examples: |
+    - OPAC
+    - what is OPAC
+    - define OPAC
+- intent: information_scopus
+  examples: |
+    - scopus
+    - what is scopus
+    - define scopus
+- intent: information_transcript_retrieval
+  examples: |
+    - former student transcript retrieval
+    - former student academic record retrieval
+    - where can I get my transcript
+    - how can I get my transcript
+    - how do I get my transcript as former student
+- intent: contact_dr_moyo
+  examples: |
+    - contact information for Dr Moyo
+    - email and phone for Dr Moyo
+    - Dr Moyo contact details
+- intent: information_reaxys
+  examples: |
+    - what is Reaxys
+    - Reaxys database
+- intent: information_library_lost_and_found
+  examples: |
+    - does the library have a lost and found
+    - lost and found library
+- intent: information_cant_get_book
+  examples: |
+    - difficulty acquiring books online
+    - cannot acquire books online
+    - failed to acquire books online
+    - error acquiring books online
+- intent: contact_admissions
+  examples: |
+    - how do I contact the application and admissions office
+    - contact information appication and admissions office
+    - contact details information application and admissions office
+    - application and admissions office
+- intent: information_book_appointment
+  examples: |
+    - How do I book an appointment? I need help with the boolean search as I need to do feasibility test.
+    - book an appointment boolean search
+    - book appointment with librarian
+    - book lirarian appointment
+- intent: information_ashrae
+  examples: |
+    - ASHRAE
+    - what is ashrae
+    - define ashrae
+- intent: information_constitution
+  examples: |
+    - south african constitution
+    - where can I find the constitution
+    - constitution of south africa
+- intent: information_cellphone_rules
+  examples: |
+    - Are cellphones allowed in the library
+    - cellphone policy
+    - can I use my cellphone in the library
+    - library cellphone rules
+- intent: information_accessability
+  examples: |
+    - may I please get help on how to find information successfully? I am struggling to find information and my assignments are almost due. Thank you.
+    - how to find information
+    - find information on assignments
+- intent: information_access_distance_student
+  examples: |
+    - how to log into an account as a NWU distance student
+    - logging into account NWU distance student
+    - access account NWU distance student
+- intent: information_submit_assignment
+  examples: |
+    - what does red colour means when submitting assignment
+    - got red colour whilst submitting assignment
+    - submit assignment
+- intent: information_access_distance_postgrad
+  examples: |
+    - how do I log on to the library as a postgraduate distance learning student
+    - acess account postgraduate distance learning student
+- intent: information_book_group_study_unit
+  examples: |
+    - how to book a group study unit
+    - book group study room
+    - booking group study room
+    - how do I cancel a booking for discussion room
+    - cancel discussion room booking
+    - cancelling discussion room booking
+- intent: information_reset_efundi_password
+  examples: |
+    - how do I reset my eFundi password
+    - reset eFundi password
+    - resetting eFundi password
+    - password reset eFundi
+    - passoword resetting eFundi
+- intent: information_update_efundi_email
+  examples: |
+    - how do I update my eFundi email address
+    - update eFundi email address
+    - updating eFundi email address
+    - updating email address on efundi
+- intent: information_find_module_efundi
+  examples: |
+    - how do I find a module in eFundi
+    - where can I find a module on eFundi
+    - local a module on eFundi
+    - where are modules on eFundi
+    - locate modules eFundi
+    - finding my modules on eFundi
+- intent: information_how_to_efundi
+  examples: |
+    - how does eFundi work
+    - how to use eFundi
+    - what is eFundi
+    - how do I access eFundi
+    - accessing eFundi
+    - eFundi website link
+    - eFundi
+- intent: information_deregister
+  examples: |
+    - how do I deregister
+    - how can I deregister
+    - where can I deregister
+    - how to deregister
+    - deregistering
+    - deregister
+- intent: information_library_training_session
+  examples: |
+    - I would like to undertake in a library training session
+    - how can I get a library training session
+    - book a library training session
+- intent: information_programme_leaders
+  examples: |
+    - who are the programme leaders for foundation phase across the three campuses
+    - information on programme leaders
+- intent: information_publish_article
+  examples: |
+    - how do I go about in publishing my article in an accredited journal
+    - publish article to accredited journal
+    - journal publishing
+    - article publishing
+- intent: information_endnote_license
+  examples: |
+    - EndNote license key
+    - license key for EndNote
+    - how do I get the license key for EndNote
+    - getting EndNote license key
+- intent: information_recommendation_letter
+  examples: |
+    - letter of recommendation
+    - how can I acquire a letter of recommendation
+    - where can I get a letter of recommendation
+    - recommendation letter
+- intent: information_access_textbook_list
+  examples: |
+    - where can one access the textbook list
+    - where can I get the textbook list
+    - accessing the textbook list
+    - textbook list access
+- intent: information_buy_books
+  examples: |
+    - where do I buy my books
+    - where can I buy books for my modules
+    - where can I buy books for my courses
+    - buy books
+- intent: information_endnote_credentials
+  examples: |
+    - EndNote username and password
+    - EndNote credentials
+    - username and password for EndNote
+    - where can I find sources for law
+    - where are the sources for law
+    - information on sources for law
+- intent: information_cid_manual
+  examples: |
+    - where can I find the brand (CID) manual of the university
+    - university's brand cid manual
+    - nwu brand cid manual
+    - brand manual
+    - nwu manual
+- intent: contact_coffee_shop
+  examples: |
+    - what is the contact information for Books & Beans coffee shop
+    - contact books and beans coffee shop
+- intent: contact_astrovilla
+  examples: |
+    - What is the contact information for the Astrovilla
+    - Astrovilla contact information
+    - contact details of Astrovilla
+- intent: information_prescribed_textbooks
+  examples: |
+    - where can I find prescribed textbooks
+    - access prescibed textbooks
+- intent: information_maximum_books
+  examples: |
+    - what's the maximum number of books I can borrow from the library
+    - how many books can I borrow from the library
+    - what is the limit on the maximum numnber of books I can borrow
+    - borrow limit from the library
+    - how many books per person
+    - maximum number of books per person
+    - how many books can one person borrow
+    - maximum number of books I can borrow from the library
+- intent: information_nsfas_accomodation
+  examples: |
+    - Is it possible to find NSFAS accredited accommodation around potchefstroom
+    - accomodation with NSFAS accreditation in potchefstroom
+    - NSFAS accredited housing in potchefstroom
+- intent: information_diy_password
+  examples: |
+    - where do I find my DIY password
+    - where can I find the password to my DIY
+- intent: information_career_centre
+  examples: |
+    - can't find the career center tab on efundi.
+    - career center efundi
+    - where can I find the career center on efundi
+- intent: information_access_articles
+  examples: |
+    - who can I ask to get access to certain articles the university does not have access to?
+    - accessing articles the university does not have
+- intent: contact_christine
+  examples: |
+    - Christine Bronkhorst email address
+    - contact information Christine Bronkhorst
+    - Christine Bronkhorst
+- intent: information_registration_fee
+  examples: |
+    - How much is the registration fee?
+    - registration fee for this year
+    - what is my registraation fee
+    - details about registration fee
+- intent: information_academic_results
+  examples: |
+    - results of 2021
+    - results of 2022
+    - results for this year
+    - results for last year
+    - last years' results
+    - how do I get my results of 2018 online
+    - how do I get my resuts from previous years
+    - Where can I see my exam results
+    - where can I access my resutls
+    - academic results
+- intent: information_social_work_study_duration
+  examples: |
+    - How many years to study social work
+    - duration of the social work degree
+    - how long does it take to finish the social work degree
+    - years required to completes social work degree
+- intent: information_late_application
+  examples: |
+    - late application is still open
+    - when does the late application close
+    - is late application still available
+- intent: information_clarification_application_status
+  examples: |
+    - clarification of application statuses
+    - information on clarification application statuses
+    - application status clarification
+- intent: information_sync_endnote
+  examples: |
+    - how to sync your EndNote online account
+    - how can I sync my EndNote online account
+    - sync online EndNote account
+    - syncing my online EndNote account
+- intent: information_ebsco_password
+  examples: |
+    - what is my ebsco password
+    - where can I find my ebsco password
+    - password for my ebsco
+- intent: information_register_efundi
+  examples: |
+    - how do I register on eFundi as a new student
+    - new student registration eFundi
+    - efundi new student registration
+    - registration new student efundi
+- intent: reference_webcast
+  examples: |
+    - how do I refer to webcast sessions in my text and in the source list
+    - reference a webcast sessions
+    - citing webcast session
+    - referencing webcast session
+    - cite webcast session
+- intent: information_library_staff
+  examples: |
+    - who works in the library
+    - library staff information
+- intent: information_search_for_cases
+  examples: |
+    - how do I search for cases
+    - searching for cases
+    - case searching
+    - how can I look up cases
+- intent: information_interlibrary_loan
+  examples: |
+    - can first year students make use of interlibrary loans
+    - who can make use the interlibrary loan service
+    - how do I do an interlibrary Loan
+    - interlibrary loan
+- intent: information_cas_authentification
+  examples: |
+    - what is CAS authentication
+    - how do I use CAS authentification
+    - CAS authentification information
+- intent: information_find_acts
+  examples: |
+    - where can I find an act
+    - information on an act
+    - finding an act
+    - searching for an act
+- intent: information_university_account
+  examples: |
+    - where do I see my university account
+    - where can I find my university account
+    - accessing university account
+    - getting a university account
+- intent: information_change_campus
+  examples: |
+    - how can I change my campus
+    - how can I switch campuses
+    - changing to mahikeng campus
+    - changing to vaal campus
+    - changing to potchefstroom campus
+    - switching to mahikeng campus
+    - switching to vaal campus
+    - switching to potchefstroom campus
+    - how can I switch my nwu campuses
+- intent: information_calculate_aps_score
+  examples: |
+    - how to calculate APS score
+    - how can I calculate APS score
+    - calculating APS score
+    - determining APS score
+- intent: information_borrow_encyclopedia
+  examples: |
+    - can the library's encyclopedia be borrowed
+    - can I borrow the encyclopedia from the library
+    - can the encyclopedia be borrowed
+    - does the library borrow out the encyclopedia
+- intent: information_donate_books
+  examples: |
+    - I want to donate books to the library
+    - how can I donate books to the library
+    - donating books to the library
+    - how can I donate new books to the library
+    - I want to give books to the library
+- intent: information_IT_desk
+  examples: |
+    - IT helpdesk
+    - access IT helpdesk
+    - IT helpdesk access
+- intent: information_toc
+  examples: |
+    - how to make table of contents
+    - making table of contents
+    - creating table of contents
+    - how to create table of contents
+- intent: information_link_ORCiD
+  examples: |
+    - how can I link my ORCiD to the NWU website
+    - linking my ORCiD to the NWU website
+    - link NWU website to ORCiD
+- intent: information_vaal_catalogue
+  examples: |
+    - catalogue for books available at Vaal Triangle
+    - books available at the Vaal Triangle library
+    - Vaal Triangle book catalogue
+    - What is the location in the Catalogue for books available at Vaal Triangle Campus
+- intent: information_library_catalogue
+  examples: |
+    - which option on the Library Catalogue will you select to see if the library subscribes to a specific journal
+    - finding which library subscribes to a specific journal
+- intent: ebook_catalogue
+  examples: |
+    - what will you choose to find only eBook results in the Catalogue
+    - filtering ebooks in catalogue search
+    - searching ebooks in library catalogue
+- intent: information_libraries_and_spaces
+  examples: |
+    - libraries and spaces
+    - information on spaces and libraries
+- intent: information_graduate_student_access
+  examples: |
+    - I am PhD graduate student at NWU and would like to use library resources for research purposes. How do I go about?
+    - graduate student access to library resources
+    - accessing library resources as a graduate student
+    - access library resources as master's student
+- intent: information_book_search
+  examples: |
+    - how do I search for a book
+    - searching for a book
+    - book search engine
+    - using search engine for finding books
+    - findingd books via search engine
+- intent: information_britannica
+  examples: |
+    - Britannica
+    - access Britannica
+- intent: information_upload_dropbox
+  examples: |
+    - how do you upload a document to dropbox
+    - uploading a document to dropbox
+    - dropbox upload document
+- intent: information_library_managment
+  examples: |
+    - senior administration
+    - information on senior administration
+    - senior administrator
+    - library administration
+- intent: information_research_commons
+  examples: |
+    - what is the research commons
+    - what is the research commons used for
+    - research commons information
+- intent: information_library_holidays
+  examples: |
+    - do the library open on public holidays
+    - does the library open on public holidays
+    - is the library open on public holidays
+    - does the library operate on public holidays
+- intent: information_structure_assignment
+  examples: |
+    - how to structure an assignment
+    - structuring an assignment
+    - formatting an assignment
+    - format assignment
+    - structure assignment
+    - how to write an assignment
+- intent: information_search_strategy
+  examples: |
+    - how do I plan my search strategy
+    - planning search strategy
+    - planning searching strategy
+    - search strategy planning
+- intent: information_SA_media
+  examples: |
+    - where can I find SA media
+    - finding SA media
+    - where can I get SA media
+- intent: information_check_book_status
+  examples: |
+    - what link would you use to check if a book is reserved
+    - checking book status
+    - verify if book is not reserved
+    - checking if a book is not reserved
+- intent: information_find_author
+  examples: |
+    - how can I find the author of the study guide we were supplied
+    - looking for an author of the study guide we were supplied
+    - finding study guide author
+- intent: information_unblock_card
+  examples: |
+    - how do I unblock my student card in order to enter campus
+    - where can I unblock my student card
+    - unblock student card
+- intent: information_prezi
+  examples: |
+    - where can I find Prezi
+    - where can I get Prezi
+    - acquire Prezi
+- intent: information_open_article
+  examples: |
+    - how do I open newspaper articles
+    - opening news paper articles
+    - viewing newspaper articles
+- intent: information_nwu_wifi
+  examples: |
+    - how do I connect to NWU WIFI on my laptop
+    - connecting to NWU WIFI
+- intent: information_return_ebook
+  examples: |
+    - how do I return an ebook
+    - returning ebook
+- intent: information_law_cases
+  examples: |
+    - where do I find law cases
+    - how can I access law cases
+    - where can I get law cases
+- intent: information_book_loan_duration
+  examples: |
+    - how long can I keep a book
+    - for what period can I keep a book
+- intent: information_cybersecurity
+  examples: |
+    - I need more information regarding cybersecurity on the campus
+    - cybersecurity information
+    - contact cybersecurity
+- intent: information_operating_hours
+  examples: |
+    - is there library open on Saturday
+    - is the library open on Sundays
+    - is the library open on weekends
+    - which days are the library open
+    - what time does the library close
+    - library closing time
+    - library operating hours
+    - when does the library close
+    - is the library open for 24 hours
+    - does the library operate 24 hours
+    - is the library open all day
+    - where can I find the library hours
+- intent: information_borrow_book
+  examples: |
+    - how do I borrow a book
+    - how can I borrow a book
+    - borrowing a book
+    - borrowing a book from the library
+    - how to borrow a book from the library
+- intent: information_norton
+  examples: |
+    - where can I find Norton
+    - where can I download Norton
+    - downloading Norton antivirus
+    - where can I find the norton antivirus
+- intent: information learn theology
+  examples: |
+    - why learn Theology at a public university
+    - learning Theology at a public university
+- intent: information_requirements_coaching_science
+  examples: |
+    - what are the admission requirements of diploma in coaching science
+    - entry requirements diploma in coaching science
+    - coaching science diploma entry requirements
+- intent: information_wikipedia
+  examples: |
+    - why can't we use Wikipedia as source
+    - reference Wikipedia
+    - cite Wikipedia
+    - referencing Wikipedia
+    - citing Wikipedia
+- intent: information_book_seminar_room
+  examples: |
+    - book a seminar room
+    - booking seminar room
+    - how can I book a seminar room
+    - where can I book a seminar room
+- intent: information_mahikeng_librarians
+  examples: |
+    - how many librarians does the Mahikeng campus have
+    - librarians available at Mahikeng campus
+    - how many librarians are at Mahikeng campus
+    - Mahikeng campus librarians
+- intent: information_eating_in_library
+  examples: |
+    - eating in the library
+    - is eating permitted in the library
+    - am I alllowed to eat in the library
+- intent: information_cant_access_library
+  examples: |
+    - I can't access the library what might be the problem
+    - cannnot access the library
+    - error accessing library
+    - library access error
+- intent: information_bcom_accounting
+  examples: |
+    - can I do BCOM Accounting if am doing Accounting with maths literacy
+    - do I qualify for BCOM Accounting if am studying Accounting with maths literacy
+- intent: information_find_study
+  examples: |
+    - I do not now what to study
+    - how to choose what to study
+    - what can I study at nwu
+    - what can I study at North-West University
+    - choosing what to study at nwu
+    - I don't know what to study
+- intent: information_using_nwu_library
+  examples: |
+    - how does NWU Library work
+    - how does the library function
+- intent: information_register_question_papers
+  examples: |
+    - how can I register in order to access the question papers
+    - registering for access to question papers
+    - do I need to register to access question papers
+    - question papers access
+- intent: information_ctl
+  examples: |
+    - CTL (Centre for Teaching and Learning)
+    - CTL
+    - centre for teaching and learning
+- intent: information_upload_assignment
+  examples: |
+    - how can I upload my documents on eFundi
+    - how can I upload my assignments on eFundi
+    - uploading assignments on efundi
+    - uploading documents on efundi
+- intent: information_proof_of_registration
+  examples: |
+    - how do I obtain Proof of Registration
+    - where can I get my proof of registration
+    - where can I download my proof of registration
+    - proof of registration download
+    - where can I request the proof of registration
+- intent: information_nwu_template
+  examples: |
+    - where do I find the NWU template
+    - where can I get the NWU template
+    - how I can get a cover page for my dissertation
+    - dissertation cover page
+    - where can I download the dissertation cover page
+- intent: information_grammarly
+  examples: |
+    - Grammarly access code
+    - accessing grammarly
+    - getting grammarly access code
+- intent: information_alde_alda
+  examples: |
+    - test and quizzes for ALDE ALDA
+    - quizzes and tests for ALDA ALDE
+- intent: information_juta
+  examples: |
+    - how do I login to Juta
+    - May I kindly get the Juta login details
+    - logging into Juta
+    - Juta login details
+    - where can I get the Juta login details
+- intent: information_endnote_error
+  examples: |
+    - I have an organisation as author, but EndNote displays it all wrong in my Word document
+    - wrongly displaying author in EndNote
+- intent: information_IT_services
+  examples: |
+    - IT services
+    - information on IT services
+    - IT services contact information
+- intent: information_WGSN
+  examples: |
+    - what is WGSN
+    - WGSN
+- intent: information_education_research_resources
+  examples: |
+    - where can I find education research resources or themes
+    - where can I access education research resources or themes
+    - information on education research resources or themes
+- intent: information_university_number
+  examples: |
+    - where can I find my university number
+    - where can I get my student number
+    - who can help me with my student number
+- intent: information_graduation
+  examples: |
+    - Graduations
+    - information on graduation ceremonies
+    - information on graduation proceedings
+    - how to access graduation information
+    - how can I access gradution information
+    - accessing graduation information
+- intent: information_import_style_endnote
+  examples: |
+    - how do I import an output style, like the NWU Harvard style in EndNote
+    - importing output style in EndNote
+    - importing NWU Harvard style in EndNote
+    - importing APA style in EndNote
+- intent: information_access_authorities
+  examples: |
+    - how can I access old authorities
+    - accessing old authorities
+    - where can I access old authorities
+- intent: information_registration_form_act
+  examples: |
+    - how can I get a registration form for ACT
+    - ACT registration form
+- intent: information_groupwise
+  examples: |
+    - I need more information on Groupwise
+    - what is Groupwise
+    - where can I get Groupwise
+- intent: information_engineering_final_year_projects
+  examples: |
+    - where do I get Engineering final year projects
+    - where can I access Engineering finel year projects
+    - downloading Engineering final year projects
+    - accessing Engineering final year projects
+- intent: information_write_cv
+  examples: |
+    - how do I write a CV
+    - writing a CV
+- intent: information_lost_book
+  examples: |
+    - what are the fees for lost books
+    - lost books fees
+    - what happens when I lose a book
+- intent: information_nsfas
+  examples: |
+    - I want to see if I qualify for NSFAS
+    - how to check if I qualify for NSFAS
+    - checking if I'm eligible for NSFAS
+    - I want to see If I can get NSFAS
+- intent: information_agle_curriculum
+  examples: |
+    - AGLE curriculum
+    - where can I get the AGLE curriculum
+- intent: information_registration_forms
+  examples: |
+    - I need registration forms for Bed degree 2021
+    - where can I get registration forms
+    - registration forms
+- intent: information_calender
+  examples: |
+    - when does the 2021 calander start
+    - where can I get this years' calender
+    - academic calander for this year
+    - nwu academic calender
+    - when does the calander for this year start
+- intent: information_registation_dates
+  examples: |
+    - When is registration for this year
+    - registration deadline
+    - registration dates
+    - when is the final day of registration
+- intent: information_multingual_languages_dictionary
+  examples: |
+    - where to find multingual languages dictionary
+    - where can I access the multingual languages dictionary
+    - how can I get multingual languages dictionary
+- intent: information_get_sources
+  examples: |
+    - where can I get sources
+    - where can I access sources
+    - where can I access research sources
+    - accessing research sources
+    - how can I get research sources
+    - how can I access research sources
+- intent: information_calculate_module_credit
+  examples: |
+    - how to calculate module credit
+    - how can I calculate module credit
+    - how do I calculate module credit
+    - how to determine module credit
+    - calculating module credit
+    - deterrming module credit
+- intent: information_apply_to_nwu
+  examples: |
+    - how to apply
+    - how to apply to NWU
+    - how to apply to the university
+    - how to make an application to NWU
+    - how to make an application to the university
+    - applying to the university
+    - applying to NWU
+- intent: information_green_token
+  examples: |
+    - I have a book that is due today, but I am having trouble accessing the DIY service so that i can get the green token.
+    - I can't generate green token
+    - I cannot generate green tokeb
+    - having trouble generating green token
+    - I get an error when I try to generate green token
+    - error when generating green token
+- intent: information_download_endnote
+  examples: |
+    - how do I download EndNote for my research reference
+    - how to download EndNote for referencing
+    - how can I download EndNote for referencing
+    - downloading EndNote for referencing
+    - where can I download EndNote
+    - download EndNote
+- intent: information_library_pin
+  examples: |
+    - how do I get a Library PIN
+    - how can I obtain a library PIN
+    - where can I get a library PIN
+    - getting a library PIN
+    - where can I find my library PIN
+- intent: information_distance_learning_programmes
+  examples: |
+    - where can I find the distance learning programmes
+    - where can I find the distance learning courses
+    - where can I access distance learning programmes
+    - where can I access distance learning courses
+    - accessing distance learning programmes
+    - accessing distance learning courses
+- intent: information_download_study_guide
+  examples: |
+    - how do I download study guides for my modules
+    - how to download study guides for my modules
+    - downloading study guides for my modules
+    - where can I download study guides for my modules
+    - download module study guides
+- intent: information_distance_learning_360_service
+  examples: |
+    - Where can I find the Student 360-Service for Distance Learners
+    - where can I access the Student 360-Service for Distance Learners
+    - Student 360-Service access for Distance Learners
+- intent: information_printing_credits
+  examples: |
+    - how do I check my printing credits
+    - where can I check my printing credits
+    - checking printing credits
+    - how to check my printing credits
+    - check printing credits
+- intent: information_international_books
+  examples: |
+    - are books published internationally only available from the union catalogue
+    - are internationally published books available in the library catalogue
+    - are international books available in the library catalogue
+- intent: information_library_password
+  examples: |
+    - what password do I use to have access to the library
+    - what password do I use to access the library
+    - which password do I use to access the library
+- intent: information_journal_catalogue
+  examples: |
+    - which option on the Library Catalogue will you select to see if the library subscribes to a specific journal
+    - finding journal catalogues
+    - journals available in the library
+- intent: information_download_book
+  examples: |
+    - how do I download a book from the library
+    - how to download a book from the library
+    - downloading a book from the library
+    - how can I download a book from the library
+- intent: information_memorandum_past_papers
+  examples: |
+    - where do I find memorandum for past papers
+    - where can I find memorandums for past exam papers
+    - memorandums for past exam papers
+- intent: information_eds_vs_library_catalogue
+  examples: |
+    - what is EDS, and how does it differ from the library catalogue
+    - what is the difference between EDS and the library catalogue
+    - differences between the library catalogue and EDS
+    - difference between EDS and the library catalogue
+- intent: information_past_exam_papers
+  examples: |
+    - where can I find previous exam papers
+    - where can I download past exam papers
+    - where can I access past exam papers
+    - access past exam papers
+    - download past exam papers
+
+- intent: information_potchefstroom_turnitin_admin
+  examples: |
+    - name of and contact details of NWU Potchefstroom Turnitin administrator
+    - who is the Turnitin administrator for Potchefstroom
+    - I would like to contact the Turnitin administrator for Potchefstroom
+    - where can I find information on the Turnitin administrator for Potchefstroom
+
+- intent: information_reset_student_password
+  examples: |
+    - where can I reset my student password
+    - where can I change my student password
+    - resetting my student password
+    - changing my student password
+    - student password change
+
+- intent: information_book_appointment_writing_lab
+  examples: |
+    - how do I book an appointment on the writing lab
+    - where can I book an appointment in the writing lab 
+    - how can I book an appointment in the writing lab 
+    - booking appointment in the writing lab
+    - appointment booking for the writing lab
+
+- intent: information_ethical_requirements_postgraduate
+  examples: |
+    - what is the ethical requirements for postgraduate studies
+    - what are the ethical requirements for postgraduate studies 
+    - postgraduate studies ethical requirements
+    - where can I find ethical requirements for postgraduate studies
+
+- intent: information_register_orcid
+  examples: |
+    - how do I register for ORCiD
+    - how to register for ORCiD
+    - where can I register for ORCiD
+    - create ORCiD account
+    - creating an ORCiD account
+
+- intent: information_search_orcid_number
+  examples: |
+    - how do I search for my ORCiD number
+    - where can I get my ORCiD number
+    - where can I search for my ORCiD
+    - where can I find my ORCiD
+
+- intent: information_libguide
+  examples: |
+    - What is a Libguide
+    - what are libguide
+    - define libguide
+    - information libguide
+    - what is the purpose of a libguide
+    
+- intent: information_postgrad_application
+  examples: |
+    - postgraduate application
+    - postgraduate applications
+    - how can I apply for postgraduate
+    - applying for postgraduate
+
+- intent: information_campus_map
+  examples: |
+    - where can I find campus maps
+    - where can I find a Potchefstroom campus map
+    - where can I find a Mafikeng campus map
+    - where can I find a Vanderbijlpark campus map
+
+- intent: information_prospectus
+  examples: |
+    - where can I find the Prospectus
+    - where can I download the Prospectus
+
+- intent: information_late_fees
+  examples: |
+    - fines for a book that is late
+    - late book fees 
+    - fine for a late book
+    
