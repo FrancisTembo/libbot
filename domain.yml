@@ -339,7 +339,7 @@ responses:
   utter_instruction:
   - text: To get started send me a message 📝 of what you'd like me to find out for you.
   utter_example:
-  - text: For example, send me the message 'Download EndNote' to find out how you can download EndNote for your research referencing.
+  - text: For example, send me the message 'Applying to NWU' to find out how you can apply to NWU.
   utter_help:
   - text: Alternatively you can send the send the message 'help' to access the help menu.
 
