@@ -240,7 +240,7 @@ views:4
 
 #41✅
 intent: How do I book an appointment? I need help with the boolean search as I need to do feasibility test.
-utter: You can make an appointment with your Faculty Librarian. Their info is listed on this page  https://library.nwu.ac.za/information-services-and-faculty-librarians .
+utter: You can make an appointment with your Faculty Librarian. Their info is listed on this page  https://library.nwu.ac.za/information-services-and-faculty-librarians.
 topic: Faculty Librarians / LibGuides
 views:1
 
@@ -570,7 +570,7 @@ views:5
 
 #96✅
 intent: What is CAS authentication?
-utter: CAS stands for Central Authentication Service and is a software programme that is maintained by the NWU IT services. Once you are a registered student or staff member you will receive a username and password for the CAS system.  You use this username and password to login on to any computer on campus, to access eFundi or other university systems. Examples:  username: university/student number e.g. 12345678 password: unique password e.g. 7907660331081@Nwu If you forgot your password, click here for help . Example of the CAS login screen:
+utter: CAS stands for Central Authentication Service and is a software programme that is maintained by the NWU IT services. Once you are a registered student or staff member you will receive a username and password for the CAS system.  You use this username and password to login on to any computer on campus, to access eFundi or other university systems. Examples:  username: university/student number e.g. 12345678 password: unique password e.g. 7907660331081@Nwu. If you forgot your password, click here for help . Example of the CAS login screen:
 topic: About the NWU; Access / Hours; Account
 views:9
 
@@ -1536,7 +1536,7 @@ views:7
 
 #257
 intent: What password do I use to have access to the library?
-utter: NWU students and staff use their CAS username and password to access our databases. This is the same username and password that you use when you log into eFundi. For more information regarding our passwords click here.   If you want to access your patron record you will use your surname, university number and a PIN. You can create your own PIN here .
+utter: NWU students and staff use their CAS username and password to access our databases. This is the same username and password that you use when you log into eFundi. For more information regarding our passwords click this link: https://library.nwu.ac.za/passwords. If you want to access your patron record you will use your surname, university number and a PIN. You can create your own PIN here: https://sierra.nwu.ac.za/patroninfo.
 topic: Loan Services (e.g. Renew Books); Databases (e.g. Catalogue, Exam papers); Access / Hours
 views:74
 
@@ -1552,7 +1552,7 @@ utter: The loan rule for the item will influence the amount of the fine. The Li
 topic: Loan Services (e.g. Renew Books)
 views:22
 
-#260
+#260✅
 intent: Fines for a book that is late
 utter: Information regarding fines for late books is on this page  https://library.nwu.ac.za/loan-services  under the heading How to avoid fines . If you do not agree with the fine please contact the Manager of the Loans Department on your campus. Their contact details are also on the page.
 topic: Loan Services (e.g. Renew Books)
@@ -1666,7 +1666,7 @@ utter: All our databases are listed in an A-Z database list at https://libguide
 topic: Databases (e.g. Catalogue, Exam papers)
 views:13
 
-#279
+#279✅
 intent: Postgraduate application
 utter: Postgraduate students can apply on this page  http://studies.nwu.ac.za/postgraduate-studies/higher-degree-admissions
 topic: About the NWU
@@ -1714,7 +1714,7 @@ utter: Our theses and dissertations are available on the Institutional Repositor
 topic: Finding information (e.g. Books, eBooks, Articles); Research (e.g. EndNote, ORCiD, ETDs)
 views:33
 
-#287
+#287✅
 intent: Where can I find a Mafikeng campus map?
 utter: You will find a Mafikeng Campus map on this page  http://www.nwu.ac.za/content/maps-and-directions-io#mc .
 topic: About the NWU
@@ -1762,7 +1762,7 @@ utter: Please contact Academic Record Enquiries at  http://services.nwu.ac.za/s
 topic: About the NWU
 views:1062
 
-#295
+#295✅
 intent: How do I book an appointment on the writing lab?
 utter: You can make an appointment on the NWU Writing Centre web page. Link below:
 topic: Research (e.g. EndNote, ORCiD, ETDs); Writing Assignments
@@ -1882,7 +1882,7 @@ utter: At the bottom of all the NWU web pages. You can also use this link  http
 topic: About the NWU
 views:62
 
-#315
+#315✅
 intent: What is the ethical requirements for postgraduate studies?
 utter: You will find the ethical requirements on the NWU Research Support page at  http://services.nwu.ac.za/research-support/ethics .
 topic: Finding information (e.g. Books, eBooks, Articles); Research (e.g. EndNote, ORCiD, ETDs)
@@ -1980,7 +1980,7 @@ views:3
 
 #331✅
 intent: How do I do an Interlibrary Loans?
-utter: Our Interlibrary Loans (ILL) service is available to registered fourth year, honours, masters and doctoral students as well as staff of the NWU. Material is usually requested via ILL if the NWU Library does not own it. You can make an Interlibrary Loans request by clicking on your campus and completing the form on this page . Please read through the section "Questions about ILL" before you request your book or article. You can also contact your Faculty Librarian for help.
+utter: Our Interlibrary Loans (ILL) service is available to registered fourth year, honours, masters and doctoral students as well as staff of the NWU. Material is usually requested via ILL if the NWU Library does not own it. You can make an Interlibrary Loans request by clicking on your campus and completing the form on this page: https://library.nwu.ac.za/interlibrary-loans. Please read through the section "Questions about ILL" before you request your book or article. You can also contact your Faculty Librarian for help: https://library.nwu.ac.za/information-services-and-faculty-librarians.
 topic: Loan Services (e.g. Renew Books)
 views:9
 
@@ -2140,7 +2140,7 @@ utter: You can obtain this certificate via the Unit for Open Distance Learning .
 topic: Distance Learning
 views:9
 
-#358
+#358✅
 intent: Where can I find the Prospectus?
 utter: The NWU Undergraduate Study Prospectus is available at  http://studies.nwu.ac.za/undergraduate-studies/fields-study The NWU Creativity Centre Prospectus is available at  http://humanities.nwu.ac.za/creativity-centre/prospectus .
 topic: About the NWU
@@ -2296,13 +2296,13 @@ utter: Please contact the Unit for Open Distance Learning via one of their conta
 topic: Distance Learning
 views:20
 
-#384
+#384✅
 intent: How do I register for a ORCiD?
 utter: Steps to register: Click on  https://mwr.nwu.ac.za/nwu-orcid/main/connect .   Enter your university number and CAS Password (this is the same password that you use to log into a computer on campus / the NWU Wi-Fi / eFundi.) If you do not have a password please request a new password at  https://password.nwu.ac.za/manqiti/password_request.jsp .   Click on Create and Connect your ORCiD iD next to Follow this link.   Click on Register now and fill in the form to complete the registration.   Check your email for verification and your ORCiD number. 
 topic: Research (e.g. EndNote, ORCiD, ETDs)
 views:134
 
-#385
+#385✅
 intent: How do I search for my ORCiD number?
 utter: Go to the ORCiD web page at  https://orcid.org/ . Type your name in the search box next to Registry . Search for your name in the search results.    
 topic: Research (e.g. EndNote, ORCiD, ETDs)
@@ -2518,7 +2518,7 @@ utter: Steps for renewing your books online: Go to  https://sierra.nwu.ac.za/pa
 topic: Loan Services (e.g. Renew Books)
 views:912
 
-#421
+#421✅
 intent: What is a Libguide?
 utter: A LibGuide was created by a Faculty Librarian to put together all types of information about a specific subject. For instance, you will find all the relevant information for Law on the Law LibGuide. This includes databases, cases and acts, journals and contact information. Thus a one-stop site.  
 topic: Faculty Librarians / LibGuides

@@ -5,14 +5,15 @@ Library Support
     - Databases✅
     - Bookings and Training Events✅
     - Photocopying, Printing, Binding and Scanning✅
-    - Research
+    - Research✅
+    - Loan Services✅
 
-About the Library
-    - Access Hours 
-    - information
-    - Faculty Librarians/LibGuides
-    - Finding informations
-    - Library Contacts
+About the Library ✅
+    - Access Hours ✅
+    - Information✅
+    - Faculty Librarians✅
+    - LibGuides✅
+    - Library Contacts✅
 
 Contact ✅
     - Library Contacts ✅
@@ -20,17 +21,9 @@ Contact ✅
     - Contact an office ✅
     - General contact information ✅
 
-NWU Services 
-    - Loan Services 
-    - IT Services
-    - DIY Services
-    - Tech Support
-    - Loan Service
+About the NWU✅
 
-About the NWU
-    - Distance Learning
-
-eFundi
+eFundi✅
 
 Most Asked Questions✅
 
@@ -50,7 +43,4 @@ library
 nwu
 
 are you a robot 
-who made you 
-where do you stay 
-who is your father 
-who is your maker
+who made you

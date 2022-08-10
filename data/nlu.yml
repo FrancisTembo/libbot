@@ -33,6 +33,8 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - stop
+    - halt
 - intent: affirm
   examples: |
     - yes
@@ -68,6 +70,10 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - are you a robot 
+    - do you have consciousness
+    - are you conscious
+    - who made you
 - intent: language_style_guide
   examples: |
     - where can I find the NWU language style guide?
@@ -1902,3 +1908,67 @@ nlu:
     - resetting my student password
     - changing my student password
     - student password change
+
+- intent: information_book_appointment_writing_lab
+  examples: |
+    - how do I book an appointment on the writing lab
+    - where can I book an appointment in the writing lab 
+    - how can I book an appointment in the writing lab 
+    - booking appointment in the writing lab
+    - appointment booking for the writing lab
+
+- intent: information_ethical_requirements_postgraduate
+  examples: |
+    - what is the ethical requirements for postgraduate studies
+    - what are the ethical requirements for postgraduate studies 
+    - postgraduate studies ethical requirements
+    - where can I find ethical requirements for postgraduate studies
+
+- intent: information_register_orcid
+  examples: |
+    - how do I register for ORCiD
+    - how to register for ORCiD
+    - where can I register for ORCiD
+    - create ORCiD account
+    - creating an ORCiD account
+
+- intent: information_search_orcid_number
+  examples: |
+    - how do I search for my ORCiD number
+    - where can I get my ORCiD number
+    - where can I search for my ORCiD
+    - where can I find my ORCiD
+
+- intent: information_libguide
+  examples: |
+    - What is a Libguide
+    - what are libguide
+    - define libguide
+    - information libguide
+    - what is the purpose of a libguide
+    
+- intent: information_postgrad_application
+  examples: |
+    - postgraduate application
+    - postgraduate applications
+    - how can I apply for postgraduate
+    - applying for postgraduate
+
+- intent: information_campus_map
+  examples: |
+    - where can I find campus maps
+    - where can I find a Potchefstroom campus map
+    - where can I find a Mafikeng campus map
+    - where can I find a Vanderbijlpark campus map
+
+- intent: information_prospectus
+  examples: |
+    - where can I find the Prospectus
+    - where can I download the Prospectus
+
+- intent: information_late_fees
+  examples: |
+    - fines for a book that is late
+    - late book fees 
+    - fine for a late book
+    

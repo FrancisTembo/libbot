@@ -268,6 +268,23 @@ intents:
 - information_potchefstroom_turnitin_admin
 - efundi
 - information_reset_student_password
+- information_book_appointment_writing_lab
+- information_ethical_requirements_postgraduate
+- information_register_orcid
+- information_search_orcid_number
+- research
+- find_information
+- libguides
+- information_libguide
+- information_libanswers
+- about_the_library
+- information_postgrad_application
+- information_campus_map
+- information_prospectus
+- about_the_nwu
+- loan_services
+- information_late_fees
+- library_homepage
 
 responses:
   utter_greet:
@@ -276,10 +293,8 @@ responses:
   - text: Did that help you?
   utter_goodbye:
   - text: Bye
-  utter_rephrase_struggle:
-  - text: Seems I'm struggling a bit to figure out what you need help with. Try using different wording or send the message 'help' to explore the help menu.
   utter_iamabot:
-  - text: I am a bot, powered by Rasa.
+  - text: Yes I am a bot!
   utter_language_style_guide:
   - text: 'The NWU Style Guide is published by the NWU Language Directorate at this link: https://library.nwu.ac.za/sites/library.nwu.ac.za/files/files/documents/referencing-guide-2020b.pdf'
   utter_new_student_application:
@@ -316,27 +331,27 @@ responses:
   - text: 'The contact information for the  Faculty of Natural and Agricultural Sciences is on this page: https://natural-sciences.nwu.ac.za/natural-and-agricultural-sciences/contact-us'
   utter_please_rephrase:
   - text: I'm sorry, I didn't quite understand that. Could you rephrase?
+  - text: Seems I'm struggling a bit to figure out what you need help with. Try using different wording or send the message 'help' to explore the help menu.
   utter_start:
   - text: Welcome, please send the message 'Hi' to start the conversation.
   utter_welcome:
-  - text: Hi there I'm LibBot, NWU's library robotic assistant 🤖. I'm always online and ready to help 🤠
+  - text: Hi there I'm LibBot, NWU's library robotic assistant 🤖.
   utter_instruction:
   - text: To get started send me a message 📝 of what you'd like me to find out for you.
   utter_example:
   - text: For example, send me the message 'Download EndNote' to find out how you can download EndNote for your research referencing.
   utter_help:
   - text: Alternatively you can send the send the message 'help' to access the help menu.
+
   utter_options:
   - text: Here's the help menu. You can always type 'help' to revisit it again
     buttons:
     - title: Library Support ⚙️
       payload: /library_services
     - title: About the Library 📚
-      payload: /contact
-    - title: NWU Services 🔧
-      payload: /contact
+      payload: /about_the_library
     - title: About the NWU 🏦
-      payload: /contact
+      payload: /about_the_nwu
     - title: eFundi 🧠
       payload: /efundi
     - title: Contact Information ☎️
@@ -366,8 +381,10 @@ responses:
       payload: /information_upload_assignment
     - title: How do I update my eFundi email address?
       payload: /information_update_efundi_email
+
   utter_information_potchefstroom_turnitin_admin:
   - text: "Teaching and Learning manage Turnitin on eFundi: http://services.nwu.ac.za/centre-teaching-and-learning-ctl/turnitin. You will find their help desk info on the bottom of their web page."
+  
   utter_most_asked_questions:
   - text: Here the are the popular FAQ's
     buttons:
@@ -392,6 +409,7 @@ responses:
     - title: Where can I see my exam results?
       payload: /information_academic_results
     button_type: vertical
+
   utter_global_contact_options:
   - text: Who would you like to contact?
     buttons:
@@ -456,7 +474,7 @@ responses:
   - text: Here's a quick menu of some of our library support options. If you don't see an option that applies to you, please send me a message of what exactly you are looking for ☺️
     buttons:
     - title: Research
-      payload: /contact_nwu
+      payload: /research
     - title: Citing, Referencing and Plagiarism
       payload: /citing_referencing_plagiarism
     - title: Databases
@@ -465,6 +483,8 @@ responses:
       payload: /information_bookings_and_training_events
     - title: Photocopying, Printing, Binding and Scanning
       payload: /printing_binding_scanning_services
+    - title: Loan Services
+      payload: /loan_services
     button_type: vertical
   utter_citing_referencing_plagiarism:
   - text: Here are the most frequently asked questions on the citing, referencing and plagiarism topics. You can always type in for me to find out exactly what you need.
@@ -527,6 +547,144 @@ responses:
       payload: /information_eds_vs_library_catalogue
     button_type: vertical
 
+  utter_research:
+  - text: Here's some quick information related to the Research topic. You can always type in for me to find out exactly what you need.
+    buttons: 
+    - title: What is EndNote?
+      payload: /endnote
+    - title: How do I download EndNote for my research reference?
+      payload: /information_download_endnote
+    - title: EndNote license key
+      payload: /information_endnote_license
+    - title: How do I import an output style, like the NWU Harvard style in EndNote?
+      payload: /information_import_style_endnote
+    - title: How I can get a cover page for my dissertation?
+      payload: /information_nwu_template
+    - title: Do you have a Postgraduate LaTeX Word template?
+      payload: /latex_template
+    - title:  Book an appointment for the writing lab
+      payload: /information_book_appointment_writing_lab
+    - title: Ethical requirements for postgraduate studies?
+      payload: /information_ethical_requirements_postgraduate
+    - title: How do I register for a ORCiD?
+      payload: /information_register_orcid
+    - title: How do I search for my ORCiD number?
+      payload: /information_search_orcid_number
+    button_type: vertical
+
+  utter_about_the_library:
+  - text: What would you like to know about the library? You can can also type in what you need to know.
+    buttons:
+    - title: Access Hours
+      payload: /information_operating_hours
+    - title: Find Information
+      payload: /find_information
+    - title: Faculty Librarians
+      payload: /information_mahikeng_librarians
+    - title: LibGuides
+      payload: /libguides
+    - title: Library Contacts
+      payload: /contact_librarians
+    - title: Library Homepage
+      payload: /library_homepage
+    button_type: vertical
+
+  utter_find_information:
+  - text: Here's some quick information related to this topic. You can always type in for me to find out exactly what you need.
+    buttons:
+    - title: What will you choose to find only eBook results in the Catalogue?
+      payload: /ebook_catalogue
+    - title: Where do I find the NWU template?
+      payload: /information_nwu_template
+    - title: Grammarly access code
+      payload: /information_grammarly
+    - title: Test & quizzes for ALDE/ALDA
+      payload: /information_alde_alda
+    - title: Are books published internationally only available from the union catalogue?
+      payload: //information_international_books
+    - title: How do I download a book from the library?
+      payload: /information_download_book
+    - title: How do I connect to NWU WIFI on my laptop?
+      payload: /information_nwu_wifi
+    button_type: vertical
+
+  utter_libguides:
+  - text: Here's some quick information related to this topic. You can always type in for me to find out exactly what you need.
+    buttons:
+    - title: What is a Libguide?
+      payload: /information_libguide
+    - title: What is LibAnswers?
+      payload: /information_libanswers
+    - title: How can I link my ORCiD to the NWU website?
+      payload: /information_link_ORCiD
+    button_type: vertical
+
+  utter_about_the_nwu:
+  - text: Here's some quick information related to this topic. You can always type in for me to find out exactly what you need.
+    buttons:
+    - title: IT Helpdesk
+      payload: /information_IT_desk
+    - title: Graduations
+      payload: /information_graduation
+    - title: Registration
+      payload: /information_registation_dates
+    - title: How to apply?
+      payload: /information_apply_to_nwu
+    - title: Postgraduate Applications
+      payload: /information_postgrad_application
+    - title: Campus maps
+      payload: /information_campus_map
+    - title: Prospectus
+      payload: /information_prospectus 
+    - title: Contact NWU
+      payload: /contact_nwu
+    button_type: vertical
+
+  utter_loan_services:
+  - text: Here's some quick information related to this topic. You can always type in for me to find out exactly what you need.
+    buttons:
+    - title: How do I do an Interlibrary Loans?
+      payload: /information_interlibrary_loan
+    - title: How do I request books from another NWU campus?
+      payload: /information_request_book
+    - title: What are the fees for lost books?
+      payload: /information_lost_book
+    - title: What's the maximum number of books I can borrow from the library?
+      payload: /information_maximum_books
+    - title: How do I get a Library PIN?
+      payload: /information_library_pin
+    - title: What link would you use to check if a book is reserved?
+      payload: /information_check_book_status
+    - title: How long can I keep a book?
+      payload: /information_book_loan_duration
+    - title: How do I borrow a book?
+      payload: /information_borrow_book
+    - title: Fines for late books
+      payload: /information_late_fees
+    button_type: vertical
+
+  utter_library_homepage: 
+  - text: "Here's our homepage: https://library.nwu.ac.za/"
+  utter_information_late_fees:
+  - text: "Information regarding fines for late books is on this page: https://library.nwu.ac.za/loan-services under the heading How to avoid fines. If you do not agree with the fine please contact the Manager of the Loans Department on your campus. Their contact details are also on the page."
+  utter_information_prospectus:
+  - text: "The NWU Undergraduate Study Prospectus is available at: http://studies.nwu.ac.za/undergraduate-studies/fields-study. The NWU Creativity Centre Prospectus is available at: http://humanities.nwu.ac.za/creativity-centre/prospectus"
+  utter_information_campus_map:
+  - text: "You will find campus maps on this page: http://www.nwu.ac.za/content/maps-and-directions-io"
+  utter_information_postgrad_application:
+  - text: "Postgraduate students can apply on this page: http://studies.nwu.ac.za/postgraduate-studies/higher-degree-admissions"
+  utter_information_libanswers:
+  - text: "LibAnswers is a searchable knowledge base of frequently asked library-related questions. We hope that it answers some of your questions even if the libraries are closed. It also has a question form and chat system which you can use to get in contact with us. We may add some of the questions that you ask us to our knowledge base. All personal information will be removed from the questions to retain your privacy."
+  utter_information_libguide:
+  - text: "A LibGuide was created by a Faculty Librarian to put together all types of information about a specific subject. For instance, you will find all the relevant information for Law on the Law LibGuide. This includes databases, cases and acts, journals and contact information. Thus a one-stop site."
+  utter_information_search_orcid_number:
+  - text: "Go to the ORCiD web page at: https://orcid.org/. Type your name in the search box next to Registry. Search for your name in the search results."
+  utter_information_register_orcid:
+  - text: "Steps to register: Click on: https://mwr.nwu.ac.za/nwu-orcid/main/connect. Enter your university number and CAS Password (this is the same password that you use to log into a computer on campus / the NWU Wi-Fi / eFundi.) If you do not have a password please request a new password at: https://password.nwu.ac.za/manqiti/password_request.jsp. Click on Create and Connect your ORCiD iD next to Follow this link. Click on Register now and fill in the form to complete the registration. Check your email for verification and your ORCiD number."
+  utter_information_ethical_requirements_postgraduate:
+  - text: "You will find the ethical requirements on the NWU Research Support page at: http://services.nwu.ac.za/research-support/ethics"
+  utter_information_book_appointment_writing_lab:
+  - text: "You can make an appointment on the NWU Writing Centre web page. Here is the link: https://humanities.nwu.ac.za/nwu-writing-centre"
   utter_information_reset_student_password:
   - text: "You can change/reset your university/student password from the eFundi web site at: http://efundi.nwu.ac.za/portal/site/!gateway/page/2b728fdc-aafb-4fa2-00f5-3bedb9253a8f"
   utter_information_eds_vs_library_catalogue:
@@ -540,11 +698,11 @@ responses:
   utter_information_journal_catalogue:
   - text: I would search for the journal in A-Z Publication Finder. If I cannot find the journal there I would double-check in the Library Catalogue.
   utter_information_library_password:
-  - text: NWU students and staff use their CAS username and password to access our databases. This is the same username and password that you use when you log into eFundi. For more information regarding our passwords click here 🎈. If you want to access your patron record you will use your surname, university number and a PIN. You can create your own PIN here 🎈.
+  - text: "NWU students and staff use their CAS username and password to access our databases. This is the same username and password that you use when you log into eFundi. For more information regarding our passwords follow this link: https://library.nwu.ac.za/passwords. If you want to access your patron record you will use your surname, university number and a PIN. You can create your own PIN here: https://sierra.nwu.ac.za/patroninfo"  
   utter_information_bookings_and_training_events:
   - text: On this page https://nwu.libcal.com/ you may book a room for a group discussion, a computer in one of our computer areas or register for a training event.
   utter_harvard_vs_apa:
-  - text: APA referencing is a variant of the Harvard style. For more info regarding the differences in referencing styles read this article.🎈
+  - text: "APA referencing is a variant of the Harvard style. For more info regarding the differences in referencing styles read this article: https://www.assignmentace.co.uk/blog/differences-between-harvard-apa-or-mla-referencing-styles/"
   utter_efundi_endnote:
   - text: Please email the Library staff under the Ask Us tab on the EndNote LibGuide to give you access to eFundi. Provide your name, surname and university number with the request.
   utter_dalro:
@@ -560,9 +718,9 @@ responses:
   utter_copyright:
   - text: Copyright is the right whereby certain products of the mind are protected by law. The Copyright Act (Act 98 of 1978) states that copyright is breached if a person, who is not the owner of the copyright, in any way copies, performs, distributes or reproduces literary or musical works without the permission of the owner/copyright holder. Still uncertain about copyright? Contact your Faculty Librarian.
   utter_latex_template:
-  - text: Yes, Prof Leonard Santana provided us with a LaTeX word template for NWU MSc or Ph.D. students. Link below:🎈
+  - text: "Yes, Prof Leonard Santana provided us with a LaTeX word template for NWU MSc or Ph.D. students. Check out this link: https://nwu.libanswers.com/loader?fid=15430&type=1&key=23cbf3ce26cf95964ba3e0c6f8484274."
   utter_plagiarism_declaration:
-  - text: 'You can find the plagiarism declaration form at the link below: 🎈'
+  - text: 'You can find the plagiarism declaration form at the link: https://nwu.libanswers.com/loader?fid=15432&type=1&key=cf2b9fdd95f5af406f6705d90c1b987a'
   utter_copy_book:
   - text: Up to 10% or one complete chapter of a book, plus any associated endnotes or references. For instance, if a chapter comprises 25% of a book, you can photocopy the entire chapter; but if you want to photocopy extracts from more than one chapter, you can only copy up to 10% of the book.
   utter_copyright_length:
@@ -570,13 +728,13 @@ responses:
   utter_referella:
   - text: 'Referella was created to help to make referencing easier. Guides were created for each referencing style and videos were placed on each guide that explains the material. Choose the referencing style that is used by your Faculty: NWU Harvard Referencing Guide NWU Law Referencing Guide APA Referencing Guide'
   utter_apa_referencing:
-  - text: 'You will find the APA Referencing Style on the Library home page under Guides and Training>Referella: NWU Referencing Guides or you can just click on the link: 🎈 '
+  - text: 'You will find the APA Referencing Style on the Library home page under Guides and Training>Referella: NWU Referencing Guides or you can just click on the link: https://libguides.nwu.ac.za/apa-referencing'
   utter_nwu_law_referencing:
   - text: 'You will find the NWU Law Referencing Style on the Library home page under Guides and Training>Referella>Referencing Guides>Referencing guides> NWU Law House style referencing guide. They have their own style which you will find here: https://libguides.nwu.ac.za/law-referencing/home'
   utter_old_referencing_style:
-  - text: 'As from January 2020 updates were made to the existing referencing style guides. Postgraduate students completing their final submissions may still use the previous versions of the style guides. You will find the documents on the library homepage under Guides and Training> Referella: NWU Referencing Guides> 2012 Referencing Guide or you can click on the link: 🎈'
+  - text: 'As from January 2020 updates were made to the existing referencing style guides. Postgraduate students completing their final submissions may still use the previous versions of the style guides. You will find the documents on the library homepage under Guides and Training> Referella: NWU Referencing Guides> 2012 Referencing Guide or you can click on the link: http://library.nwu.ac.za/referella'
   utter_referella_videos:
-  - text: 'Please note: These videos are only for the NWU Harvard Referencing style.🎈'
+  - text: 'Please note: These videos are only for the NWU Harvard Referencing style. Checkout this page: https://nwu.libanswers.com/faq/304381'
   utter_copy_paste_print_ebooks:
   - text: Yes, but eBooks are protected by copyright law in the same way as printed publications! As a guide, SA copyright law allows you to print/copy no more than one chapter, or 10% of a work, whichever is the greater. The different eBook suppliers and publishers have different rules about this but once these limits are reached, you will not be able to print/copy any further text from that eBook. Some eBook software is designed to restrict printing to a limited number of pages only, or a limited number of pages per day. In this case, the eBook software will notify you of how many pages you may print. For more detailed information, please go to the suppliers' websites
   utter_find_referella:
@@ -688,7 +846,7 @@ responses:
   utter_information_handle_book:
   - text: We prefer that you leave the books on the tables after you have used them as the books must be arranged via the Dewey Decimal System when they are placed back on the shelves.
   utter_information_boolean_operators:
-  - text: The three Boolean operators are AND, OR and NOT. These are part of your search strategy. Read more about it here🎈.
+  - text: "The three Boolean operators are AND, OR and NOT. These are part of your search strategy. Read more about it here: https://libguides.nwu.ac.za/efundi/search-strategy"  
   utter_information_search_engine:
   - text: We are using Ebsco Discovery Service (EDS).
   utter_information_access_database:
@@ -748,7 +906,7 @@ responses:
   utter_information_book_group_study_unit:
   - text: 'Group rooms are booked at this link: https://nwu.libcal.com/'
   utter_information_reset_efundi_password:
-  - text: 'This video from CTL explains how to reset your eFundi password🎈. You can also use the Infographic on their site. You will find more tutorials regarding eFundi on the CLT page at: http://services.nwu.ac.za/ctl/student-efundi-support'
+  - text: 'You will find more tutorials regarding eFundi on the CLT page at: http://services.nwu.ac.za/ctl/student-efundi-support'
   utter_information_update_efundi_email:
   - text: 'This video from CTL will explain how to update your eFundi email address. You can also use the Infographic on their page. You will find more tutorials regarding eFundi on the CLT page at: http://services.nwu.ac.za/ctl/student-efundi-support'
   utter_information_find_module_efundi:
@@ -788,7 +946,7 @@ responses:
   utter_information_prescribed_textbooks:
   - text: "You will find the prescribed textbooks in your library's Course reserve section. You can search for material under the course code or lecturer. Search by course code: https://sierra.nwu.ac.za/search/r Search by lecturer: https://sierra.nwu.ac.za/search/p"
   utter_information_maximum_books:
-  - text: The amount of books that you can borrow depends on your user category.🎈
+  - text: "The amount of books that you can borrow depends on your user category. Checkout this link: https://nwu.libanswers.com/faq/363134"
   utter_information_nsfas_accomodation:
   - text: 'You will find a list of residences on this page: http://studies.nwu.ac.za/studies/residences. You can contact them and find out about NSFAS accreditation.'
   utter_information_diy_password:
@@ -822,9 +980,12 @@ responses:
   utter_information_search_for_cases:
   - text: For cases, you can search in either Juta, LexisNexis, or SAflii.
   utter_information_interlibrary_loan:
-  - text: Our Interlibrary Loans (ILL) service is exclusively available to registered fourth year, honours, masters and doctoral students as well as staff of the NWU. Material is usually requested via ILL if the NWU Library does not own it. You can make an Interlibrary Loans request by clicking on your campus and completing the form on this page . Please read through the section 'Questions about ILL' before you request your book or article. You can also contact your Faculty Librarian for help.
+  - text: "Our Interlibrary Loans (ILL) service is exclusively available to registered fourth year, honours, masters and doctoral students as well as staff of the NWU. Material is usually requested via ILL if the NWU Library does not own it. You can make an Interlibrary Loans request by clicking on your campus and completing the form on this page: https://library.nwu.ac.za/interlibrary-loans. Please read through the section 'Questions about ILL' before you request your book or article. You can also contact your Faculty Librarian for help: https://library.nwu.ac.za/information-services-and-faculty-librarians"  
   utter_information_cas_authentification:
-  - text: 'CAS stands for Central Authentication Service and is a software programme that is maintained by the NWU IT services. Once you are a registered student or staff member you will receive a username and password for the CAS system. You use this username and password to login on to any computer on campus, to access eFundi or other university systems. Examples: username: university/student number e.g. 12345678 password: unique password e.g. 7907660331081@Nwu🎈'
+  - text: 'CAS stands for Central Authentication Service and is a software programme that is maintained by the NWU IT services. Once you are a registered student or staff member you will receive a username and password for the CAS system. You use this username and password to login on to any computer on campus, to access eFundi or other university systems. Examples: username: university/student number e.g. 12345678 password: unique password e.g. 7907660331081@Nwu. If you forgot your password: https://www.nwu.ac.za/mynwu/efundi. Here is what the log screen looks like:'
+  utter_cas_log_screen:
+  - text: "Here is what the log screen looks like."
+    image: https://libapps.s3.amazonaws.com/accounts/2918/images/efundi.png
   utter_information_find_acts:
   - text: For acts, you can search in either Juta or LexisNexis.
   utter_information_university_account:
@@ -892,15 +1053,15 @@ responses:
   utter_information_return_ebook:
   - text: You don't, your access will just expire.
   utter_information_law_cases:
-  - text: Use our LibGuide for Law. Link below:🎈
+  - text: "Use our LibGuide for Law. Follow this link: https://libguides.nwu.ac.za/law-guide"
   utter_information_book_loan_duration:
   - text: Your user category determines how long you can keep a book. Membership Number of items Loan period (days) Database Access Help with Information Searches Interlibrary Loans Undergraduates 6 14 Yes Information Commons No 4th-year degree and Honours students 10 30 Yes Honours Commons Yes Post-graduates (M and Ph.D.) 15 30 Yes Research Commons & Faculty Librarians Yes Academic staff 20 90 Yes Research Commons & Faculty Librarians Yes Support staff 10 30 Yes Information Commons Yes Managerial & Professional staff 15 90 Yes Information Commons Yes Alumni (with borrowing rights) 4 14 No Information desk No Community members 2 14 No Information desk No
   utter_information_cybersecurity:
-  - text: IT Services is responsible for Cyber Security awareness on the campus. Follow the link below for more info:🎈
+  - text: "IT Services is responsible for Cyber Security awareness on the campus. Follow the link below for more info: http://services.nwu.ac.za/it/cyber-security"
   utter_information_borrow_book:
   - text: "All registered staff and students of the North-West University may borrow books from any of our campus libraries. You must present your university card for all borrowing transactions. You can borrow books from the: Loan Services desk This is the desk at any of the NWU libraries where you can check out, renew and return books, pay fines, pick up your holds, and more. They are usually located near the main entrance of each library. Self-checkout machine Self-service machines are available at all our main campus libraries. This manual explains how to use the self-check machine. If you encounter any problems please go to the Loan Services desk. You will NOT be able to use the self-checkout machine: to borrow items without a barcode to borrow books that are 'Non - circulating' e.g. Reference items if your University card has expired if you have a block on your University card if your item has been invoiced for the replacement cost if you have overdue charges in excess of R10.00 to renew a book if it was requested by another user You are responsible for all items issued on your University card. If an item you want is out on loan you can request it using the holds service provided by the Loans Counter. The library may ask you to return books earlier than their due date if the specific item(s) is highly on demand. If an item you want to borrow is not on the shelves, please report it to the Loan Services desk. The Library staff will search for the item and place a hold on it for you. If we cannot find the item, we will change the status of the item to missing in the catalogue."
   utter_information_norton:
-  - text: You can search for Norton on the internet. The University uses Microsoft's antivirus software. For more info follow the link below:🎈
+  - text: "You can search for Norton on the internet. The University uses Microsoft's antivirus software. For more info follow the link below: http://services.nwu.ac.za/it/sc/antivirus-software"
   utter_information_learn_theology:
   - text: 'The Faculty of Theology home page should explain this in one of their videos at: http://theology.nwu.ac.za/.You are also welcome to contact them for more information regarding their courses at: http://theology.nwu.ac.za/theology/contact-us'
   utter_information_requirements_coaching_science:
@@ -908,19 +1069,38 @@ responses:
   utter_information_wikipedia:
   - text: Wikipedia is not a credible source as it can be updated by any person. Follow this link to evaluate credible sources https://libguides.nwu.ac.za/undergraduate-student-support/evaluation-information
   utter_information_book_seminar_room:
-  - text: You can book a seminar room from the link below:🎈
+  - text: "You can book a seminar room from the link below: https://nwu.libcal.com/"
   utter_information_mahikeng_librarians:
-  - text: 'Our staff are listed on our staff directory at: https://library.nwu.ac.za/staff-directory Our Faculty Librarians are listed on this page: https://library.nwu.ac.za/information-services-and-faculty-librarians Our Research Librarians are listed on this page: https://library.nwu.ac.za/research-spaces-contact-us Library Management is listed on this page: https://library.nwu.ac.za/lis-management'
+  - text: 'Our staff are listed on our staff directory at: https://library.nwu.ac.za/staff-directory. Our Faculty Librarians are listed on this page: https://library.nwu.ac.za/information-services-and-faculty-librarians. Our Research Librarians are listed on this page: https://library.nwu.ac.za/research-spaces-contact-us. Library Management is listed on this page: https://library.nwu.ac.za/lis-management'
   utter_information_eating_in_library:
   - text: Eating is prohibited in the library.
   utter_information_cant_access_library:
-  - text: Depends on what you want to access? If you want to access your patron record you need to click here to create a Library PIN. If you want to access databases please see the information regarding our passwords. If you want to download EndNote via eFundi please follow the steps on this page 🎈.
+  - text: Depends on what you want to access? If you want to access your patron record you need to click here (https://sierra.nwu.ac.za/patroninfo) to create a Library PIN. If you want to access databases please see the information regarding our passwords (https://library.nwu.ac.za/passwords). If you want to download EndNote via eFundi please follow the steps on this page (https://libguides.nwu.ac.za/citation-tools).
   utter_information_bcom_accounting:
-  - text: Please contact the Faculty of Economic and Management Sciences for the best answer. Link below:🎈
+  - text: "Please contact the Faculty of Economic and Management Sciences for the best answer. Check out this link: https://commerce.nwu.ac.za/economic-and-management-sciences/contact-us"
   utter_information_find_study:
-  - text: The links below might help:🎈
+  - text: "The links below might help:"
+  utter_find_study_link_one:
+  - text: https://www.interestindex.co.za/
+  utter_find_study_link_two:
+  - text: http://studies.nwu.ac.za/undergraduate-studies/fields-study
+  utter_find_study_link_three:
+  - text: http://studies.nwu.ac.za/honours-studies/honours-studies-and-postgraduate-diplomas
+  utter_find_study_link_four:
+  - text: http://studies.nwu.ac.za/postgraduate-studies
+  utter_find_study_link_five:
+  - text: http://distance.nwu.ac.za/
+
   utter_information_using_nwu_library:
-  - text: The links below will explain:🎈
+  - text: "The links below will explain:"
+  utter_information_using_nwu_library_one:
+  - text: https://library.nwu.ac.za/sites/library.nwu.ac.za/files/files/documents/undergrad-web-eng.pdf
+  utter_information_using_nwu_library_two:
+  - text: https://library.nwu.ac.za/sites/library.nwu.ac.za/files/files/documents/postgraduate-support.pdf
+  utter_information_using_nwu_library_three:
+  - text: https://library.nwu.ac.za/sites/library.nwu.ac.za/files/files/documents/academic-staff-guide.pdf
+  utter_information_using_nwu_library_four:
+  - text: https://library.nwu.ac.za/loan-services
   utter_information_register_question_papers:
   - text: 'Our question papers do not require registration. They are available to the public at: https://collections.nwu.ac.za/dbtw-wpd/textbases/exam-papers/exams-2015-2020.html'
   utter_information_ctl:
@@ -930,7 +1110,11 @@ responses:
   utter_information_proof_of_registration:
   - text: "You can obtain Proof of Registration online. This video from CTL will explain how. Steps: Click on this Register Online link . Click on Registration (menu left). Enter your University number and unique PIN at the login window. This is not the same as your eFundi password. If you forgot your PIN click on the link 'Forgotten your PIN' link to create a new one. If you do not have a PIN click on the 'Create PIN' link to create a PIN. Click on Login Click on Registration (menu left) once you have logged in. Click on Proof of registration in the dropdown menu. Choose your qualification Click on Retrieve information NB! Make sure your pop-up blocker is not active. Alternatively, you can contact Academic Records."
   utter_information_nwu_template:
-  - text: NWU Templates for Microsoft Office is part of the IT Service Catalogue. Please note this service is only available to NWU Staff. Students use the MS Word Postgraduate Template. Links below:🎈
+  - text: "NWU Templates for Microsoft Office is part of the IT Service Catalogue. Please note this service is only available to NWU Staff. Students use the MS Word Postgraduate Template. Links below:"
+  utter_nwu_template_one:
+  - text: http://services.nwu.ac.za/it/sc/nwu-templates-office
+  utter_nwu_template_two:
+  - text: http://services.nwu.ac.za/it/sc/nwu-templates-postgraduate
   utter_information_library_hours_quick_facts:
   - text: 'Here are some quick facts⚡on the library operating hours🕘:'
   utter_information_library_hours:
@@ -948,7 +1132,7 @@ responses:
   utter_information_endnote_error:
   - text: "When entering an author in EndNote, the program by default, assumes it is a personal author with first name first, followed by the surname, eg. John Smith. EndNote manipulates this, by inverting the order to Smith, J. In the case of an organisation as author, EndNote will also invert the order by displaying the last word of the organisation first (thinking it is a surname), with the first letters of the rest of the organisation's name as initials, displaying it totally wrong. To fix this, you must make EndNote understand that it is an organisation's name by simply typing a comma (,) after the name of the organisation, eg.: It will then display correct in the reference list in your word document."
   utter_information_IT_services:
-  - text: You will find information regarding IT Services on the link below:🎈
+  - text: "You will find information regarding IT Services on this link: http://services.nwu.ac.za/ithome"
   utter_information_WGSN:
   - text: 'You will find WGSN on our database list at: https://libguides.nwu.ac.za/az.php?a=w'
   utter_information_education_research_resources:
@@ -964,7 +1148,7 @@ responses:
   utter_information_registration_form_act:
   - text: Please contact Open Distance Learning. You might also find their Student Resources page helpful.
   utter_information_groupwise:
-  - text: GroupWise is the official email service of the NWU. Link below:🎈
+  - text: "GroupWise is the official email service of the NWU. Follow this link: http://services.nwu.ac.za/it/sc/email-calendaring"
   utter_information_engineering_final_year_projects:
   - text: Final year projects are housed in the Natural Sciences Library. Please contact the Information Librarian for more information.
   utter_information_write_cv:

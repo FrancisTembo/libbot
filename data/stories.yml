@@ -847,6 +847,7 @@ stories:
   steps:
   - intent: information_cas_authentification
   - action: utter_information_cas_authentification
+  - action: utter_cas_log_screen
 
 - story: information find acts
   steps:
@@ -1075,11 +1076,20 @@ stories:
   steps:
   - intent: information_find_study
   - action: utter_information_find_study
+  - action: utter_find_study_link_one
+  - action: utter_find_study_link_two
+  - action: utter_find_study_link_three
+  - action: utter_find_study_link_four
+  - action: utter_find_study_link_five
 
 - story: information using nwu library
   steps:
   - intent: information_using_nwu_library
   - action: utter_information_using_nwu_library
+  - action: utter_information_using_nwu_library_one
+  - action: utter_information_using_nwu_library_two
+  - action: utter_information_using_nwu_library_three
+  - action: utter_information_using_nwu_library_four
 
 - story: information register question papers
   steps:
@@ -1105,6 +1115,8 @@ stories:
   steps:
   - intent: information_nwu_template 
   - action: utter_information_nwu_template
+  - action: utter_nwu_template_one
+  - action: utter_nwu_template_two
 
 - story: information grammarly
   steps:
@@ -1331,3 +1343,83 @@ stories:
   steps:
     - intent: information_reset_student_password
     - action: utter_information_reset_student_password
+
+- story: information book appointment writing lab
+  steps:
+   - intent: information_book_appointment_writing_lab
+   - action: utter_information_book_appointment_writing_lab
+
+- story: information ethical requirements postgraduate
+  steps:
+  - intent: information_ethical_requirements_postgraduate
+  - action: utter_information_ethical_requirements_postgraduate
+
+- story: information register orcid
+  steps: 
+  - intent: information_register_orcid
+  - action: utter_information_register_orcid
+
+- story: information search orcid number
+  steps:
+  - intent: information_search_orcid_number
+  - action: utter_information_search_orcid_number
+
+- story: information research
+  steps:
+  - intent: research
+  - action: utter_research
+
+- story: find information
+  steps:
+  - intent: find_information
+  - action: utter_find_information
+
+- story: libguides
+  steps:
+  - intent: libguides
+  - action: utter_libguides
+
+- story: information libguide
+  steps:
+  - intent: information_libguide
+  - action: utter_information_libguide
+
+- story: about the library
+  steps:
+  - intent: about_the_library
+  - action: utter_about_the_library
+
+- story: information postgrad application
+  steps:
+  - intent: information_postgrad_application
+  - action: utter_information_postgrad_application
+
+- story: information campus map
+  steps:
+  - intent: information_campus_map
+  - action: utter_information_campus_map
+
+- story: information prospectus
+  steps:
+  - intent: information_prospectus
+  - action: utter_information_prospectus
+
+- story: about the nwu
+  steps:
+  - intent: about_the_nwu
+  - action: utter_about_the_nwu
+
+- story: loan services
+  steps:
+  - intent: loan_services
+  - action: utter_loan_services
+
+- story: information late fees
+  steps:
+  - intent: information_late_fees
+  - action: utter_information_late_fees
+
+- story: library homepage
+  steps: 
+  - intent: library_homepage
+  - action: utter_library_homepage
