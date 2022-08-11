@@ -45,7 +45,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installing Requirements</a></li>
+        <li><a href="#installing-requirements">Installing Requirements</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
