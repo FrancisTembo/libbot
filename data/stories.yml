@@ -97,6 +97,7 @@ stories:
   - intent: return_books
   - action: utter_return_books_quick_facts
   - action: utter_information_renew_book
+  - action: utter_information_renew_book_online
   - action: utter_return_books
   - action: utter_return_books_sunday
 
@@ -304,6 +305,7 @@ stories:
   steps: 
   - intent: endnote
   - action: utter_endnote
+  - action: utter_endnote_more
 
 - story: plagiarism check
   steps: 
@@ -1187,6 +1189,7 @@ stories:
   steps:
   - intent: information_engineering_final_year_projects
   - action: utter_information_engineering_final_year_projects
+  - action: utter_information_engineering_final_year_reports
 
 - story: information write cv
   steps:
@@ -1418,8 +1421,125 @@ stories:
   steps:
   - intent: information_late_fees
   - action: utter_information_late_fees
+  - action: utter_information_late_fees_two
 
 - story: library homepage
   steps: 
   - intent: library_homepage
   - action: utter_library_homepage
+
+- story: information best search engine
+  steps: 
+  - intent: information_best_search_engine
+  - action: utter_information_best_search_engine
+
+- story: information cal system
+  steps: 
+  - intent: information_cal_system
+  - action: utter_information_cal_system
+
+- story: information allocated book search
+  steps:
+  - intent: information_allocated_book_search
+  - action: utter_information_allocated_book_search
+
+- story: information accomodation
+  steps:
+  - intent: information_accomodation
+  - action: utter_information_accomodation
+
+- story: information postgraduate library
+  steps:
+  - intent: information_postgraduate_library
+  - action: utter_information_postgraduate_library
+  - action: utter_information_postgraduate_library_mahikeng
+  - action: utter_information_postgraduate_library_potchefstroom
+  - action: utter_information_postgraduate_library_vaal
+
+- story: information borrow dictionary
+  steps: 
+  - intent: information_borrow_dictionary
+  - action: utter_information_borrow_dictionary
+
+- story: information libanswers
+  steps: 
+  - intent: information_libanswers
+  - action: utter_information_libanswers
+
+- story: information language practitioners
+  steps: 
+  - intent: information_language_practitioners
+  - action: utter_information_language_practitioners
+
+- story: information ebsco
+  steps: 
+  - intent: information_ebsco
+  - action: utter_information_ebsco
+
+- story: information binding application form
+  steps: 
+  - intent: information_binding_application_form
+  - action: utter_information_binding_application_form
+  - action: utter_information_binding
+
+- story: information submissions of final copies
+  steps:
+  - intent: information_submissions_of_final_copies
+  - action: utter_information_submissions_of_final_copies
+  - action: utter_information_binding
+
+- story: information binding 
+  steps: 
+  - intent: information_binding
+  - action: utter_binding_quick_facts
+  - action: utter_information_binding
+  - action: utter_information_binding_link
+  - action: utter_information_binding_non_students
+
+- story: information endnote incorrect reference
+  steps:
+  - intent: information_endnote_incorrect_reference
+  - action: utter_information_endnote_incorrect_reference
+
+- story: information h_index
+  steps: 
+  - intent: information_h_index
+  - action: utter_information_h_index_one
+  - action: utter_h_index_link_one
+  - action: utter_h_index_link_two
+  - action: utter_information_h_index_two
+  - action: utter_h_index_link_three
+
+- story: information computer science and chemistry
+  steps: 
+  - intent: information_computer_science_and_chemistry
+  - action: utter_information_computer_science_and_chemistry
+
+- story: information module books
+  steps:
+  - intent: information_module_books
+  - action: utter_information_module_books
+
+- story: information diy error 
+  steps: 
+  - intent: information_diy_error
+  - action: utter_information_diy_error
+
+- story: information distance learning submit assignment
+  steps:
+  - intent: information_distance_learning_submit_assignment
+  - action: utter_information_distance_learning_submit_assignment 
+
+- story: information_assignment_library
+  steps: 
+  - intent: information_assignment_library
+  - action: utter_information_assignment_library
+
+- story: information google scholar
+  steps: 
+  - intent: information_google_scholar
+  - action: utter_information_google_scholar
+  - action: utter_information_google_scholar_access
+  - action: utter_information_google_scholar_library
+  - action: utter_information_google_scholar_error
+  - action: utter_information_goggle_scholar_link

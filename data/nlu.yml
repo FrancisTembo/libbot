@@ -74,6 +74,7 @@ nlu:
     - do you have consciousness
     - are you conscious
     - who made you
+    - are you alive
 - intent: language_style_guide
   examples: |
     - where can I find the NWU language style guide?
@@ -128,6 +129,11 @@ nlu:
     - renew my book
     - return book
     - renew book
+    - how do I renew my books online
+    - how can I renew my books online 
+    - renewing books online
+    - online book renewal
+
 - intent: information_exam_timetable
   examples: |
     - where can I find the exam timetable
@@ -593,6 +599,8 @@ nlu:
     - where is EndNote used
     - define EndNote
     - EndNote
+    - how do I use EndNote 20
+    - using EndNote 20
 - intent: plagiarism_check
   examples: |
     - how can I check my assignment for plagiarism
@@ -1142,7 +1150,7 @@ nlu:
 - intent: information_access_distance_postgrad
   examples: |
     - how do I log on to the library as a postgraduate distance learning student
-    - acess account postgraduate distance learning student
+    - access account postgraduate distance learning student
 - intent: information_book_group_study_unit
   examples: |
     - how to book a group study unit
@@ -1737,6 +1745,12 @@ nlu:
     - where can I access Engineering finel year projects
     - downloading Engineering final year projects
     - accessing Engineering final year projects
+    - where can I find the final year engineering reports
+    - where do I get Engineering final year reports
+    - where can I access Engineering finel year reports
+    - downloading Engineering final year reports
+    - accessing Engineering final year report
+    - where can I find an engineering report or project
 - intent: information_write_cv
   examples: |
     - how do I write a CV
@@ -1916,6 +1930,10 @@ nlu:
     - how can I book an appointment in the writing lab 
     - booking appointment in the writing lab
     - appointment booking for the writing lab
+    - where do I get the contact details for the writing centre
+    - how do I contact the writing center
+    - book appointment writing center
+    - how do I book an appointment on the writing centre
 
 - intent: information_ethical_requirements_postgraduate
   examples: |
@@ -1971,4 +1989,162 @@ nlu:
     - fines for a book that is late
     - late book fees 
     - fine for a late book
-    
+    - how much do I have to pay on my book if it is late for a month
+    - fine for books late for a month
+    - what are the fines for late books
+
+- intent: information_search_engine
+  examples: |
+    - best search engine 2020
+    - what is the best search engine
+    - what are the best search engines
+    - search engines ranked
+
+- intent: information_cal_system
+  examples: |
+    - cal number arrange by who
+    - how is the cal number arranged
+    - Dewey Decimal Classification System
+
+- intent: information_allocated_book_search
+  examples: |
+    - how do I search for books allocated to a specific course
+    - how can I search for books allocated to a specific course 
+    - searching for books allocated to a specific course
+    - how can I search for a book that I use for a specific course
+    - searching for course specific books
+    - how can I search for course specific books
+
+- intent: information_accomodation
+  examples: |
+    - where can I find accommodation
+    - list of accommodation
+    - where do I find accommodation
+    - where can I find where to stay 
+    - finding a place to rent 
+    - where can I find rentals 
+    - rental places
+
+- intent: information_postgraduate_library
+  examples: |
+    - where in the library can I work or study as a researcher or postgraduate student
+    - which library do I use as a researcher or postgraduate student
+    - which library do I use as a master's or PhD student 
+    - which library can I work or study in as a master's or PhD student
+
+- intent: information_borrow_dictionary
+  examples: |
+    - can dictionaries be borrowed
+    - can I borrow dictionaries
+    - can I borrow a dictionary
+    - can I borrow a dictionary from the library 
+    - can I borrow dictionaries from the library 
+    - can the library borrow out dictiories
+
+- intent: information_libanswers
+  examples: |
+    - what is LibAnswers
+    - what are LibAnswers
+    - define LibAnswers
+    - defining LibAnswers
+    - where can I find LibAnswers
+    - what is the purpose of LibAnswers
+
+- intent: information_language_practitioners
+  examples: |
+    - where to find language practitioners in South Africa
+    - are they language practitioners in South Africa
+    - where can I find language practitioners
+    - information on language practitioners
+    - are language practitioners available in South Africa
+
+- intent: information_ebsco
+  examples: |
+    - how do I create an account for EBSCOhost
+    - how do I create a EBSCOhost account 
+    - creating a EBSCOhost account
+    - where can I create a EBSCOhost account 
+    - create EBSCOhost account
+
+- intent: information_binding_application_form
+  examples: |
+    - where do I find the application form for binding my thesis
+    - applying to bind my thesis
+    - application form for binding my thesis 
+    - binding thesis application form
+
+- intent: information_submissions_of_final_copies
+  examples: |
+    - where can I find the guidelines for submission of final copies for binding
+    - guidelines for submitting final copies for binding
+    - guidelnes for binding final copies
+    - binding final copies for submission
+
+- intent: information_binding
+  examples: |
+    - binding services
+    - where can I find the Bindery contact details
+    - bindery services
+    - I would like to contact bindery services 
+    - contact information bindery services
+    - where can I bind my thesis
+    - where can I bind my master's or PhD thesis
+    - binding my thesis 
+    - how do I pay for my binding work
+    - does the library bind books for people who are not students
+    - What types of leather is used for binding theses and dissertations
+
+- intent: information_endnote_incorrect_reference
+  examples: |
+    - Endnote inserts the incorrect reference, despite choosing and selecting the correct reference. How do I fix this
+    - EndNote inserts wrong reference 
+    - Endnote error inserting reference
+    - EndNote  is inserting wrong reference
+    - fix EndNote inserting wrong reference
+
+- intent: information_h_index
+  examples: |
+    - how does H-index work
+    - where do I find my H-index
+    - how do I calculate my H-index
+    - what is my H-index
+    - calculating my H-index
+
+- intent: information_computer_science_and_chemistry
+  examples: |
+    - which modules are under computer science and chemistry
+    - chemistry and computer science modules
+
+- intent: information_module_books
+  examples: |
+    - I need books for my modules
+    - where can I find need books for my modules
+    - how do I get books for my modules
+
+- intent: information_diy_error
+  examples: |
+    - DIY service not working 
+    - I'm trying to use the  DIY service but it says Error since yesterday. How can it be fixed?
+    - DIY service error 
+    - the DIY service is not working
+    - getting error using DIY service
+    - DIY service giving an error
+
+- intent: information_distance_learning_submit_assignment
+  examples: |
+    - I am a distance learning student, where do I hand in my assignments
+    - distance learning submit assignment
+    - submitting assignment distance learning student
+
+- intent: information_assignment_library
+  examples: |
+    - did you receive my assignment
+    - have you received my assignment
+
+- intent: information_google_scholar
+  examples: |
+    - How can I access Google Scholar through the Library
+    - Why must I access Google Scholar through the Library web page
+    - I am using the Library link to Google Scholar and cannot see if the full text are in the Library
+    - How do I link my Google account to the NWU to see the "Full Text @NWU" links
+    - Google Scholar

@@ -97,6 +97,7 @@ intents:
 - information_download_study_guide
 - information_eating_in_library
 - information_ebsco_password
+- information_ebsco
 - information_economics
 - information_eds_vs_library_catalogue
 - information_education
@@ -285,8 +286,90 @@ intents:
 - loan_services
 - information_late_fees
 - library_homepage
+- information_best_search_engine
+- information_cal_system
+- information_allocated_book_search
+- information_accomodation
+- information_postgraduate_library
+- information_borrow_dictionary
+- information_language_practitioners
+- information_binding_application_form
+- information_submissions_of_final_copies
+- information_binding
+- information_endnote_incorrect_reference
+- information_h_index
+- information_computer_science_and_chemistry
+- information_module_books
+- information_diy_error
+- information_distance_learning_submit_assignment
+- information_assignment_library
+- information_google_scholar
 
 responses:
+  utter_information_google_scholar:
+  - text: "Here's all I know about the Google Scholar topic"
+  utter_information_google_scholar_access:
+  - text: "Follow this link https://nwu.libanswers.com/faq/305270 to learn how you can access Google Scholar via the library."
+  utter_information_google_scholar_library:
+  - text: "Follow this link https://nwu.libanswers.com/faq/305271 to learn why you should access Google Scholar through the library webpage."
+  utter_information_google_scholar_error:
+  - text: "Follow this link https://nwu.libanswers.com/faq/305272 if you can't see the full-text article link."
+  utter_information_goggle_scholar_link:
+  - text: "Follow this link https://nwu.libanswers.com/faq/305273 to learn how you to link your Google account to the NWU."
+  utter_information_assignment_library:
+  - text: "No assignments are submitted to the Library. If you are a distance student please contact the Unit for Open Distance Learning to enquire after your assignment."
+  utter_information_distance_learning_submit_assignment:
+  - text: "Please contact the Unit for Open Distance Learning via one of their contact methods listed on this page: http://distance.nwu.ac.za/contact_us for more information."
+  utter_information_diy_error:
+  - text: "The DIY Service is the responsibility of IT services at the NWU. Please report any problems that you have at +27(0)18 299 2700. Also, note that in each service block there is a How-To Guide which usually has contact info for the person responsible for that specific service. Do not use Chrome as a browser when you access this service."
+  utter_information_module_books:
+  - text: "To search for hard copies go to our catalogue: https://sierra.nwu.ac.za/search You will find eBooks on this page: https://library.nwu.ac.za/ebooks If you still cannot find books please contact your faculty librarian."
+  utter_information_computer_science_and_chemistry:
+  - text: "You will find the modules in the University Yearbooks at: http://studies.nwu.ac.za/studies/yearbooks"
+  utter_information_h_index_one:
+  - text: "You will find an explanation on how to calculate your researcher's impact or H-index on the Library home page under Services>Research Support>Measure/Impact. Please feel free to contact your Faculty Librarian for help. Links below:"
+  utter_h_index_link_one:
+  - text: "https://library.nwu.ac.za/h-index"
+  utter_h_index_link_two:
+  - text:  "https://library.nwu.ac.za/information-services-and-faculty-librarians"
+  utter_information_h_index_two:
+  - text: "Follow the steps in the attached PDF document on where to find your H-index."
+  utter_h_index_link_three:
+  - text: "https://nwu.libanswers.com/loader?fid=15433&type=1&key=682afd5b863a12ceb37e469109acf471"
+  utter_information_endnote_incorrect_reference:
+  - text: "This usually happens when you have a travelling library. You have to try and get rid of the traveling library. Also try to make sure your 'instant formatting' is turned on."
+  utter_binding_quick_facts:
+  - text: "Here are some quick facts on the Bindery services:"
+  utter_information_binding:
+  - text: "Please visit the link below to learn about: 1. Binding fees 2. Application form for binding your thesis 3. Guidelines for submission of final copies for binding 4. Bindery contact details 5. Types of leather is used 6. Payment Methods"
+  utter_information_binding_link:
+  - text: "https://library.nwu.ac.za/binding"
+  utter_information_binding_non_students:
+  - text: "We also offer our binding services to non-students. You will find the Application form for binding repairs and other bindings on our web page under Services>More Services>Binding>Other binding and repairs."
+  utter_information_submissions_of_final_copies:
+  - text: "You will find the guidelines for the submission of final copies for your mini-dissertation/dissertation/thesis for your graduation ceremony on the library web page under Services>More services>Binding>Guidelines: submissions of final copies."
+  utter_information_binding_application_form:
+  - text: "You will find the application form on our web page under Services>More Services>Binding> Application form."
+  utter_information_language_practitioners:
+  - text: "You will find a list of South African language practitioners on the South African Translator's Institute (SATI) page: http://www.translators.org.za/find-a-language-practitioner. You are also welcome to contact the NWU Language Directorate: http://services.nwu.ac.za/language-directorate"
+  utter_information_borrow_dictionary:
+  - text: "Dictionaries are reference works and can not be borrowed. You will notice that they have an R before the shelf number. Their status in the catalogue will display as 'LIB USE ONLY'. Please note that certain titles are available online."
+  utter_information_postgraduate_library:
+  - text: "You can make use of the different Research areas at the campus libraries. Links below:"
+  utter_information_postgraduate_library_mahikeng:
+  - text: "https://library.nwu.ac.za/libraries-and-branches#mahikeng"
+  utter_information_postgraduate_library_potchefstroom:
+  - text: "https://library.nwu.ac.za/libraries-and-branches#potchefstroom"
+  utter_information_postgraduate_library_vaal:
+  - text: "https://library.nwu.ac.za/libraries-and-branches#vaal"
+  utter_information_accomodation:
+  - text: "You will find a list of residences on this page: http://studies.nwu.ac.za/studies/residences"
+  utter_information_allocated_book_search:
+  - text: "Reserved material is usually placed in the course reserve section. You can search for them online. If the materials were not reserved by your lecturer you can search for them in the Library catalogue"
+  utter_information_cal_system:
+  - text: The Library uses the Dewey Decimal Classification System
+  utter_information_best_search_engine:
+  - text: "Depends on what you are looking for in a search engine. I found this article interesting: https://www.lifewire.com/best-search-engines-2483352"
   utter_greet:
   - text: Hey! How are you?
   utter_did_that_help:
@@ -519,6 +602,8 @@ responses:
       payload: /information_copy_shop
     - title: How do I check my printing credits?
       payload: /information_printing_credits
+    - title: Binding services
+      payload: /information_binding
     button_type: vertical
   utter_database:
   - text: Here's some quick information related to the Database topic. You can always type in for me to find out exactly what you need.
@@ -643,6 +728,8 @@ responses:
   utter_loan_services:
   - text: Here's some quick information related to this topic. You can always type in for me to find out exactly what you need.
     buttons:
+    - title: Return or renew books
+      payload: /return_books
     - title: How do I do an Interlibrary Loans?
       payload: /information_interlibrary_loan
     - title: How do I request books from another NWU campus?
@@ -666,7 +753,9 @@ responses:
   utter_library_homepage: 
   - text: "Here's our homepage: https://library.nwu.ac.za/"
   utter_information_late_fees:
-  - text: "Information regarding fines for late books is on this page: https://library.nwu.ac.za/loan-services under the heading How to avoid fines. If you do not agree with the fine please contact the Manager of the Loans Department on your campus. Their contact details are also on the page."
+  - text: "Information regarding fines for late books is on this page: https://library.nwu.ac.za/loan-services under the heading How to avoid fines. If you do not agree with the fine please contact the Manager of the Loans Department on your campus."
+  utter_information_late_fees_two:
+  - text: "The loan rule for the item will influence the amount of the fine. The Library allows a certain grace period before it starts to charge a user for late books. You should see your fines when you log into your patron record. If you do not agree with the fine please contact the Manager of the Loans Department on your campus. Library Fines Overdue items: Open Collection R1,00 (per item per day) Overdue items: Course Reserve and Study Collection R3,00 (per item per hour) Overdue items: Interlibrary Loan (ILL) R10,00 (per item per day) Lost books R150,00 admin fee + the replacement cost of the book"
   utter_information_prospectus:
   - text: "The NWU Undergraduate Study Prospectus is available at: http://studies.nwu.ac.za/undergraduate-studies/fields-study. The NWU Creativity Centre Prospectus is available at: http://humanities.nwu.ac.za/creativity-centre/prospectus"
   utter_information_campus_map:
@@ -759,6 +848,8 @@ responses:
   - text: "Plagiarism is the act of using others' words and ideas without proper attributions. For more information go to: https://libguides.nwu.ac.za/undergraduate-student-support/plagiarism. Still uncertain about copyright? Contact your Faculty Librarian."
   utter_endnote:
   - text: EndNote is used by millions of researchers, scholarly writers, students, and librarians to search online bibliographic databases, organise references and related files, and create bibliographies instantly. The software has to be installed on your computer properly in order to work correctly with word processing programs, and this varies depending on your operating system, word processor, and platform. It has frequent upgrades that offer significant new features. Contact our Research librarians for training regarding the use of EndNote.
+  utter_endnote_more:
+  - text: "EndNote training videos are available at: https://videos.webofsciencegroup.com/categories/endnote"
   utter_plagiarism_check:
   - text: "Turnitin is web-based text-matching software that works by comparing electronically submitted papers to billions of pages of content located on the Internet and proprietary databases as well as the work of other students' papers submitted to the Turnitin repository. The North-West University has an institutional license for Turnitin, which is embedded into the Assignments tool of eFundi. The Turnitin software on eFundi checks a student's work against the database when the student submits their assignment. The following videos and documents will help in the process: Steps on how to submit your assignment. How do I access my Turnitin report Video, Infographic How to interpret the report. More about Turnitin at http://services.nwu.ac.za/centre-teaching-and-learning-ctl/turnitin"
   utter_endnote_bibliography:
@@ -843,6 +934,8 @@ responses:
   - text: Go to the Library Catalogue and choose Title under the Keyword filter. Type fateful triangle next to Title. Choose the correct book from the list. The name of the author will be on the bibliographic record.
   utter_information_renew_book:
   - text: There should be a stamp in your book with a return date. You can also see the number of books you have loaned as well as the return dates on your patron record.
+  utter_information_renew_book_online: 
+  - text: "Steps for renewing your books online: Go to: ttps://sierra.nwu.ac.za/patroninfo and type in your Surname, University Number and Library PIN. Click on Submit. Check the boxes next to the book titles that you would like to renew. Click on the Renew Marked button. Click on Yes. You should now see the new due date underneath the Status heading. Please note: You will not be allowed to renew your books online on the date of expiry. If your books are already overdue. If there are fines on your books. If you have already renewed the book twice. If the item has been booked by another user. If your patron record has expired."
   utter_information_handle_book:
   - text: We prefer that you leave the books on the tables after you have used them as the books must be arranged via the Dewey Decimal System when they are placed back on the shelves.
   utter_information_boolean_operators:
@@ -971,6 +1064,8 @@ responses:
   - text: On your EndNote library, click on the Library tab, and choose Sync. Your library will then sync to your EndNote online account. If it doesn't want to sync, you probably have a password issue with your EndNote login. You have to sort that out. Or it is also possible that you have more than one EndNote library. It is best practice to have only one EndNote library and not move your library to another location on your computer.
   utter_information_ebsco_password:
   - text: 'Steps to access EbscoHost if you are a registered student or an NWU staff member: You have to log in via the Library database page: https://libguides.nwu.ac.za/az.php. Click on EBSCOhost in the Quick links box. Under NWU Students and Staff click on the Students and staff, click here to log in with your CAS(eFundi) username and password link. Type your CAS(eFundi) username and password. Click here for more information regarding our passwords. If you do not have a CAS(eFundi) username and password contact the T&L Technologies Helpdesk (https://www.nwu.ac.za/mynwu/efundi) and apply for one.'
+  utter_information_ebsco:
+  - text: "Go to the Library web page at: https://library.nwu.ac.za/. Select Databases Choose EBSCOhost from the alphabetical list. The following registering procedure as provided by EBSCO under their Help function Whenever you sign in to any of these interfaces, you will be able to save search results, persistent links to searches, search alerts, journal alerts, and web pages to your personal My EBSCO host folder. To set up a personal account: Click the 'Sign In' in the toolbar at the top of the screen. From the Sign In Screen, click the Create one now link. The Create Account Screen appears. Fill in the fields on the Create Account Screen. When you create a new My EBSCO host folder account, or are updating the existing password for your account, you are required to create a strong password. When your password meets the requirements, the indicator displays that your password is strong and you can retype the password in the next field to confirm it. Check the box to consent to EBSCO's Personal Data Retention and Usage policy. You can read the Personal Data Retention and Usage policy by clicking the link . If you opt to not consent to the policy, you will be unable to continue creating an account. When you have completed filling out your information, click  Continue . If your information was accepted, a message appears that confirms your account has been created. To log into your account, click the 'Click here' link and provide your login credentials. You should note the username and password you created so you can log in at a future session. Note: When signing in to My ESBSCO host with your credentials, enter the username you created or your email address if you opted to use that as your username."
   utter_information_register_efundi:
   - text: Go to https://efundi.nwu.ac.za/access/content/public/AGena/contact_centres.html and contact one of the numbers on the form.
   utter_reference_webcast:
@@ -1019,7 +1114,7 @@ responses:
   utter_information_graduate_student_access:
   - text: Registered students and staff have access to all our library resources. I suggest you contact your Faculty Librarian for a training session on the use of these databases.
   utter_information_book_search:
-  - text: 'Go to the Library catalogue at: https://sierra.nwu.ac.za/search and type the title in the search box. Example: I am looking for the book: Matrix analysis and applied linear algebra. Type the first couple of words of the title and change the dropdown to title: '
+  - text: 'Go to the Library catalogue at: https://sierra.nwu.ac.za/search and type the title in the search box. Example: I am looking for the book: Matrix analysis and applied linear algebra. Type the first couple of words of the title and change the dropdown to title'
   utter_information_britannica:
   - text: 'You will find a link to the Britannica Academic Edition on our eReference Works page under Encyclopedia: https://library.nwu.ac.za/e-reference-works'
   utter_information_upload_dropbox:
@@ -1151,6 +1246,8 @@ responses:
   - text: "GroupWise is the official email service of the NWU. Follow this link: http://services.nwu.ac.za/it/sc/email-calendaring"
   utter_information_engineering_final_year_projects:
   - text: Final year projects are housed in the Natural Sciences Library. Please contact the Information Librarian for more information.
+  utter_information_engineering_final_year_reports:
+  - text: "For final year reports go to the LibGuide for Engineering: at https://libguides.nwu.ac.za/engineering-guide/home Select Books; e-Books Perform a Catalogue search: If you know the author's name, select Author from the drop-down menu If the author is unknown to you, select Call number from the drop down menu. Enter IPV-C (for Chemical Engineering reports) or IPV-E (for Electrical, Electronic and Computer Engineering reports) or IPV-B (for Industrial Engineering reports) or IPV-M (for Mechanical Engineering reports) If you're interested in the engineering reports for a specific year: From the result list, select Limit/Sort Search"
   utter_information_write_cv:
   - text: "The Career Centre can help you write your CV - http://services.nwu.ac.za/career-centre. Their services: 'Where do you start if you are looking for a job?' The CareerZone, our job portal that can help. Be sure that your CV is updated. Attend our career fairs. Preparation for your job interview is crucial. The annual career guide is an invaluable resource that further bridges the gap between potential employers and graduates, providing nuggets of information and insights for your benefit."
   utter_information_lost_book:
