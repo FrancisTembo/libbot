@@ -304,8 +304,42 @@ intents:
 - information_distance_learning_submit_assignment
 - information_assignment_library
 - information_google_scholar
+- information_ebooks
+- information_post_books
+- information_library_directions
+- information_yearbook
+- information_dictionary_encyclopedia
+- information_course_reserves
+- information_advanced_certificate_teaching
+- information_university_fees
+- information_banking_details
+- information_free_software
 
 responses:
+  utter_information_free_software:
+  - text: "This service is provided to NWU students and staff by the NWU IT services: http://services.nwu.ac.za/ithome"
+  utter_information_banking_details:
+  - text: "You can change/upload your banking details on the NWU DIY Services web page. You will find a link to the DIY Services in the purple banner at the bottom of the University web pages. Once you have clicked on the link, choose the status that applies to you e.g. Undergraduate Students to see the services provided for that group. Please read the How-To-Guide under the service for more information. It also contains the contact details of the person responsible for this specific service. Do not use Chrome as a browser when you access this service."
+  utter_information_university_fees:
+  - text: "For payable University fees please go to: http://services.nwu.ac.za/student-accounts-and-bursaries/payable-fees. If you are already a student you can make Account enquiries from this page: http://www.nwu.ac.za/content/account-enquiries."
+  utter_information_advanced_certificate_teaching:
+  - text: "You can obtain this certificate via the Unit for Open Distance Learning."
+  utter_information_course_reserves:
+  - text: "Each Library has a Course Reserves section that will help you to put material on reserve for your students. They will also handle the DALRO reporting for the material. You can contact the Course Reserve staff at your campus library."
+  utter_information_dictionary_encyclopedia:
+  - text: "You will find our online Dictionaries and Encyclopedias on our eReference Works page at: http://library.nwu.ac.za/e-reference-works"
+  utter_information_yearbook:
+  - text: "Here's where you will find the University Yearbooks at: http://studies.nwu.ac.za/studies/yearbooks"
+  utter_information_library_directions:
+  - text: "You will find directions to the different campuses on this page as well as the GPS coordinates to each library: https://library.nwu.ac.za/contact-us"
+  utter_information_post_books:
+  - text: "The dispatching of books, journal articles, and other library materials may be arranged for all Master and Doctoral students. For further information contact your Loan Services desk."
+  utter_information_ebook_quick_facts:
+  - text: "Here are some quick ⚡️ facts on eBooks"
+  utter_information_define_ebook:
+  - text: "An eBook (short for electronic book and also known as a digital book, ebook, and e-book) is a book publication made available in digital format. An eBook, as defined by the Oxford Dictionary of English, is 'an electronic version of a printed book which can be read on a computer or handheld device'"
+  utter_information_access_ebooks:
+  - text: "You can search for our eBooks on this page: https://library.nwu.ac.za/ebooks. You will also find Information regarding reading ebooks online or offline on this link."
   utter_information_google_scholar:
   - text: "Here's all I know about the Google Scholar topic"
   utter_information_google_scholar_access:
@@ -393,7 +427,9 @@ responses:
   utter_return_books:
   - text: Books can be returned on your behalf without your student number. To make sure the person did return your books I would give them my student number and ask the staff to print a receipt of all the items in my name after he/she returned the books.
   utter_information_exam_timetable:
-  - text: Click here for the Examination & Assessment Timetables. Also, see personal timetable.
+  - text: "You can access your personal exam timetable from this page: https://vssweb.nwu.ac.za/str-webclient/StudentWebCommand.do?sf=143662&lng=3#/top"
+  utter_information_class_assessment:
+  - text: "You will find your class and assessment timetables on this page: http://studies.nwu.ac.za/studies/class-and-assessment-timetables."
   utter_information_engineering:
   - text: 'The contact information for the Faculty of Engineering is on this page: https://engineering.nwu.ac.za/engineering/contact-us'
   utter_information_education:
@@ -464,7 +500,9 @@ responses:
       payload: /information_upload_assignment
     - title: How do I update my eFundi email address?
       payload: /information_update_efundi_email
+    button_type: vertical
 
+    
   utter_information_potchefstroom_turnitin_admin:
   - text: "Teaching and Learning manage Turnitin on eFundi: http://services.nwu.ac.za/centre-teaching-and-learning-ctl/turnitin. You will find their help desk info on the bottom of their web page."
   

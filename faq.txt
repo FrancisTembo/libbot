@@ -2050,7 +2050,7 @@ utter: Referella refers to the NWU Referencing Guides which can be found on the 
 topic: Citations / Referencing / Plagiarism
 views:9
 
-#343
+#343✅
 intent: Good evening, I'm having problems accessing ebooks. What do I do?
 utter: Contact your Faculty Librarian  for help.
 topic: Finding information (e.g. Books, eBooks, Articles)
@@ -2104,19 +2104,19 @@ utter: For more information regarding your application please contact Administra
 topic: About the NWU
 views:10
 
-#352 ✅
+#352✅
 intent: How to use Turnitin?
 utter: Turnitin is managed by the Centre for Teaching and Learning (CTL) for more information about this product and how to use it go to  http://services.nwu.ac.za/centre-teaching-and-learning-ctl/turnitin.
 topic: eFundi / Turnitin / CTL
 views:84
 
-#353
+#353✅
 intent: Where can I find free software like the Spellchecker or Office?
 utter: This service is provided to NWU students and staff by the NWU IT services. Link below:
 topic: Tech Support (e.g. Software)
 views:6
 
-#354
+#354✅
 intent: Where do I update my banking details?
 utter: You can change/upload your banking details on the  NWU DIY Services web page . You will find a link to the  DIY Services  in the purple banner at the bottom of the University web pages. Once you have clicked on the link, choose the status that applies to you e.g. Undergraduate Students to see the services provided for that group. Please read the How-To-Guide under the service for more information. It also contains the contact details of the person responsible for this specific service. Do not use Chrome as a browser when you access this service.
 topic: About the NWU
@@ -2128,15 +2128,15 @@ utter: Efundi is available at  http://efundi.nwu.ac.za/portal/ . This service i
 topic: eFundi / Turnitin / CTL
 views:101
 
-#356
+#356✅
 intent: What are the Universities fees?
 utter: For payable University fees please go to  http://services.nwu.ac.za/student-accounts-and-bursaries/payable-fees . If you are already a student you can make Account enquiries from this page  http://www.nwu.ac.za/content/account-enquiries .  
 topic: About the NWU; Account
 views:9
 
-#357
+#357✅
 intent: Where do I find more info regarding the Advanced Certificate in Teaching?
-utter: You can obtain this certificate via the Unit for Open Distance Learning . 
+utter: You can obtain this certificate via the Unit for Open Distance Learning. 
 topic: Distance Learning
 views:9
 
@@ -2146,7 +2146,7 @@ utter: The NWU Undergraduate Study Prospectus is available at  http://studies.n
 topic: About the NWU
 views:27
 
-#359
+#359✅
 intent: Who do I contact to place material on Course Reserves at the Library?
 utter: Each Library has a Course Reserves section that will help you to put material on reserve for your students. They will also handle the DALRO reporting for the material. You can contact the Course Reserve staff at your campus library.
 topic: Loan Services (e.g. Renew Books)
@@ -2158,25 +2158,25 @@ utter: You will find the NWU DALRO Copyright Reporting System on this page:  h
 topic: Citations / Referencing / Plagiarism
 views:337
 
-#361
+#361✅
 intent: Where can I find my academic record?
 utter: You can contact Academic Records Enquiries for your academic record. 
 topic: About the NWU
 views:76
 
-#362
+#362✅
 intent: Where can I find online dictionaries and encyclopedias?
 utter: You will find our online Dictionaries and Encyclopedias on our eReference Works page at  http://library.nwu.ac.za/e-reference-works .
 topic: eReference Works (e.g. Dictionaries)
 views:15
 
-#363
+#363✅
 intent: Where can I find they University Yearbooks?
 utter: You will find a link to the University yearbooks from the Library homepage under Find Information>eReference Works> Yearbooks . 
 topic: eReference Works (e.g. Dictionaries)
 views:13
 
-#364
+#364✅
 intent: Where can I find directions to the Libraries?
 utter: You will find directions to the different campuses on this page as well as the GPS coordinates to each library:  https://library.nwu.ac.za/contact-us .
 topic: About the Library (e.g. Services); Contact details / Staff
@@ -2188,25 +2188,25 @@ utter: Please note that no memorandums are available for past question papers.
 topic: Databases (e.g. Catalogue, Exam papers)
 views:432
 
-#366
+#366✅
 intent: Do you post books/articles to students?
 utter: The dispatching of books, journal articles, and other library materials may be arranged for all Master and Doctoral students. For further information contact your Loan Services desk .  
 topic: Loan Services (e.g. Renew Books)
 views:19
 
-#367
+#367✅
 intent: Were can I find the Library's eBooks?
 utter: You can search for our eBooks from this page:  https://library.nwu.ac.za/ebooks .  
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
 views:44
 
-#368
+#368✅
 intent: What are eBooks?
 utter: An eBook (short for electronic book and also known as a digital book, ebook, and e-book) is a book publication made available in digital format. An eBook, as defined by the Oxford Dictionary of English, is "an electronic version of a printed book which can be read on a computer or handheld device".
 topic: Finding information (e.g. Books, eBooks, Articles)
 views:20
 
-#369
+#369✅
 intent: I need help to access an eBook.
 utter: Information regarding reading ebooks online or offline are available on this page https://library.nwu.ac.za/ebooks . 
 topic: Finding information (e.g. Books, eBooks, Articles)
@@ -2218,13 +2218,13 @@ utter: Yes, but eBooks are protected by copyright law in the same way as printed
 topic: Citations / Referencing / Plagiarism
 views:14
 
-#371
+#371✅
 intent: How do I read eBooks offline?
 utter: Not all of the Library’s eBooks provides this option. If you are not offered a downloading/offline option then it is not available. PDF documents that are not controlled by digital rights management software may be downloaded to most PCs without the need for additional software. Downloading eBooks using Adobe Digital Editions (ADE) software If you wish to download eBooks to your computer or device, you must have both a  free Adobe account  and the  free Adobe Digital Editions (ADE) software  installed. Adobe Digital Editions allows you to access eBooks downloaded to your computer in either ePub or PDF format protected with Adobe Digital Rights Management (DRM).   Download Adobe Digital Editions . During installation of Adobe Digital Editions there should be an option to Authorize Computer. Select Authorize Computer and login with your Adobe ID and Password. Note: If you select Don’t Authorize Computer you cannot transfer an Adobe DRM protected e-Book to another computer or any tablet devices/smartphones and/or eBook readers. In other words, all the purchased or borrowed books afterwards belong to that computer. You are able to download or transfer the same eBook to 6 computers and tablet devices/smartphones and eBook readers where either Adobe Digital Editions is installed and authorised with the same Adobe ID.​ Video on how to downloading eBooks available on EbscoHost SpringerLink Tutorial EbooksCentral Tutorial
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
 views:15
 
-#372
+#372✅
 intent: How do I read eBooks online?
 utter: You can read eBooks online with software that comes standard on most computers and portable devices. If special software is needed to open and read an eBook online, the eBook will often provide its own (e.g. eBook Central) software. On Library computers, you can only read the eBook online.
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
@@ -2236,13 +2236,13 @@ utter: You can search for your exam results on this page:  https://vssweb.nwu.a
 topic: Databases (e.g. Catalogue, Exam papers)
 views:1036
 
-#374
+#374✅
 intent: How can I access my personal exam timetable?
 utter: You can access your personal exam timetable from this page:  https://vssweb.nwu.ac.za/str-webclient/StudentWebCommand.do?sf=143662&lng=3#/top . Also, see Examination & Assessment Timetables .  
 topic: About the NWU
 views:90
 
-#375
+#375✅
 intent: Where do I find my class timetable?
 utter: You will find your class and assessment timetables on this page:  http://studies.nwu.ac.za/studies/class-and-assessment-timetables .
 topic: About the NWU

@@ -105,6 +105,7 @@ stories:
   steps:
   - intent: information_exam_timetable
   - action: utter_information_exam_timetable
+  - action: utter_information_class_assessment
 
 - story: information engineering
   steps:
@@ -1530,7 +1531,7 @@ stories:
   - intent: information_distance_learning_submit_assignment
   - action: utter_information_distance_learning_submit_assignment 
 
-- story: information_assignment_library
+- story: information assignment library
   steps: 
   - intent: information_assignment_library
   - action: utter_information_assignment_library
@@ -1543,3 +1544,56 @@ stories:
   - action: utter_information_google_scholar_library
   - action: utter_information_google_scholar_error
   - action: utter_information_goggle_scholar_link
+
+- story: information ebooks
+  steps: 
+  - intent: information_ebooks
+  - action: utter_information_ebook_quick_facts
+  - action: utter_information_define_ebook
+  - action: utter_information_access_ebooks
+  - action: utter_copy_paste_print_ebooks
+
+- story: information post books
+  steps:
+  - intent: information_post_books
+  - action: utter_information_post_books
+
+- story: information library directions 
+  steps: 
+  - intent: information_library_directions
+  - action: utter_information_library_directions
+
+- story: information yeabook
+  steps:
+  - intent: information_yearbook
+  - action: utter_information_yearbook
+
+- story: information dictionary encyclopedia
+  steps: 
+  - intent: information_dictionary_encyclopedia
+  - action: utter_information_dictionary_encyclopedia
+
+- story: information course reserves
+  steps:
+  - intent: information_course_reserves
+  - action: utter_information_course_reserves
+
+- story: information advanced certificate teaching
+  steps:
+  - intent: information_advanced_certificate_teaching
+  - action: utter_information_advanced_certificate_teaching
+
+- story: information university fees
+  steps:
+  - intent: information_university_fees
+  - action: utter_information_university_fees
+
+- story: information banking details
+  steps: 
+  - intent: information_banking_details
+  - action: utter_information_banking_details
+
+- story: information free software
+  steps:
+  - intent: information_free_software
+  - action: utter_information_free_software

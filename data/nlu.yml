@@ -102,6 +102,7 @@ nlu:
     - academic record
     - access academic record
     - where is my academic record
+    - where can I find my academic record
 - intent: information_novels
   examples: |
     - where can I search for novels
@@ -140,8 +141,10 @@ nlu:
     - where can I find the exam schedule
     - where is my exam timetable
     - where is my exam schedule
-    - exam timetable
-    - exam schedule
+    - how can I access my personal exam timetable
+    - where do I find my class timetable
+    - timetable for lectures
+    - lectures timetable 
 - intent: information_engineering
   examples: |
     - where can I find the contact information for engineering
@@ -2148,3 +2151,63 @@ nlu:
     - I am using the Library link to Google Scholar and cannot see if the full text are in the Library
     - How do I link my Google account to the NWU to see the "Full Text @NWU" links
     - Google Scholar
+
+- intent: information_ebooks
+  examples: |
+    - what are eBooks
+    - where can I find the Library's eBooks
+    - I need help to access an eBook
+    - how do I read eBooks offline 
+    - how do I read eBooks online
+    - accessing ebooks 
+    - access library ebooks
+
+- intent: information_post_books
+  examples: |
+    - do you post books or articles to students
+    - do you mail books or articles to Students
+    - do you courier books or acticles to students
+
+- intent: information_library_directions
+  examples: |
+    - where can I find directions to the Libraries
+    - directions to library
+    - where can I find the library 
+    - map tp the library
+
+- intent: information_yearbook 
+  examples: |
+    - where can I find they University Yearbooks
+    - where can I download the Yearbooks
+
+- intent: information_dictionary_encyclopedia
+  examples: |
+    - Where can I find online dictionaries and encyclopedias
+    - where can I access online dictionaries and encyclopedias
+
+- intent: infromation_course_reserves
+  examples: |
+    - who do I contact to place material on Course Reserves at the Library
+    - lIbrary Course Reserves 
+
+- intent: information_advanced_certificate_teaching
+  examples: |
+    - where do I find more info regarding the Advanced Certificate in Teaching
+    - Advanced Certificate in Teaching
+
+- intent: information_university_fees
+  examples: |
+    - What are the Universities fees
+    - where can I find tuition fees
+    - calculate university fees
+
+- intent: information_banking_details
+  examples: |
+    - where do I update my banking details
+    - updating banking details
+
+- intent: information_free_software
+  examples: | 
+    - where can I find free software like the Spellchecker or Office
+    - where do I download free software
+    - downloading software
