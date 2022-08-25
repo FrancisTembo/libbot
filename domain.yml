@@ -411,7 +411,7 @@ responses:
   utter_goodbye:
   - text: Bye
   utter_iamabot:
-  - text: Yes I am a bot!
+  - text: I am a bot!
   utter_language_style_guide:
   - text: 'The NWU Style Guide is published by the NWU Language Directorate at this link: https://library.nwu.ac.za/sites/library.nwu.ac.za/files/files/documents/referencing-guide-2020b.pdf'
   utter_new_student_application:
@@ -454,7 +454,7 @@ responses:
   utter_start:
   - text: Welcome, please send the message 'Hi' to start the conversation.
   utter_welcome:
-  - text: Hi there I'm LibBot, NWU's library robotic assistant 🤖.
+  - text: Hi there I'm Kitso, NWU's library robotic assistant 🤖.
   utter_instruction:
   - text: To get started send me a message 📝 of what you'd like me to find out for you.
   utter_example:
