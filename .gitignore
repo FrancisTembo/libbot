@@ -5,3 +5,4 @@
 obscure.txt
 venv
 .rasa
+.rasa/cache/cache.db
