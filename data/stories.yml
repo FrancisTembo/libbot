@@ -1597,3 +1597,68 @@ stories:
   steps:
   - intent: information_free_software
   - action: utter_information_free_software
+
+- story: information application duration
+  steps: 
+  - intent: information_application_duration
+  - action: utter_information_application_duration
+
+- story: information admission requirements
+  steps:
+  - intent: information_admission_requirements
+  - action: utter_information_admission_requirements
+
+- story: information scientific sources
+  steps: 
+  - intent: information_scientific_sources
+  - action: utter_information_scientific_sources
+
+- story: information find accredited journals
+  steps: 
+  - intent: information_find_accredited_journals
+  - action: utter_information_find_accredited_journals
+
+- story: information access science direct
+  steps: 
+  - intent: information_access_science_direct
+  - action: utter_information_access_science_direct
+
+- story: information find sources
+  steps: 
+  - intent: information_find_sources
+  - action: utter_information_find_sources
+
+- story: information login efundi
+  steps: 
+  - intent: information_login_efundi
+  - action: utter_information_login_efundi
+
+- story: information new student number
+  steps: 
+  - intent: information_new_student_number
+  - action: utter_information_new_student_number
+
+- story: information download articles
+  steps: 
+  - intent: information_download_articles
+  - action: utter_information_download_articles
+
+- story: information JSTOR
+  steps: 
+  - intent: information_JSTOR
+  - action: utter_information_JSTOR
+
+- story: information submit assignment efundi
+  steps: 
+  - intent: information_submit_assignment_efundi
+  - action: utter_information_submit_assignment_efundi
+
+- story: information find journals 
+  steps: 
+  - intent: information_find_journals
+  - action: utter_information_find_journals 
+
+- story: information library code of conduct
+  steps: 
+  - intent: information_library_code_of_conduct
+  - action: utter_information_library_code_of_conduct

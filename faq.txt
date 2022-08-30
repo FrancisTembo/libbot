@@ -1984,7 +1984,7 @@ utter: Our Interlibrary Loans (ILL) service is available to registered fourth ye
 topic: Loan Services (e.g. Renew Books)
 views:9
 
-#332
+#332✅
 intent: Where can I find the Library Code of Conduct?
 utter: The Library Code of Conduct is available from the Library home page under About Us>More About Us.
 topic: About the Library (e.g. Services)
@@ -1996,7 +1996,7 @@ utter: You will find an explanation on how to calculate your researcher's impac
 topic: Research (e.g. EndNote, ORCiD, ETDs)
 views:7
 
-#334
+#334✅
 intent: How do I search for journals?
 utter: You can use our EDS Search service on the Library home page to search for journals. Below is a link that explains how to search in this database. You can also contact your Faculty Librarian for training.
 topic: Finding information (e.g. Books, eBooks, Articles)
@@ -2008,39 +2008,39 @@ utter: Our referencing guides are available from the Library home page under Gu
 topic: Citations / Referencing / Plagiarism
 views:20
 
-#336
+#336✅
 intent: How to submit an assignment via eFundi?
 utter: Efundi is managed by the Centre for Teaching and Learning (CTL).  Click here for their manual on how to submit an assignment. You can also watch this video . You will find more tutorials regarding eFundi on the CLT page at  http://services.nwu.ac.za/ctl/student-efundi-support .
 topic: eFundi / Turnitin / CTL
 views:9
 
-#337
+#337✅
 intent: Where can I find JSTOR?
 utter: You can access JSTOR via the Library home page by clicking on Databases under the EDS Search box.
 topic: Databases (e.g. Catalogue, Exam papers)
 views:6
 
-#338
+#338✅
 intent: Hey I'd like help to download articles.
 utter: Your Faculty Librarian can help you to download articles. 
 topic: Databases (e.g. Catalogue, Exam papers); Faculty Librarians / LibGuides
 views:46
 
-#339
+#339✅
 intent: How do l access a book online in the Library?
-utter: All our eBooks are available via the Library home page under Find Information> eBooks . There is a section on Reading eBooks offline which might be of help. If you still have questions please contact your Faculty Librarian .
+utter: All our eBooks are available via the Library home page under Find Information> eBooks. There is a section on Reading eBooks offline which might be of help. If you still have questions please contact your Faculty Librarian.
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
 views:32
 
-#340
+#340✅
 intent: Hello I need help getting a new student number because my previous application was not completed
-utter: Please contact Administration . 
+utter: Please contact Administration. 
 topic: About the NWU
 views:29
 
-#341
+#341✅
 intent: How can I get my eFundi login information?
-utter: You will have to log a ticket at the eFundi HELPDESK . 
+utter: You will have to log a ticket at the eFundi HELPDESK. 
 topic: eFundi / Turnitin / CTL; Access / Hours
 views:68
 
@@ -2056,7 +2056,7 @@ utter: Contact your Faculty Librarian  for help.
 topic: Finding information (e.g. Books, eBooks, Articles)
 views:22
 
-#344
+#344✅
 intent: I'm struggling to find sources. What can l do?
 utter: Contact your Faculty Librarian  for help. You can also attend one of our training sessions which we advertise at the bottom of the Library home page .
 topic: Finding information (e.g. Books, eBooks, Articles)
@@ -2068,19 +2068,19 @@ utter: The best way is to do so via the student portal (eFundi). Go to eFundi Lo
 topic: eFundi / Turnitin / CTL
 views:1196
 
-#346
+#346✅
 intent: How to access Science Direct online?
 utter: You can access Science Direct via the  Library home page by clicking on Databases under the EDS Search box.
 topic: Databases (e.g. Catalogue, Exam papers)
 views:9
 
-#347
+#347✅
 intent: Where can I find online access to scientific sources?
 utter: The best place to start is by using one of our subject LibGuides at  https://libguides.nwu.ac.za/ .  The scientific databases which apply to your subject are listed on these guides. You will also find the contact information for your Faculty librarian on each guide, and you are welcome to contact them if you need more help finding sources.
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
 views:41
 
-#348
+#348✅
 intent: Where can I find accredited journals?
 utter: You find the Accredited journals on the Library homepage under Find Information> Accredited Journals . 
 topic: Databases (e.g. Catalogue, Exam papers)
@@ -2092,13 +2092,13 @@ utter: Our hours are available on the Library homepage under About Us> Hours & N
 topic: About the Library (e.g. Services); Access / Hours
 views:59
 
-#350
+#350✅
 intent: What are the admission requirements?
 utter: The fields of study web page can give you a quick overview -  http://studies.nwu.ac.za/undergraduate-studies/fields-study  on our admission requirements.  But double check-in the Academic yearbooks and under Selection information which you will find on this page  http://studies.nwu.ac.za/studies/apply .  
 topic: About the NWU
 views:15
 
-#351
+#351✅
 intent: How long does applications take?
 utter: For more information regarding your application please contact Administration. Their contact info is on this page  http://studies.nwu.ac.za/studies/apply .
 topic: About the NWU

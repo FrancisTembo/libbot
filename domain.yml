@@ -314,8 +314,47 @@ intents:
 - information_university_fees
 - information_banking_details
 - information_free_software
+- information_application_duration
+- information_admission_requirements
+- information_scientific_sources
+- information_find_accredited_journals
+- information_access_science_direct
+- information_find_sources
+- information_login_efundi
+- information_new_student_number
+- information_download_articles
+- information_JSTOR
+- information_submit_assignment_efundi
+- information_find_journals 
+- information_library_code_of_conduct
 
 responses:
+  utter_information_library_code_conduct:
+  - text: "The Library Code of Conduct is available from the Library home page under About Us>More About Us."
+  utter_information_find_journals:
+  - text: "You can use our EDS Search service on the Library home page to search for journals. This is a link that explains how to search in this database: 🎈. You can also contact your Faculty Librarian for training."
+  utter_information_submit_assignment_efundi:
+  - text: "efundi is managed by the Centre for Teaching and Learning (CTL). Click here for their manual on how to submit an assignment. You can also watch this video. You will find more tutorials regarding eFundi on the CLT page at: http://services.nwu.ac.za/ctl/student-efundi-support"
+  utter_information_JSTOR:
+  - text: "You can access JSTOR via the Library home page by clicking on Databases under the EDS Search box."
+  utter_information_download_articles:
+  - text: "Your Faculty Librarian can help you to download articles."
+  utter_information_new_student_number:
+  - text: "Please contact Administration."
+  utter_information_login_efundi:
+  - text: "You will have to log a ticket at the eFundi HELPDESK."
+  utter_information_find_sources:
+  - text: "Contact your Faculty Librarian for help. You can also attend one of our training sessions which we advertise at the bottom of the Library home page."
+  utter_information_access_science_direct:
+  - text: "You can access Science Direct via the Library home page by clicking on Databases under the EDS Search box."
+  utter_information_find_accredited_journals:
+  - text: "You find the Accredited journals on the Library homepage under Find Information> Accredited Journals."
+  utter_information_scientific_sources:
+  - text: "The best place to start is by using one of our subject LibGuides at: https://libguides.nwu.ac.za/. The scientific databases which apply to your subject are listed on these guides. You will also find the contact information for your Faculty librarian on each guide, and you are welcome to contact them if you need more help finding sources."
+  utter_information_admission_requirements:
+  - text: "The fields of study web page can give you a quick overview: http://studies.nwu.ac.za/undergraduate-studies/fields-study on our admission requirements. But double check-in the Academic yearbooks and under Selection information which you will find on this page: http://studies.nwu.ac.za/studies/apply"
+  utter_information_application_duration:
+  - text: "For more information regarding your application please contact Administration. Their contact info is on this page: http://studies.nwu.ac.za/studies/apply"
   utter_information_free_software:
   - text: "This service is provided to NWU students and staff by the NWU IT services: http://services.nwu.ac.za/ithome"
   utter_information_banking_details:

@@ -1149,7 +1149,6 @@ nlu:
   examples: |
     - what does red colour means when submitting assignment
     - got red colour whilst submitting assignment
-    - submit assignment
 - intent: information_access_distance_postgrad
   examples: |
     - how do I log on to the library as a postgraduate distance learning student
@@ -2161,6 +2160,7 @@ nlu:
     - how do I read eBooks online
     - accessing ebooks 
     - access library ebooks
+    - how do l access a book online in the library
 
 - intent: information_post_books
   examples: |
@@ -2211,3 +2211,90 @@ nlu:
     - where can I find free software like the Spellchecker or Office
     - where do I download free software
     - downloading software
+
+- intent: information_application_duration
+  examples: |
+    - how long does applications take
+    - how lond do applications take
+    - duration of applications
+    - application durations
+    - how lond do university applications take
+
+- intent: information_admission_requirements
+  examples: | 
+    - what are the admission requirements
+    - what are the entry requirements for admissions
+    - where can I find the admission requirements
+    - admission requirements
+
+- intent: information_scientific_sources
+  examples: |
+    - where can I find online access to scientific sources
+    - how can I access scientific sources
+    - where can I find scientific sources online
+    - accessing scientific sources online
+
+- intent: information_find_accredited_journals
+  examples: |
+    - where can I find accredited journals
+    - where can I download accredited journals
+    - how can I access accredited journals
+    - download accredited journals 
+
+- intent: information_access_science_direct
+  examples: |
+    - how to access science direct online
+    - where can I access science direct online 
+    - how can I access science direct online 
+    - accessing science direct online
+
+- intent: information_find_sources
+  examples: |
+    - I'm struggling to find sources. What can l do?
+    - I need help finding sources
+    - how can I find sources
+    - where can I find sources
+
+- intent: information_login_efundi
+  examples: |
+    - how can I get my eFundi login information
+    - where can I get my eFundi login information
+    - eFundi login information
+
+- intent: information_new_student_number
+  examples: |
+    - hello I need help getting a new student number because my previous application was not completed
+    - getting new student number
+    - application not completed
+
+- intent: information_download_articles
+  examples: |
+    - hey I'd like help to download articles
+    - how can I download articles
+    - I need help downloading articles
+
+- intent: information_JSTOR
+  examples: |
+    - where can I find JSTOR
+    - how can I access JSTOR
+    - accessing JSTOR
+
+- intent: information_submit_assignment_efundi
+  examples: |
+    - how to submit an assignment via eFundi
+    - how do I submit an assignment via eFundi
+    - how do I submit my assignment on eFundi
+    - eFundi submit assignment
+    - submitting assignments on eFundi
+
+- intent: information_find_journals
+  examples: |
+    - how do I search for journals
+    - where can I search for journals
+    - where can I find journal articles
+
+- intent: information_library_code_of_conduct
+  examples: |
+    - where can I find the Library Code of Conduct
+    - where can I get the Library Code of conduct
+    - what are the library code of conduct
