@@ -6,3 +6,8 @@ obscure.txt
 venv
 .rasa
 .rasa/cache/cache.db
+*.pyc
+*.ipynb
+*.ipynb_checkpoints
+*.db
+config.json
