@@ -1661,4 +1661,4 @@ stories:
 - story: information library code of conduct
   steps: 
   - intent: information_library_code_of_conduct
-  - action: utter_information_library_code_of_conduct
+  - action: utter_information_library_code_conduct

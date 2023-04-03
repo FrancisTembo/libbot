@@ -499,7 +499,7 @@ responses:
   utter_example:
   - text: For example, send me the message 'Applying to NWU' to find out how you can apply to NWU.
   utter_help:
-  - text: Alternatively you can send the send the message 'help' to access the help menu.
+  - text: Alternatively you can send the message 'help' to access the help menu.
 
   utter_options:
   - text: Here's the help menu. You can always type 'help' to revisit it again
