@@ -71,7 +71,7 @@ To get a local copy up and running follow these simple example steps.
 
 This project was developed and tested on Ubuntu 20.04
 
-* Install
+* Install 
   ```sh
   sudo apt update
   sudo apt install python3
