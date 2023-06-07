@@ -1662,3 +1662,135 @@ stories:
   steps: 
   - intent: information_library_code_of_conduct
   - action: utter_information_library_code_conduct
+
+- story: endnote incorrect formatting
+  steps: 
+  - intent: endnote_incorrect_formatting
+  - action: utter_endnote_incorrect_formatting
+
+- story: endnote document conversion
+  steps: 
+  - intent: endnote_document_conversion
+  - action: utter_endnote_document_conversion_1
+  - action: utter_endnote_document_conversion_2
+  - action: utter_endnote_document_conversion_3
+  - action: utter_endnote_document_conversion_4
+  - action: utter_endnote_document_conversion_5
+
+- story: no internet error
+  steps: 
+  - intent: no_internet_error
+  - action: utter_no_internet_error_1
+  - action: utter_no_internet_error_2
+  - action: utter_no_internet_error_3
+  - action: utter_no_internet_error_4
+
+- story: Sunrise Tomorrow Inquiry
+  steps:
+    - intent: sunrise_tomorrow
+    - action: utter_sunrise_tomorrow
+
+- story: LexisNexis Usage Inquiry
+  steps:
+    - intent: lexisnexis_usage
+    - action: utter_lexisnexis_usage
+
+- story: Juta Case Search Inquiry
+  steps:
+    - intent: juta_case_search
+    - action: utter_juta_case_search
+
+- story: Referencing Guide Hard Copy Inquiry
+  steps:
+    - intent: referencing_guide_hard_copy
+    - action: utter_referencing_guide_hard_copy
+
+- story: Change Application Details Inquiry
+  steps:
+    - intent: change_application_details
+    - action: utter_change_application_details
+
+- story: TALL Results Inquiry
+  steps:
+    - intent: tall_results_location
+    - action: utter_tall_results_location
+
+- story: MS Office 365 Access Inquiry
+  steps:
+    - intent: ms_office_365_access
+    - action: utter_ms_office_365_access
+
+- story: Setswana Articles Inquiry
+  steps:
+    - intent: setswana_articles
+    - action: utter_setswana_articles
+
+- story: Find Sabinet Databases Inquiry
+  steps:
+    - intent: find_sabinet_databases
+    - action: utter_find_sabinet_databases
+
+- story: Find Sage Inquiry
+  steps:
+    - intent: find_sage
+    - action: utter_find_sage
+
+- story: Access NWU Emails Inquiry
+  steps:
+    - intent: access_nwu_emails
+    - action: utter_access_nwu_emails
+
+- story: Find PressReader Inquiry
+  steps:
+    - intent: find_pressreader
+    - action: utter_find_pressreader
+
+- story: Boloka Access Problems
+  steps:
+    - intent: boloka
+    - action: utter_boloka
+
+- story: Locate Sources in Different Languages
+  steps:
+    - intent: locate_sources_languages
+    - action: utter_locate_sources_languages
+
+- story: Find Inaugural Lectures
+  steps:
+    - intent: find_inaugural_lectures
+    - action: utter_find_inaugural_lectures
+
+- story: Find Woordeboek van die Afrikaanse Taal
+  steps:
+    - intent: find_woordeboek
+    - action: utter_find_woordeboek
+
+- story: Change Contact Details
+  steps:
+    - intent: change_contact_details
+    - action: utter_change_contact_details
+
+- story: Error Opening Article
+  steps:
+    - intent: error_open_article
+    - action: utter_error_open_article
+
+- story: EZproxy Administrator Authorization Error
+  steps:
+    - intent: error_ezproxy_administrator
+    - action: utter_error_ezproxy_administrator
+
+- story: Find ATLAS.ti
+  steps:
+    - intent: find_atlasti
+    - action: utter_find_atlasti
+
+- story: Find Pharos
+  steps:
+    - intent: find_pharos
+    - action: utter_find_pharos
+
+- story: Find Snapplify
+  steps:
+    - intent: find_snapplify
+    - action: utter_find_snapplify

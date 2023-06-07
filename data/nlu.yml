@@ -540,6 +540,14 @@ nlu:
     - how to print the reference guide
     - how can I print the reference guide
     - am I allowed to print the reference guide
+    - Can we download the reference guide for offline use?
+    - where can I download the reference guide
+    - can I get the reference guide for offline use
+    - Can we obtain a downloadable version of the reference guide to use offline?
+    - Is there a way to save the reference guide for offline access?
+    - Are there options available to download the reference guide for offline use?
+    - Can we retrieve a downloadable copy of the reference guide to utilize offline
+
 - intent: using_harvard_reference_guide
   examples: |
     - how do I reference books using the Harvard Style
@@ -2298,3 +2306,195 @@ nlu:
     - where can I find the Library Code of Conduct
     - where can I get the Library Code of conduct
     - what are the library code of conduct
+
+- intent: endnote_incorrect_formatting
+  examples: | 
+    - I have installed EndNote but my text references are showing in this format {Arnott, 2013 #311}
+    - After installing EndNote, the formatting of my text references is incorrect.
+    - I'm facing issues with the reference formatting in EndNote, and it's not displaying correctly.
+    - The text references in EndNote are appearing in an improper format.
+    - I have installed EndNote, but the formatting of my references is wrong in the document.
+    - The reference formatting in EndNote is not working properly, and it's causing incorrect display in my text.
+
+- intent: endnote_document_conversion
+  examples: |
+    - How do I return my document to endnote after saving as plain text, to send to supervisor. What do I do when I get my document back to continue with EndNote?
+    - Once I save my document as plain text to send it to my supervisor, how can I return it to EndNote? What steps should I follow to resume working with EndNote?
+    - After saving my document as plain text and sending it to my supervisor, what is the process for reintegrating it into EndNote? How do I continue using EndNote with the returned document?
+    - I saved my document as plain text to share it with my supervisor. Now that I have received it back, how can I bring it back into EndNote? What should I do to continue my work with EndNote?
+    - After saving my document as plain text and sending it to my supervisor, what are the next steps for re-engaging with EndNote? How do I proceed with EndNote once I have my document back?
+    - Once I have saved my document as plain text and shared it with my supervisor, what do I need to do to reconnect it with EndNote? How can I resume using EndNote after receiving the document back?
+
+- intent: no_internet_error
+  examples: |
+    - "No Internet" error message when trying to access LibGuides or the A-Z database list.
+    - I'm encountering an error message that says "No Internet" when attempting to access LibGuides or the A-Z database list.
+    - Whenever I try to access LibGuides or the A-Z database list, I receive an error indicating a lack of internet connectivity.
+    - An error message pops up stating "No Internet" when I try to open LibGuides or the A-Z database list.
+    - I'm receiving an error that says I don't have an internet connection when I attempt to access LibGuides or the A-Z database list.
+    - Whenever I try to reach LibGuides or the A-Z database list, I'm presented with an error message indicating a lack of internet connectivity.
+    - "No Internet" error message when using libguides.
+    - "No Internet" error message.
+
+- intent: sunrise_tomorrow
+  examples: |
+    - Will the sun rise tomorrow?
+    - What time will the sun rise tomorrow?
+    - Can you tell me if there will be a sunrise tomorrow?
+    - Is there a sunrise expected for tomorrow?
+    - What are the sunrise and sunset times for tomorrow?
+
+- intent: lexisnexis_usage
+  examples: |
+    - How to use LexisNexis?
+    - Can you guide me on using LexisNexis?
+    - What are the steps to use LexisNexis?
+    - Where can I find instructions for using LexisNexis?
+    - How can I get started with LexisNexis?
+
+- intent: juta_case_search
+  examples: |
+    - How do I search for a case on Juta?
+    - Can you guide me on searching for cases on Juta?
+    - What are the steps to find a case on Juta?
+    - Where can I find instructions for searching cases on Juta?
+    - How can I search for a case on Juta?
+
+- intent: referencing_guide_hard_copy
+  examples: |
+    - How can I get a hard copy of the referencing guide?
+    - Is it possible to obtain a physical copy of the referencing guide?
+    - Where can I find a printed version of the referencing guide?
+    - How do I acquire a hard copy of the referencing guide?
+    - Can I buy a physical copy of the referencing guide?
+
+- intent: ms_office_365_access
+  examples: |
+    - How can I get access to MS Office 365?
+    - What do I need to do to access MS Office 365?
+    - Can you guide me on how to get an access to MS Office 365?
+    - How do I obtain access to MS Office 365?
+    - Where can I find information on accessing MS Office 365?
+
+- intent: setswana_articles
+  examples: |
+    - Do you have articles written in Setswana?
+    - Are there any Setswana language articles available?
+    - Can I find articles in Setswana?
+    - Are there resources in Setswana language?
+    - Where can I access Setswana articles?
+
+- intent: find_sabinet_databases
+  examples: |
+    - Where can I find Sabinet databases?
+    - How do I access the Sabinet databases?
+    - Can you guide me on locating the Sabinet databases?
+    - Where are the Sabinet databases located?
+    - How can I find the list of Sabinet databases?
+    - Sabinet databases.
+
+- intent: find_sage
+  examples: |
+    - Where can I find Sage?
+    - How do I access Sage?
+    - Can you guide me on locating Sage?
+    - Where is Sage located in the library?
+    - How can I find Sage in the database list?
+
+- intent: access_nwu_emails
+  examples: |
+    - How can I access my NWU emails?
+    - What is the process to access NWU emails?
+    - Can you guide me on accessing my NWU emails?
+    - Where can I find my NWU webmail?
+    - How do I log in to my NWU email account?
+
+- intent: find_pressreader
+  examples: |
+    - Where can I find PressReader?
+    - How do I access PressReader?
+    - Can you guide me on locating PressReader?
+    - Where is PressReader located in the library?
+    - How can I find PressReader on the Library home page?
+
+- intent: boloka
+  examples: |
+    - I'm having issues with Boloka.
+    - Boloka is not working for me.
+    - How can I solve Boloka access problems?
+    - What should I do if I can't access Boloka?
+    - My Boloka access is not working.
+
+- intent: locate_sources_languages
+  examples: |
+    - How can I find sources in different languages?
+    - What is the process to locate sources in different languages?
+    - Can you guide me on searching for sources in specific languages?
+    - How do I filter sources by language?
+    - Where can I find sources in languages other than English?
+    - How to locate sources in different languages?
+
+- intent: find_inaugural_lectures
+  examples: |
+    - Where can I find inaugural lectures?
+    - How do I access inaugural lectures?
+    - Can you guide me on locating inaugural lectures?
+    - Where are the inaugural lectures available?
+    - How can I find and access inaugural lectures?
+
+- intent: find_woordeboek
+  examples: |
+    - Where can I find the Woordeboek van die Afrikaanse Taal?
+    - How do I access the Woordeboek van die Afrikaanse Taal?
+    - Can you guide me on locating the Woordeboek van die Afrikaanse Taal?
+    - Where is the Woordeboek van die Afrikaanse Taal available?
+    - How can I find and access the Woordeboek van die Afrikaanse Taal?
+
+- intent: change_contact_details
+  examples: |
+    - How can I change my contact details?
+    - What is the process to update my contact information?
+    - Can you guide me on changing my contact details?
+    - Where can I update my address and contact details?
+    - How do I modify my contact information?
+    - change contact details
+
+- intent: error_open_article
+  examples: |
+    - I'm getting an error message when I try to open an article.
+    - When I attempt to access an article or database, I receive an error message.
+    - How do I resolve the error message I encounter while opening an article?
+    - I need help with the error message that appears when I try to open a database.
+    - Who should I contact if I receive an error message while accessing an article or database?
+
+- intent: error_ezproxy_administrator
+  examples: |
+    - I received the error message about EZproxy administrator authorization.
+    - When I try to open an article or database, I get an error about EZproxy administrator authorization.
+    - How can I resolve the error message regarding EZproxy administrator authorization?
+    - I need help with the error message related to EZproxy administrator authorization.
+    - Who should I contact if I receive the error message about EZproxy administrator authorization?
+
+- intent: find_atlasti
+  examples: |
+    - Where can I find ATLAS.ti?
+    - How do I access ATLAS.ti?
+    - Can you guide me to the location of ATLAS.ti?
+    - Where should I go to download ATLAS.ti?
+    - How can I get ATLAS.ti?
+
+- intent: find_pharos
+  examples: |
+    - Where can I find Pharos?
+    - How do I access Pharos?
+    - Can you guide me to the location of Pharos?
+    - Where should I go to find Pharos?
+    - How can I get Pharos?
+
+- intent: find_snapplify
+  examples: |
+    - Where can I find Snapplify?
+    - How do I access Snapplify?
+    - Can you guide me to the location of Snapplify?
+    - Where should I go to find Snapplify?
+    - How can I get Snapplify?
