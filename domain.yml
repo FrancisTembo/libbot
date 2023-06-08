@@ -327,12 +327,303 @@ intents:
 - information_submit_assignment_efundi
 - information_find_journals 
 - information_library_code_of_conduct
+- endnote_incorrect_formatting
+- endnote_document_conversion
+- no_internet_error
+- sunrise_tomorrow
+- lexisnexis_usage
+- juta_case_search
+- referencing_guide_hard_copy
+- change_application_details
+- tall_results_location
+- ms_office_365_access
+- setswana_articles
+- find_sabinet_databases
+- find_sage
+- access_nwu_emails
+- find_pressreader
+- boloka
+- locate_sources_languages
+- find_inaugural_lectures
+- find_woordeboek
+- change_contact_details
+- error_open_article
+- error_ezproxy_administrator
+- find_atlasti
+- find_pharos
+- find_snapplify
+- find_held_books
+- view_reading_history
+- explanation_reader
+- find_diy_services
+- find_past_assignments
+- check_textbook_availability
+- apply_for_jobs_nwu
+- call_number_shelf_number
+- access_wiley_online_encyclopedia
+- borrow_reference_works
+- membership_categories
+- faculty_librarian
+- lexisnexis_password
+- setswana_books
+- contact_dmedia
+- borrow_encyclopedias
+- find_ebooks
+- curbside_pickup_books
+- find_nwu_thesis
+- view_student_card_funds
+- contact_intercampus_loan
+- find_higher_degrees_manual
+- find_pharmacopoeia
+- difference_boloka_dayta
+- find_authors_guidelines
+- new_student_number
+- find_lecture_recordings
+- use_endnote_on_multiple_computers
 
 responses:
+  utter_use_endnote_on_multiple_computers_intro:
+  - text: "Yes, you can use EndNote on different computers."
+  utter_use_endnote_on_multiple_computers_recommendation:
+  - text: "It is recommended to create an EndNote online account to keep your library up to date and secure."
+  utter_use_endnote_on_multiple_computers_registration:
+  - text: "Register for an EndNote online account at: [EndNote Online Account Registration](https://access.clarivate.com/login?app=endnote)."
+  utter_use_endnote_on_multiple_computers_sync:
+  - text: "Configure the sync function on your desktop using the same email and password as your online account."
+  utter_use_endnote_on_multiple_computers_sync_regularly:
+  - text: "Make sure to regularly sync your EndNote library to your online account."
+  utter_use_endnote_on_multiple_computers_sync_another_computer:
+  - text: "When using another computer, simply sync your EndNote library from your online account to that computer or laptop."
+  utter_find_lecture_recordings:
+  - text: "Lecture recordings for Distance Learning are available on the Open Distance Learning web page . Please contact your lecturer if the recording that you are looking for is not available for download."
+  - text: "Lecture recordings for Distance Learning are available on the Open Distance Learning web page. If you cannot find a specific recording, please contact your lecturer for further assistance."
+  utter_new_student_number:
+  - text: "You will need to contact Undergraduate enquiries at 018 285 4320 applicationsug@nwu.ac.za"
+  - text: "To get a new student number, please contact Undergraduate enquiries at 018 285 4320 or email them at applicationsug@nwu.ac.za. They will assist you with the process of obtaining a new student number."
+  utter_find_authors_guidelines:
+  - text: "Author's guidelines are usually at the back of a printed journal. These days you will find them on the journals web site. If you cannot find them in any of these places I suggest that you contact the journal."
+  - text: "Author's guidelines are usually available on the journal's website. You can visit the website of the journal you are interested in and look for a section called 'Author's Guidelines' or 'Instructions for Authors'. If you are unable to find them on the website, I recommend reaching out to the journal directly for assistance."
+  utter_difference_boloka_dayta:
+  - text: "Boloka is the Institutional repository and makes the intellectual output of an organisation freely and openly available. For example, once you have completed your thesis or dissertation  the library will upload it to Boloka. DaYta Ya Rona  (figshare) is the Institutional data repository where you upload all the metadata that you have used during your research for example data sets, pictures, videos, books, seminars, reports, citations ... etc."
+  - text: "Boloka is the Institutional repository that makes the intellectual output of the organization freely and openly available. For example, once you have completed your thesis or dissertation, the library will upload it to Boloka. DaYta Ya Rona (figshare) is the Institutional data repository where you can upload all the metadata that you have used during your research, such as data sets, pictures, videos, books, seminars, reports, citations, and more."
+  utter_find_pharmacopoeia:
+  - text: "You can find the Pharmacopoeia on the Library home page. Go to Find Information > eReference Works > Pharmacopoeia."
+  utter_find_higher_degrees_manual:
+  - text: "The Manual for Higher Degrees Studies (previously the Manual for Master's and Doctoral Studies) is compiled by Research Support. You can access it through the following links: 1. [Manual for Higher Degrees Studies](http://studies.nwu.ac.za/sites/studies.nwu.ac.za/files/files/postgrad/Higher%20Degrees%20Manual_Senate_1Sept2020.pdf) 2. [Contact Research Support](http://services.nwu.ac.za/research-support/contact)"
+  utter_contact_intercampus_loan:
+  - text: Contact the Loan services helpdesk  on your campus to arrange for an intercampus loan.  
+  - text: "To arrange for an intercampus loan, please contact the Loan Services Helpdesk on your campus. They will assist you with the process."
+  utter_view_student_card_funds:
+  - text: "You can view your student card funds by visiting the [account enquiries page](http://www.nwu.ac.za/content/account-enquiries) on the NWU website."
+  utter_find_nwu_thesis:
+  - text: "Our theses and dissertations from North-West University are available on the Institutional Repository and Library Catalogue. You can access them using the following links: 1. [Institutional Repository](https://repository.nwu.ac.za/). 2. [Library Catalogue](https://north.on.worldcat.org/discovery). 3. [Theses and Dissertations in Institutional Repository](https://repository.nwu.ac.za/handle/10394/26463). 4. [Advanced Search in Library Catalogue](https://north.on.worldcat.org/advancedsearch)."
+  utter_curbside_pickup_books:
+  - text: "Books that are available for checkout according to the Library catalogue . The status of the book in the catalogue will be shown as 'available'."
+  - text: "Curbside pickup is available for books that are marked as 'available' in the Library catalogue. You can check the status of the book in the catalogue to see if it is eligible for curbside pickup."
+  utter_find_ebooks:
+  - text: "Use the Advanced Search option in the Library Catalogue. Change the Material Type to E-Books."
+  - text: "To find only e-book results, you can use the Advanced Search option in the Library Catalogue. Select the 'Material Type' filter and choose 'E-Books' to narrow down your search specifically to e-books."
+  utter_borrow_encyclopedias:
+  - text: "Encyclopedias are reference works and cannot be borrowed. They are marked with an 'R' before the shelf number, and their status in the catalogue will be displayed as 'LIB USE ONLY'. Please note that certain titles may be available online for access."
+  utter_contact_dmedia:
+  - text: "D-Media no longer exists. Their functions have been taken over by the Centre for Teaching and Learning. If you need assistance or have any inquiries related to the previous services provided by D-Media, I recommend reaching out to the Centre for Teaching and Learning. They will be able to assist you further. You can find their contact information on the NWU website."
+  utter_setswana_books:
+  - text: "Go to the Advanced Search in the Library Catalogue. Type your subject and choose Tswana next to the Language Limits."
+  - text: "To find books in Setswana, you can follow these steps:
+      1. Go to the Advanced Search option in the Library Catalogue.
+      2. Type your subject or keywords related to your topic.
+      3. Choose 'Tswana' next to the Language Limits to filter the search results.
+      This will help you find books specifically in Setswana. If you need further assistance, please don't hesitate to contact the Faculty Librarian mentioned on the Setswana Libguide."
+  utter_lexisnexis_password:
+  - text: "To obtain the password for LexisNexis, please contact the Faculty Librarian for Law, Maria.Lesele@nwu.ac.za. She will be able to provide you with the necessary information. If Maria is not available, you can also reach out to one of our other Faculty Librarians for assistance."
+  - text: "Please contact the Faculty Librarian for Law, Maria.Lesele@nwu.ac.za , for the LexisNexus password. If she is not available you are also welcome to contact one of our other Faculty Librarians."
+  utter_faculty_librarian:
+  - text: "You can find the contact information of your Faculty Librarian on our website. Please visit [this page](https://library.nwu.ac.za/information-services-and-faculty-librarians) to access the list of Faculty Librarians organized by subject. You will find the librarian assigned to your faculty who can provide subject-specific assistance."
+  utter_membership_categories:
+  - text: "Click here for a complete list of our user categories: https://library.nwu.ac.za/sites/library.nwu.ac.za/files/files/documents/user-categories.pdf"
+  utter_borrow_reference_works:
+  - text: "Reference works can not be borrowed. You will notice that they have an  R  before the shelf number. Their status in the catalogue will display as 'LIB USE ONLY'. Please note that certain titles are available online."
+  - text: "Reference works cannot be borrowed from the library. You will notice that they have an 'R' before the shelf number, and their status in the catalogue will be displayed as 'LIB USE ONLY'. Reference works are intended for use within the library. However, please note that certain titles are available online."
+  utter_access_wiley_online_encyclopedia:
+  - text: "Yes, you can search in the Library catalogue for the title. Reference works may only be used inside the Library. For more information please contact the Loan Services Manager on your campus. Please note that certain titles are available online at  https://library.nwu.ac.za/e-reference-works."
+  - text: "Yes, you can search for The international encyclopedia of communication (2008) by Wiley Online in the Library catalogue. However, please note that reference works may only be used inside the Library. If you need more information, please contact the Loan Services Manager on your campus. Additionally, some titles are available online in the e-reference works section of the library's website at https://library.nwu.ac.za/e-reference-works."
+  utter_call_number_shelf_number:
+  - text: "A call number/shelf number tells us where a book is located in the library. Call numbers appear on the spines of books and journals. We use the Dewey Decimal System to assign call numbers by subject."
+  - text: "A call number or shelf number is a unique identifier that tells us where a book is located in the library. You can find call numbers on the spines of books and journals. At our library, we use the Dewey Decimal System to assign call numbers based on the subject of the material. The call number helps library staff and users easily locate books on the shelves according to their subject classification."
+  - text: "A call number, also known as a shelf number, is a specific code that indicates the precise location of a book in the library. You can find the call number on the spine of the book. Our library uses the Dewey Decimal System to organize books by subject, assigning unique call numbers to each item. By understanding the call number, you can navigate the library shelves more effectively and find the books you need based on their subject classification."
+  utter_apply_for_jobs_nwu:
+  - text: "All job vacancies at the NWU are advertised on our official vacancies page. You can find and apply for jobs at the NWU by visiting [http://www.nwu.ac.za/vacancies](http://www.nwu.ac.za/vacancies). This page contains information about current job openings and the application process."
+  - text: "If you're interested in applying for jobs at the NWU, you can visit our official vacancies page at [http://www.nwu.ac.za/vacancies](http://www.nwu.ac.za/vacancies). This page provides details about available job positions and the application procedure."
+  - text: "To explore job opportunities at the NWU, please check our vacancies page at [http://www.nwu.ac.za/vacancies](http://www.nwu.ac.za/vacancies). This page lists all current job vacancies, and you can find information about the application process and requirements there."
+  utter_check_textbook_availability:
+  - text: "To check the availability of a textbook, you can search for it in our Library catalogue. Please visit our Library catalogue at [https://sierra.nwu.ac.za/search](https://sierra.nwu.ac.za/search) and enter the title, author, or ISBN of the textbook you are looking for."
+  - text: "If you want to check the availability of a textbook, you can use our Library catalogue. Simply go to [https://sierra.nwu.ac.za/search](https://sierra.nwu.ac.za/search) and enter the title, author, or ISBN of the textbook. The catalogue will provide information on whether the textbook is available or not."
+  - text: "To determine the availability of a textbook, I recommend using our Library catalogue. Access the catalogue at [https://sierra.nwu.ac.za/search](https://sierra.nwu.ac.za/search) and enter the title, author, or ISBN of the textbook. The catalogue will display the availability status and location of the textbook."
+  utter_find_past_assignments:
+  - text: "The Library does not keep past assignments for the Grade R Diploma. Please contact Open Distance Learning for further assistance."
+  - text: "Unfortunately, the Library does not have past assignments for the Grade R Diploma. For information regarding previous assignments, I recommend reaching out to Open Distance Learning."
+  - text: "Past assignments for the Grade R Diploma are not available in the Library. To obtain information on previous assignments, please get in touch with Open Distance Learning."
+  utter_find_diy_services:
+  - text: "The DIY services can be found at the bottom of all the NWU web pages. You can also access the services using this link: http://diyservices.nwu.ac.za/. Please note that it is recommended not to use Internet Explorer as a browser when accessing this service."
+  - text: "To access the DIY services, you can find them at the bottom of all the NWU web pages. Alternatively, you can use this direct link: http://diyservices.nwu.ac.za/. Please avoid using Internet Explorer as a browser when accessing the service."
+  - text: "If you're looking for the DIY services, they are located at the bottom of all the NWU web pages. You can also visit this link: http://diyservices.nwu.ac.za/ to access the services. Please keep in mind that it is advisable not to use Internet Explorer as a browser when using this service."
+  utter_explanation_reader:
+  - text: "A reader refers to the software or tools used to access and read eBooks. When reading eBooks online, you can use the standard software available on most computers and portable devices. Some eBooks may require special software provided by the eBook platform, such as eBook Central. Please note that on Library computers, you can only read eBooks online."
+  - text: "To read eBooks online, you can utilize the software that comes pre-installed on most computers and portable devices. In case a specific eBook requires dedicated software, the eBook platform usually provides it. However, when using Library computers, you can only access and read eBooks online."
+  - text: "When it comes to reading eBooks online, you can use the software that is commonly available on most computers and portable devices. In certain cases, specific software may be required, which is usually provided by the eBook platform itself. Please keep in mind that on Library computers, you can only read eBooks online."
+  utter_view_reading_history:
+  - text: "To view your reading history, log into your patron record. Once logged in, you will be able to access and review your list of previously read items."
+  - text: "If you want to see your reading history, simply log into your patron record. There, you can find and review the books you've read in the past."
+  - text: "Access your reading history by logging into your patron record. From there, you can explore and view the list of items you've read before."
+  utter_find_held_books:
+  - text: "If you have received a notice that the Library is holding a book for you, you can collect the book at the Loans Desk of your campus."
+  - text: "To retrieve books that are being held for you, simply visit the Loans Desk of your campus. They will assist you in collecting the held books."
+  - text: "Books that are being held for you can be found at the Loans Desk of your campus. Please go there to collect the books."
+  utter_find_snapplify:
+  - text: "To access Snapplify, go to the Library Web page and click on 'Find Information'. From there, select 'eBooks' and then choose 'How do I search for eBooks?'. You will find a link to Snapplify in the provided information."
+  - text: "If you are looking for Snapplify, visit the Library Web page and navigate to 'Find Information'. Click on 'eBooks' and then select 'How do I search for eBooks?'. In the information provided, you will find a link to Snapplify."
+  - text: "To find Snapplify, go to the Library Web page and click on 'Find Information'. Choose 'eBooks' and then click on 'How do I search for eBooks?'. You will find a link to Snapplify in the provided details."
+  utter_find_pharos:
+  - text: "To access Pharos, go to the Library home page and click on 'Find Information'. From there, select 'eReference Works' and then choose 'Dictionaries'. You will find Pharos listed under the available dictionaries."
+  - text: "To find Pharos, visit the Library home page and navigate to 'Find Information'. Click on 'eReference Works' and then select 'Dictionaries'. Pharos can be found among the list of dictionaries provided."
+  - text: "If you are looking for Pharos, go to the Library home page and click on 'Find Information'. Choose 'eReference Works' and then click on 'Dictionaries'. You will find Pharos listed there."
+  utter_find_atlasti:
+  - text: "To access ATLAS.ti, students need to arrange with their lecturers or supervisors for the download. Staff members can download ATLAS.ti from the NWU IT Support web page. Go to Staff > Software Downloads > ATLAS.ti to find the download link."
+  - text: "For ATLAS.ti access, students should coordinate with their lecturers or supervisors for the download process. NWU staff can download ATLAS.ti from the NWU IT Support web page. Visit Staff > Software Downloads > ATLAS.ti to locate the download option."
+  - text: "To find ATLAS.ti, students are required to make arrangements with their lecturers or supervisors for the download. NWU staff members can download ATLAS.ti from the NWU IT Support web page. Navigate to Staff > Software Downloads > ATLAS.ti to access the download link."
+  utter_error_ezproxy_administrator:
+  - text: "If you receive the following error message when trying to open an article, journal title, or database, please contact Carine Basson at carine.basson@nwu.ac.za for assistance: 'To allow /login?url=http://ukzn.ac.za/joe/joe_issues.htm to work, your EZproxy administrator must first authorize this within the exproxy.cfg file. Within this database's section of the file, the following line must be added: Host www.ukzn.ac.za. The EZproxy server must then be restarted to make this change take effect.' If you are on campus, you can use the direct link, for example: /login?url=http://ukzn.ac.za/joe/joe_issues.htm."
+  - text: "If you encounter the error message mentioned below while attempting to open an article, journal title, or database, please reach out to Carine Basson at carine.basson@nwu.ac.za for resolution: 'To allow /login?url=http://ukzn.ac.za/joe/joe_issues.htm to work, your EZproxy administrator must first authorize this within the exproxy.cfg file. Within this database's section of the file, the following line must be added: Host www.ukzn.ac.za. The EZproxy server must then be restarted to make this change take effect.' If you are accessing the resource from the campus network, you can use the direct link format, for instance: /login?url=http://ukzn.ac.za/joe/joe_issues.htm."
+  - text: "If you receive an error message similar to the one shown below when trying to open an article or database, please contact Carine Basson at carine.basson@nwu.ac.za for assistance: 'To allow /login?url=http://ukzn.ac.za/joe/joe_issues.htm to work, your EZproxy administrator must first authorize this within the exproxy.cfg file. Within this database's section of the file, the following line must be added: Host www.ukzn.ac.za. The EZproxy server must then be restarted to make this change take effect.' In case you are accessing the resource on campus, you can utilize the direct link structure, such as: /login?url=http://ukzn.ac.za/joe/joe_issues.htm."
+  utter_error_open_article:
+  - text: "If you encounter the error message described below while trying to open an article, journal title, or database, please contact Carine Basson at carine.basson@nwu.ac.za. Error message: 'To allow /login?url=http://ukzn.ac.za/joe/joe_issues.htm to work, your EZproxy administrator must first authorize this within the exproxy.cfg file. Within this database's section of the file, the following line must be added: Host www.ukzn.ac.za. The EZproxy server must then be restarted to make this change take effect.' If you are on campus, you can use the direct link, for example: /login?url=http://ukzn.ac.za/joe/joe_issues.htm."
+  - text: "If you receive the error message mentioned below when attempting to open an article, journal title, or database, please reach out to Carine Basson at carine.basson@nwu.ac.za for assistance. Error message: 'To allow /login?url=http://ukzn.ac.za/joe/joe_issues.htm to work, your EZproxy administrator must first authorize this within the exproxy.cfg file. Within this database's section of the file, the following line must be added: Host www.ukzn.ac.za. The EZproxy server must then be restarted to make this change take effect.' If you are accessing the resource from the campus network, you can use the direct link format, for instance: /login?url=http://ukzn.ac.za/joe/joe_issues.htm."
+  - text: "If you receive an error message similar to the one shown below when trying to open an article or database, please contact Carine Basson at carine.basson@nwu.ac.za for resolution. Error message: 'To allow /login?url=http://ukzn.ac.za/joe/joe_issues.htm to work, your EZproxy administrator must first authorize this within the exproxy.cfg file. Within this database's section of the file, the following line must be added: Host www.ukzn.ac.za. The EZproxy server must then be restarted to make this change take effect.' In case you are accessing the resource on campus, you can utilize the direct link structure, such as: /login?url=http://ukzn.ac.za/joe/joe_issues.htm."
+  utter_change_contact_details:
+  - text: "To change your contact and address details, you can visit the NWU DIY Services web page. You will find a link to the DIY Services in the purple banner at the bottom of the University web pages. Click on the link, choose the status that applies to you (e.g., Undergraduate Students), and explore the services provided. Please refer to the How-To-Guide under the service for detailed instructions and the contact details of the person responsible for this specific service. Note that it is recommended not to use Chrome as a browser when using this service."
+  - text: "If you need to update your contact and address details, you can do so on the NWU DIY Services web page. Look for the purple banner at the bottom of the University web pages and click on the link to access the DIY Services. Choose the relevant status (e.g., Undergraduate Students) to view the available services. Make sure to read the How-To-Guide under the service for step-by-step instructions and contact information. It is advisable to avoid using Chrome as a browser for this service."
+  - text: "To modify your contact and address details, go to the NWU DIY Services web page. Find the link to the DIY Services in the purple banner at the bottom of the University web pages. Click on the link and select the appropriate status (e.g., Undergraduate Students) to see the services provided. For detailed instructions and the contact details of the person in charge of this service, refer to the How-To-Guide available under the respective service. Please note that it is recommended to use a browser other than Chrome when using this service."
+  utter_find_woordeboek:
+  - text: "You can find the Woordeboek van die Afrikaanse Taal on the Library home page. Go to 'Find Information', then 'eReference Works', and click on 'Dictionaries' to access the Woordeboek van die Afrikaanse Taal."
+  - text: "To access the Woordeboek van die Afrikaanse Taal, visit the Library home page and navigate to 'Find Information', then 'eReference Works'. From there, select 'Dictionaries' to find and access the Woordeboek van die Afrikaanse Taal."
+  - text: "If you're looking for the Woordeboek van die Afrikaanse Taal, you can find it on the Library home page. Click on 'Find Information', then 'eReference Works', and choose 'Dictionaries' to locate and access the Woordeboek van die Afrikaanse Taal."
+  - text: "The Woordeboek van die Afrikaanse Taal is available from the Library home page. Go to 'Find Information', then 'eReference Works', and click on 'Dictionaries' to find and access the Woordeboek van die Afrikaanse Taal."
+  - text: "To find the Woordeboek van die Afrikaanse Taal, visit the Library home page and navigate to 'Find Information', then 'eReference Works'. From there, select 'Dictionaries' to discover and access the Woordeboek van die Afrikaanse Taal."
+  utter_find_inaugural_lectures:
+  - text: "You can find inaugural lectures on Boloka. Simply access Boloka to locate and access the available inaugural lectures."
+  - text: "To access inaugural lectures, you can visit Boloka. Inaugural lectures are available on the Boloka platform for you to explore."
+  - text: "If you're looking for inaugural lectures, you can find them on Boloka. Access Boloka to discover and access the collection of inaugural lectures."
+  - text: "Inaugural lectures are accessible on Boloka. You can find and access a variety of inaugural lectures by visiting the Boloka platform."
+  - text: "For inaugural lectures, you can find them on Boloka. Explore the Boloka platform to discover and access the available inaugural lectures."
+  utter_locate_sources_languages:
+  - text: "To locate sources in different languages, you can use WorldCat Discovery. Start by conducting a search, and then use the Language filter on the left-hand side of the page to select the language you prefer."
+  - text: "If you're looking for sources in different languages, WorldCat Discovery is a great resource. After performing a search, you can refine the results by using the Language filter located on the left-hand side of the page."
+  - text: "To find sources in specific languages, try using WorldCat Discovery. Once you've conducted a search, you can use the Language filter on the left-hand side of the page to narrow down the results to your desired language."
+  - text: "When searching for sources in different languages, I recommend using WorldCat Discovery. After searching, you can utilize the Language filter on the left-hand side of the page to filter the sources by your preferred language."
+  - text: "If you want to locate sources in languages other than English, WorldCat Discovery is a useful tool. Simply perform a search, and then use the Language filter on the left-hand side of the page to refine the results according to your desired language."
+  utter_boloka:
+  - text: "To solve access problems with Boloka, try rebooting TomCat. Restarting TomCat can often resolve access issues."
+  - text: "If you're experiencing access problems with Boloka, a possible solution is to reboot TomCat. Restarting TomCat can help resolve the issue."
+  - text: "If you're unable to access Boloka, try rebooting TomCat. Restarting TomCat can sometimes fix access problems."
+  - text: "When facing access problems with Boloka, one troubleshooting step is to reboot TomCat. Restarting TomCat can potentially resolve the issue."
+  - text: "If you're encountering access issues with Boloka, consider rebooting TomCat. Restarting TomCat might help restore access."
+  utter_find_pressreader:
+  - text: "To find PressReader, go to the Library home page and click on 'Find Information' followed by 'Newspapers and Magazines'. PressReader will be available in that section."
+  - text: "To access PressReader, visit the Library home page and navigate to 'Find Information', then 'Newspapers and Magazines'. You will find PressReader listed there."
+  - text: "You can locate PressReader by going to the Library home page and selecting 'Find Information', followed by 'Newspapers and Magazines'. PressReader will be available in that section."
+  - text: "To find PressReader, simply go to the Library home page and click on 'Find Information', then 'Newspapers and Magazines'. PressReader will be listed there."
+  - text: "If you're looking for PressReader, head to the Library home page and access the 'Find Information' menu. From there, select 'Newspapers and Magazines' to find PressReader."
+  utter_access_nwu_emails:
+  - text: "You can access your NWU emails from any NWU web page. Simply scroll down to the bottom of the page and click on 'Webmail'."
+  - text: "To access your NWU emails, go to any NWU web page and scroll down to the bottom. There, you will find a link labeled 'Webmail' that you can click on."
+  - text: "To access your NWU emails, visit an NWU web page and scroll to the bottom. Look for the 'Webmail' link and click on it to log in to your account."
+  - text: "You can find your NWU webmail by visiting any NWU web page and scrolling down to the bottom. Click on the 'Webmail' link to access your emails."
+  - text: "To log in to your NWU email account, navigate to an NWU web page and scroll down to the bottom. Click on the 'Webmail' link to access your emails."
+  utter_find_sage:
+  - text: "To find Sage, go to the Library home page and click on the A-Z database list. You can use the search box or click on 'S' to locate Sage."
+  - text: "To access Sage, visit the Library home page and click on the A-Z database list. You can search for it using the search box or navigate to the 'S' section."
+  - text: "You can locate Sage by going to the Library home page and clicking on the A-Z database list. You can either use the search box or browse the databases starting with the letter 'S'."
+  - text: "To find Sage, simply go to the Library home page and click on the A-Z database list. From there, you can search for it using the search box or look for it under the 'S' section."
+  - text: "If you're looking for Sage, head to the Library home page and access the A-Z database list. You can search for it using the search box or find it alphabetically under the letter 'S'."
+  utter_find_sabinet_databases:
+  - text: "To find Sabinet databases, go to the Library home page and click on the A-Z database list. You can use the search box or click on 'S' to locate the Sabinet databases."
+  - text: "To access the Sabinet databases, visit the Library home page and click on the A-Z database list. You can search for them using the search box or navigate to the 'S' section."
+  - text: "You can locate the Sabinet databases by going to the Library home page and clicking on the A-Z database list. You can either use the search box or browse the databases starting with the letter 'S'."
+  - text: "To find the Sabinet databases, simply go to the Library home page and click on the A-Z database list. From there, you can search for them using the search box or look for them under the 'S' section."
+  - text: "If you're looking for the Sabinet databases, head to the Library home page and access the A-Z database list. You can search for them using the search box or find them alphabetically under the letter 'S'."
+  utter_setswana_articles:
+  - text: "Please refer to our Setswana Libguide for articles written in Setswana. If you cannot find what you are looking for, please contact the Faculty Librarian mentioned in the guide."
+  - text: "To find articles written in Setswana, please visit our Setswana Libguide. If you need further assistance, reach out to the Faculty Librarian mentioned in the guide."
+  - text: "For Setswana language articles, we recommend checking our Setswana Libguide. If you are unable to locate the desired content, feel free to contact the Faculty Librarian listed in the guide."
+  - text: "To access articles in Setswana, make use of our Setswana Libguide. If you have any queries or require additional support, reach out to the Faculty Librarian mentioned in the guide."
+  - text: "If you are looking for articles in Setswana, our Setswana Libguide is a valuable resource. Should you have any difficulties or questions, please contact the Faculty Librarian mentioned in the guide."
+  utter_ms_office_365_access:
+  - text: "To access MS Office 365, you need to use your CAS (Campus Account Services) credentials. You can find more information about it [here](https://library.nwu.ac.za/passwords)."
+  - text: "You can get access to MS Office 365 using your CAS credentials. For detailed information, please visit [this link](https://library.nwu.ac.za/passwords)."
+  - text: "To use MS Office 365, you will need to log in with your CAS credentials. More information can be found [here](https://library.nwu.ac.za/passwords)."
+  - text: "Access to MS Office 365 is granted through your CAS (Campus Account Services) credentials. For further details, please refer to [this link](https://library.nwu.ac.za/passwords)."
+  - text: "To get access to MS Office 365, make sure to use your CAS credentials. Visit [this link](https://library.nwu.ac.za/passwords) for additional information."
+  utter_tall_results_location:
+  - text: "The links to your TALL results are available on the Academic Literacy web page."
+  - text: "To access your TALL results, you can find the links on the Academic Literacy web page."
+  - text: "You can view your TALL assessment results by visiting the Academic Literacy web page."
+  - text: "The Academic Literacy web page contains the links to your TALL results. You can find them there."
+  - text: "For your TALL assessment results, please visit the Academic Literacy web page where you will find the relevant links."
+  utter_change_application_details:
+  - text: "Prospective applicants (only those who have already submitted their applications) can amend/change their details on the online application form or request a change of qualification or campus (if capacity allows) by contacting the Central Applications Office at 018 285 4320. Please be sure to have your student number and contact details ready."
+  - text: "To change your application details, if you have already submitted your application, you can either modify the details on the online application form or get in touch with the Central Applications Office at 018 285 4320. They can assist you with changing your qualification or campus, provided there is available capacity. Make sure to have your student number and contact details on hand."
+  utter_referencing_guide_hard_copy:
+  - text: "You can purchase a hard copy of the referencing guide at your campus library."
+  - text: "To obtain a physical copy of the referencing guide, visit your campus library and inquire about purchasing it."
+  - text: "If you prefer a hard copy of the referencing guide, you can buy one at the library on your campus."
+  - text: "For a printed version of the referencing guide, head to your campus library where you can purchase it."
+  - text: "To get a hard copy of the referencing guide, simply visit your campus library and inquire about buying it."
+  utter_juta_case_search:
+  - text: "You will find training material on the Law LibGuide under 'How do I...'. You can also contact the Law Librarian on your campus for training."
+  - text: "To search for a case on Juta, refer to the training material available on the Law LibGuide under 'How do I...'."
+  - text: "For guidance on searching for cases on Juta, visit the Law LibGuide and navigate to the 'How do I...' section where you will find training resources."
+  - text: "To find a case on Juta, check out the training material provided on the Law LibGuide under 'How do I...'."
+  - text: "If you need assistance in searching for cases on Juta, reach out to the Law Librarian on your campus. They can provide training and support."
+  utter_lexisnexis_usage:
+  - text: "You will find comprehensive training material on the Law LibGuide under the 'How do I...' section."
+  - text: "To learn how to use LexisNexis, refer to the training material available on the Law LibGuide under 'How do I...'."
+  - text: "For guidance on using LexisNexis, visit the Law LibGuide and navigate to the 'How do I...' section where you will find training resources."
+  - text: "To get started with LexisNexis, check out the training material provided on the Law LibGuide under 'How do I...'."
+  - text: "If you need assistance in using LexisNexis, reach out to the Law Librarian on your campus. They can provide training and support."
+  utter_sunrise_tomorrow:
+  - text: "We can all hope. The sunrise and sunset times for tomorrow can provide you with the information you seek."
+  - text: "Hopefully! You can check the sunrise and sunset times for tomorrow to find out when the sun will rise."
+  - text: "Fingers crossed! To know the exact time of sunrise tomorrow, you can refer to the sunrise and sunset times."
+  - text: "Let's keep our hopes up! The sunrise and sunset times for tomorrow will give you the information you're looking for."
+  - text: "We can't be certain, but you can find the sunrise and sunset times for tomorrow to know when the sun is expected to rise."
+  utter_no_internet_error_1:
+  - text: "There is a problem with your computer's proxy settings. As a temporary fix, change your proxy to 'no proxy'. Follow the steps below to change your proxy settings."
+  utter_no_internet_error_2:
+  - text: "For Chrome settings, please see: https://www.xfinity.com/support/articles/remove-proxy-settings-in-chrome"
+  utter_no_internet_error_3:
+  - text: "For Firefox settings, please see: https://support.mozilla.org/en-US/kb/connection-settings-firefox"
+  utter_no_internet_error_4:
+  - text: "NOTE‼️: The problem was reported to IT services. If you have this problem, IT services would appreciate it if you could phone them at 018 299 2700 to report it. Please use ticket IR919004 as a reference number when you call IT services to report the problem."
+  utter_endnote_document_conversion_1:
+  - text: "When you convert your document to plain text, all the field codes are gone, and that document can't be converted to EndNote again instantly. When you converted your document to plain text, a copy with plain text was made, and the original document was saved."
+  utter_endnote_document_conversion_2:
+  - text: "Now you can go back to your original EndNote document before converting it to plain text and continue with that document."
+  utter_endnote_document_conversion_3:
+  - text: "In the future, when you want to send your document to your supervisor again, use the option of 'convert to unformatted citations' under the 'convert citations and bibliography' drop-down menu. This will remove the bibliography, and your text references will look like this example: {Abrego, 2019 #206@@author-year}."
+  utter_endnote_document_conversion_4:
+  - text: "Just tell your supervisor this is how it will display, but it will display correctly as soon as the document is linked to EndNote again."
+  utter_endnote_document_conversion_5:
+  - text: "When you get the document back from your supervisor, click on 'update citations and bibliography' Then the field codes will be restored, the text references will display as they should be, and the bibliography will be back in your document."
+  utter_endnote_incorrect_formatting:
+  - text: "This happens when the 'Instant formatting'  is OFF. Click on the EndNote tab, and in the 'Bibliography' section of the ribbon, there is a function 'instant formatting is OFF'. Click on that down arrow, and select 'Turn instant formatting ON'."
+  - text: "When the 'Instant formatting' option is disabled, you can enable it by following these steps: Go to the EndNote tab, locate the 'Bibliography' section on the ribbon, and click on the function labeled 'instant formatting is OFF'. From the dropdown menu, choose 'Turn instant formatting ON'."
+  - text: "When the 'Instant formatting' is deactivated, you can activate it again by navigating to the EndNote tab. Within the ribbon's 'Bibliography' section, locate the function that indicates 'instant formatting is OFF'. Click on the downward arrow, and then choose 'Turn instant formatting ON' from the available options."
   utter_information_library_code_conduct:
   - text: "The Library Code of Conduct is available from the Library home page under About Us>More About Us."
   utter_information_find_journals:
-  - text: "You can use our EDS Search service on the Library home page to search for journals. This is a link that explains how to search in this database: 🎈. You can also contact your Faculty Librarian for training."
+  - text: "You can search for journals in two places: 1. The Library catalogue at [Library Catalogue](https://sierra.nwu.ac.za/search) and 2. A-Z Publication Finder at [A-Z Publication Finder](https://libguides.nwu.ac.za/atoz-publication-finder)."
+  utter_information_find_journals_1:
+  - text: " You can also contact your Faculty Librarian for training."
   utter_information_submit_assignment_efundi:
   - text: "efundi is managed by the Centre for Teaching and Learning (CTL). Click here for their manual on how to submit an assignment. You can also watch this video. You will find more tutorials regarding eFundi on the CLT page at: http://services.nwu.ac.za/ctl/student-efundi-support"
   utter_information_JSTOR:
@@ -541,7 +832,7 @@ responses:
       payload: /information_update_efundi_email
     button_type: vertical
 
-    
+
   utter_information_potchefstroom_turnitin_admin:
   - text: "Teaching and Learning manage Turnitin on eFundi: http://services.nwu.ac.za/centre-teaching-and-learning-ctl/turnitin. You will find their help desk info on the bottom of their web page."
   
@@ -842,7 +1133,7 @@ responses:
   utter_information_libanswers:
   - text: "LibAnswers is a searchable knowledge base of frequently asked library-related questions. We hope that it answers some of your questions even if the libraries are closed. It also has a question form and chat system which you can use to get in contact with us. We may add some of the questions that you ask us to our knowledge base. All personal information will be removed from the questions to retain your privacy."
   utter_information_libguide:
-  - text: "A LibGuide was created by a Faculty Librarian to put together all types of information about a specific subject. For instance, you will find all the relevant information for Law on the Law LibGuide. This includes databases, cases and acts, journals and contact information. Thus a one-stop site."
+  - text: "A LibGuide was created by a Faculty Librarian to put together all types of information about a specific subject. For instance, you will find all the relevant information for Law on the Law LibGuide. This includes databases, cases and acts, journals and contact information. Thus a one-stop site. You will find our LibGuides at this link: https://libguides.nwu.ac.za/."
   utter_information_search_orcid_number:
   - text: "Go to the ORCiD web page at: https://orcid.org/. Type your name in the search box next to Registry. Search for your name in the search results."
   utter_information_register_orcid:
@@ -908,7 +1199,7 @@ responses:
   utter_find_referencing_guides:
   - text: Our referencing guides are available from the Library home page under Guides and Training>Referella:Referencing Guides>Referencing guides.
   utter_print_referencing_guide:
-  - text: Printing of the reference guide is not allowed due to the Copyright Law. You are welcome to use the guide online or to buy a copy from your campus library. In Potchefstroom it is also available at Van Schaiks.
+  - text: Printing or downloading the reference guide is not allowed due to the Copyright Law. You are welcome to use the guide online or to buy a copy from your campus library. In Potchefstroom it is also available at Van Schaiks.
   utter_using_harvard_reference_guide:
   - text: Our NWU Harvard Referencing guide provides training in how to reference a book using the Harvard Referencing Style go to https://libguides.nwu.ac.za/harvard-referencing/books. You will also find a video on this page explaining the process.
   utter_reference_picture:
@@ -1211,7 +1502,9 @@ responses:
   utter_information_SA_media:
   - text: The link to SA Media is on our home page under Find Information> Newspapers & Magazines. You will also find it on our home page under Databases.
   utter_information_check_book_status:
-  - text: To see if a book is reserved you can search under course code or lecturer. Course code Lecturer.
+  - text: "You can use the Library catalogue to check if a book is available in the library. Please visit the following link: [Library Catalogue](https://sierra.nwu.ac.za/search/). Enter the book's title or author's name in the search bar to find the book's availability."
+  utter_information_check_book_status_1:
+  - text: "Futhermore, To see if a book is reserved you can search under course code or lecturer. Course code Lecturer."
   utter_information_find_author:
   - text: The author/presenter of the study guide should be named in the study guide. If they do not provide a telephone number there should be an email address in the guide. If you have the name of the author/presenter but no contact details I suggest that you contact the faculty. Here is a list of Faculties. The contact info usually appears on the right-hand side of their web pages.
   utter_information_unblock_card:

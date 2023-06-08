@@ -1594,21 +1594,21 @@ utter: You have to download the files from the Library eFundi site and not direc
 topic: Citations / Referencing / Plagiarism; Research (e.g. EndNote, ORCiD, ETDs); eFundi / Turnitin / CTL
 views:99
 
-#267
+#267✅
 intent: I am looking for The international encyclopedia of communication (2008) by Wiley Online. Is there some way to access it through the library?
 utter: Yes, you can search in the Library catalogue for the title. Reference works may only be used inside the Library. For more information please contact the Loan Services Manager on your campus. Please note that certain titles are available online at  https://library.nwu.ac.za/e-reference-works .
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles); eReference Works (e.g. Dictionaries)
 views:7
 
-#268
+#268✅
 intent: Can reference works be borrowed from the collection?
 utter: Reference works can not be borrowed. You will notice that they have an  R  before the shelf number. Their status in the catalogue will display as "LIB USE ONLY".   Please note that certain titles are available online .
 topic: Loan Services (e.g. Renew Books); Finding information (e.g. Books, eBooks, Articles); eReference Works (e.g. Dictionaries)
 views:196
 
-#269
+#269✅
 intent: What are your membership categories?
-utter: Click here for a complete list of our user categories .
+utter: Click here for a complete list of our user categories.
 topic: About the Library (e.g. Services); Loan Services (e.g. Renew Books); Access / Hours
 views:22
 
@@ -1618,7 +1618,7 @@ utter: The NWU Harvard Referencing style and the NWU Law House style are two sep
 topic: Citations / Referencing / Plagiarism
 views:10
 
-#271
+#271✅
 intent: Who is my Faculty Librarian?
 utter: You will find a list of Faculty Librarian by subject on this page  https://library.nwu.ac.za/information-services-and-faculty-librarians .
 topic: Faculty Librarians / LibGuides
@@ -1630,13 +1630,13 @@ utter: Nashua operates the printers, photocopying, and scanning services at the 
 topic: About the Library (e.g. Services); Photocopying, Printing &amp; Scanning
 views:6
 
-#273
+#273✅
 intent: What is the password for LexisNexis?
 utter: Please contact the Faculty Librarian for Law, Maria.Lesele@nwu.ac.za , for the LexisNexus password. If she is not available you are also welcome to contact one of our other Faculty Librarians .
 topic: Databases (e.g. Catalogue, Exam papers); Access / Hours
 views:42
 
-#274
+#274✅
 intent: How to get books for Setswana?
 utter: Go to the Advanced Search in the Library Catalogue. Type your subject and choose Tswana next to the Language Limits.
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
@@ -1654,7 +1654,7 @@ utter: You can check your printing credits by swiping your student card at the 
 topic: About the Library (e.g. Services); Photocopying, Printing &amp; Scanning
 views:36
 
-#277
+#277✅
 intent: I need the contact details of D-Media
 utter: D-Media no longer exists. Their functions were taken over by the Centre for Teaching and Learning.
 topic: About the NWU
@@ -1672,13 +1672,13 @@ utter: Postgraduate students can apply on this page  http://studies.nwu.ac.za/p
 topic: About the NWU
 views:5
 
-#280
+#280✅
 intent: Can encyclopedias be borrowed?
 utter: Encyclopedias are reference works and can not be borrowed. They have an  R  before the shelf number. Their status in the catalogue will display as "LIB USE ONLY".   Please note that certain titles are available online .
 topic: Loan Services (e.g. Renew Books); eReference Works (e.g. Dictionaries)
 views:32
 
-#281
+#281✅
 intent: How to find libguides?
 utter: You will find our LibGuides at this link  https://libguides.nwu.ac.za/ .  
 topic: Faculty Librarians / LibGuides
@@ -1696,21 +1696,21 @@ utter: I would search for the journal in A-Z Publication Finder . If I cannot f
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
 views:375
 
-#284
+#284✅
 intent: How do I find only e-book results?
 utter: Use the Advanced Search option in the Library Catalogue . Change the Material Type to E-Books.
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
 views:13
 
-#285
+#285✅
 intent: What books can you get with curbside pickup?
 utter: Books that are available for checkout according to the Library catalogue . The status of the book in the catalogue will be shown as "available".
 topic: Loan Services (e.g. Renew Books); Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
 views:2
 
-#286
+#286✅
 intent: Where can I find North-West university thesis?
-utter: Our theses and dissertations are available on the Institutional Repository and Library Catalogue. Links below:
+utter: Our theses and dissertations are available on the Institutional Repository and Library Catalogue. In the following links: 1. https://repository.nwu.ac.za/. 2. https://north.on.worldcat.org/discovery. 3. https://repository.nwu.ac.za/handle/10394/26463. 4. https://north.on.worldcat.org/advancedsearch.
 topic: Finding information (e.g. Books, eBooks, Articles); Research (e.g. EndNote, ORCiD, ETDs)
 views:33
 
@@ -1732,13 +1732,13 @@ utter: It depends on which referencing style you use. You will find the NWU Harv
 topic: Citations / Referencing / Plagiarism
 views:15
 
-#290
+#290✅
 intent: How do I view my student card funds?
-utter: Go to  http://www.nwu.ac.za/content/account-enquiries .
+utter: Go to  http://www.nwu.ac.za/content/account-enquiries.
 topic: About the NWU
 views:40
 
-#291
+#291✅
 intent: Who do I contact for an intercampus loan?
 utter: Contact the Loan services helpdesk  on your campus to arrange for an intercampus loan.  
 topic: Loan Services (e.g. Renew Books)
@@ -1750,7 +1750,7 @@ utter: You will find an example of the NWU Harvard Referencing style for photogr
 topic: Citations / Referencing / Plagiarism
 views:44
 
-#293
+#293✅
 intent: How do I know if a book is in the Library?
 utter: You can use the Library catalogue to find out if a book is in the library at  https://sierra.nwu.ac.za/search/ . 
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
@@ -1768,25 +1768,25 @@ utter: You can make an appointment on the NWU Writing Centre web page. Link belo
 topic: Research (e.g. EndNote, ORCiD, ETDs); Writing Assignments
 views:18
 
-#296
+#296✅
 intent: Where can I find the Manual for Higher Degrees Studies?
 utter: The Manual for Higher Degrees Studies (previously the Manual for Master's and Doctoral Studies ) is compiled by Research Support. Links below:
 topic: Finding information (e.g. Books, eBooks, Articles); Research (e.g. EndNote, ORCiD, ETDs)
 views:23
 
-#297
+#297✅
 intent: Where can I find Pharmacopoeia?
 utter: You will find the Pharmacopoeia on the Library home page under Find Information>eReference Works> Pharmacopoeia .
 topic: eReference Works (e.g. Dictionaries)
 views:1
 
-#298
+#298✅
 intent: Where can I find journals?
 utter: You can search for journals in two places: 1. The Library catalogue -  https://sierra.nwu.ac.za/search 2. A-Z Publication Finder -  https://libguides.nwu.ac.za/atoz-publication-finder
 topic: Finding information (e.g. Books, eBooks, Articles)
 views:40
 
-#299
+#299✅
 intent: What is the difference between Boloka and DaYta Ya Rona(figshare)?
 utter: Boloka is the Institutional repository and makes the intellectual output of an organisation freely and openly available. For example, once you have completed your thesis or dissertation  the library will upload it to Boloka. DaYta Ya Rona  (figshare) is the Institutional data repository where you upload all the metadata that you have used during your research for example data sets, pictures, videos, books, seminars, reports, citations ... etc.
 topic: Databases (e.g. Catalogue, Exam papers)
@@ -1798,13 +1798,13 @@ utter: The 360-Services are available on the Open Distance Learning web page. �
 topic: Distance Learning
 views:1072
 
-#301
+#301✅
 intent: Where can I find author's guidelines for a journal?
 utter: Author's guidelines are usually at the back of a printed journal. These days you will find them on the journals web site. If you cannot find them in any of these places I suggest that you contact the journal.
 topic: Finding information (e.g. Books, eBooks, Articles)
 views:7
 
-#302
+#302✅
 intent: Where can I find the Oxford dictionary?
 utter: You will find our online Dictionaries and Encyclopedias on our eReference Works page at  https://library.nwu.ac.za/e-reference-works .
 topic: eReference Works (e.g. Dictionaries)
@@ -1816,31 +1816,31 @@ utter: You can change/reset your university/student password from the eFundi web
 topic: About the NWU
 views:823
 
-#304
+#304✅
 intent: Hello I need help getting a new student number because my previous application was not completed.
 utter: You will need to contact Undergraduate enquiries at 018 285 4320 applicationsug@nwu.ac.za
 topic: About the NWU
 views:34
 
-#305
+#305✅
 intent: Were can I find lecture recordings for Distance Learning?
 utter: Lecture recordings for Distance Learning are available on the Open Distance Learning web page . Please contact your lecturer if the recording that you are looking for is not available for download.
 topic: Distance Learning
 views:81
 
-#306
+#306✅
 intent: Where can I find Distance Learning tutorials for Education?
 utter: The tutorials are available on the Open Distance Learning web page . Please contact your lecturer if the tutorial that you are looking for is not available for download.
 topic: Distance Learning
 views:18
 
-#307
+#307✅
 intent: Can I use EndNote on different computers?
 utter: Yes, you can. It is best practice to always create an EndNote online account to keep your EndNote Library up to date and safe. Register for your EndNote online account at: https://access.clarivate.com/login?app=endnote   and configure the sync function on your desktop using the same e-mail and password of your online account. Always sync your EndNote library to your online account. When using another computer, simply sync your EndNote Library from your online account to that computer or laptop.
 topic: Research (e.g. EndNote, ORCiD, ETDs)
 views:67
 
-#308
+#308✅
 intent: What's a call number/shelf number?
 utter: A call number/shelf number tells us where a book is located in the library. Call numbers appear on the spines of books and journals. We use the Dewey Decimal System to assign call numbers by subject.
 topic: Loan Services (e.g. Renew Books); Finding information (e.g. Books, eBooks, Articles)
@@ -1852,85 +1852,85 @@ utter: Please contact Maria.Lesele@nwu.ac.za  for the Juta login details.
 topic: Databases (e.g. Catalogue, Exam papers); Access / Hours
 views:38
 
-#310
+#310✅
 intent: What can I study at the NWU?
 utter: Our fields of study and their admission requirements are listed on this  page http://studies.nwu.ac.za/undergraduate-studies/fields-study .
 topic: About the NWU
 views:4
 
-#311
+#311✅
 intent: Where can I apply for jobs at the NWU?
 utter: All vacancies are advertised on this page  http://www.nwu.ac.za/vacancies .
 topic: About the NWU
 views:13
 
-#312
+#312✅
 intent: How do I check availability of textbook?
 utter: Search for the textbook in our Library catalogue at  https://sierra.nwu.ac.za/search .
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
 views:16
 
-#313
+#313✅
 intent: Where can I find past Assignments for the Grade R Diploma?
-utter: The Library does not keep past assignments. Please contact Open Distance Learning . 
+utter: The Library does not keep past assignments. Please contact Open Distance Learning. 
 topic: Distance Learning
 views:97
 
-#314
+#314✅
 intent: Where can I find the DIY services?
-utter: At the bottom of all the NWU web pages. You can also use this link  http://diyservices.nwu.ac.za/ . Do not use Chrome as a browser when you access this service.
+utter: At the bottom of all the NWU web pages. You can also use this link  http://diyservices.nwu.ac.za/ . Do not use Internet Explorer as a browser when you access this service.
 topic: About the NWU
 views:62
 
 #315✅
 intent: What is the ethical requirements for postgraduate studies?
-utter: You will find the ethical requirements on the NWU Research Support page at  http://services.nwu.ac.za/research-support/ethics .
+utter: You will find the ethical requirements on the Nbooks that are heldWU Research Support page at  http://services.nwu.ac.za/research-support/ethics .
 topic: Finding information (e.g. Books, eBooks, Articles); Research (e.g. EndNote, ORCiD, ETDs)
 views:6
 
-#316
+#316✅
 intent: What is reader?
 utter: Reading eBooks online You can read eBooks online with software that comes standard on most computers and portable devices. If special software is needed to open and read an eBook online, the eBook will often provide its own (e.g. eBook Central) software. On Library computers, you can only read the eBook online. Reading eBooks offline Not all of the Library’s eBooks provides this option. If you are not offered a downloading/offline option then it is not available. PDF documents that are not controlled by digital rights management software may be downloaded to most PCs without the need for additional software. Downloading eBooks using Adobe Digital Editions (ADE) software If you wish to download eBooks to your computer or device, you must have both a free Adobe account and the free Adobe Digital Editions (ADE) software installed. Adobe Digital Editions allows you to access eBooks downloaded to your computer in either ePub or PDF format protected with Adobe Digital Rights Management (DRM).   Download Adobe Digital Editions . ​​During the installation of Adobe Digital Editions there should be an option to Authorize Computer. Select Authorize Computer and login with your Adobe ID and Password. Note: If you select Don’t Authorize Computer you cannot transfer an Adobe DRM protected e-Book to another computer or any tablet devices/smartphones and/or eBook readers. In other words, all the purchased or borrowed books afterward belong to that computer. You are able to download or transfer the same eBook to 6 computers and tablet devices/smartphones and eBook readers where either Adobe Digital Editions is installed and authorised with the same Adobe ID.​ Video on how to downloading eBooks available on EbscoHost SpringerLink Tutorial EbooksCentral Tutorial Things to keep in mind about eBooks Not all books are available in eBook format.   Most library eBook collections are presented in formats that are intended for viewing in a browser on a computer.  Due to our licensing agreements with publishers, some eBooks in our collections are limited to one user at a time. Typically eBook files will be in either PDF or ePub format. PDF files don’t adapt well to various sized displays and devices and therefore it is difficult to view some PDF files on small screens that come with some smartphones, tablets and eBook readers.  ePub is the preferred eBook file format as the text reflows to fit the dimensions of the screen. The ePub eBook file format supports Digital Rights Management (DRM).​    
 topic: Finding information (e.g. Books, eBooks, Articles)
 views:8
 
-#317
+#317✅
 intent: How do I see my reading history?
-utter: You can see your reading history when you log into your patron record .  
+utter: You can see your reading history when you log into your patron record.  
 topic: Loan Services (e.g. Renew Books)
 views:6
 
-#318
+#318✅
 intent: Where do I find books that are held?
 utter: If you have received a notice that the Library is holding a book for you, you can collect the book at the Loans Desk of your campus. 
 topic: Loan Services (e.g. Renew Books)
 views:18
 
-#319
+#319 ✅
 intent: Whre can I find OPTENTIA?
-utter: Follow the link below:
+utter: Follow the link: https://optentia.co.za/
 topic: Finding information (e.g. Books, eBooks, Articles)
 views:3
 
-#320
+#320✅
 intent: Where can I find Snapplify
 utter: A link to Snappligy is available on the Library Web page under Find Information>eBooks> How do I search for eBooks ?
 topic: Finding information (e.g. Books, eBooks, Articles)
 views:18
 
-#321
+#321✅
 intent: Where can I find Pharos?
 utter: On the Library home page go to Find Information>eReference works>Dictionaries>Pharos.
 topic: eReference Works (e.g. Dictionaries)
 views:12
 
-#322
+#322✅
 intent: How do I download a book from the library?
 utter: Our eBooks web page explains how to find and download eBooks.
 topic: Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)
 views:140
 
-#323
+#323✅
 intent: Where can I download Microsoft Office?
 utter: You can download it from the NWU IT Support page. Link below: 
 topic: Tech Support (e.g. Software)
@@ -1948,31 +1948,31 @@ utter: Printing of the Reference guide is not allowed due to the Copyright Law. 
 topic: Citations / Referencing / Plagiarism
 views:12
 
-#326
+#326✅
 intent: Were can I find ATLAS.ti?
 utter: Students must arrange with their lecturers/supervisors to download ATLAS.ti. Staff can download ATLAs.ti from the  NWU IT Support web page under Staff>Software Downloads>ATLAS.ti.  
 topic: Databases (e.g. Catalogue, Exam papers)
 views:47
 
-#327
+#327✅
 intent: I get the following error message: To allow /login?url=http://ukzn.ac.za/joe/joe_issues.htm to work, your EZproxy administrator must first authorize this within the exproxy.cfg file.
 utter: If you get the error message below when trying to open an article/journal-title or database please contact Carine Basson at carine.basson@nwu.ac.za . Error message: To allow /login?url=http://ukzn.ac.za/joe/joe_issues.htm to work, your EZproxy administrator must first authorize this within the exproxy.cfg file. Within this database's section of the file, the following line must be added: Host www.ukzn.ac.za The EZproxy server must then be restarted to make this change take effect.   If you are on campus you can use the direct link for e.g.   /login?url=http://ukzn.ac.za/joe/joe_issues.htm
 topic: Databases (e.g. Catalogue, Exam papers)
 views:13
 
-#328
+#328✅
 intent: I get an error message when I try to open an article or database.
 utter: If you get the error message below when trying to open an article/journal-title or database please contact Carine Basson at carine.basson@nwu.ac.za . Error message: To allow /login?url=http://ukzn.ac.za/joe/joe_issues.htm to work, your EZproxy administrator must first authorize this within the exproxy.cfg file. Within this database's section of the file, the following line must be added: Host www.ukzn.ac.za The EZproxy server must then be restarted to make this change take effect.   If you are on campus you can use the direct link for e.g.   /login?url=http://ukzn.ac.za/joe/joe_issues.htm
 topic: Databases (e.g. Catalogue, Exam papers)
 views:21
 
-#329
+#329✅
 intent: How do I change my contact details?
 utter: You can change your contact and address details on the NWU DIY Services web page. You will find a link to the DIY Services in the purple banner at the bottom of the University web pages . Once you have clicked on the link, which I also attached below, choose the status that applies to you e.g. Undergraduate Students to see the services provided to that group. Please read the How-To-Guide under the service for more information. It also contains the contact details of the person responsible for this specific service. Do not use Chrome as a browser when you use this service.
 topic: About the NWU
 views:32
 
-#330
+#330✅
 intent: Where can I find the Woordeboek van die Afrikaanse Taal?
 utter: The Woordeboek vir die Afrikaanse Taal is available from the Library home page under Find Information>eReference Works> Dictionaries . 
 topic: eReference Works (e.g. Dictionaries)

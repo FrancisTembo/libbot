@@ -1126,7 +1126,7 @@ nlu:
     - How do I book an appointment? I need help with the boolean search as I need to do feasibility test.
     - book an appointment boolean search
     - book appointment with librarian
-    - book lirarian appointment
+    - book librarian appointment
 - intent: information_ashrae
   examples: |
     - ASHRAE
@@ -1527,6 +1527,10 @@ nlu:
     - checking book status
     - verify if book is not reserved
     - checking if a book is not reserved
+    - How can I check if a book is available in the library?
+    - Is there a way to know if a book is in the library?
+    - How do I find out if a specific book is available for borrowing?
+    - Can you help me check if a book is in the Library?
 - intent: information_find_author
   examples: |
     - how can I find the author of the study guide we were supplied
@@ -1974,6 +1978,8 @@ nlu:
     - define libguide
     - information libguide
     - what is the purpose of a libguide
+    - How to find libguides?
+    - where can I find libguides?
     
 - intent: information_postgrad_application
   examples: |
@@ -2192,6 +2198,10 @@ nlu:
   examples: |
     - Where can I find online dictionaries and encyclopedias
     - where can I access online dictionaries and encyclopedias
+    - Where can I find the Oxford dictionary?
+    - How do I access the Oxford dictionary?
+    - What is the process to find the Oxford dictionary?
+    - Can you help me locate the Oxford dictionary?
 
 - intent: infromation_course_reserves
   examples: |
@@ -2300,6 +2310,9 @@ nlu:
     - how do I search for journals
     - where can I search for journals
     - where can I find journal articles
+    - Where can I find journals?
+    - How do I search for journals?
+    - Can you help me find information about journals?
 
 - intent: information_library_code_of_conduct
   examples: |
@@ -2498,3 +2511,202 @@ nlu:
     - Can you guide me to the location of Snapplify?
     - Where should I go to find Snapplify?
     - How can I get Snapplify?
+
+- intent: find_held_books
+  examples: |
+    - Where do I find books that are held?
+    - How can I locate books that are being held for me?
+    - Where should I go to collect books that are on hold?
+    - How do I retrieve books that are being held for me?
+    - Can you guide me to the location of books that are being held?
+
+- intent: view_reading_history
+  examples: |
+    - How do I see my reading history?
+    - Can you guide me to access my reading history?
+    - Where can I find my list of previously read items?
+    - How can I view the books I've read?
+    - Is there a way to check my reading history?
+
+- intent: explanation_reader
+  examples: |
+    - What is a reader?
+    - Can you explain what a reader is?
+
+- intent: find_diy_services
+  examples: |
+    - Where can I find the DIY services?
+    - How do I access the DIY services?
+    - Can you tell me where to find the DIY services?
+    - I need help locating the DIY services.
+
+- intent: find_past_assignments
+  examples: |
+    - Where can I find past assignments for the Grade R Diploma?
+    - Are past assignments for the Grade R Diploma available in the library?
+    - How can I access previous assignments for the Grade R Diploma?
+    - Can you help me find past assignments for the Grade R Diploma?
+
+- intent: check_textbook_availability
+  examples: |
+    - How do I check the availability of a textbook?
+    - Can you help me find out if a textbook is available?
+    - What is the process for checking the availability of a textbook?
+    - Is there a way to see if a textbook is currently in the library?
+
+- intent: apply_for_jobs_nwu
+  examples: |
+    - Where can I apply for jobs at the NWU?
+    - How do I find job vacancies at the NWU?
+    - Is there a specific website for NWU job applications?
+    - Where can I search for job openings at the NWU?
+
+- intent: call_number_shelf_number
+  examples: |
+    - What's a call number?
+    - Can you explain what a shelf number is?
+    - How do I understand the call numbers on library books?
+    - What does the call number on a book mean?
+
+- intent: access_wiley_online_encyclopedia
+  examples: |
+    - Can I access The international encyclopedia of communication (2008) by Wiley Online through the library?
+    - Is there a way to access The international encyclopedia of communication (2008) by Wiley Online in the library?
+    - Can I find The international encyclopedia of communication (2008) by Wiley Online in the library's resources?
+    - How can I access The international encyclopedia of communication (2008) by Wiley Online through the library?
+
+- intent: borrow_reference_works
+  examples: |
+    - Can I borrow reference works from the collection?
+    - Are reference works available for borrowing?
+    - Is it possible to check out reference works?
+    - Can I take reference works home?
+    - Are reference works loanable?
+
+- intent: membership_categories
+  examples: |
+    - What are your membership categories?
+    - Can you tell me about your user categories?
+    - What types of memberships do you offer?
+    - What are the different categories of library users?
+    - Where can I find information about your membership categories?
+
+- intent: faculty_librarian
+  examples: |
+    - Who is my Faculty Librarian?
+    - How can I find my Faculty Librarian?
+    - Where can I get in touch with my Faculty Librarian?
+    - Who should I contact from the library for subject-specific assistance?
+    - Is there a librarian assigned to my faculty?
+
+- intent: lexisnexis_password
+  examples: |
+    - What is the password for LexisNexis?
+    - Can you provide me with the password for LexisNexis?
+    - How can I obtain the password for LexisNexis?
+    - Who should I contact to get the password for LexisNexis?
+    - Where can I find the password for LexisNexis?
+
+- intent: setswana_books
+  examples: |
+    - How can I find books in Setswana?
+    - What is the process for getting books in Setswana?
+    - How do I access Setswana books in the library?
+    - Where can I find books written in Setswana?
+    
+- intent: contact_dmedia
+  examples: |
+    - What are the contact details for D-Media?
+    - How can I reach out to D-Media?
+    - I need the contact information for D-Media.
+    - Can you provide me with the contact details of D-Media?
+
+- intent: borrow_encyclopedias
+  examples: |
+    - Can I borrow encyclopedias?
+    - Are encyclopedias available for borrowing?
+    - How can I check out encyclopedias from the library?
+    - Is it possible to loan encyclopedias?
+
+- intent: find_ebooks
+  examples: |
+    - How can I find only e-book results?
+    - Is there a way to search for e-books specifically?
+    - Can I narrow down my search to only e-books?
+    - How do I filter my search to show only e-books?
+
+- intent: curbside_pickup_books
+  examples: |
+    - What books can I get with curbside pickup?
+    - Which books are available for curbside pickup?
+    - Can you tell me the books I can borrow through curbside pickup?
+    - What are the options for curbside pickup books?
+
+- intent: find_nwu_thesis
+  examples: |
+    - Where can I find North-West university theses?
+    - How do I access NWU theses and dissertations?
+    - Can you provide me with links to NWU thesis repositories?
+    - Where can I search for theses and dissertations from North-West University?
+
+- intent: view_student_card_funds
+  examples: |
+    - How can I check my student card funds?
+    - Where do I go to view my student card balance?
+    - Can you tell me how to access my student card funds?
+    - How do I check the balance on my student card?
+
+- intent: contact_intercampus_loan
+  examples: |
+    - Who should I contact for an intercampus loan?
+    - How can I arrange for an intercampus loan?
+    - Who do I need to contact to borrow a book from another campus?
+    - Where can I get information about intercampus loans?
+
+- intent: find_higher_degrees_manual
+  examples: |
+    - Where can I find the Manual for Higher Degrees Studies?
+    - How can I access the Manual for Higher Degrees Studies?
+    - Do you have information on the Manual for Higher Degrees Studies?
+
+- intent: find_pharmacopoeia
+  examples: |
+    - Where can I find the Pharmacopoeia?
+    - How can I access the Pharmacopoeia?
+    - Do you have information on the Pharmacopoeia?
+
+- intent: difference_boloka_dayta
+  examples: |
+    - What is the difference between Boloka and DaYta Ya Rona(figshare)?
+    - What is the difference between Boloka and DaYta Ya Rona?
+    - Can you explain the distinction between Boloka and DaYta Ya Rona?
+    - What are the different purposes of Boloka and DaYta Ya Rona?
+
+- intent: find_authors_guidelines
+  examples: |
+    - Where can I find author's guidelines for a journal?
+    - How do I access the author's guidelines for a journal?
+    - What is the process to find the author's guidelines for a journal?
+    - Can you help me locate the author's guidelines for a specific journal?
+
+- intent: new_student_number
+  examples: |
+    - I need help getting a new student number.
+    - My previous application was not completed. How can I get a new student number?
+    - Can you assist me in obtaining a new student number?
+    - Who should I contact to get a new student number?
+
+
+- intent: find_lecture_recordings
+  examples: |
+    - Where can I find lecture recordings for Distance Learning?
+    - How do I access lecture recordings for Distance Learning?
+    - Are the lecture recordings for Distance Learning available online?
+    - Can you help me find the lecture recordings for Distance Learning?
+
+- intent: use_endnote_on_multiple_computers
+  examples: |
+    - Can I use EndNote on different computers?
+    - Is it possible to access my EndNote library from multiple computers?
+    - How can I sync EndNote across different devices?
+    - Can you explain how to use EndNote on multiple computers

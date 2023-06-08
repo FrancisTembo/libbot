@@ -1,0 +1,53 @@
+Id,Group Id,Question,Answer,Details,Owned By,Topics,Keywords,Status,Created On,Last Updated,Vote: Yes,Vote: No,Total Views
+388937,7556,"I have installed EndNote but my text references are showing in this format {Arnott, 2013 #311}","Good morning
+This happens when the ""instant formatting"" is off.
+Click on the EndNote tab, and in the ""Bibliography"" section of the ribbon, there is a function ""Instant formatting is off"". Click on that down arrow, and select ""Turn instant formatting on""
+
+ 
+ 
+ ","Hello , Please may you assist with Endnote I have installed endnote but my refs are showing in this format {Arnott, 2013 #311} What could be wrong please
+Custom Question Responses
+
+Home Campus
+Potchefstroom
+","Coetzee, Anneke",nan,nan,Unpublished Draft,2023-05-25 11:31:47,2023-05-25 11:34:11,0,0,0
+387913,7556,"How do I return my documant to endnote after saving as plain text, to send to supervisor. What do I do when I get my document back to continue with EndNote?","When you convert your document to plain text, all the field codes are gone, and that document can't be converted to EndNote again instantly. When you converted your document to plain text, a copy with plain text was made, and the original document was saved. Now you can go back to your original EndNote document before converting it to plain text and continue with that document.
+In the future, when you want to send your document to your supervisor again, use the option of ""convert to unformatted citations"" under the ""convert citations and bibliography"" drop-down menu. This will remove the bibliography, and your text references will look like this example: {Abrego, 2019 #206@@author-year}. Just tell your supervisor this is how it will display, but it will display correctly as soon as the document is linked to EndNote again. When you get the document back from your supervisor, click on ""update citations and bibliography"" Then the field codes will be restored, the text references will display as they should be, and the bibliography will be back in your document.
+ ","How do I return my documant to endnote after taking it off to send to supervisor. What do I do when I get my document back to continue wirh Endnote use?
+Follow-up message:
+How do I return my document to endnote when I get it back from a supervisor after changing it to plain text
+Custom Question Responses
+
+Home Campus
+Potchefstroom
+","Coetzee, Anneke",Citations / Referencing / Plagiarism,EndNote,Published,2023-05-05 09:22:17,2023-05-08 12:15:08,0,0,1
+387136,7556,Can we download the reference guide for offline use?,"Yes, you can download it from this page, but you cannot print it.
+Printed copies are sold at any NWU campus Library and Van Schaik Bookstore.",nan,"van Eldik, Elize",Citations / Referencing / Plagiarism,Download; Reference guides,Published,2023-04-19 08:46:23,2023-05-08 12:20:29,0,0,4
+386058,7556,"""No Internet"" error message when trying to access LibGuides or the A-Z database list.","There is a problem with your computer's proxy settings. As a temporary fix, change your proxy to ""no proxy"".  
+Follow the steps below to change your proxy settings:
+
+For Chrome settings, please see: https://www.xfinity.com/support/articles/remove-proxy-settings-in-chrome
+For Firefox settings, please see: https://support.mozilla.org/en-US/kb/connection-settings-firefox
+
+28/03/2023 - The problem was reported to IT services. If you have this problem, IT services would appreciate it if you could phone them at 018 299 2700 to report it. Please use ticket IR919004 as a reference number when you call IT services to report the problem. 
+ ",nan,"van Eldik, Elize",Tech Support (e.g. Software); About the NWU,No Internet; error; Cannot see A-Z database list; Cannot see LibGuides,Published,2023-03-28 10:30:36,2023-05-05 07:21:23,0,0,117
+385171,7556,Where can I find the SABS SANS documents on the library website?,The South African National Standards (SABS) are in our list of A-Z databases.,nan,"van Eldik, Elize","Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)",SABS; SANS; South African National Standards,Published,2023-03-14 07:28:39,2023-03-14 07:30:26,0,0,2
+385033,7556,Will the sun rise tomorrow?,We can all hope. These sunrise and sunset times should tell you when this event will happen. ,nan,"van Eldik, Elize",Other,sun; rise,Published,2023-03-10 09:24:32,2023-03-10 09:26:56,0,0,5
+384916,7556,How to use LexisNexis?,"You will find training material on the Law LibGuide under How do I..
+You can also contact the Law Librarian on your campus for training.",nan,"van Eldik, Elize","Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)",Training; LexisNexis,Published,2023-03-08 07:52:22,2023-03-08 07:53:50,0,0,6
+384915,7556,How do I search for a case on Juta?,"You will find training material on the Law LibGuide under How do I..
+You can also contact the Law Librarian on your campus for training.
+ ",nan,"van Eldik, Elize","Databases (e.g. Catalogue, Exam papers); Finding information (e.g. Books, eBooks, Articles)",Training; Juta; Cases,Published,2023-03-08 07:49:46,2023-03-08 07:54:10,0,0,7
+384630,7556,What can one study with 19 APS Score?,nan,nan,"van Eldik, Elize",About the NWU,Fields of study; APS score,Published,2023-03-03 10:01:43,2023-03-03 10:02:51,0,0,5
+384629,7556,How to get a hard copy of hte referencing guide?,You can buy a hard copy at your campus library.,nan,"van Eldik, Elize",Citations / Referencing / Plagiarism,Referencing Guide; Buy,Published,2023-03-03 09:59:55,2023-03-03 10:03:51,0,0,6
+384628,7556,How do I change my application details?,Prospective applicants (only those who have already submitted their applications) can amend/change their details on the online application form or request a change of qualification or campus (if capacity allows) by contacting the Central Applications Office at 018 285 4320. Please be sure to have your student number and contact details ready.,nan,"van Eldik, Elize",About the NWU,Applications; NWU Applications; Change details,Published,2023-03-03 07:58:56,2023-05-08 12:29:51,0,0,24
+383854,7556,Where can I find my TALL results?,The links to your TALL results are on the Academic Literacy web page.,nan,"van Eldik, Elize",About the NWU,TALL results; Academic Literacy,Published,2023-02-22 08:27:10,2023-03-03 10:03:39,0,0,0
+383806,7556,How can I get an access to MS Office 360?,You access MS Office 360 with your CAS credentials. Click here to read more about it https://library.nwu.ac.za/passwords,nan,"van Eldik, Elize",Tech Support (e.g. Software); About the NWU,MS Office 360,Published,2023-02-21 08:21:13,2023-02-21 08:22:58,0,0,10
+383805,7556,"Hi there, do you have articles written in Setswana language?",Please use our Setswana Libguide. If you cannot get what you are looking for please contact the Faculty Librarian mentioned in the guide.,nan,"van Eldik, Elize",nan,Setswana,Published,2023-02-21 08:02:55,2023-02-21 08:04:54,0,0,5
+383804,7556,Where can I find Sabinet databases?,Go to the Library home page and click on the A-Z database list. Use the search box or click on S.,nan,"van Eldik, Elize",nan,Sabinet,Published,2023-02-21 07:58:18,2023-02-21 08:01:05,0,0,1
+383803,7556,Where can I find Sage?,Go to the Library home page and click on the A-Z database list. Use the search box or click on S.,nan,"van Eldik, Elize",nan,Sage,Published,2023-02-21 07:54:43,2023-02-21 08:00:52,0,0,4
+383741,7556,How do I access my NWU emails?,"You can access your webmail from any NWU web page. Scroll down to the bottom of any NWU web page and click on ""Webmail"".",nan,"van Eldik, Elize",About the NWU,Webmail; NWU email,Published,2023-02-20 11:20:59,2023-04-19 07:38:08,0,0,9
+383740,7556,Where can I find PressReader?,PressReader is available from the Library home page under Find Information>Newspapers and Magazines.,nan,"van Eldik, Elize",Newspapers &amp; Magazines,Newspapers; PressReader; Magazines; Press Reader,Published,2023-02-20 11:12:50,2023-02-21 10:01:53,0,0,7
+382869,7652,Boloka,To solve access problems reboot TomCat.,nan,"Gasa, Cecil",Boloka,Boloka,Published,2023-02-03 10:42:00,2023-03-10 09:31:03,0,0,0
+375458,7556,How to locate sources in different languages?,Search in WorldCat Discovery and change the Language filter on the left-hand side of the page to the language of your choice.,nan,"van Eldik, Elize","Databases (e.g. Catalogue, Exam papers)",Catalogue; Languages,Published,2022-08-31 07:18:48,2023-03-10 09:35:46,0,0,6
+373163,7556,Where can I find inaugrual lectures?,Inaugural lectures are available on Boloka. ,nan,"van Eldik, Elize","Finding information (e.g. Books, eBooks, Articles)",Boloka; Inaugural lectures; Inaugural speeches,Published,2022-07-26 08:04:59,2023-02-22 07:50:30,0,0,6

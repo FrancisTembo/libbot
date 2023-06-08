@@ -971,6 +971,7 @@ stories:
   steps:
   - intent: information_check_book_status
   - action: utter_information_check_book_status
+  - action: utter_information_check_book_status_1
 
 - story: information find author
   steps:
@@ -1657,6 +1658,8 @@ stories:
   steps: 
   - intent: information_find_journals
   - action: utter_information_find_journals 
+  - action: utter_information_find_journals_1
+  - action: utter_faculty_librarian
 
 - story: information library code of conduct
   steps: 
@@ -1794,3 +1797,148 @@ stories:
   steps:
     - intent: find_snapplify
     - action: utter_find_snapplify
+
+- story: Find Held Books
+  steps:
+    - intent: find_held_books
+    - action: utter_find_held_books
+
+- story: View Reading History
+  steps:
+    - intent: view_reading_history
+    - action: utter_view_reading_history
+
+- story: Explanation of Reader
+  steps:
+    - intent: explanation_reader
+    - action: utter_explanation_reader
+
+- story: Finding DIY Services
+  steps:
+    - intent: find_diy_services
+    - action: utter_find_diy_services
+
+- story: Finding Past Assignments
+  steps:
+    - intent: find_past_assignments
+    - action: utter_find_past_assignments
+
+- story: Checking Textbook Availability
+  steps:
+    - intent: check_textbook_availability
+    - action: utter_check_textbook_availability
+
+- story: Applying for Jobs at NWU
+  steps:
+    - intent: apply_for_jobs_nwu
+    - action: utter_apply_for_jobs_nwu
+
+- story: Understanding Call Numbers
+  steps:
+    - intent: call_number_shelf_number
+    - action: utter_call_number_shelf_number
+
+- story: Accessing The international encyclopedia of communication (2008) by Wiley Online
+  steps:
+    - intent: access_wiley_online_encyclopedia
+    - action: utter_access_wiley_online_encyclopedia
+
+- story: Borrowing Reference Works
+  steps:
+    - intent: borrow_reference_works
+    - action: utter_borrow_reference_works
+
+- story: Membership Categories
+  steps:
+    - intent: membership_categories
+    - action: utter_membership_categories
+
+- story: Faculty Librarian
+  steps:
+    - intent: faculty_librarian
+    - action: utter_faculty_librarian
+
+- story: LexisNexis Password
+  steps:
+    - intent: lexisnexis_password
+    - action: utter_lexisnexis_password
+
+- story: Setswana Books
+  steps:
+    - intent: setswana_books
+    - action: utter_setswana_books
+
+- story: Contact D-Media
+  steps:
+    - intent: contact_dmedia
+    - action: utter_contact_dmedia
+
+- story: Borrowing Encyclopedias
+  steps:
+    - intent: borrow_encyclopedias
+    - action: utter_borrow_encyclopedias
+
+- story: Finding E-books
+  steps:
+    - intent: find_ebooks
+    - action: utter_find_ebooks
+
+- story: Curbside Pickup Books
+  steps:
+    - intent: curbside_pickup_books
+    - action: utter_curbside_pickup_books
+
+- story: Find NWU Thesis
+  steps:
+    - intent: find_nwu_thesis
+    - action: utter_find_nwu_thesis
+
+- story: View Student Card Funds
+  steps:
+    - intent: view_student_card_funds
+    - action: utter_view_student_card_funds
+
+- story: Contact Intercampus Loan
+  steps:
+    - intent: contact_intercampus_loan
+    - action: utter_contact_intercampus_loan
+
+- story: Find Higher Degrees Manual
+  steps:
+    - intent: find_higher_degrees_manual
+    - action: utter_find_higher_degrees_manual
+
+- story: Find Pharmacopoeia
+  steps:
+    - intent: find_pharmacopoeia
+    - action: utter_find_pharmacopoeia
+
+- story: Difference between Boloka and DaYta Ya Rona
+  steps:
+    - intent: difference_boloka_dayta
+    - action: utter_difference_boloka_dayta
+
+- story: Find Author's Guidelines
+  steps:
+    - intent: find_authors_guidelines
+    - action: utter_find_authors_guidelines
+
+- story: New Student Number
+  steps:
+    - intent: new_student_number
+    - action: utter_new_student_number
+
+- story: Find Lecture Recordings
+  steps:
+    - intent: find_lecture_recordings
+    - action: utter_find_lecture_recordings
+
+- story: Using EndNote on multiple computers
+  steps:
+  - intent: use_endnote_on_multiple_computers
+  - action: utter_use_endnote_on_multiple_computers_intro
+  - action: utter_use_endnote_on_multiple_computers_recommendation
+  - action: utter_use_endnote_on_multiple_computers_registration
+  - action: utter_use_endnote_on_multiple_computers_sync
+  - action: utter_use_endnote_on_multiple_computers_sync_regularly
+  - action: utter_use_endnote_on_multiple_computers_sync_another_computer
