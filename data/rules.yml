@@ -7,10 +7,10 @@ rules:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+# - rule: Say 'I am a bot' anytime the user challenges
+#   steps:
+#   - intent: bot_challenge
+#   - action: utter_iamabot
 
 # - rule: welcome user
 #   conversation_start: true 
@@ -18,10 +18,15 @@ rules:
 #   - intent: start
 #   - action: utter_welcome
 
+# - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+#   steps:
+#   - intent: nlu_fallback
+#   - action: utter_please_rephrase
+
 - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
   steps:
   - intent: nlu_fallback
-  - action: utter_please_rephrase
+  - action: action_ask_openai
 
 # - rule: respond to FAQs
 #   steps:
