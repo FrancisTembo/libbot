@@ -13,6 +13,7 @@ stories:
   - action: utter_welcome
   - action: utter_instruction
   - action: utter_example
+  - action: utter_general
   - action: utter_help
   - intent: help
   - action: utter_options

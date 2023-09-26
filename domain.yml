@@ -784,13 +784,16 @@ responses:
   utter_start:
   - text: Welcome, please send the message 'Hi' to start the conversation.
   utter_welcome:
-  - text: Hi there I'm Kitso, NWU's library robotic assistant 🤖.
+  - text: "Hello! I'm Kitso, the NWU Library's robotic assistant 🤖."
   utter_instruction:
-  - text: To get started send me a message 📝 of what you'd like me to find out for you.
+  - text: "To get started, simply send me a message 📝 about what you'd like to know, and I'll do my best to assist you."
   utter_example:
-  - text: For example, send me the message 'Applying to NWU' to find out how you can apply to NWU.
+  - text: "For instance, you can send me a message like 'How do I apply to NWU?' to learn about the application process."
+  utter_general:
+  - text: "I'm also capable of engaging in general conversation, but please take caution and independently verify any information I provide from appropriate sources"
   utter_help:
-  - text: Alternatively you can send the message 'help' to access the help menu.
+  - text: "If you need assistance or want to explore available options, just send me 'help,' and I'll provide you with the help menu."
+
 
   utter_options:
   - text: Here's the help menu. You can always type 'help' to revisit it again
