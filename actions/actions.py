@@ -12,7 +12,7 @@ logging.basicConfig(filename="rasa_action.log", level=logging.ERROR)
 
 openai
 language_model = LanguageModel(
-    openai_key="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",
+    openai_key="",
     model="gpt-3.5-turbo-16k",
     temperature=0.7,
 )
