@@ -1,27 +1,46 @@
-# This files contains your custom actions which can be used to run
-# custom Python code.
-#
-# See this guide on how to implement these action:
-# https://rasa.com/docs/rasa/custom-actions
+import logging
+import os
+
+from rasa_sdk import Action
+
+import openai
+
+from .llm import LanguageModel
+
+# Configure logging
+logging.basicConfig(filename="rasa_action.log", level=logging.ERROR)
+
+openai
+language_model = LanguageModel(
+    openai_key="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",
+    model="gpt-3.5-turbo-16k",
+    temperature=0.7,
+)
 
 
-# This is a simple example for a custom action which utters "Hello World!"
+class ActionAskOpenAI(Action):
+    def name(self) -> str:
+        return "action_ask_openai"
 
-# from typing import Any, Text, Dict, List
-#
-# from rasa_sdk import Action, Tracker
-# from rasa_sdk.executor import CollectingDispatcher
-#
-#
-# class ActionHelloWorld(Action):
-#
-#     def name(self) -> Text:
-#         return "action_hello_world"
-#
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-#
-#         dispatcher.utter_message(text="Hello World!")
-#
-#         return []
+    def run(self, dispatcher, tracker, domain):
+        try:
+            # Get the latest message from the user
+            message = tracker.latest_message["text"]
+
+            # Create a conversation with the OpenAI API
+            completion = language_model.generate(human_input=message)
+
+            if completion:
+                dispatcher.utter_message(text=completion)
+            else:
+                # Send an error message if no completion
+                dispatcher.utter_message(text="I'm sorry, I can't assist with that.")
+        except Exception as e:
+            # Log the error
+            logging.error(f"Error in Rasa action: {str(e)}")
+            # Send an error message to the user
+            dispatcher.utter_message(
+                text="An error occurred while processing your request. Please try again later."
+            )
+
+        return []
