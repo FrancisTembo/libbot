@@ -2,1944 +2,1944 @@ version: "3.1"
 
 stories:
 
-- story: start message
-  steps:
-  - intent: start
-  - action: utter_start
+# - story: start message
+#   steps:
+#   - intent: start
+#   - action: utter_start
 
 - story: welcome message
   steps:
   - intent: greet
-  - action: utter_welcome
-  - action: utter_instruction
-  - action: utter_example
-  - action: utter_general
-  - action: utter_help
-  - intent: help
-  - action: utter_options
+  - action: utter_greet
+  # - action: utter_instruction
+  # - action: utter_example
+  # - action: utter_general
+  # - action: utter_help
+  # - intent: help
+  # - action: utter_options
 
-- story: getting help
-  steps:
-  - intent: help
-  - action: utter_options
+# - story: getting help
+#   steps:
+#   - intent: help
+#   - action: utter_options
 
-- story: contact information
-  steps:
-  - intent: contact
-  - action: utter_global_contact_options
+# - story: contact information
+#   steps:
+#   - intent: contact
+#   - action: utter_global_contact_options
 
-- story: contact librarians 
-  steps:
-  - intent: contact_librarians
-  - action: utter_contact_librarians
+# - story: contact librarians 
+#   steps:
+#   - intent: contact_librarians
+#   - action: utter_contact_librarians
 
-- story: contact department 
-  steps:
-  - intent: contact_department
-  - action: utter_contact_faculty
+# - story: contact department 
+#   steps:
+#   - intent: contact_department
+#   - action: utter_contact_faculty
 
-- story: contact office 
-  steps:
-  - intent: contact_office
-  - action: utter_contact_office
+# - story: contact office 
+#   steps:
+#   - intent: contact_office
+#   - action: utter_contact_office
   
-- story: contact student finances
-  steps:
-  - intent: contact_student_finances
-  - action: utter_contact_student_finances
-
-- story: style guide 
-  steps:
-  - intent: language_style_guide
-  - action: utter_language_style_guide
-
-- story: new student application
-  steps:
-  - intent: new_student_application
-  - action: utter_new_student_application
-
-- story: contact details international office
-  steps:
-  - intent: contact_details_international_office
-  - action: utter_contact_details_international_office
-
-- story: contact nwu
-  steps:
-  - intent: contact_nwu
-  - action: utter_contact_nwu
-
-- story: contact study enquiries
-  steps:
-  - intent: contact_study_enquiries
-  - action: utter_contact_study_equiries
-
-- story: general contact 
-  steps:
-  - intent: general_contact
-  - action: utter_contact_general
-
-- story: information academic record
-  steps:
-  - intent: information_academic_record
-  - action: utter_information_academic_record
-
-- story: information novels
-  steps:
-  - intent: information_novels
-  - action: utter_information_novels
-
-- story: information study change
-  steps:
-  - intent: information_study_change
-  - action: utter_information_study_change
-
-- story: return books
-  steps:
-  - intent: return_books
-  - action: utter_return_books_quick_facts
-  - action: utter_information_renew_book
-  - action: utter_information_renew_book_online
-  - action: utter_return_books
-  - action: utter_return_books_sunday
-
-- story: information exam timetable
-  steps:
-  - intent: information_exam_timetable
-  - action: utter_information_exam_timetable
-  - action: utter_information_class_assessment
-
-- story: information engineering
-  steps:
-  - intent: information_engineering
-  - action: utter_information_engineering
-
-- story: information education
-  steps:
-  - intent: information_education
-  - action: utter_information_education
-
-- story: information economics
-  steps:
-  - intent: information_economics
-  - action: utter_information_economics
-
-- story: information business
-  steps:
-  - intent: information_business
-  - action: utter_information_business
-
-- story: information health sciences
-  steps:
-  - intent: information_health_sciences
-  - action: utter_information_health_sciences
-
-- story: information humanities
-  steps:
-  - intent: information_humanities
-  - action: utter_information_humanities
-
-- story: information law
-  steps:
-  - intent: information_law
-  - action: utter_information_law
-
-- story: information theology
-  steps:
-  - intent: information_theology
-  - action: utter_information_theology
-
-- story: information natural sciences
-  steps:
-  - intent: information_natural_sciences
-  - action: utter_information_natural_and_agricultural_sciences
-
-- story: library services
-  steps:
-  - intent: library_services
-  - action: utter_library_services
-
-- story: citing referencing plagiarism
-  steps:
-  - intent: citing_referencing_plagiarism
-  - action: utter_citing_referencing_plagiarism
-
-- story: harvard vs apa 
-  steps:
-  - intent: harvard_vs_apa
-  - action: utter_harvard_vs_apa
-
-- story: efundi endnote
-  steps:
-  - intent: efundi_endnote
-  - action: utter_efundi_endnote
-
-- story: information dalro
-  steps:
-  - intent: dalro
-  - action: utter_dalro
-
-- story: reference constitution
-  steps:
-  - intent: reference_constitution
-  - action: utter_reference_constitution
-
-- story: endnote trial
-  steps:
-  - intent: endnote_trial
-  - action: utter_endnote_trial
-
-- story: reference chapter
-  steps:
-  - intent: reference_chapter
-  - action: utter_reference_chapter
-
-- story: harvard referencing
-  steps:
-  - intent: harvard_referencing
-  - action: utter_harvard_referencing
-
-- story: information copyright
-  steps:
-  - intent: copyright
-  - action: utter_copyright
-
-- story: latex template
-  steps:
-  - intent: latex_template
-  - action: utter_latex_template
-
-- story: plagiarism declaration
-  steps:
-  - intent: plagiarism_declaration
-  - action: utter_plagiarism_declaration
-
-- story: copy book
-  steps:
-  - intent: copy_book
-  - action: utter_copy_book
-
-- story: copyright length
-  steps:
-  - intent: copyright_length
-  - action: utter_copyright_length
-
-- story: information referella
-  steps:
-  - intent: referella
-  - action: utter_referella
-
-- story: apa referencing
-  steps:
-  - intent: apa_referencing
-  - action: utter_apa_referencing
-
-- story: nwu law referencing
-  steps:
-  - intent: nwu_law_referencing
-  - action: utter_nwu_law_referencing
-
-- story: old referencing style
-  steps:
-  - intent: old_referencing_style
-  - action: utter_old_referencing_style
-
-- story: referella videos
-  steps:
-  - intent: referella_videos
-  - action: utter_referella_videos
-
-- story: utter copy paste print ebooks
-  steps:
-  - intent: copy_paste_print_ebooks
-  - action: utter_copy_paste_print_ebooks
-
-- story: find referella
-  steps:
-  - intent: find_referella
-  - action: utter_find_referella
-
-- story: find referencing guides
-  steps:
-  - intent: find_referencing_guides
-  - action: utter_find_referencing_guides
-
-- story: print referencing guide
-  steps:
-  - intent: print_referencing_guide
-  - action: utter_print_referencing_guide
-
-- story: using harvard reference guide
-  steps:
-  - intent: using_harvard_reference_guide
-  - action: utter_using_harvard_reference_guide
-
-- story: reference picture
-  steps:
-  - intent: reference_picture
-  - action: utter_reference_picture
-
-- story: reference multiple authors
-  steps:
-  - intent: reference_multiple_authors
-  - action: utter_reference_multiple_authors
-
-- story: reference journal article
-  steps: 
-  - intent: reference_journal_article
-  - action: utter_reference_journal_article
-
-- story: reference reviews
-  steps: 
-  - intent: reference_reviews
-  - action: utter_reference_reviews
-
-- story: volume issue
-  steps:
-  - intent: volume_issue
-  - action: utter_volume_issue
-
-- story: information plagiarism 
-  steps:
-  - intent: plagiarism
-  - action: utter_plagiarism
-
-- story: information endnote
-  steps: 
-  - intent: endnote
-  - action: utter_endnote
-  - action: utter_endnote_more
-
-- story: plagiarism check
-  steps: 
-  - intent: plagiarism_check
-  - action: utter_plagiarism_check
-
-- story: endnote bibliography
-  steps: 
-  - intent: endnote_bibliography
-  - action: utter_endnote_bibliography
-
-- story: endnote export
-  steps: 
-  - intent: endnote_export
-  - action: utter_endnote_export
-
-- story: referencing electronic newspaper article
-  steps: 
-  - intent: referencing_electronic_newspaper_article
-  - action: utter_referencing_electronic_newspaper_article
-
-- story: reference anonymous
-  steps: 
-  - intent: reference_anonymous
-  - action: utter_reference_anonymous
-
-- story: book online training
-  steps: 
-  - intent: book_online_training
-  - action: utter_book_online_training
-
-- story: library tab missing
-  steps: 
-  - intent: library_tab_missing
-  - action: utter_library_tab_missing
-
-- story: reference government
-  steps: 
-  - intent: reference_government
-  - action: utter_reference_government
-
-- story: reference interview
-  steps: 
-  - intent: reference_interview
-  - action: utter_reference_interview
-
-- story: information paraphrasing
-  steps: 
-  - intent: paraphrasing
-  - action: utter_paraphrasing
-
-- story: reference book
-  steps: 
-  - intent: reference_book
-  - action: utter_reference_book
-
-- story: reference chapter collected work
-  steps: 
-  - intent: reference_chapter_collected_work
-  - action: utter_reference_chapter_collected_work
-
-- story: reference ebook
-  steps: 
-  - intent: reference_ebook
-  - action: utter_reference_ebook
-
-- story: reference encyclopedia
-  steps: 
-  - intent: reference_encyclopedia
-  - action: utter_reference_encyclopedia
-
-- story: reference dictionary
-  steps: 
-  - intent: reference_dictionary
-  - action: utter_reference_dictionary
-
-- story: reference theses dissertations
-  steps: 
-  - intent: reference_theses_dissertations
-  - action: utter_reference_theses_dissertations
-
-- story: interactive_story_1
-  steps:
-  - intent: reference_theses_dissertations
-  - action: utter_reference_theses_dissertations
-
-- story: reference web articles
-  steps:
-  - intent: reference_web_articles
-  - action: utter_reference_web_articles
-
-- story: reference_blog
-  steps:
-  - intent: reference_blog
-  - action: utter_reference_blog
-
-- story: reference social media post 
-  steps:
-  - intent: reference_social_media_post
-  - action: utter_reference_social_media_post
-
-- story: reference powerpoint video youtube podcast
-  steps:
-  - intent: reference_powerpoint_video_youtube_podcast
-  - action: utter_reference_powerpoint_video_youtube_podcast
-
-- story: reference lecture notes
-  steps: 
-  - intent: reference_lecture_notes 
-  - action: utter_reference_lecture_notes
-
-- story: reference conference papers proceedings
-  steps: 
-  - intent: reference_conference_papers_proceedings
-  - action: utter_reference_conference_papers_proceedings
-
-- story: reference study guide
-  steps: 
-  - intent: reference_study_guide
-  - action: utter_reference_study_guide
-
-- story: reference religious sources
-  steps: 
-  - intent: reference_religious_sources
-  - action: utter_reference_religious_sources
-
-- story: reference classical_works
-  steps: 
-  - intent: reference_classical_works
-  - action: utter_reference_classical_works
-
-- story: reference correspondance
-  steps: 
-  - intent: reference_correspondance
-  - action: utter_reference_correspondance
-
-- story: reference patent standards
-  steps: 
-  - intent: reference_patent_standards
-  - action: utter_reference_patent_standards
-
-- story: reference musical scores
-  steps: 
-  - intent: reference_musical_scores
-  - action: utter_reference_musical_scores
-
-- story: reference dataset
-  steps: 
-  - intent: reference_dataset
-  - action: utter_reference_dataset
-
-- story: reference unpublished
-  steps: 
-  - intent: reference_unpublished
-  - action: utter_reference_unpublished
-
-- story: reference list
-  steps: 
-  - intent: reference_list
-  - action: utter_reference_list
-
-- story: text reference
-  steps: 
-  - intent: text_reference
-  - action: utter_text_reference
-
-- story: quotations text reference
-  steps: 
-  - intent: quotations_text_reference
-  - action: utter_quotations_text_reference
-  - action: utter_quotations_indirect
-
-- story: reference secondary
-  steps: 
-  - intent: reference_secondary
-  - action: utter_reference_secondary
-
-- story: reference arrange
-  steps: 
-  - intent: reference_arrange
-  - action: utter_reference_arrange
-
-- story: reference natural sciences
-  steps: 
-  - intent: reference_natural_sciences
-  - action: utter_reference_natural_sciences
-
-- story: reference chicago
-  steps: 
-  - intent: reference_chicago
-  - action: utter_reference_chicago
-
-- story: information fateful triangle
-  steps: 
-  - intent: information_fateful_triangle
-  - action: utter_information_fateful_triangle
-
-- story: information handle book
-  steps:
-  - intent: information_handle_book
-  - action: utter_information_handle_book
-
-- story: information boolean operators 
-  steps:
-  - intent: information_boolean_operators
-  - action: utter_information_boolean_operators
-
-- story: information search engine
-  steps: 
-  - intent: information_search_engine
-  - action: utter_information_search_engine
-
-- story: information access database
-  steps: 
-  - intent: information_access_database
-  - action: utter_information_access_database
-
-- story: information music library 
-  steps:
-  - intent: information_music_library
-  - action: utter_information_music_library
-
-- story: information theological library 
-  steps: 
-  - intent: information_theological_library
-  - action: utter_information_theological_library
-
-- story: information education library
-  steps:
-  - intent: information_education_library
-  - action: utter_information_education_library
-
-- story: information natural sciences library
-  steps:
-  - intent: information_natural_sciences_library
-  - action: utter_information_natural_sciences_library
-
-- story: information mahikeng library
-  steps:
-  - intent: information_mahikeng_library
-  - action: utter_information_mahikeng_library
-
-- story: information potchefstroom library
-  steps:
-  - intent: information_potchefstroom_library
-  - action: utter_information_potchefstroom_library
-
-- story: information vaal library
-  steps:
-  - intent: information_vaal_library
-  - action: utter_information_vaal_library
-
-- story: information request book
-  steps:
-  - intent: information_request_book
-  - action: utter_information_request_book
-
-- story: information copy shop
-  steps:
-  - intent: information_copy_shop
-  - action: utter_information_copy_shop
-
-- story: information closing date admission
-  steps:
-  - intent: information_closing_date_admission
-  - action: utter_information_closing_date_admission
-
-- story: information closing date admission
-  steps:
-  - intent: information_opac
-  - action: utter_information_opac
-
-- story: information scopus
-  steps:
-  - intent: information_scopus
-  - action: utter_information_scopus
-
-- story: information transcript retrieval
-  steps:
-  - intent: information_transcript_retrieval
-  - action: utter_information_transcript_retrieval
-
-- story: contact dr moyo
-  steps:
-  - intent: contact_dr_moyo
-  - action: utter_contact_dr_moyo
-
-- story: information reaxys
-  steps: 
-  - intent: information_reaxys
-  - action: utter_information_reaxys
-
-- story: information library lost and found
-  steps:
-  - intent: information_library_lost_and_found
-  - action: utter_information_library_lost_and_found
-
-- story: information cant get book
-  steps:
-  - intent: information_cant_get_book
-  - action: utter_information_cant_get_book
-
-- story: contact admissions
-  steps:
-  - intent: contact_admissions
-  - action: utter_contact_admissions
-
-- story: information book appointment
-  steps:
-  - intent: information_book_appointment
-  - action: utter_information_book_appointment
-
-- story: information ashrae
-  steps:
-  - intent: information_ashrae
-  - action: utter_information_ashrae
-
-- story: information constitution
-  steps:
-  - intent: information_constitution
-  - action: utter_information_constitution
+# - story: contact student finances
+#   steps:
+#   - intent: contact_student_finances
+#   - action: utter_contact_student_finances
+
+# - story: style guide 
+#   steps:
+#   - intent: language_style_guide
+#   - action: utter_language_style_guide
+
+# - story: new student application
+#   steps:
+#   - intent: new_student_application
+#   - action: utter_new_student_application
+
+# - story: contact details international office
+#   steps:
+#   - intent: contact_details_international_office
+#   - action: utter_contact_details_international_office
+
+# - story: contact nwu
+#   steps:
+#   - intent: contact_nwu
+#   - action: utter_contact_nwu
+
+# - story: contact study enquiries
+#   steps:
+#   - intent: contact_study_enquiries
+#   - action: utter_contact_study_equiries
+
+# - story: general contact 
+#   steps:
+#   - intent: general_contact
+#   - action: utter_contact_general
+
+# - story: information academic record
+#   steps:
+#   - intent: information_academic_record
+#   - action: utter_information_academic_record
+
+# - story: information novels
+#   steps:
+#   - intent: information_novels
+#   - action: utter_information_novels
+
+# - story: information study change
+#   steps:
+#   - intent: information_study_change
+#   - action: utter_information_study_change
+
+# - story: return books
+#   steps:
+#   - intent: return_books
+#   - action: utter_return_books_quick_facts
+#   - action: utter_information_renew_book
+#   - action: utter_information_renew_book_online
+#   - action: utter_return_books
+#   - action: utter_return_books_sunday
+
+# - story: information exam timetable
+#   steps:
+#   - intent: information_exam_timetable
+#   - action: utter_information_exam_timetable
+#   - action: utter_information_class_assessment
+
+# - story: information engineering
+#   steps:
+#   - intent: information_engineering
+#   - action: utter_information_engineering
+
+# - story: information education
+#   steps:
+#   - intent: information_education
+#   - action: utter_information_education
+
+# - story: information economics
+#   steps:
+#   - intent: information_economics
+#   - action: utter_information_economics
+
+# - story: information business
+#   steps:
+#   - intent: information_business
+#   - action: utter_information_business
+
+# - story: information health sciences
+#   steps:
+#   - intent: information_health_sciences
+#   - action: utter_information_health_sciences
+
+# - story: information humanities
+#   steps:
+#   - intent: information_humanities
+#   - action: utter_information_humanities
+
+# - story: information law
+#   steps:
+#   - intent: information_law
+#   - action: utter_information_law
+
+# - story: information theology
+#   steps:
+#   - intent: information_theology
+#   - action: utter_information_theology
+
+# - story: information natural sciences
+#   steps:
+#   - intent: information_natural_sciences
+#   - action: utter_information_natural_and_agricultural_sciences
+
+# - story: library services
+#   steps:
+#   - intent: library_services
+#   - action: utter_library_services
+
+# - story: citing referencing plagiarism
+#   steps:
+#   - intent: citing_referencing_plagiarism
+#   - action: utter_citing_referencing_plagiarism
+
+# - story: harvard vs apa 
+#   steps:
+#   - intent: harvard_vs_apa
+#   - action: utter_harvard_vs_apa
+
+# - story: efundi endnote
+#   steps:
+#   - intent: efundi_endnote
+#   - action: utter_efundi_endnote
+
+# - story: information dalro
+#   steps:
+#   - intent: dalro
+#   - action: utter_dalro
+
+# - story: reference constitution
+#   steps:
+#   - intent: reference_constitution
+#   - action: utter_reference_constitution
+
+# - story: endnote trial
+#   steps:
+#   - intent: endnote_trial
+#   - action: utter_endnote_trial
+
+# - story: reference chapter
+#   steps:
+#   - intent: reference_chapter
+#   - action: utter_reference_chapter
+
+# - story: harvard referencing
+#   steps:
+#   - intent: harvard_referencing
+#   - action: utter_harvard_referencing
+
+# - story: information copyright
+#   steps:
+#   - intent: copyright
+#   - action: utter_copyright
+
+# - story: latex template
+#   steps:
+#   - intent: latex_template
+#   - action: utter_latex_template
+
+# - story: plagiarism declaration
+#   steps:
+#   - intent: plagiarism_declaration
+#   - action: utter_plagiarism_declaration
+
+# - story: copy book
+#   steps:
+#   - intent: copy_book
+#   - action: utter_copy_book
+
+# - story: copyright length
+#   steps:
+#   - intent: copyright_length
+#   - action: utter_copyright_length
+
+# - story: information referella
+#   steps:
+#   - intent: referella
+#   - action: utter_referella
+
+# - story: apa referencing
+#   steps:
+#   - intent: apa_referencing
+#   - action: utter_apa_referencing
+
+# - story: nwu law referencing
+#   steps:
+#   - intent: nwu_law_referencing
+#   - action: utter_nwu_law_referencing
+
+# - story: old referencing style
+#   steps:
+#   - intent: old_referencing_style
+#   - action: utter_old_referencing_style
+
+# - story: referella videos
+#   steps:
+#   - intent: referella_videos
+#   - action: utter_referella_videos
+
+# - story: utter copy paste print ebooks
+#   steps:
+#   - intent: copy_paste_print_ebooks
+#   - action: utter_copy_paste_print_ebooks
+
+# - story: find referella
+#   steps:
+#   - intent: find_referella
+#   - action: utter_find_referella
+
+# - story: find referencing guides
+#   steps:
+#   - intent: find_referencing_guides
+#   - action: utter_find_referencing_guides
+
+# - story: print referencing guide
+#   steps:
+#   - intent: print_referencing_guide
+#   - action: utter_print_referencing_guide
+
+# - story: using harvard reference guide
+#   steps:
+#   - intent: using_harvard_reference_guide
+#   - action: utter_using_harvard_reference_guide
+
+# - story: reference picture
+#   steps:
+#   - intent: reference_picture
+#   - action: utter_reference_picture
+
+# - story: reference multiple authors
+#   steps:
+#   - intent: reference_multiple_authors
+#   - action: utter_reference_multiple_authors
+
+# - story: reference journal article
+#   steps: 
+#   - intent: reference_journal_article
+#   - action: utter_reference_journal_article
+
+# - story: reference reviews
+#   steps: 
+#   - intent: reference_reviews
+#   - action: utter_reference_reviews
+
+# - story: volume issue
+#   steps:
+#   - intent: volume_issue
+#   - action: utter_volume_issue
+
+# - story: information plagiarism 
+#   steps:
+#   - intent: plagiarism
+#   - action: utter_plagiarism
+
+# - story: information endnote
+#   steps: 
+#   - intent: endnote
+#   - action: utter_endnote
+#   - action: utter_endnote_more
+
+# - story: plagiarism check
+#   steps: 
+#   - intent: plagiarism_check
+#   - action: utter_plagiarism_check
+
+# - story: endnote bibliography
+#   steps: 
+#   - intent: endnote_bibliography
+#   - action: utter_endnote_bibliography
+
+# - story: endnote export
+#   steps: 
+#   - intent: endnote_export
+#   - action: utter_endnote_export
+
+# - story: referencing electronic newspaper article
+#   steps: 
+#   - intent: referencing_electronic_newspaper_article
+#   - action: utter_referencing_electronic_newspaper_article
+
+# - story: reference anonymous
+#   steps: 
+#   - intent: reference_anonymous
+#   - action: utter_reference_anonymous
+
+# - story: book online training
+#   steps: 
+#   - intent: book_online_training
+#   - action: utter_book_online_training
+
+# - story: library tab missing
+#   steps: 
+#   - intent: library_tab_missing
+#   - action: utter_library_tab_missing
+
+# - story: reference government
+#   steps: 
+#   - intent: reference_government
+#   - action: utter_reference_government
+
+# - story: reference interview
+#   steps: 
+#   - intent: reference_interview
+#   - action: utter_reference_interview
+
+# - story: information paraphrasing
+#   steps: 
+#   - intent: paraphrasing
+#   - action: utter_paraphrasing
+
+# - story: reference book
+#   steps: 
+#   - intent: reference_book
+#   - action: utter_reference_book
+
+# - story: reference chapter collected work
+#   steps: 
+#   - intent: reference_chapter_collected_work
+#   - action: utter_reference_chapter_collected_work
+
+# - story: reference ebook
+#   steps: 
+#   - intent: reference_ebook
+#   - action: utter_reference_ebook
+
+# - story: reference encyclopedia
+#   steps: 
+#   - intent: reference_encyclopedia
+#   - action: utter_reference_encyclopedia
+
+# - story: reference dictionary
+#   steps: 
+#   - intent: reference_dictionary
+#   - action: utter_reference_dictionary
+
+# - story: reference theses dissertations
+#   steps: 
+#   - intent: reference_theses_dissertations
+#   - action: utter_reference_theses_dissertations
+
+# - story: interactive_story_1
+#   steps:
+#   - intent: reference_theses_dissertations
+#   - action: utter_reference_theses_dissertations
+
+# - story: reference web articles
+#   steps:
+#   - intent: reference_web_articles
+#   - action: utter_reference_web_articles
+
+# - story: reference_blog
+#   steps:
+#   - intent: reference_blog
+#   - action: utter_reference_blog
+
+# - story: reference social media post 
+#   steps:
+#   - intent: reference_social_media_post
+#   - action: utter_reference_social_media_post
+
+# - story: reference powerpoint video youtube podcast
+#   steps:
+#   - intent: reference_powerpoint_video_youtube_podcast
+#   - action: utter_reference_powerpoint_video_youtube_podcast
+
+# - story: reference lecture notes
+#   steps: 
+#   - intent: reference_lecture_notes 
+#   - action: utter_reference_lecture_notes
+
+# - story: reference conference papers proceedings
+#   steps: 
+#   - intent: reference_conference_papers_proceedings
+#   - action: utter_reference_conference_papers_proceedings
+
+# - story: reference study guide
+#   steps: 
+#   - intent: reference_study_guide
+#   - action: utter_reference_study_guide
+
+# - story: reference religious sources
+#   steps: 
+#   - intent: reference_religious_sources
+#   - action: utter_reference_religious_sources
+
+# - story: reference classical_works
+#   steps: 
+#   - intent: reference_classical_works
+#   - action: utter_reference_classical_works
+
+# - story: reference correspondance
+#   steps: 
+#   - intent: reference_correspondance
+#   - action: utter_reference_correspondance
+
+# - story: reference patent standards
+#   steps: 
+#   - intent: reference_patent_standards
+#   - action: utter_reference_patent_standards
+
+# - story: reference musical scores
+#   steps: 
+#   - intent: reference_musical_scores
+#   - action: utter_reference_musical_scores
+
+# - story: reference dataset
+#   steps: 
+#   - intent: reference_dataset
+#   - action: utter_reference_dataset
+
+# - story: reference unpublished
+#   steps: 
+#   - intent: reference_unpublished
+#   - action: utter_reference_unpublished
+
+# - story: reference list
+#   steps: 
+#   - intent: reference_list
+#   - action: utter_reference_list
+
+# - story: text reference
+#   steps: 
+#   - intent: text_reference
+#   - action: utter_text_reference
+
+# - story: quotations text reference
+#   steps: 
+#   - intent: quotations_text_reference
+#   - action: utter_quotations_text_reference
+#   - action: utter_quotations_indirect
+
+# - story: reference secondary
+#   steps: 
+#   - intent: reference_secondary
+#   - action: utter_reference_secondary
+
+# - story: reference arrange
+#   steps: 
+#   - intent: reference_arrange
+#   - action: utter_reference_arrange
+
+# - story: reference natural sciences
+#   steps: 
+#   - intent: reference_natural_sciences
+#   - action: utter_reference_natural_sciences
+
+# - story: reference chicago
+#   steps: 
+#   - intent: reference_chicago
+#   - action: utter_reference_chicago
+
+# - story: information fateful triangle
+#   steps: 
+#   - intent: information_fateful_triangle
+#   - action: utter_information_fateful_triangle
+
+# - story: information handle book
+#   steps:
+#   - intent: information_handle_book
+#   - action: utter_information_handle_book
+
+# - story: information boolean operators 
+#   steps:
+#   - intent: information_boolean_operators
+#   - action: utter_information_boolean_operators
+
+# - story: information search engine
+#   steps: 
+#   - intent: information_search_engine
+#   - action: utter_information_search_engine
+
+# - story: information access database
+#   steps: 
+#   - intent: information_access_database
+#   - action: utter_information_access_database
+
+# - story: information music library 
+#   steps:
+#   - intent: information_music_library
+#   - action: utter_information_music_library
+
+# - story: information theological library 
+#   steps: 
+#   - intent: information_theological_library
+#   - action: utter_information_theological_library
+
+# - story: information education library
+#   steps:
+#   - intent: information_education_library
+#   - action: utter_information_education_library
+
+# - story: information natural sciences library
+#   steps:
+#   - intent: information_natural_sciences_library
+#   - action: utter_information_natural_sciences_library
+
+# - story: information mahikeng library
+#   steps:
+#   - intent: information_mahikeng_library
+#   - action: utter_information_mahikeng_library
+
+# - story: information potchefstroom library
+#   steps:
+#   - intent: information_potchefstroom_library
+#   - action: utter_information_potchefstroom_library
+
+# - story: information vaal library
+#   steps:
+#   - intent: information_vaal_library
+#   - action: utter_information_vaal_library
+
+# - story: information request book
+#   steps:
+#   - intent: information_request_book
+#   - action: utter_information_request_book
+
+# - story: information copy shop
+#   steps:
+#   - intent: information_copy_shop
+#   - action: utter_information_copy_shop
+
+# - story: information closing date admission
+#   steps:
+#   - intent: information_closing_date_admission
+#   - action: utter_information_closing_date_admission
+
+# - story: information closing date admission
+#   steps:
+#   - intent: information_opac
+#   - action: utter_information_opac
+
+# - story: information scopus
+#   steps:
+#   - intent: information_scopus
+#   - action: utter_information_scopus
+
+# - story: information transcript retrieval
+#   steps:
+#   - intent: information_transcript_retrieval
+#   - action: utter_information_transcript_retrieval
+
+# - story: contact dr moyo
+#   steps:
+#   - intent: contact_dr_moyo
+#   - action: utter_contact_dr_moyo
+
+# - story: information reaxys
+#   steps: 
+#   - intent: information_reaxys
+#   - action: utter_information_reaxys
+
+# - story: information library lost and found
+#   steps:
+#   - intent: information_library_lost_and_found
+#   - action: utter_information_library_lost_and_found
+
+# - story: information cant get book
+#   steps:
+#   - intent: information_cant_get_book
+#   - action: utter_information_cant_get_book
+
+# - story: contact admissions
+#   steps:
+#   - intent: contact_admissions
+#   - action: utter_contact_admissions
+
+# - story: information book appointment
+#   steps:
+#   - intent: information_book_appointment
+#   - action: utter_information_book_appointment
+
+# - story: information ashrae
+#   steps:
+#   - intent: information_ashrae
+#   - action: utter_information_ashrae
+
+# - story: information constitution
+#   steps:
+#   - intent: information_constitution
+#   - action: utter_information_constitution
   
-- story: information cellphone rules
-  steps:
-  - intent: information_cellphone_rules
-  - action: utter_information_cellphone_rules
-
-- story: information accessability
-  steps:
-  - intent: information_accessability
-  - action: utter_information_accessability
-
-- story: information access_distance student
-  steps:
-  - intent: information_access_distance_student
-  - action: utter_information_access_distance_student
-
-- story: information submit assignment
-  steps:
-  - intent: information_submit_assignment
-  - action: utter_information_submit_assignment
-
-- story: information access distance postgrad
-  steps:
-  - intent: information_access_distance_postgrad
-  - action: utter_information_access_distance_postgrad
-
-- story: information book group study unit
-  steps:
-  - intent: information_book_group_study_unit
-  - action: utter_information_book_group_study_unit
-  - action: utter_information_cancel_room_booking
-
-- story: information reset efundi password
-  steps:
-  - intent: information_reset_efundi_password
-  - action: utter_information_reset_efundi_password
-
-- story: information update efundi email
-  steps:
-  - intent: information_update_efundi_email
-  - action: utter_information_update_efundi_email
-
-- story: information find module efundi
-  steps:
-  - intent: information_find_module_efundi
-  - action: utter_information_find_module_efundi
-
-- story: information how to efundi
-  steps:
-  - intent: information_how_to_efundi
-  - action: utter_information_what_is_efundi
-  - action: utter_information_how_to_efundi
-
-- story: information deregister
-  steps:
-  - intent: information_deregister
-  - action: utter_information_deregister
-
-- story: information library training session
-  steps:
-  - intent: information_library_training_session
-  - action: utter_information_library_training_session
-
-- story: information programme leaders
-  steps:
-  - intent: information_programme_leaders
-  - action: utter_information_programme_leaders
-
-- story: information publish article
-  steps:
-  - intent: information_publish_article
-  - action: utter_information_publish_article
-
-- story: information endnote license
-  steps:
-  - intent: information_endnote_license
-  - action: utter_information_endnote_license
-
-- story: information recommendation letter
-  steps:
-  - intent: information_recommendation_letter
-  - action: utter_information_recommendation_letter
-
-- story: information access textbook list
-  steps:
-  - intent: information_access_textbook_list
-  - action: utter_information_access_textbook_list
-
-- story: information buy books
-  steps:
-  - intent: information_buy_books
-  - action: utter_information_buy_books
-
-- story: information endnote credentials
-  steps:
-  - intent: information_endnote_credentials
-  - action: utter_information_endnote_credentials
-
-- story: information sources law
-  steps: 
-  - intent: information_sources_law
-  - action: utter_information_sources_law
-
-- story: information bursaries
-  steps: 
-  - intent: information_bursaries
-  - action: utter_information_bursaries
-
-- story: information cid manual
-  steps: 
-  - intent: information_cid_manual
-  - action: utter_information_cid_manual
-
-- story: contact coffee shop
-  steps:
-  - intent: contact_coffee_shop
-  - action: utter_contact_coffee_shop
-
-- story: contact astrovilla
-  steps:
-  - intent: contact_astrovilla
-  - action: utter_contact_astrovilla
-
-- story: information prescribed textbooks
-  steps:
-  - intent: information_prescribed_textbooks
-  - action: utter_information_prescribed_textbooks
-
-- story: information maximum books
-  steps:
-  - intent: information_maximum_books
-  - action: utter_information_maximum_books
-
-- story: information nsfas accomodation
-  steps:
-  - intent: information_nsfas_accomodation
-  - action: utter_information_nsfas_accomodation
-
-- story: information diy password
-  steps:
-  - intent: information_diy_password
-  - action: utter_information_diy_password
-
-- story: information career centre
-  steps:
-  - intent: information_career_centre
-  - action: utter_information_career_centre
-
-- story: information access articles
-  steps:
-  - intent: information_access_articles
-  - action: utter_information_access_articles
-
-- story:  contact christine
-  steps:
-  - intent: contact_christine
-  - action: utter_contact_christine
-
-- story:  information registration fee
-  steps:
-  - intent: information_registration_fee
-  - action: utter_information_registration_fee
-
-- story: information academic results
-  steps:
-  - intent: information_academic_results
-  - action: utter_information_academic_results
-
-- story: information social work study duration
-  steps:
-  - intent: information_social_work_study_duration
-  - action: utter_information_social_work_study_duration
-
-- story: information late application
-  steps:
-  - intent: information_late_application
-  - action: utter_information_late_application
-
-- story: information clarification application status
-  steps:
-  - intent: information_clarification_application_status
-  - action: utter_information_clarification_application_status
-
-- story: information sync endnote
-  steps:
-  - intent: information_sync_endnote
-  - action: utter_information_sync_endnote
-
-- story: information ebsco password
-  steps:
-  - intent: information_ebsco_password
-  - action: utter_information_ebsco_password
-
-- story: information register efundi
-  steps:
-  - intent: information_register_efundi 
-  - action: utter_information_register_efundi
-
-- story: reference webcast
-  steps:
-  - intent: reference_webcast
-  - action: utter_reference_webcast
-
-- story: information library staff
-  steps:
-  - intent: information_library_staff
-  - action: utter_information_library_staff
-
-- story: information search for cases
-  steps:
-  - intent: information_search_for_cases
-  - action: utter_information_search_for_cases
-
-- story: information interlibrary loan
-  steps:
-  - intent: information_interlibrary_loan
-  - action: utter_information_interlibrary_loan
-
-- story: information cas authentification
-  steps:
-  - intent: information_cas_authentification
-  - action: utter_information_cas_authentification
-  - action: utter_cas_log_screen
-
-- story: information find acts
-  steps:
-  - intent: information_find_acts
-  - action: utter_information_find_acts
-
-- story: information university account
-  steps:
-  - intent: information_university_account
-  - action: utter_information_university_account
-
-- story: information change campus
-  steps:
-  - intent: information_change_campus
-  - action: utter_information_change_campus
-
-- story: information calculate aps score
-  steps:
-  - intent: information_calculate_aps_score
-  - action: utter_information_calculate_aps_score
-
-- story: information borrow encyclopedia
-  steps:
-  - intent: information_borrow_encyclopedia
-  - action: utter_information_borrow_encyclopedia
-
-- story: information donate books
-  steps:
-  - intent: information_donate_books
-  - action: utter_information_donate_books
-
-- story: information IT desk
-  steps:
-  - intent: information_IT_desk
-  - action: utter_information_IT_desk
-
-- story: information table of contents 
-  steps:
-  - intent: information_toc
-  - action: utter_information_toc
-
-- story: information link ORCiD
-  steps:
-  - intent: information_link_ORCiD
-  - action: utter_information_link_ORCiD
-
-- story: information vaal catalogue
-  steps:
-  - intent: information_vaal_catalogue
-  - action: utter_information_vaal_catalogue
-
-- story: information library catalogue
-  steps:
-  - intent: information_library_catalogue
-  - action: utter_information_library_catalogue
-
-- story: ebook catalogue
-  steps:
-  - intent: ebook_catalogue
-  - action: utter_ebook_catalogue
-
-- story: information libraries and spaces
-  steps:
-  - intent: information_libraries_and_spaces
-  - action: utter_information_libraries_and_spaces
-
-- story: information graduate student access
-  steps:
-  - intent: information_graduate_student_access
-  - action: utter_information_graduate_student_access
-
-- story: information book search
-  steps:
-  - intent: information_book_search
-  - action: utter_information_book_search
-
-- story: information britannica
-  steps:
-  - intent: information_britannica
-  - action: utter_information_britannica
-
-- story: information upload dropbox
-  steps:
-  - intent: information_upload_dropbox
-  - action: utter_information_upload_dropbox
-
-- story: information library managment
-  steps:
-  - intent: information_library_managment
-  - action: utter_information_library_managment
-
-- story: information research commons
-  steps:
-  - intent: information_research_commons
-  - action: utter_information_research_commons
-
-- story: information library holidays
-  steps:
-  - intent: information_library_holidays 
-  - action: utter_information_library_holidays
-
-- story: information structure assignment
-  steps:
-  - intent: information_structure_assignment
-  - action: utter_information_structure_assignment
-
-- story: information search strategy
-  steps:
-  - intent: information_search_strategy
-  - action: utter_information_search_strategy
-
-- story: information SA media
-  steps:
-  - intent: information_SA_media
-  - action: utter_information_SA_media
-
-- story: information check book status
-  steps:
-  - intent: information_check_book_status
-  - action: utter_information_check_book_status
-  - action: utter_information_check_book_status_1
-
-- story: information find author
-  steps:
-  - intent: information_find_author
-  - action: utter_information_find_author
-
-- story: information unblock card
-  steps:
-  - intent: information_unblock_card
-  - action: utter_information_unblock_card
-
-- story: information prezi
-  steps:
-  - intent: information_prezi
-  - action: utter_information_prezi
-
-- story: information open article
-  steps:
-  - intent: information_open_article
-  - action: utter_information_open_article
-
-- story: information nwu wifi
-  steps:
-  - intent: information_nwu_wifi
-  - action: utter_information_nwu_wifi
-
-- story: information return ebook
-  steps:
-  - intent: information_return_ebook
-  - action: utter_information_return_ebook
-
-- story: information law cases
-  steps:
-  - intent: information_law_cases
-  - action: utter_information_law_cases
-
-- story: information book loan duration
-  steps:
-  - intent: information_book_loan_duration
-  - action: utter_information_book_loan_duration
-
-- story: information cybersecurity
-  steps:
-  - intent: information_cybersecurity
-  - action: utter_information_cybersecurity
-
-- story: information operating hours
-  steps:
-  - intent: information_operating_hours
-  - action: utter_information_library_hours_quick_facts
-  - action: utter_information_library_hours
-  - action: utter_information_library_non_physical
-  - action: utter_information_operating_hours
-
-- story: information borrow book
-  steps:
-  - intent: information_borrow_book
-  - action: utter_information_borrow_book
-
-- story: information norton
-  steps:
-  - intent: information_norton
-  - action: utter_information_norton
-
-- story: information learn theology
-  steps:
-  - intent: information_learn_theology
-  - action: utter_information_learn_theology
-
-- story: information requirements coaching science
-  steps:
-  - intent: information_requirements_coaching_science
-  - action: utter_information_requirements_coaching_science
-
-- story: information wikipedia
-  steps:
-  - intent: information_wikipedia
-  - action: utter_information_wikipedia
-
-- story: information book seminar room
-  steps:
-  - intent: information_book_seminar_room
-  - action: utter_information_book_seminar_room
-
-- story: information mahikeng librarians
-  steps:
-  - intent: information_mahikeng_librarians
-  - action: utter_information_mahikeng_librarians
-
-- story: information eating in library
-  steps:
-  - intent: information_eating_in_library
-  - action: utter_information_eating_in_library
-
-- story: information cant access library
-  steps:
-  - intent: information_cant_access_library
-  - action: utter_information_cant_access_library
-
-- story: information bcom accounting
-  steps:
-  - intent: information_bcom_accounting
-  - action: utter_information_bcom_accounting
-
-- story: information find study
-  steps:
-  - intent: information_find_study
-  - action: utter_information_find_study
-  - action: utter_find_study_link_one
-  - action: utter_find_study_link_two
-  - action: utter_find_study_link_three
-  - action: utter_find_study_link_four
-  - action: utter_find_study_link_five
-
-- story: information using nwu library
-  steps:
-  - intent: information_using_nwu_library
-  - action: utter_information_using_nwu_library
-  - action: utter_information_using_nwu_library_one
-  - action: utter_information_using_nwu_library_two
-  - action: utter_information_using_nwu_library_three
-  - action: utter_information_using_nwu_library_four
-
-- story: information register question papers
-  steps:
-  - intent: information_register_question_papers
-  - action: utter_information_register_question_papers
-
-- story: information ctl
-  steps:
-  - intent: information_ctl
-  - action: utter_information_ctl
-
-- story: information upload assignment
-  steps:
-  - intent: information_upload_assignment
-  - action: utter_information_upload_assignment
-
-- story: information proof of registration
-  steps:
-  - intent: information_proof_of_registration
-  - action: utter_information_proof_of_registration
-
-- story: information nwu template
-  steps:
-  - intent: information_nwu_template 
-  - action: utter_information_nwu_template
-  - action: utter_nwu_template_one
-  - action: utter_nwu_template_two
-
-- story: information grammarly
-  steps:
-  - intent: information_grammarly
-  - action: utter_information_grammarly
-
-- story: information alde alda
-  steps:
-  - intent: information_alde_alda
-  - action: utter_information_alde_alda
-
-- story: information juta
-  steps:
-  - intent: information_juta
-  - action: utter_information_juta
-
-- story: information endnote error
-  steps:
-  - intent: information_endnote_error
-  - action: utter_information_endnote_error
-
-- story: information IT services
-  steps:
-  - intent: information_IT_services
-  - action: utter_information_IT_services
-
-- story: information WGSN
-  steps:
-  - intent: information_WGSN
-  - action: utter_information_WGSN
-
-- story: information education research resources
-  steps:
-  - intent: information_education_research_resources
-  - action: utter_information_education_research_resources
-
-- story: information university number
-  steps:
-  - intent: information_university_number
-  - action: utter_information_university_number
-
-- story: information graduation
-  steps:
-  - intent: information_graduation
-  - action: utter_information_graduation
-
-- story: information import style endnote
-  steps:
-  - intent: information_import_style_endnote
-  - action: utter_information_import_style_endnote
-
-- story: information access authorities
-  steps:
-  - intent: information_access_authorities
-  - action: utter_information_access_authorities
-
-- story: information registration form act
-  steps:
-  - intent: information_registration_form_act
-  - action: utter_information_registration_form_act
-
-- story: information groupwise
-  steps:
-  - intent: information_groupwise
-  - action: utter_information_groupwise
-
-- story: information engineering final year projects
-  steps:
-  - intent: information_engineering_final_year_projects
-  - action: utter_information_engineering_final_year_projects
-  - action: utter_information_engineering_final_year_reports
-
-- story: information write cv
-  steps:
-  - intent: information_write_cv
-  - action: utter_information_write_cv
-
-- story: information lost book
-  steps:
-  - intent: information_lost_book
-  - action: utter_information_lost_book
-
-- story: information nsfas
-  steps:
-  - intent: information_nsfas
-  - action: utter_information_nsfas
-
-- story: information agle curriculum
-  steps:
-  - intent: information_agle_curriculum
-  - action: utter_information_agle_curriculum
-
-- story: information registration forms
-  steps:
-  - intent: information_registration_forms
-  - action: utter_information_registration_forms
-
-- story: information calender
-  steps:
-  - intent: information_calender
-  - action: utter_information_calender
-
-- story: information multingual languages dictionary
-  steps:
-  - intent: information_multingual_languages_dictionary
-  - action: utter_information_multingual_languages_dictionary
-
-- story: information get sources
-  steps:
-  - intent: information_get_sources
-  - action: utter_information_get_sources
-
-- story: information calculate module credit
-  steps:
-  - intent: information_calculate_module_credit
-  - action: utter_information_calculate_module_credit
-
-- story: information apply to nwu
-  steps:
-  - intent: information_apply_to_nwu
-  - action: utter_information_apply_to_nwu
-
-- story: information green token
-  steps:
-  - intent: information_green_token
-  - action: utter_information_green_token
-
-- story: information download endnote
-  steps:
-  - intent: information_download_endnote
-  - action: utter_information_download_endnote
-
-- story: information library pin
-  steps:
-  - intent: information_library_pin
-  - action: utter_information_library_pin
-
-- story: information distance learning programmes
-  steps:
-  - intent: information_distance_learning_programmes
-  - action: utter_information_distance_learning_programmes
-
-- story: information download study guide
-  steps:
-  - intent: information_download_study_guide
-  - action: utter_information_download_study_guide
-
-- story: information distance learning 360 service
-  steps:
-  - intent: information_distance_learning_360_service
-  - action: utter_information_distance_learning_360_service
-
-- story: most asked questions
-  steps:
-  - intent: most_asked_questions
-  - action: utter_most_asked_questions
-
-- story: information bookings and training events
-  steps:
-  - intent: information_bookings_and_training_events
-  - action: utter_information_bookings_and_training_events
-
-- story: information printing credits
-  steps:
-  - intent: information_printing_credits
-  - action: utter_information_printing_credits
-
-
-- story: printing binding scanning services
-  steps:
-  - intent: printing_binding_scanning_services
-  - action: utter_printing_binding_scanning_services
-
-- story: information international books
-  steps:
-  - intent: information_international_books
-  - action: utter_information_international_books
-
-- story: information library password
-  steps:
-  - intent: information_library_password
-  - action: utter_information_library_password
-
-- story: information journal catalogue
-  steps:
-  - intent: information_journal_catalogue
-  - action: utter_information_journal_catalogue
-
-- story: information download book
-  steps:
-  - intent: information_download_book
-  - action: utter_information_download_book
+# - story: information cellphone rules
+#   steps:
+#   - intent: information_cellphone_rules
+#   - action: utter_information_cellphone_rules
+
+# - story: information accessability
+#   steps:
+#   - intent: information_accessability
+#   - action: utter_information_accessability
+
+# - story: information access_distance student
+#   steps:
+#   - intent: information_access_distance_student
+#   - action: utter_information_access_distance_student
+
+# - story: information submit assignment
+#   steps:
+#   - intent: information_submit_assignment
+#   - action: utter_information_submit_assignment
+
+# - story: information access distance postgrad
+#   steps:
+#   - intent: information_access_distance_postgrad
+#   - action: utter_information_access_distance_postgrad
+
+# - story: information book group study unit
+#   steps:
+#   - intent: information_book_group_study_unit
+#   - action: utter_information_book_group_study_unit
+#   - action: utter_information_cancel_room_booking
+
+# - story: information reset efundi password
+#   steps:
+#   - intent: information_reset_efundi_password
+#   - action: utter_information_reset_efundi_password
+
+# - story: information update efundi email
+#   steps:
+#   - intent: information_update_efundi_email
+#   - action: utter_information_update_efundi_email
+
+# - story: information find module efundi
+#   steps:
+#   - intent: information_find_module_efundi
+#   - action: utter_information_find_module_efundi
+
+# - story: information how to efundi
+#   steps:
+#   - intent: information_how_to_efundi
+#   - action: utter_information_what_is_efundi
+#   - action: utter_information_how_to_efundi
+
+# - story: information deregister
+#   steps:
+#   - intent: information_deregister
+#   - action: utter_information_deregister
+
+# - story: information library training session
+#   steps:
+#   - intent: information_library_training_session
+#   - action: utter_information_library_training_session
+
+# - story: information programme leaders
+#   steps:
+#   - intent: information_programme_leaders
+#   - action: utter_information_programme_leaders
+
+# - story: information publish article
+#   steps:
+#   - intent: information_publish_article
+#   - action: utter_information_publish_article
+
+# - story: information endnote license
+#   steps:
+#   - intent: information_endnote_license
+#   - action: utter_information_endnote_license
+
+# - story: information recommendation letter
+#   steps:
+#   - intent: information_recommendation_letter
+#   - action: utter_information_recommendation_letter
+
+# - story: information access textbook list
+#   steps:
+#   - intent: information_access_textbook_list
+#   - action: utter_information_access_textbook_list
+
+# - story: information buy books
+#   steps:
+#   - intent: information_buy_books
+#   - action: utter_information_buy_books
+
+# - story: information endnote credentials
+#   steps:
+#   - intent: information_endnote_credentials
+#   - action: utter_information_endnote_credentials
+
+# - story: information sources law
+#   steps: 
+#   - intent: information_sources_law
+#   - action: utter_information_sources_law
+
+# - story: information bursaries
+#   steps: 
+#   - intent: information_bursaries
+#   - action: utter_information_bursaries
+
+# - story: information cid manual
+#   steps: 
+#   - intent: information_cid_manual
+#   - action: utter_information_cid_manual
+
+# - story: contact coffee shop
+#   steps:
+#   - intent: contact_coffee_shop
+#   - action: utter_contact_coffee_shop
+
+# - story: contact astrovilla
+#   steps:
+#   - intent: contact_astrovilla
+#   - action: utter_contact_astrovilla
+
+# - story: information prescribed textbooks
+#   steps:
+#   - intent: information_prescribed_textbooks
+#   - action: utter_information_prescribed_textbooks
+
+# - story: information maximum books
+#   steps:
+#   - intent: information_maximum_books
+#   - action: utter_information_maximum_books
+
+# - story: information nsfas accomodation
+#   steps:
+#   - intent: information_nsfas_accomodation
+#   - action: utter_information_nsfas_accomodation
+
+# - story: information diy password
+#   steps:
+#   - intent: information_diy_password
+#   - action: utter_information_diy_password
+
+# - story: information career centre
+#   steps:
+#   - intent: information_career_centre
+#   - action: utter_information_career_centre
+
+# - story: information access articles
+#   steps:
+#   - intent: information_access_articles
+#   - action: utter_information_access_articles
+
+# - story:  contact christine
+#   steps:
+#   - intent: contact_christine
+#   - action: utter_contact_christine
+
+# - story:  information registration fee
+#   steps:
+#   - intent: information_registration_fee
+#   - action: utter_information_registration_fee
+
+# - story: information academic results
+#   steps:
+#   - intent: information_academic_results
+#   - action: utter_information_academic_results
+
+# - story: information social work study duration
+#   steps:
+#   - intent: information_social_work_study_duration
+#   - action: utter_information_social_work_study_duration
+
+# - story: information late application
+#   steps:
+#   - intent: information_late_application
+#   - action: utter_information_late_application
+
+# - story: information clarification application status
+#   steps:
+#   - intent: information_clarification_application_status
+#   - action: utter_information_clarification_application_status
+
+# - story: information sync endnote
+#   steps:
+#   - intent: information_sync_endnote
+#   - action: utter_information_sync_endnote
+
+# - story: information ebsco password
+#   steps:
+#   - intent: information_ebsco_password
+#   - action: utter_information_ebsco_password
+
+# - story: information register efundi
+#   steps:
+#   - intent: information_register_efundi 
+#   - action: utter_information_register_efundi
+
+# - story: reference webcast
+#   steps:
+#   - intent: reference_webcast
+#   - action: utter_reference_webcast
+
+# - story: information library staff
+#   steps:
+#   - intent: information_library_staff
+#   - action: utter_information_library_staff
+
+# - story: information search for cases
+#   steps:
+#   - intent: information_search_for_cases
+#   - action: utter_information_search_for_cases
+
+# - story: information interlibrary loan
+#   steps:
+#   - intent: information_interlibrary_loan
+#   - action: utter_information_interlibrary_loan
+
+# - story: information cas authentification
+#   steps:
+#   - intent: information_cas_authentification
+#   - action: utter_information_cas_authentification
+#   - action: utter_cas_log_screen
+
+# - story: information find acts
+#   steps:
+#   - intent: information_find_acts
+#   - action: utter_information_find_acts
+
+# - story: information university account
+#   steps:
+#   - intent: information_university_account
+#   - action: utter_information_university_account
+
+# - story: information change campus
+#   steps:
+#   - intent: information_change_campus
+#   - action: utter_information_change_campus
+
+# - story: information calculate aps score
+#   steps:
+#   - intent: information_calculate_aps_score
+#   - action: utter_information_calculate_aps_score
+
+# - story: information borrow encyclopedia
+#   steps:
+#   - intent: information_borrow_encyclopedia
+#   - action: utter_information_borrow_encyclopedia
+
+# - story: information donate books
+#   steps:
+#   - intent: information_donate_books
+#   - action: utter_information_donate_books
+
+# - story: information IT desk
+#   steps:
+#   - intent: information_IT_desk
+#   - action: utter_information_IT_desk
+
+# - story: information table of contents 
+#   steps:
+#   - intent: information_toc
+#   - action: utter_information_toc
+
+# - story: information link ORCiD
+#   steps:
+#   - intent: information_link_ORCiD
+#   - action: utter_information_link_ORCiD
+
+# - story: information vaal catalogue
+#   steps:
+#   - intent: information_vaal_catalogue
+#   - action: utter_information_vaal_catalogue
+
+# - story: information library catalogue
+#   steps:
+#   - intent: information_library_catalogue
+#   - action: utter_information_library_catalogue
+
+# - story: ebook catalogue
+#   steps:
+#   - intent: ebook_catalogue
+#   - action: utter_ebook_catalogue
+
+# - story: information libraries and spaces
+#   steps:
+#   - intent: information_libraries_and_spaces
+#   - action: utter_information_libraries_and_spaces
+
+# - story: information graduate student access
+#   steps:
+#   - intent: information_graduate_student_access
+#   - action: utter_information_graduate_student_access
+
+# - story: information book search
+#   steps:
+#   - intent: information_book_search
+#   - action: utter_information_book_search
+
+# - story: information britannica
+#   steps:
+#   - intent: information_britannica
+#   - action: utter_information_britannica
+
+# - story: information upload dropbox
+#   steps:
+#   - intent: information_upload_dropbox
+#   - action: utter_information_upload_dropbox
+
+# - story: information library managment
+#   steps:
+#   - intent: information_library_managment
+#   - action: utter_information_library_managment
+
+# - story: information research commons
+#   steps:
+#   - intent: information_research_commons
+#   - action: utter_information_research_commons
+
+# - story: information library holidays
+#   steps:
+#   - intent: information_library_holidays 
+#   - action: utter_information_library_holidays
+
+# - story: information structure assignment
+#   steps:
+#   - intent: information_structure_assignment
+#   - action: utter_information_structure_assignment
+
+# - story: information search strategy
+#   steps:
+#   - intent: information_search_strategy
+#   - action: utter_information_search_strategy
+
+# - story: information SA media
+#   steps:
+#   - intent: information_SA_media
+#   - action: utter_information_SA_media
+
+# - story: information check book status
+#   steps:
+#   - intent: information_check_book_status
+#   - action: utter_information_check_book_status
+#   - action: utter_information_check_book_status_1
+
+# - story: information find author
+#   steps:
+#   - intent: information_find_author
+#   - action: utter_information_find_author
+
+# - story: information unblock card
+#   steps:
+#   - intent: information_unblock_card
+#   - action: utter_information_unblock_card
+
+# - story: information prezi
+#   steps:
+#   - intent: information_prezi
+#   - action: utter_information_prezi
+
+# - story: information open article
+#   steps:
+#   - intent: information_open_article
+#   - action: utter_information_open_article
+
+# - story: information nwu wifi
+#   steps:
+#   - intent: information_nwu_wifi
+#   - action: utter_information_nwu_wifi
+
+# - story: information return ebook
+#   steps:
+#   - intent: information_return_ebook
+#   - action: utter_information_return_ebook
+
+# - story: information law cases
+#   steps:
+#   - intent: information_law_cases
+#   - action: utter_information_law_cases
+
+# - story: information book loan duration
+#   steps:
+#   - intent: information_book_loan_duration
+#   - action: utter_information_book_loan_duration
+
+# - story: information cybersecurity
+#   steps:
+#   - intent: information_cybersecurity
+#   - action: utter_information_cybersecurity
+
+# - story: information operating hours
+#   steps:
+#   - intent: information_operating_hours
+#   - action: utter_information_library_hours_quick_facts
+#   - action: utter_information_library_hours
+#   - action: utter_information_library_non_physical
+#   - action: utter_information_operating_hours
+
+# - story: information borrow book
+#   steps:
+#   - intent: information_borrow_book
+#   - action: utter_information_borrow_book
+
+# - story: information norton
+#   steps:
+#   - intent: information_norton
+#   - action: utter_information_norton
+
+# - story: information learn theology
+#   steps:
+#   - intent: information_learn_theology
+#   - action: utter_information_learn_theology
+
+# - story: information requirements coaching science
+#   steps:
+#   - intent: information_requirements_coaching_science
+#   - action: utter_information_requirements_coaching_science
+
+# - story: information wikipedia
+#   steps:
+#   - intent: information_wikipedia
+#   - action: utter_information_wikipedia
+
+# - story: information book seminar room
+#   steps:
+#   - intent: information_book_seminar_room
+#   - action: utter_information_book_seminar_room
+
+# - story: information mahikeng librarians
+#   steps:
+#   - intent: information_mahikeng_librarians
+#   - action: utter_information_mahikeng_librarians
+
+# - story: information eating in library
+#   steps:
+#   - intent: information_eating_in_library
+#   - action: utter_information_eating_in_library
+
+# - story: information cant access library
+#   steps:
+#   - intent: information_cant_access_library
+#   - action: utter_information_cant_access_library
+
+# - story: information bcom accounting
+#   steps:
+#   - intent: information_bcom_accounting
+#   - action: utter_information_bcom_accounting
+
+# - story: information find study
+#   steps:
+#   - intent: information_find_study
+#   - action: utter_information_find_study
+#   - action: utter_find_study_link_one
+#   - action: utter_find_study_link_two
+#   - action: utter_find_study_link_three
+#   - action: utter_find_study_link_four
+#   - action: utter_find_study_link_five
+
+# - story: information using nwu library
+#   steps:
+#   - intent: information_using_nwu_library
+#   - action: utter_information_using_nwu_library
+#   - action: utter_information_using_nwu_library_one
+#   - action: utter_information_using_nwu_library_two
+#   - action: utter_information_using_nwu_library_three
+#   - action: utter_information_using_nwu_library_four
+
+# - story: information register question papers
+#   steps:
+#   - intent: information_register_question_papers
+#   - action: utter_information_register_question_papers
+
+# - story: information ctl
+#   steps:
+#   - intent: information_ctl
+#   - action: utter_information_ctl
+
+# - story: information upload assignment
+#   steps:
+#   - intent: information_upload_assignment
+#   - action: utter_information_upload_assignment
+
+# - story: information proof of registration
+#   steps:
+#   - intent: information_proof_of_registration
+#   - action: utter_information_proof_of_registration
+
+# - story: information nwu template
+#   steps:
+#   - intent: information_nwu_template 
+#   - action: utter_information_nwu_template
+#   - action: utter_nwu_template_one
+#   - action: utter_nwu_template_two
+
+# - story: information grammarly
+#   steps:
+#   - intent: information_grammarly
+#   - action: utter_information_grammarly
+
+# - story: information alde alda
+#   steps:
+#   - intent: information_alde_alda
+#   - action: utter_information_alde_alda
+
+# - story: information juta
+#   steps:
+#   - intent: information_juta
+#   - action: utter_information_juta
+
+# - story: information endnote error
+#   steps:
+#   - intent: information_endnote_error
+#   - action: utter_information_endnote_error
+
+# - story: information IT services
+#   steps:
+#   - intent: information_IT_services
+#   - action: utter_information_IT_services
+
+# - story: information WGSN
+#   steps:
+#   - intent: information_WGSN
+#   - action: utter_information_WGSN
+
+# - story: information education research resources
+#   steps:
+#   - intent: information_education_research_resources
+#   - action: utter_information_education_research_resources
+
+# - story: information university number
+#   steps:
+#   - intent: information_university_number
+#   - action: utter_information_university_number
+
+# - story: information graduation
+#   steps:
+#   - intent: information_graduation
+#   - action: utter_information_graduation
+
+# - story: information import style endnote
+#   steps:
+#   - intent: information_import_style_endnote
+#   - action: utter_information_import_style_endnote
+
+# - story: information access authorities
+#   steps:
+#   - intent: information_access_authorities
+#   - action: utter_information_access_authorities
+
+# - story: information registration form act
+#   steps:
+#   - intent: information_registration_form_act
+#   - action: utter_information_registration_form_act
+
+# - story: information groupwise
+#   steps:
+#   - intent: information_groupwise
+#   - action: utter_information_groupwise
+
+# - story: information engineering final year projects
+#   steps:
+#   - intent: information_engineering_final_year_projects
+#   - action: utter_information_engineering_final_year_projects
+#   - action: utter_information_engineering_final_year_reports
+
+# - story: information write cv
+#   steps:
+#   - intent: information_write_cv
+#   - action: utter_information_write_cv
+
+# - story: information lost book
+#   steps:
+#   - intent: information_lost_book
+#   - action: utter_information_lost_book
+
+# - story: information nsfas
+#   steps:
+#   - intent: information_nsfas
+#   - action: utter_information_nsfas
+
+# - story: information agle curriculum
+#   steps:
+#   - intent: information_agle_curriculum
+#   - action: utter_information_agle_curriculum
+
+# - story: information registration forms
+#   steps:
+#   - intent: information_registration_forms
+#   - action: utter_information_registration_forms
+
+# - story: information calender
+#   steps:
+#   - intent: information_calender
+#   - action: utter_information_calender
+
+# - story: information multingual languages dictionary
+#   steps:
+#   - intent: information_multingual_languages_dictionary
+#   - action: utter_information_multingual_languages_dictionary
+
+# - story: information get sources
+#   steps:
+#   - intent: information_get_sources
+#   - action: utter_information_get_sources
+
+# - story: information calculate module credit
+#   steps:
+#   - intent: information_calculate_module_credit
+#   - action: utter_information_calculate_module_credit
+
+# - story: information apply to nwu
+#   steps:
+#   - intent: information_apply_to_nwu
+#   - action: utter_information_apply_to_nwu
+
+# - story: information green token
+#   steps:
+#   - intent: information_green_token
+#   - action: utter_information_green_token
+
+# - story: information download endnote
+#   steps:
+#   - intent: information_download_endnote
+#   - action: utter_information_download_endnote
+
+# - story: information library pin
+#   steps:
+#   - intent: information_library_pin
+#   - action: utter_information_library_pin
+
+# - story: information distance learning programmes
+#   steps:
+#   - intent: information_distance_learning_programmes
+#   - action: utter_information_distance_learning_programmes
+
+# - story: information download study guide
+#   steps:
+#   - intent: information_download_study_guide
+#   - action: utter_information_download_study_guide
+
+# - story: information distance learning 360 service
+#   steps:
+#   - intent: information_distance_learning_360_service
+#   - action: utter_information_distance_learning_360_service
+
+# - story: most asked questions
+#   steps:
+#   - intent: most_asked_questions
+#   - action: utter_most_asked_questions
+
+# - story: information bookings and training events
+#   steps:
+#   - intent: information_bookings_and_training_events
+#   - action: utter_information_bookings_and_training_events
+
+# - story: information printing credits
+#   steps:
+#   - intent: information_printing_credits
+#   - action: utter_information_printing_credits
+
+
+# - story: printing binding scanning services
+#   steps:
+#   - intent: printing_binding_scanning_services
+#   - action: utter_printing_binding_scanning_services
+
+# - story: information international books
+#   steps:
+#   - intent: information_international_books
+#   - action: utter_information_international_books
+
+# - story: information library password
+#   steps:
+#   - intent: information_library_password
+#   - action: utter_information_library_password
+
+# - story: information journal catalogue
+#   steps:
+#   - intent: information_journal_catalogue
+#   - action: utter_information_journal_catalogue
+
+# - story: information download book
+#   steps:
+#   - intent: information_download_book
+#   - action: utter_information_download_book
   
-- story: information memorandum past papers
-  steps:
-  - intent: information_memorandum_past_papers
-  - action: utter_information_memorandum_past_papers
-
-- story: information past exam papers
-  steps:
-  - intent: information_past_exam_papers
-  - action: utter_information_past_exam_papers
-
-- story: information eds vs library catalogue
-  steps:
-  - intent: information_eds_vs_library_catalogue
-  - action: utter_information_eds_vs_library_catalogue
-
-- story: information database
-  steps:
-  - intent: database
-  - action: utter_database
-
-- story: information potchefstroom turnitin admin
-  steps: 
-    - intent: information_potchefstroom_turnitin_admin
-    - action: utter_information_potchefstroom_turnitin_admin
-
-- story: information efundi
-  steps: 
-    - intent: efundi
-    - action: utter_efundi
-
-- story: information reset student password
-  steps:
-    - intent: information_reset_student_password
-    - action: utter_information_reset_student_password
-
-- story: information book appointment writing lab
-  steps:
-   - intent: information_book_appointment_writing_lab
-   - action: utter_information_book_appointment_writing_lab
-
-- story: information ethical requirements postgraduate
-  steps:
-  - intent: information_ethical_requirements_postgraduate
-  - action: utter_information_ethical_requirements_postgraduate
-
-- story: information register orcid
-  steps: 
-  - intent: information_register_orcid
-  - action: utter_information_register_orcid
-
-- story: information search orcid number
-  steps:
-  - intent: information_search_orcid_number
-  - action: utter_information_search_orcid_number
-
-- story: information research
-  steps:
-  - intent: research
-  - action: utter_research
-
-- story: find information
-  steps:
-  - intent: find_information
-  - action: utter_find_information
-
-- story: libguides
-  steps:
-  - intent: libguides
-  - action: utter_libguides
-
-- story: information libguide
-  steps:
-  - intent: information_libguide
-  - action: utter_information_libguide
-
-- story: about the library
-  steps:
-  - intent: about_the_library
-  - action: utter_about_the_library
-
-- story: information postgrad application
-  steps:
-  - intent: information_postgrad_application
-  - action: utter_information_postgrad_application
-
-- story: information campus map
-  steps:
-  - intent: information_campus_map
-  - action: utter_information_campus_map
-
-- story: information prospectus
-  steps:
-  - intent: information_prospectus
-  - action: utter_information_prospectus
-
-- story: about the nwu
-  steps:
-  - intent: about_the_nwu
-  - action: utter_about_the_nwu
-
-- story: loan services
-  steps:
-  - intent: loan_services
-  - action: utter_loan_services
-
-- story: information late fees
-  steps:
-  - intent: information_late_fees
-  - action: utter_information_late_fees
-  - action: utter_information_late_fees_two
-
-- story: library homepage
-  steps: 
-  - intent: library_homepage
-  - action: utter_library_homepage
-
-- story: information best search engine
-  steps: 
-  - intent: information_best_search_engine
-  - action: utter_information_best_search_engine
-
-- story: information cal system
-  steps: 
-  - intent: information_cal_system
-  - action: utter_information_cal_system
-
-- story: information allocated book search
-  steps:
-  - intent: information_allocated_book_search
-  - action: utter_information_allocated_book_search
-
-- story: information accomodation
-  steps:
-  - intent: information_accomodation
-  - action: utter_information_accomodation
-
-- story: information postgraduate library
-  steps:
-  - intent: information_postgraduate_library
-  - action: utter_information_postgraduate_library
-  - action: utter_information_postgraduate_library_mahikeng
-  - action: utter_information_postgraduate_library_potchefstroom
-  - action: utter_information_postgraduate_library_vaal
-
-- story: information borrow dictionary
-  steps: 
-  - intent: information_borrow_dictionary
-  - action: utter_information_borrow_dictionary
-
-- story: information libanswers
-  steps: 
-  - intent: information_libanswers
-  - action: utter_information_libanswers
-
-- story: information language practitioners
-  steps: 
-  - intent: information_language_practitioners
-  - action: utter_information_language_practitioners
-
-- story: information ebsco
-  steps: 
-  - intent: information_ebsco
-  - action: utter_information_ebsco
-
-- story: information binding application form
-  steps: 
-  - intent: information_binding_application_form
-  - action: utter_information_binding_application_form
-  - action: utter_information_binding
-
-- story: information submissions of final copies
-  steps:
-  - intent: information_submissions_of_final_copies
-  - action: utter_information_submissions_of_final_copies
-  - action: utter_information_binding
-
-- story: information binding 
-  steps: 
-  - intent: information_binding
-  - action: utter_binding_quick_facts
-  - action: utter_information_binding
-  - action: utter_information_binding_link
-  - action: utter_information_binding_non_students
-
-- story: information endnote incorrect reference
-  steps:
-  - intent: information_endnote_incorrect_reference
-  - action: utter_information_endnote_incorrect_reference
-
-- story: information h_index
-  steps: 
-  - intent: information_h_index
-  - action: utter_information_h_index_one
-  - action: utter_h_index_link_one
-  - action: utter_h_index_link_two
-  - action: utter_information_h_index_two
-  - action: utter_h_index_link_three
-
-- story: information computer science and chemistry
-  steps: 
-  - intent: information_computer_science_and_chemistry
-  - action: utter_information_computer_science_and_chemistry
-
-- story: information module books
-  steps:
-  - intent: information_module_books
-  - action: utter_information_module_books
-
-- story: information diy error 
-  steps: 
-  - intent: information_diy_error
-  - action: utter_information_diy_error
-
-- story: information distance learning submit assignment
-  steps:
-  - intent: information_distance_learning_submit_assignment
-  - action: utter_information_distance_learning_submit_assignment 
-
-- story: information assignment library
-  steps: 
-  - intent: information_assignment_library
-  - action: utter_information_assignment_library
-
-- story: information google scholar
-  steps: 
-  - intent: information_google_scholar
-  - action: utter_information_google_scholar
-  - action: utter_information_google_scholar_access
-  - action: utter_information_google_scholar_library
-  - action: utter_information_google_scholar_error
-  - action: utter_information_goggle_scholar_link
-
-- story: information ebooks
-  steps: 
-  - intent: information_ebooks
-  - action: utter_information_ebook_quick_facts
-  - action: utter_information_define_ebook
-  - action: utter_information_access_ebooks
-  - action: utter_copy_paste_print_ebooks
-
-- story: information post books
-  steps:
-  - intent: information_post_books
-  - action: utter_information_post_books
-
-- story: information library directions 
-  steps: 
-  - intent: information_library_directions
-  - action: utter_information_library_directions
-
-- story: information yeabook
-  steps:
-  - intent: information_yearbook
-  - action: utter_information_yearbook
-
-- story: information dictionary encyclopedia
-  steps: 
-  - intent: information_dictionary_encyclopedia
-  - action: utter_information_dictionary_encyclopedia
-
-- story: information course reserves
-  steps:
-  - intent: information_course_reserves
-  - action: utter_information_course_reserves
-
-- story: information advanced certificate teaching
-  steps:
-  - intent: information_advanced_certificate_teaching
-  - action: utter_information_advanced_certificate_teaching
-
-- story: information university fees
-  steps:
-  - intent: information_university_fees
-  - action: utter_information_university_fees
-
-- story: information banking details
-  steps: 
-  - intent: information_banking_details
-  - action: utter_information_banking_details
-
-- story: information free software
-  steps:
-  - intent: information_free_software
-  - action: utter_information_free_software
-
-- story: information application duration
-  steps: 
-  - intent: information_application_duration
-  - action: utter_information_application_duration
-
-- story: information admission requirements
-  steps:
-  - intent: information_admission_requirements
-  - action: utter_information_admission_requirements
-
-- story: information scientific sources
-  steps: 
-  - intent: information_scientific_sources
-  - action: utter_information_scientific_sources
-
-- story: information find accredited journals
-  steps: 
-  - intent: information_find_accredited_journals
-  - action: utter_information_find_accredited_journals
-
-- story: information access science direct
-  steps: 
-  - intent: information_access_science_direct
-  - action: utter_information_access_science_direct
-
-- story: information find sources
-  steps: 
-  - intent: information_find_sources
-  - action: utter_information_find_sources
-
-- story: information login efundi
-  steps: 
-  - intent: information_login_efundi
-  - action: utter_information_login_efundi
-
-- story: information new student number
-  steps: 
-  - intent: information_new_student_number
-  - action: utter_information_new_student_number
-
-- story: information download articles
-  steps: 
-  - intent: information_download_articles
-  - action: utter_information_download_articles
-
-- story: information JSTOR
-  steps: 
-  - intent: information_JSTOR
-  - action: utter_information_JSTOR
-
-- story: information submit assignment efundi
-  steps: 
-  - intent: information_submit_assignment_efundi
-  - action: utter_information_submit_assignment_efundi
-
-- story: information find journals 
-  steps: 
-  - intent: information_find_journals
-  - action: utter_information_find_journals 
-  - action: utter_information_find_journals_1
-  - action: utter_faculty_librarian
-
-- story: information library code of conduct
-  steps: 
-  - intent: information_library_code_of_conduct
-  - action: utter_information_library_code_conduct
-
-- story: endnote incorrect formatting
-  steps: 
-  - intent: endnote_incorrect_formatting
-  - action: utter_endnote_incorrect_formatting
-
-- story: endnote document conversion
-  steps: 
-  - intent: endnote_document_conversion
-  - action: utter_endnote_document_conversion_1
-  - action: utter_endnote_document_conversion_2
-  - action: utter_endnote_document_conversion_3
-  - action: utter_endnote_document_conversion_4
-  - action: utter_endnote_document_conversion_5
-
-- story: no internet error
-  steps: 
-  - intent: no_internet_error
-  - action: utter_no_internet_error_1
-  - action: utter_no_internet_error_2
-  - action: utter_no_internet_error_3
-  - action: utter_no_internet_error_4
-
-- story: Sunrise Tomorrow Inquiry
-  steps:
-    - intent: sunrise_tomorrow
-    - action: utter_sunrise_tomorrow
-
-- story: LexisNexis Usage Inquiry
-  steps:
-    - intent: lexisnexis_usage
-    - action: utter_lexisnexis_usage
-
-- story: Juta Case Search Inquiry
-  steps:
-    - intent: juta_case_search
-    - action: utter_juta_case_search
-
-- story: Referencing Guide Hard Copy Inquiry
-  steps:
-    - intent: referencing_guide_hard_copy
-    - action: utter_referencing_guide_hard_copy
-
-- story: Change Application Details Inquiry
-  steps:
-    - intent: change_application_details
-    - action: utter_change_application_details
-
-- story: TALL Results Inquiry
-  steps:
-    - intent: tall_results_location
-    - action: utter_tall_results_location
-
-- story: MS Office 365 Access Inquiry
-  steps:
-    - intent: ms_office_365_access
-    - action: utter_ms_office_365_access
-
-- story: Setswana Articles Inquiry
-  steps:
-    - intent: setswana_articles
-    - action: utter_setswana_articles
-
-- story: Find Sabinet Databases Inquiry
-  steps:
-    - intent: find_sabinet_databases
-    - action: utter_find_sabinet_databases
-
-- story: Find Sage Inquiry
-  steps:
-    - intent: find_sage
-    - action: utter_find_sage
-
-- story: Access NWU Emails Inquiry
-  steps:
-    - intent: access_nwu_emails
-    - action: utter_access_nwu_emails
-
-- story: Find PressReader Inquiry
-  steps:
-    - intent: find_pressreader
-    - action: utter_find_pressreader
-
-- story: Boloka Access Problems
-  steps:
-    - intent: boloka
-    - action: utter_boloka
-
-- story: Locate Sources in Different Languages
-  steps:
-    - intent: locate_sources_languages
-    - action: utter_locate_sources_languages
-
-- story: Find Inaugural Lectures
-  steps:
-    - intent: find_inaugural_lectures
-    - action: utter_find_inaugural_lectures
-
-- story: Find Woordeboek van die Afrikaanse Taal
-  steps:
-    - intent: find_woordeboek
-    - action: utter_find_woordeboek
-
-- story: Change Contact Details
-  steps:
-    - intent: change_contact_details
-    - action: utter_change_contact_details
-
-- story: Error Opening Article
-  steps:
-    - intent: error_open_article
-    - action: utter_error_open_article
-
-- story: EZproxy Administrator Authorization Error
-  steps:
-    - intent: error_ezproxy_administrator
-    - action: utter_error_ezproxy_administrator
-
-- story: Find ATLAS.ti
-  steps:
-    - intent: find_atlasti
-    - action: utter_find_atlasti
-
-- story: Find Pharos
-  steps:
-    - intent: find_pharos
-    - action: utter_find_pharos
-
-- story: Find Snapplify
-  steps:
-    - intent: find_snapplify
-    - action: utter_find_snapplify
-
-- story: Find Held Books
-  steps:
-    - intent: find_held_books
-    - action: utter_find_held_books
-
-- story: View Reading History
-  steps:
-    - intent: view_reading_history
-    - action: utter_view_reading_history
-
-- story: Explanation of Reader
-  steps:
-    - intent: explanation_reader
-    - action: utter_explanation_reader
-
-- story: Finding DIY Services
-  steps:
-    - intent: find_diy_services
-    - action: utter_find_diy_services
-
-- story: Finding Past Assignments
-  steps:
-    - intent: find_past_assignments
-    - action: utter_find_past_assignments
-
-- story: Checking Textbook Availability
-  steps:
-    - intent: check_textbook_availability
-    - action: utter_check_textbook_availability
-
-- story: Applying for Jobs at NWU
-  steps:
-    - intent: apply_for_jobs_nwu
-    - action: utter_apply_for_jobs_nwu
-
-- story: Understanding Call Numbers
-  steps:
-    - intent: call_number_shelf_number
-    - action: utter_call_number_shelf_number
-
-- story: Accessing The international encyclopedia of communication (2008) by Wiley Online
-  steps:
-    - intent: access_wiley_online_encyclopedia
-    - action: utter_access_wiley_online_encyclopedia
-
-- story: Borrowing Reference Works
-  steps:
-    - intent: borrow_reference_works
-    - action: utter_borrow_reference_works
-
-- story: Membership Categories
-  steps:
-    - intent: membership_categories
-    - action: utter_membership_categories
-
-- story: Faculty Librarian
-  steps:
-    - intent: faculty_librarian
-    - action: utter_faculty_librarian
-
-- story: LexisNexis Password
-  steps:
-    - intent: lexisnexis_password
-    - action: utter_lexisnexis_password
-
-- story: Setswana Books
-  steps:
-    - intent: setswana_books
-    - action: utter_setswana_books
-
-- story: Contact D-Media
-  steps:
-    - intent: contact_dmedia
-    - action: utter_contact_dmedia
-
-- story: Borrowing Encyclopedias
-  steps:
-    - intent: borrow_encyclopedias
-    - action: utter_borrow_encyclopedias
-
-- story: Finding E-books
-  steps:
-    - intent: find_ebooks
-    - action: utter_find_ebooks
-
-- story: Curbside Pickup Books
-  steps:
-    - intent: curbside_pickup_books
-    - action: utter_curbside_pickup_books
-
-- story: Find NWU Thesis
-  steps:
-    - intent: find_nwu_thesis
-    - action: utter_find_nwu_thesis
-
-- story: View Student Card Funds
-  steps:
-    - intent: view_student_card_funds
-    - action: utter_view_student_card_funds
-
-- story: Contact Intercampus Loan
-  steps:
-    - intent: contact_intercampus_loan
-    - action: utter_contact_intercampus_loan
-
-- story: Find Higher Degrees Manual
-  steps:
-    - intent: find_higher_degrees_manual
-    - action: utter_find_higher_degrees_manual
-
-- story: Find Pharmacopoeia
-  steps:
-    - intent: find_pharmacopoeia
-    - action: utter_find_pharmacopoeia
-
-- story: Difference between Boloka and DaYta Ya Rona
-  steps:
-    - intent: difference_boloka_dayta
-    - action: utter_difference_boloka_dayta
-
-- story: Find Author's Guidelines
-  steps:
-    - intent: find_authors_guidelines
-    - action: utter_find_authors_guidelines
-
-- story: New Student Number
-  steps:
-    - intent: new_student_number
-    - action: utter_new_student_number
-
-- story: Find Lecture Recordings
-  steps:
-    - intent: find_lecture_recordings
-    - action: utter_find_lecture_recordings
-
-- story: Using EndNote on multiple computers
-  steps:
-  - intent: use_endnote_on_multiple_computers
-  - action: utter_use_endnote_on_multiple_computers_intro
-  - action: utter_use_endnote_on_multiple_computers_recommendation
-  - action: utter_use_endnote_on_multiple_computers_registration
-  - action: utter_use_endnote_on_multiple_computers_sync
-  - action: utter_use_endnote_on_multiple_computers_sync_regularly
-  - action: utter_use_endnote_on_multiple_computers_sync_another_computer
+# - story: information memorandum past papers
+#   steps:
+#   - intent: information_memorandum_past_papers
+#   - action: utter_information_memorandum_past_papers
+
+# - story: information past exam papers
+#   steps:
+#   - intent: information_past_exam_papers
+#   - action: utter_information_past_exam_papers
+
+# - story: information eds vs library catalogue
+#   steps:
+#   - intent: information_eds_vs_library_catalogue
+#   - action: utter_information_eds_vs_library_catalogue
+
+# - story: information database
+#   steps:
+#   - intent: database
+#   - action: utter_database
+
+# - story: information potchefstroom turnitin admin
+#   steps: 
+#     - intent: information_potchefstroom_turnitin_admin
+#     - action: utter_information_potchefstroom_turnitin_admin
+
+# - story: information efundi
+#   steps: 
+#     - intent: efundi
+#     - action: utter_efundi
+
+# - story: information reset student password
+#   steps:
+#     - intent: information_reset_student_password
+#     - action: utter_information_reset_student_password
+
+# - story: information book appointment writing lab
+#   steps:
+#    - intent: information_book_appointment_writing_lab
+#    - action: utter_information_book_appointment_writing_lab
+
+# - story: information ethical requirements postgraduate
+#   steps:
+#   - intent: information_ethical_requirements_postgraduate
+#   - action: utter_information_ethical_requirements_postgraduate
+
+# - story: information register orcid
+#   steps: 
+#   - intent: information_register_orcid
+#   - action: utter_information_register_orcid
+
+# - story: information search orcid number
+#   steps:
+#   - intent: information_search_orcid_number
+#   - action: utter_information_search_orcid_number
+
+# - story: information research
+#   steps:
+#   - intent: research
+#   - action: utter_research
+
+# - story: find information
+#   steps:
+#   - intent: find_information
+#   - action: utter_find_information
+
+# - story: libguides
+#   steps:
+#   - intent: libguides
+#   - action: utter_libguides
+
+# - story: information libguide
+#   steps:
+#   - intent: information_libguide
+#   - action: utter_information_libguide
+
+# - story: about the library
+#   steps:
+#   - intent: about_the_library
+#   - action: utter_about_the_library
+
+# - story: information postgrad application
+#   steps:
+#   - intent: information_postgrad_application
+#   - action: utter_information_postgrad_application
+
+# - story: information campus map
+#   steps:
+#   - intent: information_campus_map
+#   - action: utter_information_campus_map
+
+# - story: information prospectus
+#   steps:
+#   - intent: information_prospectus
+#   - action: utter_information_prospectus
+
+# - story: about the nwu
+#   steps:
+#   - intent: about_the_nwu
+#   - action: utter_about_the_nwu
+
+# - story: loan services
+#   steps:
+#   - intent: loan_services
+#   - action: utter_loan_services
+
+# - story: information late fees
+#   steps:
+#   - intent: information_late_fees
+#   - action: utter_information_late_fees
+#   - action: utter_information_late_fees_two
+
+# - story: library homepage
+#   steps: 
+#   - intent: library_homepage
+#   - action: utter_library_homepage
+
+# - story: information best search engine
+#   steps: 
+#   - intent: information_best_search_engine
+#   - action: utter_information_best_search_engine
+
+# - story: information cal system
+#   steps: 
+#   - intent: information_cal_system
+#   - action: utter_information_cal_system
+
+# - story: information allocated book search
+#   steps:
+#   - intent: information_allocated_book_search
+#   - action: utter_information_allocated_book_search
+
+# - story: information accomodation
+#   steps:
+#   - intent: information_accomodation
+#   - action: utter_information_accomodation
+
+# - story: information postgraduate library
+#   steps:
+#   - intent: information_postgraduate_library
+#   - action: utter_information_postgraduate_library
+#   - action: utter_information_postgraduate_library_mahikeng
+#   - action: utter_information_postgraduate_library_potchefstroom
+#   - action: utter_information_postgraduate_library_vaal
+
+# - story: information borrow dictionary
+#   steps: 
+#   - intent: information_borrow_dictionary
+#   - action: utter_information_borrow_dictionary
+
+# - story: information libanswers
+#   steps: 
+#   - intent: information_libanswers
+#   - action: utter_information_libanswers
+
+# - story: information language practitioners
+#   steps: 
+#   - intent: information_language_practitioners
+#   - action: utter_information_language_practitioners
+
+# - story: information ebsco
+#   steps: 
+#   - intent: information_ebsco
+#   - action: utter_information_ebsco
+
+# - story: information binding application form
+#   steps: 
+#   - intent: information_binding_application_form
+#   - action: utter_information_binding_application_form
+#   - action: utter_information_binding
+
+# - story: information submissions of final copies
+#   steps:
+#   - intent: information_submissions_of_final_copies
+#   - action: utter_information_submissions_of_final_copies
+#   - action: utter_information_binding
+
+# - story: information binding 
+#   steps: 
+#   - intent: information_binding
+#   - action: utter_binding_quick_facts
+#   - action: utter_information_binding
+#   - action: utter_information_binding_link
+#   - action: utter_information_binding_non_students
+
+# - story: information endnote incorrect reference
+#   steps:
+#   - intent: information_endnote_incorrect_reference
+#   - action: utter_information_endnote_incorrect_reference
+
+# - story: information h_index
+#   steps: 
+#   - intent: information_h_index
+#   - action: utter_information_h_index_one
+#   - action: utter_h_index_link_one
+#   - action: utter_h_index_link_two
+#   - action: utter_information_h_index_two
+#   - action: utter_h_index_link_three
+
+# - story: information computer science and chemistry
+#   steps: 
+#   - intent: information_computer_science_and_chemistry
+#   - action: utter_information_computer_science_and_chemistry
+
+# - story: information module books
+#   steps:
+#   - intent: information_module_books
+#   - action: utter_information_module_books
+
+# - story: information diy error 
+#   steps: 
+#   - intent: information_diy_error
+#   - action: utter_information_diy_error
+
+# - story: information distance learning submit assignment
+#   steps:
+#   - intent: information_distance_learning_submit_assignment
+#   - action: utter_information_distance_learning_submit_assignment 
+
+# - story: information assignment library
+#   steps: 
+#   - intent: information_assignment_library
+#   - action: utter_information_assignment_library
+
+# - story: information google scholar
+#   steps: 
+#   - intent: information_google_scholar
+#   - action: utter_information_google_scholar
+#   - action: utter_information_google_scholar_access
+#   - action: utter_information_google_scholar_library
+#   - action: utter_information_google_scholar_error
+#   - action: utter_information_goggle_scholar_link
+
+# - story: information ebooks
+#   steps: 
+#   - intent: information_ebooks
+#   - action: utter_information_ebook_quick_facts
+#   - action: utter_information_define_ebook
+#   - action: utter_information_access_ebooks
+#   - action: utter_copy_paste_print_ebooks
+
+# - story: information post books
+#   steps:
+#   - intent: information_post_books
+#   - action: utter_information_post_books
+
+# - story: information library directions 
+#   steps: 
+#   - intent: information_library_directions
+#   - action: utter_information_library_directions
+
+# - story: information yeabook
+#   steps:
+#   - intent: information_yearbook
+#   - action: utter_information_yearbook
+
+# - story: information dictionary encyclopedia
+#   steps: 
+#   - intent: information_dictionary_encyclopedia
+#   - action: utter_information_dictionary_encyclopedia
+
+# - story: information course reserves
+#   steps:
+#   - intent: information_course_reserves
+#   - action: utter_information_course_reserves
+
+# - story: information advanced certificate teaching
+#   steps:
+#   - intent: information_advanced_certificate_teaching
+#   - action: utter_information_advanced_certificate_teaching
+
+# - story: information university fees
+#   steps:
+#   - intent: information_university_fees
+#   - action: utter_information_university_fees
+
+# - story: information banking details
+#   steps: 
+#   - intent: information_banking_details
+#   - action: utter_information_banking_details
+
+# - story: information free software
+#   steps:
+#   - intent: information_free_software
+#   - action: utter_information_free_software
+
+# - story: information application duration
+#   steps: 
+#   - intent: information_application_duration
+#   - action: utter_information_application_duration
+
+# - story: information admission requirements
+#   steps:
+#   - intent: information_admission_requirements
+#   - action: utter_information_admission_requirements
+
+# - story: information scientific sources
+#   steps: 
+#   - intent: information_scientific_sources
+#   - action: utter_information_scientific_sources
+
+# - story: information find accredited journals
+#   steps: 
+#   - intent: information_find_accredited_journals
+#   - action: utter_information_find_accredited_journals
+
+# - story: information access science direct
+#   steps: 
+#   - intent: information_access_science_direct
+#   - action: utter_information_access_science_direct
+
+# - story: information find sources
+#   steps: 
+#   - intent: information_find_sources
+#   - action: utter_information_find_sources
+
+# - story: information login efundi
+#   steps: 
+#   - intent: information_login_efundi
+#   - action: utter_information_login_efundi
+
+# - story: information new student number
+#   steps: 
+#   - intent: information_new_student_number
+#   - action: utter_information_new_student_number
+
+# - story: information download articles
+#   steps: 
+#   - intent: information_download_articles
+#   - action: utter_information_download_articles
+
+# - story: information JSTOR
+#   steps: 
+#   - intent: information_JSTOR
+#   - action: utter_information_JSTOR
+
+# - story: information submit assignment efundi
+#   steps: 
+#   - intent: information_submit_assignment_efundi
+#   - action: utter_information_submit_assignment_efundi
+
+# - story: information find journals 
+#   steps: 
+#   - intent: information_find_journals
+#   - action: utter_information_find_journals 
+#   - action: utter_information_find_journals_1
+#   - action: utter_faculty_librarian
+
+# - story: information library code of conduct
+#   steps: 
+#   - intent: information_library_code_of_conduct
+#   - action: utter_information_library_code_conduct
+
+# - story: endnote incorrect formatting
+#   steps: 
+#   - intent: endnote_incorrect_formatting
+#   - action: utter_endnote_incorrect_formatting
+
+# - story: endnote document conversion
+#   steps: 
+#   - intent: endnote_document_conversion
+#   - action: utter_endnote_document_conversion_1
+#   - action: utter_endnote_document_conversion_2
+#   - action: utter_endnote_document_conversion_3
+#   - action: utter_endnote_document_conversion_4
+#   - action: utter_endnote_document_conversion_5
+
+# - story: no internet error
+#   steps: 
+#   - intent: no_internet_error
+#   - action: utter_no_internet_error_1
+#   - action: utter_no_internet_error_2
+#   - action: utter_no_internet_error_3
+#   - action: utter_no_internet_error_4
+
+# - story: Sunrise Tomorrow Inquiry
+#   steps:
+#     - intent: sunrise_tomorrow
+#     - action: utter_sunrise_tomorrow
+
+# - story: LexisNexis Usage Inquiry
+#   steps:
+#     - intent: lexisnexis_usage
+#     - action: utter_lexisnexis_usage
+
+# - story: Juta Case Search Inquiry
+#   steps:
+#     - intent: juta_case_search
+#     - action: utter_juta_case_search
+
+# - story: Referencing Guide Hard Copy Inquiry
+#   steps:
+#     - intent: referencing_guide_hard_copy
+#     - action: utter_referencing_guide_hard_copy
+
+# - story: Change Application Details Inquiry
+#   steps:
+#     - intent: change_application_details
+#     - action: utter_change_application_details
+
+# - story: TALL Results Inquiry
+#   steps:
+#     - intent: tall_results_location
+#     - action: utter_tall_results_location
+
+# - story: MS Office 365 Access Inquiry
+#   steps:
+#     - intent: ms_office_365_access
+#     - action: utter_ms_office_365_access
+
+# - story: Setswana Articles Inquiry
+#   steps:
+#     - intent: setswana_articles
+#     - action: utter_setswana_articles
+
+# - story: Find Sabinet Databases Inquiry
+#   steps:
+#     - intent: find_sabinet_databases
+#     - action: utter_find_sabinet_databases
+
+# - story: Find Sage Inquiry
+#   steps:
+#     - intent: find_sage
+#     - action: utter_find_sage
+
+# - story: Access NWU Emails Inquiry
+#   steps:
+#     - intent: access_nwu_emails
+#     - action: utter_access_nwu_emails
+
+# - story: Find PressReader Inquiry
+#   steps:
+#     - intent: find_pressreader
+#     - action: utter_find_pressreader
+
+# - story: Boloka Access Problems
+#   steps:
+#     - intent: boloka
+#     - action: utter_boloka
+
+# - story: Locate Sources in Different Languages
+#   steps:
+#     - intent: locate_sources_languages
+#     - action: utter_locate_sources_languages
+
+# - story: Find Inaugural Lectures
+#   steps:
+#     - intent: find_inaugural_lectures
+#     - action: utter_find_inaugural_lectures
+
+# - story: Find Woordeboek van die Afrikaanse Taal
+#   steps:
+#     - intent: find_woordeboek
+#     - action: utter_find_woordeboek
+
+# - story: Change Contact Details
+#   steps:
+#     - intent: change_contact_details
+#     - action: utter_change_contact_details
+
+# - story: Error Opening Article
+#   steps:
+#     - intent: error_open_article
+#     - action: utter_error_open_article
+
+# - story: EZproxy Administrator Authorization Error
+#   steps:
+#     - intent: error_ezproxy_administrator
+#     - action: utter_error_ezproxy_administrator
+
+# - story: Find ATLAS.ti
+#   steps:
+#     - intent: find_atlasti
+#     - action: utter_find_atlasti
+
+# - story: Find Pharos
+#   steps:
+#     - intent: find_pharos
+#     - action: utter_find_pharos
+
+# - story: Find Snapplify
+#   steps:
+#     - intent: find_snapplify
+#     - action: utter_find_snapplify
+
+# - story: Find Held Books
+#   steps:
+#     - intent: find_held_books
+#     - action: utter_find_held_books
+
+# - story: View Reading History
+#   steps:
+#     - intent: view_reading_history
+#     - action: utter_view_reading_history
+
+# - story: Explanation of Reader
+#   steps:
+#     - intent: explanation_reader
+#     - action: utter_explanation_reader
+
+# - story: Finding DIY Services
+#   steps:
+#     - intent: find_diy_services
+#     - action: utter_find_diy_services
+
+# - story: Finding Past Assignments
+#   steps:
+#     - intent: find_past_assignments
+#     - action: utter_find_past_assignments
+
+# - story: Checking Textbook Availability
+#   steps:
+#     - intent: check_textbook_availability
+#     - action: utter_check_textbook_availability
+
+# - story: Applying for Jobs at NWU
+#   steps:
+#     - intent: apply_for_jobs_nwu
+#     - action: utter_apply_for_jobs_nwu
+
+# - story: Understanding Call Numbers
+#   steps:
+#     - intent: call_number_shelf_number
+#     - action: utter_call_number_shelf_number
+
+# - story: Accessing The international encyclopedia of communication (2008) by Wiley Online
+#   steps:
+#     - intent: access_wiley_online_encyclopedia
+#     - action: utter_access_wiley_online_encyclopedia
+
+# - story: Borrowing Reference Works
+#   steps:
+#     - intent: borrow_reference_works
+#     - action: utter_borrow_reference_works
+
+# - story: Membership Categories
+#   steps:
+#     - intent: membership_categories
+#     - action: utter_membership_categories
+
+# - story: Faculty Librarian
+#   steps:
+#     - intent: faculty_librarian
+#     - action: utter_faculty_librarian
+
+# - story: LexisNexis Password
+#   steps:
+#     - intent: lexisnexis_password
+#     - action: utter_lexisnexis_password
+
+# - story: Setswana Books
+#   steps:
+#     - intent: setswana_books
+#     - action: utter_setswana_books
+
+# - story: Contact D-Media
+#   steps:
+#     - intent: contact_dmedia
+#     - action: utter_contact_dmedia
+
+# - story: Borrowing Encyclopedias
+#   steps:
+#     - intent: borrow_encyclopedias
+#     - action: utter_borrow_encyclopedias
+
+# - story: Finding E-books
+#   steps:
+#     - intent: find_ebooks
+#     - action: utter_find_ebooks
+
+# - story: Curbside Pickup Books
+#   steps:
+#     - intent: curbside_pickup_books
+#     - action: utter_curbside_pickup_books
+
+# - story: Find NWU Thesis
+#   steps:
+#     - intent: find_nwu_thesis
+#     - action: utter_find_nwu_thesis
+
+# - story: View Student Card Funds
+#   steps:
+#     - intent: view_student_card_funds
+#     - action: utter_view_student_card_funds
+
+# - story: Contact Intercampus Loan
+#   steps:
+#     - intent: contact_intercampus_loan
+#     - action: utter_contact_intercampus_loan
+
+# - story: Find Higher Degrees Manual
+#   steps:
+#     - intent: find_higher_degrees_manual
+#     - action: utter_find_higher_degrees_manual
+
+# - story: Find Pharmacopoeia
+#   steps:
+#     - intent: find_pharmacopoeia
+#     - action: utter_find_pharmacopoeia
+
+# - story: Difference between Boloka and DaYta Ya Rona
+#   steps:
+#     - intent: difference_boloka_dayta
+#     - action: utter_difference_boloka_dayta
+
+# - story: Find Author's Guidelines
+#   steps:
+#     - intent: find_authors_guidelines
+#     - action: utter_find_authors_guidelines
+
+# - story: New Student Number
+#   steps:
+#     - intent: new_student_number
+#     - action: utter_new_student_number
+
+# - story: Find Lecture Recordings
+#   steps:
+#     - intent: find_lecture_recordings
+#     - action: utter_find_lecture_recordings
+
+# - story: Using EndNote on multiple computers
+#   steps:
+#   - intent: use_endnote_on_multiple_computers
+#   - action: utter_use_endnote_on_multiple_computers_intro
+#   - action: utter_use_endnote_on_multiple_computers_recommendation
+#   - action: utter_use_endnote_on_multiple_computers_registration
+#   - action: utter_use_endnote_on_multiple_computers_sync
+#   - action: utter_use_endnote_on_multiple_computers_sync_regularly
+#   - action: utter_use_endnote_on_multiple_computers_sync_another_computer
