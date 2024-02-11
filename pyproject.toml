@@ -12,6 +12,8 @@ websockets = "10"
 sqlalchemy = "<2.0"
 openai = "^0.28.1"
 langchain = "^0.0.301"
+qdrant-client = "^1.7.1"
+tiktoken = "^0.5.2"
 
 
 [build-system]
