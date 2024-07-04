@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Start ngrok in the background and log its output to ngrok.log
-nohup ngrok http 5005 --log=stdout > ngrok.log &
+nohup ngrok http --domain=INSERT_DOMAIN_HERE 5005 --log=stdout > ngrok.log &
 # Sleep for a few seconds to give ngrok time to start
 sleep 5
 
