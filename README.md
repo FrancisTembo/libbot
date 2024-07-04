@@ -84,10 +84,17 @@ This project was developed and tested on Ubuntu 20.04
    git clone https://github.com/FrancisTembo/libbot.git
    cd libbot
    ```
-2. Install python dependancies
+2. Install poetry:
    ```sh
-   pip3 install -r requirements.txt
+   curl -sSL https://install.python-poetry.org | python3 -
    ```
+4. Install dependancies:
+   ```sh
+   poetry install
+   ```
+5. Activate poetry environment
+   ```sh
+   poetry shell
 
 <!-- USAGE EXAMPLES -->
 ## Usage
