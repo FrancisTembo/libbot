@@ -76,6 +76,20 @@ This project was developed and tested on Ubuntu 20.04
   sudo apt update
   sudo apt install python3
   ```
+* To use the chatbot, you need to set up a Qdrant instance with the knowledge base and an OpenAI account for LLM capabilities. Additionally, the application requires a `config.json` file in the `actions` folder, containing the following key-value pairs:
+  ```json
+  {
+    "openai_api_key": "<your_openai_api_key>",
+    "model": "<model_name>",
+    "token_limit": <token_limit>,
+    "temperature": <temperature_value>,
+    "qdrant_key": "<your_qdrant_api_key>",
+    "qdrant_url": "<your_qdrant_url>",
+    "vector_size": <vector_size>,
+    "collection_name": "<collection_name>"}
+  ```
+
+
 
 ### Installing Requirements
 
@@ -107,14 +121,14 @@ This project was developed and tested on Ubuntu 20.04
    ```python
    rasa shell
    ```
+## Deployment
+The app.sh script can start the Chabot as a background process via nohup. A more elegant solution would be to set this up as a service or package it via a Docker container.  
 
 <!-- ROADMAP -->
 ## Roadmap
 
 - [x] Implementing current library FAQ.
 - [x] Add `Telegram`  channel.
-- [ ] Add speech to text interface.
-
 
 <!-- LICENSE -->
 ## License
